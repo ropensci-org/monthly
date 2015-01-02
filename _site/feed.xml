@@ -5,12 +5,12 @@
     <description>rOpenSci weekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 01 Jan 2015 20:17:29 -0800</pubDate>
-    <lastBuildDate>Thu, 01 Jan 2015 20:17:29 -0800</lastBuildDate>
+    <pubDate>Thu, 01 Jan 2015 20:24:05 -0800</pubDate>
+    <lastBuildDate>Thu, 01 Jan 2015 20:24:05 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>2014-12-15</title>
+        <title>Weekly update 2014-12-15</title>
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -42,14 +42,14 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/2014-12-15/</link>
-        <guid isPermaLink="true">/2014-12-15/</guid>
+        <link>/weekly-update-2014-12-15/</link>
+        <guid isPermaLink="true">/weekly-update-2014-12-15/</guid>
         
         
       </item>
     
       <item>
-        <title>2014-12-22</title>
+        <title>Weekly update 2014-12-22</title>
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -82,8 +82,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/2014-12-22/</link>
-        <guid isPermaLink="true">/2014-12-22/</guid>
+        <link>/weekly-update-2014-12-22/</link>
+        <guid isPermaLink="true">/weekly-update-2014-12-22/</guid>
         
         
       </item>
