@@ -1,0 +1,9 @@
+title: 			 rOpenSci Weekly
+email: 			 info@ropensci.org
+description: "rOpenSci weekly updates, including for software, what's happening in the community, events, and more."
+baseurl:     "/weekly"
+permalink:   "/:title/"
+twitter_username: ropensci
+github_username:  ropensci
+
+markdown: kramdown

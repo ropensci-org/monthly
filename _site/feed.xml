@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rOpenSci Weekly</title>
+    <description>rOpenSci weekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 01 Jan 2015 20:10:51 -0800</pubDate>
+    <lastBuildDate>Thu, 01 Jan 2015 20:10:51 -0800</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>2014-12-15</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patch version &lt;code&gt;v0.2.1&lt;/code&gt; of rcrossref sent to CRAN. Release notes: https://github.com/ropensci/rcrossref/releases/tag/v0.2.1 - We’re in the process of adding content negotiation to this package, to get full text, where available, across any Crossref member publisher that participates. This will be heavily used in the &lt;a href=&quot;https://github.com/ropensci/fulltext&quot;&gt;fulltext package&lt;/a&gt; to search for full text content. &lt;/li&gt;
+  &lt;li&gt;New version &lt;code&gt;v0.5&lt;/code&gt; of taxize out. Release notes:  https://github.com/ropensci/taxize/releases/tag/v0.5.0  - Note that this version is not on CRAN as of this date.&lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;elife&lt;/code&gt; R package is temporarily deprecated as they’re dropping their API soon https://github.com/ropensci/elife - Let us know if you would use an eLife API so we can communicate that to eLife. &lt;/li&gt;
+  &lt;li&gt;We use &lt;code&gt;httr&lt;/code&gt; a lot in our packages. A recent addition in &lt;code&gt;httr&lt;/code&gt; &lt;code&gt;v0.6&lt;/code&gt; includes a way to deal with a problem you may have stumbled upon when working with data from the web. When a series of requests to get data from the web is interrupted, you often get an error like &lt;code&gt;easy handled already used in multi handle&lt;/code&gt;. &lt;code&gt;httr&lt;/code&gt; now has the functions &lt;code&gt;handle_find()&lt;/code&gt; and &lt;code&gt;handle_reset()&lt;/code&gt; to help in this scenario. Check out &lt;a href=&quot;http://recology.info/2014/12/multi-handle/&quot;&gt;this blog post&lt;/a&gt; to find out more.&lt;/li&gt;
+  &lt;li&gt;We updated our packages page on our website (http://ropensci.org/packages/ ) with many new packages in development, and updated notes about packages (e.g., a package deprecation). Check it out.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We just announced that we’ll be starting to do community calls, Check out the blog post: http://ropensci.org/blog/2014/12/15/community-calls/&lt;/li&gt;
+  &lt;li&gt;We have a few new community members/contributors: 
+    &lt;ul&gt;
+      &lt;li&gt;First, Matt Pennel, maintaining the &lt;code&gt;chromer&lt;/code&gt; package (https://github.com/ropensci/chromer) to interact with Chromosome Counts Database (CCDB) http://ccdb.tau.ac.il.&lt;/li&gt;
+      &lt;li&gt;Second, Abaghan Ghahraman, brings to the rOpenSci suite the R package rGEM (https://github.com/ropensci/rGEM) to connect to the Global Entrepreneurship Monitor (GEM) http://www.gemconsortium.org/&lt;/li&gt;
+      &lt;li&gt;Third, Kyle Hamilton joins rOpenSci, with two packages in development. RCryptsy (https://github.com/ropensci/RCryptsy) is a package to interact with the Public API for the Crypto-Currency exchange Cryptsy (https://www.cryptsy.com/). RStars (https://github.com/ropensci/RStars) is a package to access to the Digital Universe Data set (http://star-api.herokuapp.com/ )&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Carl Boettiger, of the rOpenSci leadership team, was at NESCENT for &lt;em&gt;Reproducible Science Hackathon: Curriculum &amp;amp; Workflow Development&lt;/em&gt; (see http://www.nescent.org/cal/calendar_detail.php?id=1125). &lt;a href=&quot;http://cierareports.org/&quot;&gt;Ciera Martinez&lt;/a&gt; will be joining us at our first rOpenSci community call to discuss highlights of this event. &lt;/li&gt;
+  &lt;li&gt;Karthik Ram and Scott Chamberlain attended a &lt;a href=&quot;http://articlemetrics.github.io/workshop_2014/&quot;&gt;PLOS altmetrics conference&lt;/a&gt; in San Francisco. We maintain R clients for &lt;a href=&quot;https://github.com/ropensci/raltmetric&quot;&gt;Altmetric.com &lt;/a&gt; and for the PLOS altmetrics application, &lt;a href=&quot;https://github.com/ropensci/alm&quot;&gt;Lagotto&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 01 Jan 2015 00:00:00 -0800</pubDate>
+        <link>/2014-12-15/</link>
+        <guid isPermaLink="true">/2014-12-15/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>2014-12-22</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;taxize v0.5.2 pushed to CRAN. Last version on CRAN was v0.4. This version has a lot of updates since v0.4. See releases: https://github.com/ropensci/taxize/releases&lt;/li&gt;
+  &lt;li&gt;rnoaa v0.3.3 pushed to CRAN. Last version on CRAN was v0.2. This version has a lot of updates. See releases: https://github.com/ropensci/rnoaa/releases&lt;/li&gt;
+  &lt;li&gt;We updated our packages page again (http://ropensci.org/packages/ ) -this time making it easier to navigate by sorting packages within each section alphabetically, putting deep link headers for each section (e.g,. http://ropensci.org/packages/#literature) on the top of the page, and allowing deep linking to each package (e.g., http://ropensci.org/packages/#taxize ). Thanks to Matt Jones for the suggestions. &lt;/li&gt;
+  &lt;li&gt;The &lt;code&gt;maptools&lt;/code&gt; TaskView is now operational https://github.com/ropensci/maptools in the sense that we can now run &lt;code&gt;make&lt;/code&gt;, and it should work, so we can start populating…I started adding some sections&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We are starting to roll out our community discussion forum, its at http://discuss.ropensci.org/ - Supports email, twitter, github, and Mozilla Persona login. Not sure when it will be fully public yet….&lt;/li&gt;
+  &lt;li&gt;We announced a repo for community calls https://github.com/ropensci/commcalls - where we’ll announce new community calls, and people can discuss topics related to community calls&lt;/li&gt;
+  &lt;li&gt;Two blog posts last week: One announcing community calls http://ropensci.org/blog/2014/12/15/community-calls/ and another on curl in R http://ropensci.org/blog/2014/12/18/curl-options/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Karthik was at the American Geophysical Union Conference in SF http://fallmeeting.agu.org/2014/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-in-the-news&quot;&gt;rOpenSci in the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Just found that Karthik and ropensci got a shoutout in the book R for Cloud Computing: An Approach for Data Scientists https://books.google.com/books?id=DTRpBQAAQBAJ&amp;amp;pg=PA220&amp;amp;lpg=PA220&amp;amp;dq=ropensci.org&amp;amp;source=bl&amp;amp;ots=gXG-JDo1sP&amp;amp;sig=t_3mIXtYuemzQCQ5iba6_ph4JFU&amp;amp;hl=en&amp;amp;sa=X&amp;amp;ei=E5WTVIefNcvnoASHjYKwAg&amp;amp;ved=0CE4Q6AEwCTge#v=onepage&amp;amp;q=ropensci.org&amp;amp;f=false&lt;/li&gt;
+  &lt;li&gt;Shoutout from SimplyStats blog http://simplystatistics.org/2014/12/17/a-non-comprehensive-list-of-awesome-things-other-people-did-in-2014/  &amp;gt; “rOpenSci ran an awesome hackathon. The lineup of people they invited was great and I loved the commitment to a diverse group of junior R programmers. I really, really hope they run it again.”&lt;/li&gt;
+  &lt;li&gt;Shoutout to rOpenSci from Hadley in an interview http://bulletin.imstat.org/2014/12/hadley-wickham-impact-the-world-by-being-useful/&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 22 Dec 2014 00:00:00 -0800</pubDate>
+        <link>/2014-12-22/</link>
+        <guid isPermaLink="true">/2014-12-22/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
