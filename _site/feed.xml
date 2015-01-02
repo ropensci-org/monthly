@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 08:04:14 -0800</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 08:04:14 -0800</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2015 08:07:54 -0800</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2015 08:07:54 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
@@ -16,8 +16,8 @@
 &lt;p&gt;We’ve already done a few:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;2014-12-15 - &lt;a href=&quot;http://ropensci.github.io/biweekly/biweekly-update-2014-12-15/&quot;&gt;http://ropensci.github.io/biweekly/biweekly-update-2014-12-15/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2014-12-22 - &lt;a href=&quot;http://ropensci.github.io/biweekly/biweekly-update-2014-12-22/&quot;&gt;http://ropensci.github.io/biweekly/biweekly-update-2014-12-22/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2014-12-15 - &lt;a href=&quot;http://ropensci.github.io/biweekly/update-2014-12-15/&quot;&gt;http://ropensci.github.io/biweekly/update-2014-12-15/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2014-12-22 - &lt;a href=&quot;http://ropensci.github.io/biweekly/update-2014-12-22/&quot;&gt;http://ropensci.github.io/biweekly/update-2014-12-22/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The next one will be this upcoming Monday, 2015-01-05.&lt;/p&gt;
@@ -65,8 +65,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/weekly-update-2014-12-22/</link>
-        <guid isPermaLink="true">/weekly-update-2014-12-22/</guid>
+        <link>/update-2014-12-22/</link>
+        <guid isPermaLink="true">/update-2014-12-22/</guid>
         
         
       </item>
@@ -104,8 +104,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/weekly-update-2014-12-15/</link>
-        <guid isPermaLink="true">/weekly-update-2014-12-15/</guid>
+        <link>/update-2014-12-15/</link>
+        <guid isPermaLink="true">/update-2014-12-15/</guid>
         
         
       </item>

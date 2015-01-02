@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Update 2014-12-15</title>
+    <title>Update 2014-12-22</title>
     <meta name="description" content="rOpenSci biweekly updates, including for software, what's happening in the community, events, and more.">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/weekly-update-2014-12-15/">
+    <link rel="canonical" href="/update-2014-12-22/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -58,39 +58,40 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Update 2014-12-15</h1>
-    <p class="post-meta">Dec 15, 2014</p>
+    <h1 class="post-title">Update 2014-12-22</h1>
+    <p class="post-meta">Dec 22, 2014</p>
   </header>
 
   <article class="post-content">
     <h2 id="software">Software</h2>
 
 <ul>
-  <li>Patch version <code>v0.2.1</code> of rcrossref sent to CRAN. Release notes: https://github.com/ropensci/rcrossref/releases/tag/v0.2.1 - We’re in the process of adding content negotiation to this package, to get full text, where available, across any Crossref member publisher that participates. This will be heavily used in the <a href="https://github.com/ropensci/fulltext">fulltext package</a> to search for full text content. </li>
-  <li>New version <code>v0.5</code> of taxize out. Release notes:  https://github.com/ropensci/taxize/releases/tag/v0.5.0  - Note that this version is not on CRAN as of this date.</li>
-  <li>The <code>elife</code> R package is temporarily deprecated as they’re dropping their API soon https://github.com/ropensci/elife - Let us know if you would use an eLife API so we can communicate that to eLife. </li>
-  <li>We use <code>httr</code> a lot in our packages. A recent addition in <code>httr</code> <code>v0.6</code> includes a way to deal with a problem you may have stumbled upon when working with data from the web. When a series of requests to get data from the web is interrupted, you often get an error like <code>easy handled already used in multi handle</code>. <code>httr</code> now has the functions <code>handle_find()</code> and <code>handle_reset()</code> to help in this scenario. Check out <a href="http://recology.info/2014/12/multi-handle/">this blog post</a> to find out more.</li>
-  <li>We updated our packages page on our website (http://ropensci.org/packages/ ) with many new packages in development, and updated notes about packages (e.g., a package deprecation). Check it out.</li>
+  <li>taxize v0.5.2 pushed to CRAN. Last version on CRAN was v0.4. This version has a lot of updates since v0.4. See releases: https://github.com/ropensci/taxize/releases</li>
+  <li>rnoaa v0.3.3 pushed to CRAN. Last version on CRAN was v0.2. This version has a lot of updates. See releases: https://github.com/ropensci/rnoaa/releases</li>
+  <li>We updated our packages page again (http://ropensci.org/packages/ ) -this time making it easier to navigate by sorting packages within each section alphabetically, putting deep link headers for each section (e.g,. http://ropensci.org/packages/#literature) on the top of the page, and allowing deep linking to each package (e.g., http://ropensci.org/packages/#taxize ). Thanks to Matt Jones for the suggestions. </li>
+  <li>The <code>maptools</code> TaskView is now operational https://github.com/ropensci/maptools in the sense that we can now run <code>make</code>, and it should work, so we can start populating…I started adding some sections</li>
 </ul>
 
 <h2 id="community">Community</h2>
 
 <ul>
-  <li>We just announced that we’ll be starting to do community calls, Check out the blog post: http://ropensci.org/blog/2014/12/15/community-calls/</li>
-  <li>We have a few new community members/contributors: 
-    <ul>
-      <li>First, Matt Pennel, maintaining the <code>chromer</code> package (https://github.com/ropensci/chromer) to interact with Chromosome Counts Database (CCDB) http://ccdb.tau.ac.il.</li>
-      <li>Second, Abaghan Ghahraman, brings to the rOpenSci suite the R package rGEM (https://github.com/ropensci/rGEM) to connect to the Global Entrepreneurship Monitor (GEM) http://www.gemconsortium.org/</li>
-      <li>Third, Kyle Hamilton joins rOpenSci, with two packages in development. RCryptsy (https://github.com/ropensci/RCryptsy) is a package to interact with the Public API for the Crypto-Currency exchange Cryptsy (https://www.cryptsy.com/). RStars (https://github.com/ropensci/RStars) is a package to access to the Digital Universe Data set (http://star-api.herokuapp.com/ )</li>
-    </ul>
-  </li>
+  <li>We are starting to roll out our community discussion forum, its at http://discuss.ropensci.org/ - Supports email, twitter, github, and Mozilla Persona login. Not sure when it will be fully public yet….</li>
+  <li>We announced a repo for community calls https://github.com/ropensci/commcalls - where we’ll announce new community calls, and people can discuss topics related to community calls</li>
+  <li>Two blog posts last week: One announcing community calls http://ropensci.org/blog/2014/12/15/community-calls/ and another on curl in R http://ropensci.org/blog/2014/12/18/curl-options/</li>
 </ul>
 
 <h2 id="events">Events</h2>
 
 <ul>
-  <li>Carl Boettiger, of the rOpenSci leadership team, was at NESCENT for <em>Reproducible Science Hackathon: Curriculum &amp; Workflow Development</em> (see http://www.nescent.org/cal/calendar_detail.php?id=1125). <a href="http://cierareports.org/">Ciera Martinez</a> will be joining us at our first rOpenSci community call to discuss highlights of this event. </li>
-  <li>Karthik Ram and Scott Chamberlain attended a <a href="http://articlemetrics.github.io/workshop_2014/">PLOS altmetrics conference</a> in San Francisco. We maintain R clients for <a href="https://github.com/ropensci/raltmetric">Altmetric.com </a> and for the PLOS altmetrics application, <a href="https://github.com/ropensci/alm">Lagotto</a>. </li>
+  <li>Karthik was at the American Geophysical Union Conference in SF http://fallmeeting.agu.org/2014/</li>
+</ul>
+
+<h2 id="ropensci-in-the-news">rOpenSci in the news</h2>
+
+<ul>
+  <li>Just found that Karthik and ropensci got a shoutout in the book R for Cloud Computing: An Approach for Data Scientists https://books.google.com/books?id=DTRpBQAAQBAJ&amp;pg=PA220&amp;lpg=PA220&amp;dq=ropensci.org&amp;source=bl&amp;ots=gXG-JDo1sP&amp;sig=t_3mIXtYuemzQCQ5iba6_ph4JFU&amp;hl=en&amp;sa=X&amp;ei=E5WTVIefNcvnoASHjYKwAg&amp;ved=0CE4Q6AEwCTge#v=onepage&amp;q=ropensci.org&amp;f=false</li>
+  <li>Shoutout from SimplyStats blog http://simplystatistics.org/2014/12/17/a-non-comprehensive-list-of-awesome-things-other-people-did-in-2014/  &gt; “rOpenSci ran an awesome hackathon. The lineup of people they invited was great and I loved the commitment to a diverse group of junior R programmers. I really, really hope they run it again.”</li>
+  <li>Shoutout to rOpenSci from Hadley in an interview http://bulletin.imstat.org/2014/12/hadley-wickham-impact-the-world-by-being-useful/</li>
 </ul>
 
   </article>
