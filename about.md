@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-rOpenSci weekly updates, including for software, what's happening in the community, events, and more.
+rOpenSci bi-weekly updates, including for software, what's happening in the community, events, and more.

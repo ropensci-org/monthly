@@ -1,29 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rOpenSci Weekly</title>
-    <description>rOpenSci weekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
+    <title>rOpenSci Biweekly</title>
+    <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 07:54:54 -0800</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 07:54:54 -0800</lastBuildDate>
+    <pubDate>Fri, 02 Jan 2015 08:04:14 -0800</pubDate>
+    <lastBuildDate>Fri, 02 Jan 2015 08:04:14 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
     
       <item>
-        <title>rOpenci Weekly updates</title>
-        <description>&lt;p&gt;We’ve found it useful to collate all the notable things that happened in the last week or two with software, community, and events within rOpenSci - and send that around within our leadership team. We thought this might be useful to users, developers, and others in our community. Thus, we’re starting a new series of emails to send to this mailing list. These &lt;strong&gt;rOpenSci Weekly Updates&lt;/strong&gt; will list all notable software updates, activity in our community (new members, cool things members have done, etc.), events in our community, and rOpenSci mentions in the news. As we all dislike getting too many emails, we’re only sending an update bi-weekly, or twice per month, on Mondays.&lt;/p&gt;
+        <title>rOpenci Biweekly Updates</title>
+        <description>&lt;p&gt;We’ve found it useful to collate all the notable things that happened in the last week or two with software, community, and events within rOpenSci - and send that around within our leadership team. We thought this might be useful to users, developers, and others in our community. Thus, we’re starting a new series of emails to send to this mailing list. These &lt;strong&gt;rOpenSci Biweekly Updates&lt;/strong&gt; will list all notable software updates, activity in our community (new members, cool things members have done, etc.), events in our community, and rOpenSci mentions in the news. As we all dislike getting too many emails, we’re only sending an update biweekly, or twice per month, on Mondays.&lt;/p&gt;
 
-&lt;p&gt;We’ve already done a few of these. You can find those at:&lt;/p&gt;
+&lt;p&gt;We’ve already done a few:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;2014-12-15 - &lt;a href=&quot;http://ropensci.github.io/weekly/weekly-update-2014-12-15/&quot;&gt;http://ropensci.github.io/weekly/weekly-update-2014-12-15/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;2014-12-22 - &lt;a href=&quot;http://ropensci.github.io/weekly/weekly-update-2014-12-22/&quot;&gt;http://ropensci.github.io/weekly/weekly-update-2014-12-22/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2014-12-15 - &lt;a href=&quot;http://ropensci.github.io/biweekly/biweekly-update-2014-12-15/&quot;&gt;http://ropensci.github.io/biweekly/biweekly-update-2014-12-15/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;2014-12-22 - &lt;a href=&quot;http://ropensci.github.io/biweekly/biweekly-update-2014-12-22/&quot;&gt;http://ropensci.github.io/biweekly/biweekly-update-2014-12-22/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;The next one will be this upcoming Monday, 2015-01-05.&lt;/p&gt;
 
 &lt;p&gt;Let us know if you have any feedback!&lt;/p&gt;
-
 </description>
         <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
         <link>/ropensci-weekly-updates/</link>
@@ -33,7 +32,7 @@
       </item>
     
       <item>
-        <title>Weekly update 2014-12-22</title>
+        <title>Update 2014-12-22</title>
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -73,7 +72,7 @@
       </item>
     
       <item>
-        <title>Weekly update 2014-12-15</title>
+        <title>Update 2014-12-15</title>
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
