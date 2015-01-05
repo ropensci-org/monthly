@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>rOpenSci Biweekly</title>
+    <title>Update 2015-01-05</title>
     <meta name="description" content="rOpenSci biweekly updates, including for software, what's happening in the community, events, and more.">
 
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/update-2015-01-05/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -55,45 +55,52 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 5, 2015</span>
+  <header class="post-header">
+    <h1 class="post-title">Update 2015-01-05</h1>
+    <p class="post-meta">Jan 5, 2015</p>
+  </header>
 
-        <h2>
-          <a class="post-link" href="/update-2015-01-05/">Update 2015-01-05</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2015</span>
+  <article class="post-content">
+    <h2 id="software">Software</h2>
 
-        <h2>
-          <a class="post-link" href="/ropensci-weekly-updates/">rOpenci Biweekly Updates</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 22, 2014</span>
+<ul>
+  <li>The first version of <code>gistr</code> (<code>v0.1.0</code>) is up on CRAN. <code>gistr</code> is an R client for working with GitHub gists. You can get gists and their metadata, and create them. A blog post describing the package: <a href="http://recology.info/2015/01/gistr-github-gists/">http://recology.info/2015/01/gistr-github-gists/</a></li>
+  <li><code>rvertnet</code> is getting a reworking based on the new Vertnet APIs. Check out the <code>udpate</code> branch in the repo: <a href="https://github.com/ropensci/rvertnet/tree/update">https://github.com/ropensci/rvertnet/tree/update</a></li>
+  <li><code>ckanr</code> got a pull request from <a href="https://github.com/imanuelcostigan">Imanuel Costigan</a>, allowing easier setting of the base url for the CKAN instance. See gist for use: <a href="https://gist.github.com/sckott/c86f3c2965cfc389ac3c">https://gist.github.com/sckott/c86f3c2965cfc389ac3c</a></li>
+  <li>We shared a Gist on getting elevation data for lat/long locations in the <code>rgbif</code> package via the Google Elevation API (<a href="https://gist.github.com/sckott/2d3ae5f0cecca3deb436">https://gist.github.com/sckott/2d3ae5f0cecca3deb436</a>), and there was a cool look by <a href="https://twitter.com/Md_Harris">Matt Harris</a> at how accurate the Google Elevation API is compared to Digital Elevation Models: <a href="http://rpubs.com/mharris/GoogleAPI">http://rpubs.com/mharris/GoogleAPI</a></li>
+  <li>We shared another Gist on getting NOAA NCDC data via FTP <a href="https://gist.github.com/sckott/440222f040a3444057ad">https://gist.github.com/sckott/440222f040a3444057ad</a> - attempting to cover the use case where the <a href="http://www.ncdc.noaa.gov/cdo-web/webservices/v2">NOAA NCDC API</a> rate limits are lower than your data needs. </li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/update-2014-12-22/">Update 2014-12-22</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 15, 2014</span>
+<h2 id="community">Community</h2>
 
-        <h2>
-          <a class="post-link" href="/update-2014-12-15/">Update 2014-12-15</a>
-        </h2>
-      </li>
-    
-  </ul>
+<ul>
+  <li>New R package in the rOpenSci suite, <a href="https://github.com/ropensci/rdopa">rdopa</a>, an R client to <a href="http://dopa-services.jrc.ec.europa.eu/rest/">Joint Research Centre’s DOPA REST API</a>. This is also gives us a new contributor! <a href="https://github.com/jlehtoma">Joona Lehtomäki</a> </li>
+  <li>New contibutor to rOpenSci via <code>rvertnet</code>: <a href="https://github.com/Pika8tona">Chris Ray</a></li>
+  <li>Our new <a href="http://discuss.ropensci.org/">rOpenSci discussion forum</a> is growing fast. Do join us there if you want to discuss all things rOpenSci. There’s login options for email, Twitter, GitHub, and Mozilla Persona. </li>
+</ul>
 
-  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+<h2 id="ropensci-in-the-news">rOpenSci in the news</h2>
+
+<ul>
+  <li>rOpenSci got a mention in the bioRxiv preprint <em>Connecting people and ideas from around the world: global innovation platforms for next-generation ecology and beyond</em> by the <a href="http://innge.net/">INGEE</a> folks. See the abstract at <a href="http://www.biorxiv.org/content/early/2014/12/14/012666.abstract">http://www.biorxiv.org/content/early/2014/12/14/012666.abstract</a></li>
+  <li>We (and <a href="http://ropengov.github.io/">rOpenGov!</a>) got a mention in a manuscript in draft at <a href="https://github.com/muuankarski/rlang">muuankarski/rlang</a> on GitHub. <a href="https://raw.githubusercontent.com/muuankarski/rlang/master/r_lang.pdf">pdf here</a></li>
+</ul>
+
+<blockquote>
+  <p>Other such domain specific projects are for example rOpenSci and emerging rOpenGov that provide tools for open science and open government data, respectively.</p>
+</blockquote>
+
+<ul>
+  <li>A mention in <a href="https://peerj.com/preprints/235v1.pdf">a PeerJ preprint</a> titled <em>Close connections between open science and open-source software</em>. The mention is </li>
+</ul>
+
+<blockquote>
+  <p>Recently, rOpenSci (http://ropensci.org/) is released as a new in-progress collaborative project aiming to effectively and synergistically connect various online databases through R computing platform. </p>
+</blockquote>
+
+  </article>
 
 </div>
 

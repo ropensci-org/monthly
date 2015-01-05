@@ -5,9 +5,55 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 02 Jan 2015 08:08:36 -0800</pubDate>
-    <lastBuildDate>Fri, 02 Jan 2015 08:08:36 -0800</lastBuildDate>
+    <pubDate>Mon, 05 Jan 2015 08:37:09 -0800</pubDate>
+    <lastBuildDate>Mon, 05 Jan 2015 08:37:09 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Update 2015-01-05</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The first version of &lt;code&gt;gistr&lt;/code&gt; (&lt;code&gt;v0.1.0&lt;/code&gt;) is up on CRAN. &lt;code&gt;gistr&lt;/code&gt; is an R client for working with GitHub gists. You can get gists and their metadata, and create them. A blog post describing the package: &lt;a href=&quot;http://recology.info/2015/01/gistr-github-gists/&quot;&gt;http://recology.info/2015/01/gistr-github-gists/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;rvertnet&lt;/code&gt; is getting a reworking based on the new Vertnet APIs. Check out the &lt;code&gt;udpate&lt;/code&gt; branch in the repo: &lt;a href=&quot;https://github.com/ropensci/rvertnet/tree/update&quot;&gt;https://github.com/ropensci/rvertnet/tree/update&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;ckanr&lt;/code&gt; got a pull request from &lt;a href=&quot;https://github.com/imanuelcostigan&quot;&gt;Imanuel Costigan&lt;/a&gt;, allowing easier setting of the base url for the CKAN instance. See gist for use: &lt;a href=&quot;https://gist.github.com/sckott/c86f3c2965cfc389ac3c&quot;&gt;https://gist.github.com/sckott/c86f3c2965cfc389ac3c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We shared a Gist on getting elevation data for lat/long locations in the &lt;code&gt;rgbif&lt;/code&gt; package via the Google Elevation API (&lt;a href=&quot;https://gist.github.com/sckott/2d3ae5f0cecca3deb436&quot;&gt;https://gist.github.com/sckott/2d3ae5f0cecca3deb436&lt;/a&gt;), and there was a cool look by &lt;a href=&quot;https://twitter.com/Md_Harris&quot;&gt;Matt Harris&lt;/a&gt; at how accurate the Google Elevation API is compared to Digital Elevation Models: &lt;a href=&quot;http://rpubs.com/mharris/GoogleAPI&quot;&gt;http://rpubs.com/mharris/GoogleAPI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We shared another Gist on getting NOAA NCDC data via FTP &lt;a href=&quot;https://gist.github.com/sckott/440222f040a3444057ad&quot;&gt;https://gist.github.com/sckott/440222f040a3444057ad&lt;/a&gt; - attempting to cover the use case where the &lt;a href=&quot;http://www.ncdc.noaa.gov/cdo-web/webservices/v2&quot;&gt;NOAA NCDC API&lt;/a&gt; rate limits are lower than your data needs. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New R package in the rOpenSci suite, &lt;a href=&quot;https://github.com/ropensci/rdopa&quot;&gt;rdopa&lt;/a&gt;, an R client to &lt;a href=&quot;http://dopa-services.jrc.ec.europa.eu/rest/&quot;&gt;Joint Research Centre’s DOPA REST API&lt;/a&gt;. This is also gives us a new contributor! &lt;a href=&quot;https://github.com/jlehtoma&quot;&gt;Joona Lehtomäki&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;New contibutor to rOpenSci via &lt;code&gt;rvertnet&lt;/code&gt;: &lt;a href=&quot;https://github.com/Pika8tona&quot;&gt;Chris Ray&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Our new &lt;a href=&quot;http://discuss.ropensci.org/&quot;&gt;rOpenSci discussion forum&lt;/a&gt; is growing fast. Do join us there if you want to discuss all things rOpenSci. There’s login options for email, Twitter, GitHub, and Mozilla Persona. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-in-the-news&quot;&gt;rOpenSci in the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rOpenSci got a mention in the bioRxiv preprint &lt;em&gt;Connecting people and ideas from around the world: global innovation platforms for next-generation ecology and beyond&lt;/em&gt; by the &lt;a href=&quot;http://innge.net/&quot;&gt;INGEE&lt;/a&gt; folks. See the abstract at &lt;a href=&quot;http://www.biorxiv.org/content/early/2014/12/14/012666.abstract&quot;&gt;http://www.biorxiv.org/content/early/2014/12/14/012666.abstract&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We (and &lt;a href=&quot;http://ropengov.github.io/&quot;&gt;rOpenGov!&lt;/a&gt;) got a mention in a manuscript in draft at &lt;a href=&quot;https://github.com/muuankarski/rlang&quot;&gt;muuankarski/rlang&lt;/a&gt; on GitHub. &lt;a href=&quot;https://raw.githubusercontent.com/muuankarski/rlang/master/r_lang.pdf&quot;&gt;pdf here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Other such domain specific projects are for example rOpenSci and emerging rOpenGov that provide tools for open science and open government data, respectively.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A mention in &lt;a href=&quot;https://peerj.com/preprints/235v1.pdf&quot;&gt;a PeerJ preprint&lt;/a&gt; titled &lt;em&gt;Close connections between open science and open-source software&lt;/em&gt;. The mention is &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Recently, rOpenSci (http://ropensci.org/) is released as a new in-progress collaborative project aiming to effectively and synergistically connect various online databases through R computing platform. &lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 05 Jan 2015 00:00:00 -0800</pubDate>
+        <link>/update-2015-01-05/</link>
+        <guid isPermaLink="true">/update-2015-01-05/</guid>
+        
+        
+      </item>
     
       <item>
         <title>rOpenci Biweekly Updates</title>
