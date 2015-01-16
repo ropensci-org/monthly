@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Update 2014-12-15</title>
+    <title>Update 2015-01-19</title>
     <meta name="description" content="rOpenSci biweekly updates, including for software, what's happening in the community, events, and more.">
 
     <link rel="stylesheet" href="/biweekly/css/main.css">
-    <link rel="canonical" href="/biweekly/update-2014-12-15/">
+    <link rel="canonical" href="/biweekly/update-2015-01-19/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -58,39 +58,31 @@
         <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Update 2014-12-15</h1>
-    <p class="post-meta">Dec 15, 2014</p>
+    <h1 class="post-title">Update 2015-01-19</h1>
+    <p class="post-meta">Jan 19, 2015</p>
   </header>
 
   <article class="post-content">
     <h2 id="software">Software</h2>
 
 <ul>
-  <li>Patch version <code>v0.2.1</code> of rcrossref sent to CRAN. Release notes: https://github.com/ropensci/rcrossref/releases/tag/v0.2.1 - We’re in the process of adding content negotiation to this package, to get full text, where available, across any Crossref member publisher that participates. This will be heavily used in the <a href="https://github.com/ropensci/fulltext">fulltext package</a> to search for full text content. </li>
-  <li>New version <code>v0.5</code> of taxize out. Release notes:  https://github.com/ropensci/taxize/releases/tag/v0.5.0  - Note that this version is not on CRAN as of this date.</li>
-  <li>The <code>elife</code> R package is temporarily deprecated as they’re dropping their API soon https://github.com/ropensci/elife - Let us know if you would use an eLife API so we can communicate that to eLife. </li>
-  <li>We use <code>httr</code> a lot in our packages. A recent addition in <code>httr</code> <code>v0.6</code> includes a way to deal with a problem you may have stumbled upon when working with data from the web. When a series of requests to get data from the web is interrupted, you often get an error like <code>easy handled already used in multi handle</code>. <code>httr</code> now has the functions <code>handle_find()</code> and <code>handle_reset()</code> to help in this scenario. Check out <a href="http://recology.info/2014/12/multi-handle/">this blog post</a> to find out more.</li>
-  <li>We updated our packages page on our website (http://ropensci.org/packages/ ) with many new packages in development, and updated notes about packages (e.g., a package deprecation). Check it out.</li>
+  <li>The <code>rvertnet</code> update is useable now - we’d love feedback on the new version of the package, which works with the <a href="https://github.com/VertNet/webapp/wiki">new Vertnet API</a>. This will get included in <a href="https://github.com/ropensci/spocc">spocc</a> as another data source. </li>
+  <li>In our <a href="">fulltext</a> package, we focus on getting open access full text of scholarly content. However, just to explore where it goes, we’ve been adding feaures to help simplify extraction of parts of articles. We shared a few gists recently describing how to <a href="https://gist.github.com/sckott/9e021eb1c6a949158d69">pull out chunks of articles and view them</a>, how to <a href="https://gist.github.com/sckott/e628be5c412a3bb38ffc">coerce article data into data.frame’s</a>, and a use case for <code>fulltext</code> asking <a href="https://gist.github.com/sckott/31bf9c6772038a704f95">how long the time is between article reception and acceptance in PLOS journals</a>. </li>
+  <li>We added scroll search to our R client for Elasticsearch <code>elastic</code> - and shared <a href="https://gist.github.com/sckott/675cf255f49f37032683">a gist</a> demoing its use.</li>
 </ul>
 
 <h2 id="community">Community</h2>
 
 <ul>
-  <li>We just announced that we’ll be starting to do community calls, Check out the blog post: http://ropensci.org/blog/2014/12/15/community-calls/</li>
-  <li>We have a few new community members/contributors: 
-    <ul>
-      <li>First, Matt Pennel, maintaining the <code>chromer</code> package (https://github.com/ropensci/chromer) to interact with Chromosome Counts Database (CCDB) http://ccdb.tau.ac.il.</li>
-      <li>Second, Abaghan Ghahraman, brings to the rOpenSci suite the R package rGEM (https://github.com/ropensci/rGEM) to connect to the Global Entrepreneurship Monitor (GEM) http://www.gemconsortium.org/</li>
-      <li>Third, Kyle Hamilton joins rOpenSci, with two packages in development. RCryptsy (https://github.com/ropensci/RCryptsy) is a package to interact with the Public API for the Crypto-Currency exchange Cryptsy (https://www.cryptsy.com/). RStars (https://github.com/ropensci/RStars) is a package to access to the Digital Universe Data set (http://star-api.herokuapp.com/ )</li>
-    </ul>
-  </li>
+  <li>We did our first community call on Wednesday, the 14th of January. It was fun and we really appreciate Ciera Martinez for discussing <a href="https://twitter.com/hashtag/rrhack?src=hash">#rrhack</a>. We’ll put up video and notes from the call very soon. The main home for information on community calls is at <a href="https://github.com/ropensci/commcalls">ropensci/commcalls</a> - see the <a href="https://github.com/ropensci/commcalls/issues">issues page</a> for an issue for each call. </li>
 </ul>
 
-<h2 id="events">Events</h2>
+<h2 id="in-the-news">In the news</h2>
 
 <ul>
-  <li>Carl Boettiger, of the rOpenSci leadership team, was at NESCENT for <em>Reproducible Science Hackathon: Curriculum &amp; Workflow Development</em> (see http://www.nescent.org/cal/calendar_detail.php?id=1125). <a href="http://cierareports.org/">Ciera Martinez</a> will be joining us at our first rOpenSci community call to discuss highlights of this event. </li>
-  <li>Karthik Ram and Scott Chamberlain attended a <a href="http://articlemetrics.github.io/workshop_2014/">PLOS altmetrics conference</a> in San Francisco. We maintain R clients for <a href="https://github.com/ropensci/raltmetric">Altmetric.com </a> and for the PLOS altmetrics application, <a href="https://github.com/ropensci/alm">Lagotto</a>. </li>
+  <li>rOpenSci got a mention in as <a href="http://beautifulopen.com/2015/01/07/ropensci/">Beautiful site in Open Source</a></li>
+  <li><a href="https://twitter.com/ouzor">Juuso Parkkinen</a> did a <a href="http://ouzor.github.io/blog/2014/11/21/interactive-visualizations.html">review of interactive vizualizations in R</a>, including the plotly R client from our suite. </li>
+  <li><a href="https://github.com/ropensci/taxize/">taxize</a> got a citation in a new paper in Molecular Ecology <a href="http://onlinelibrary.wiley.com/doi/10.1111/mec.13026/abstract">Comparative genomics in the Asteraceae reveals little evidence for parallel evolutionary change in invasive taxa</a>. </li>
 </ul>
 
   </article>

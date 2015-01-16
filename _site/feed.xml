@@ -3,11 +3,42 @@
   <channel>
     <title>rOpenSci Biweekly</title>
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Jan 2015 08:37:09 -0800</pubDate>
-    <lastBuildDate>Mon, 05 Jan 2015 08:37:09 -0800</lastBuildDate>
+    <link>/biweekly/</link>
+    <atom:link href="/biweekly/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 16 Jan 2015 08:15:38 -0800</pubDate>
+    <lastBuildDate>Fri, 16 Jan 2015 08:15:38 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Update 2015-01-19</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code&gt;rvertnet&lt;/code&gt; update is useable now - we’d love feedback on the new version of the package, which works with the &lt;a href=&quot;https://github.com/VertNet/webapp/wiki&quot;&gt;new Vertnet API&lt;/a&gt;. This will get included in &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;spocc&lt;/a&gt; as another data source. &lt;/li&gt;
+  &lt;li&gt;In our &lt;a href=&quot;&quot;&gt;fulltext&lt;/a&gt; package, we focus on getting open access full text of scholarly content. However, just to explore where it goes, we’ve been adding feaures to help simplify extraction of parts of articles. We shared a few gists recently describing how to &lt;a href=&quot;https://gist.github.com/sckott/9e021eb1c6a949158d69&quot;&gt;pull out chunks of articles and view them&lt;/a&gt;, how to &lt;a href=&quot;https://gist.github.com/sckott/e628be5c412a3bb38ffc&quot;&gt;coerce article data into data.frame’s&lt;/a&gt;, and a use case for &lt;code&gt;fulltext&lt;/code&gt; asking &lt;a href=&quot;https://gist.github.com/sckott/31bf9c6772038a704f95&quot;&gt;how long the time is between article reception and acceptance in PLOS journals&lt;/a&gt;. &lt;/li&gt;
+  &lt;li&gt;We added scroll search to our R client for Elasticsearch &lt;code&gt;elastic&lt;/code&gt; - and shared &lt;a href=&quot;https://gist.github.com/sckott/675cf255f49f37032683&quot;&gt;a gist&lt;/a&gt; demoing its use.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We did our first community call on Wednesday, the 14th of January. It was fun and we really appreciate Ciera Martinez for discussing &lt;a href=&quot;https://twitter.com/hashtag/rrhack?src=hash&quot;&gt;#rrhack&lt;/a&gt;. We’ll put up video and notes from the call very soon. The main home for information on community calls is at &lt;a href=&quot;https://github.com/ropensci/commcalls&quot;&gt;ropensci/commcalls&lt;/a&gt; - see the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues page&lt;/a&gt; for an issue for each call. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rOpenSci got a mention in as &lt;a href=&quot;http://beautifulopen.com/2015/01/07/ropensci/&quot;&gt;Beautiful site in Open Source&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ouzor&quot;&gt;Juuso Parkkinen&lt;/a&gt; did a &lt;a href=&quot;http://ouzor.github.io/blog/2014/11/21/interactive-visualizations.html&quot;&gt;review of interactive vizualizations in R&lt;/a&gt;, including the plotly R client from our suite. &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/taxize/&quot;&gt;taxize&lt;/a&gt; got a citation in a new paper in Molecular Ecology &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/mec.13026/abstract&quot;&gt;Comparative genomics in the Asteraceae reveals little evidence for parallel evolutionary change in invasive taxa&lt;/a&gt;. &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
+        <link>/biweekly/update-2015-01-19/</link>
+        <guid isPermaLink="true">/biweekly/update-2015-01-19/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-01-05</title>
@@ -49,8 +80,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 05 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/update-2015-01-05/</link>
-        <guid isPermaLink="true">/update-2015-01-05/</guid>
+        <link>/biweekly/update-2015-01-05/</link>
+        <guid isPermaLink="true">/biweekly/update-2015-01-05/</guid>
         
         
       </item>
@@ -71,8 +102,8 @@
 &lt;p&gt;Let us know if you have any feedback!&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/ropensci-weekly-updates/</link>
-        <guid isPermaLink="true">/ropensci-weekly-updates/</guid>
+        <link>/biweekly/ropensci-weekly-updates/</link>
+        <guid isPermaLink="true">/biweekly/ropensci-weekly-updates/</guid>
         
         
       </item>
@@ -111,8 +142,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/update-2014-12-22/</link>
-        <guid isPermaLink="true">/update-2014-12-22/</guid>
+        <link>/biweekly/update-2014-12-22/</link>
+        <guid isPermaLink="true">/biweekly/update-2014-12-22/</guid>
         
         
       </item>
@@ -150,8 +181,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/update-2014-12-15/</link>
-        <guid isPermaLink="true">/update-2014-12-15/</guid>
+        <link>/biweekly/update-2014-12-15/</link>
+        <guid isPermaLink="true">/biweekly/update-2014-12-15/</guid>
         
         
       </item>
