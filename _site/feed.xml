@@ -5,9 +5,64 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/biweekly/</link>
     <atom:link href="/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Jan 2015 12:34:25 -0800</pubDate>
-    <lastBuildDate>Fri, 30 Jan 2015 12:34:25 -0800</lastBuildDate>
+    <pubDate>Mon, 02 Feb 2015 08:13:30 -0800</pubDate>
+    <lastBuildDate>Mon, 02 Feb 2015 08:13:30 -0800</lastBuildDate>
     <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Update 2015-02-02</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The &lt;code&gt;rvertnet&lt;/code&gt; package update is now on &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/index.html&quot;&gt;CRAN&lt;/a&gt; - we’d love your feedback. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.2.2&quot;&gt;release notes&lt;/a&gt; for changes. This version is the first in quite a while, and works with the new &lt;a href=&quot;https://github.com/VertNet/webapp/wiki/Introduction-to-the-VertNet-API&quot;&gt;VertNet API&lt;/a&gt;. VertNet has &lt;a href=&quot;http://blog.vertnet.org/post/108840046776/rev-up-your-research-with-the-all-new-rvertnet&quot;&gt;a blog post&lt;/a&gt; about the new version. &lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;spocc&lt;/code&gt; has been &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/index.html&quot;&gt;put on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.2.4&quot;&gt;release notes&lt;/a&gt; for the changes. No major changes, mostly bug fixes, and slimming down dependencies used in the package.&lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;rplos&lt;/code&gt; has been &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/index.html&quot;&gt;put on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.4.6&quot;&gt;release notes&lt;/a&gt; for the changes. One large change in &lt;code&gt;rplos&lt;/code&gt; is that you no longer need an API key to use the package - lowering the barrier to exploring PLOS data!&lt;/li&gt;
+  &lt;li&gt;Our R client for &lt;a href=&quot;http://www.elasticsearch.org/&quot;&gt;Elasticsearch&lt;/a&gt; - &lt;code&gt;elastic&lt;/code&gt; - is now &lt;a href=&quot;http://cran.rstudio.com/web/packages/elastic/index.html&quot;&gt;on CRAN&lt;/a&gt;. Elasticsearch is a powerful NoSQL-style document database - similar to SOLR (p.s. we have &lt;a href=&quot;http://cran.rstudio.com/web/packages/solr/index.html&quot;&gt;a client for SOLR&lt;/a&gt; if you’re interested). See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt;. &lt;/li&gt;
+  &lt;li&gt;Welcome a new client to the family: &lt;code&gt;parasiteR&lt;/code&gt;. &lt;a href=&quot;https://github.com/ropensci/parasiteR&quot;&gt;parasiteR&lt;/a&gt; is an R client to work with the &lt;a href=&quot;http://www.nhm.ac.uk/research-curation/scientific-resources/taxonomy-systematics/host-parasites/index.html&quot;&gt;London Natural History Museum’s Helminth parasite database&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We announced our &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;upcoming unconference and hackathon&lt;/a&gt; on March 26-27 in San Francisco. There are still spaces if you would like to attend. &lt;a href=&quot;https://docs.google.com/forms/d/14nY7-6CdTKFb7A3j07KAayVqIqgDAzQgdRtyMLr8RiQ/viewform&quot;&gt;Nominate yourself&lt;/a&gt; by February 15th if you’d like to attend.&lt;/li&gt;
+  &lt;li&gt;We gained two new contributors! Check out our &lt;a href=&quot;http://ropensci.org/community/#community&quot;&gt;community page&lt;/a&gt;.
+    &lt;ul&gt;
+      &lt;li&gt;Chris Ray is is a postdoc at the &lt;a href=&quot;http://www.birdpop.org/&quot;&gt;Institute for Bird Populations&lt;/a&gt;. She contributes to &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;rvertnet&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;Tad Dallas is a graduate student in the &lt;a href=&quot;http://www.ecology.uga.edu/&quot;&gt;University of Georgia’s Odum School of Ecology&lt;/a&gt;. He maintains &lt;a href=&quot;https://github.com/ropensci/parasiteR&quot;&gt;parasiteR&lt;/a&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In The News&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rOpenSci got a mention in Hadley Wickham’s article &lt;a href=&quot;http://bulletin.imstat.org/2014/12/hadley-wickham-impact-the-world-by-being-useful/&quot;&gt;Impact the world by being useful&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;We were highlighted in &lt;a href=&quot;http://www.gbif.org/usingdata/dataapplications&quot;&gt;GBIF’s page for applications&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci is listed on &lt;a href=&quot;http://connectedresearchers.com/&quot;&gt;Connected Researchers&lt;/a&gt; for &lt;a href=&quot;http://connectedresearchers.com/online-tools-for-researchers/&quot;&gt;digital tools for researchers&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We were mentioned in the Coursera course &lt;a href=&quot;https://www.coursera.org/course/&quot;&gt;Getting and Cleaning Data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Past events&lt;/strong&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://www.carlboettiger.info/&quot;&gt;Carl Boettiger&lt;/a&gt; gave a workshop on using rOpenSci packages at the Davis (CA) R user group. Check out the recording at &lt;a href=&quot;https://www.youtube.com/watch?v=JNVRxq-hS9M&quot;&gt;https://www.youtube.com/watch?v=JNVRxq-hS9M&lt;/a&gt;, the &lt;a href=&quot;https://github.com/ropensci/workshops-davis-2015-01&quot;&gt;talk materials&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ropensci/workshops-davis-2015-01/archive/gh-pages.zip&quot;&gt;a zip file of the materials&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Upcoming events&lt;/strong&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://karthik.io/&quot;&gt;Karthik Ram&lt;/a&gt; will be at a workshop at Imperial College to work on tools for &lt;a href=&quot;https://sites.google.com/site/hackout2/participants&quot;&gt;graphical resources for modeling infectious diseases in R&lt;/a&gt;. Karthik will also be running a workshop in Seville on the 16th and 17th. Details on &lt;a href=&quot;http://ropensci.org/community/events.html&quot;&gt;our events page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We recently talked with folks doing neurobiology research and were curious if there’s any way we can help. We started a thread in our discussion forum if you have any thoughts: &lt;a href=&quot;http://discuss.ropensci.org/t/neurobiology-data/112&quot;&gt;http://discuss.ropensci.org/t/neurobiology-data/112&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 02 Feb 2015 00:00:00 -0800</pubDate>
+        <link>/biweekly/update-2015-02-02/</link>
+        <guid isPermaLink="true">/biweekly/update-2015-02-02/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-01-19</title>
