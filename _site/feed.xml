@@ -3,10 +3,10 @@
   <channel>
     <title>rOpenSci Biweekly</title>
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
-    <link>/biweekly/</link>
-    <atom:link href="/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Feb 2015 07:14:02 -0800</pubDate>
-    <lastBuildDate>Mon, 16 Feb 2015 07:14:02 -0800</lastBuildDate>
+    <link>http://ropensci.github.io/biweekly/</link>
+    <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Feb 2015 09:15:14 -0800</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 09:15:14 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -46,8 +46,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2015-02-16/</link>
-        <guid isPermaLink="true">/biweekly/update-2015-02-16/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2015-02-16/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-16/</guid>
         
         
       </item>
@@ -101,8 +101,8 @@
 
 </description>
         <pubDate>Mon, 02 Feb 2015 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2015-02-02/</link>
-        <guid isPermaLink="true">/biweekly/update-2015-02-02/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2015-02-02/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-02/</guid>
         
         
       </item>
@@ -132,8 +132,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2015-01-19/</link>
-        <guid isPermaLink="true">/biweekly/update-2015-01-19/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2015-01-19/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-01-19/</guid>
         
         
       </item>
@@ -178,8 +178,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 05 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2015-01-05/</link>
-        <guid isPermaLink="true">/biweekly/update-2015-01-05/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2015-01-05/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-01-05/</guid>
         
         
       </item>
@@ -200,8 +200,8 @@
 &lt;p&gt;Let us know if you have any feedback!&lt;/p&gt;
 </description>
         <pubDate>Fri, 02 Jan 2015 00:00:00 -0800</pubDate>
-        <link>/biweekly/ropensci-weekly-updates/</link>
-        <guid isPermaLink="true">/biweekly/ropensci-weekly-updates/</guid>
+        <link>http://ropensci.github.io/biweekly/ropensci-weekly-updates/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/ropensci-weekly-updates/</guid>
         
         
       </item>
@@ -240,8 +240,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 22 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2014-12-22/</link>
-        <guid isPermaLink="true">/biweekly/update-2014-12-22/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2014-12-22/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2014-12-22/</guid>
         
         
       </item>
@@ -279,8 +279,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 15 Dec 2014 00:00:00 -0800</pubDate>
-        <link>/biweekly/update-2014-12-15/</link>
-        <guid isPermaLink="true">/biweekly/update-2014-12-15/</guid>
+        <link>http://ropensci.github.io/biweekly/update-2014-12-15/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2014-12-15/</guid>
         
         
       </item>

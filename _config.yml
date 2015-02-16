@@ -1,6 +1,7 @@
 title: 			 rOpenSci Biweekly
 email: 			 info@ropensci.org
 description: "rOpenSci biweekly updates, including for software, what's happening in the community, events, and more."
+url: 				 "http://ropensci.github.io"
 baseurl:     "/biweekly"
 permalink:   "/:title/"
 twitter_username: ropensci
