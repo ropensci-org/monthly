@@ -5,9 +5,52 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>/biweekly/</link>
     <atom:link href="/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 12 Feb 2015 12:55:52 -0800</pubDate>
-    <lastBuildDate>Thu, 12 Feb 2015 12:55:52 -0800</lastBuildDate>
+    <pubDate>Mon, 16 Feb 2015 07:14:02 -0800</pubDate>
+    <lastBuildDate>Mon, 16 Feb 2015 07:14:02 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-02-16</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have started to dive into neuroscience. We recently chatted with three neuroinformaticians about open data and R in their field. They directed us towards lots of interesting sources of open data. Our first shot at this field is the &lt;a href=&quot;https://github.com/ropensci/rif&quot;&gt;rif package&lt;/a&gt; - an R client to search and get data from the &lt;a href=&quot;http://neuinfo.org/&quot;&gt;Neuroscience Information Framework&lt;/a&gt; web services. We’d love to work with people in neuroscience/neuroinformatics on R clients. &lt;/li&gt;
+  &lt;li&gt;Our R client for &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Orcid.org&lt;/a&gt; got a reboot and some new functionality. Give it a try and let us know what you think. &lt;a href=&quot;https://github.com/ropensci/rorcid#installation&quot;&gt;Get started&lt;/a&gt;. In addition, &lt;a href=&quot;https://downwithtime.wordpress.com/about/&quot;&gt;Simon Goring&lt;/a&gt; wrote &lt;a href=&quot;https://downwithtime.wordpress.com/2015/02/12/building-your-network-using-orcid-and-ropensci/&quot;&gt;a blog post&lt;/a&gt; recently about creating a co-author network using &lt;code&gt;rorcid&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;We started work on an R client for the key-value store &lt;a href=&quot;https://github.com/coreos/etcd&quot;&gt;etcd&lt;/a&gt; by &lt;a href=&quot;https://coreos.com/&quot;&gt;Coreos&lt;/a&gt;, written in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/etseed&quot;&gt;Try it&lt;/a&gt; - let us know what you think.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;rentrez&lt;/a&gt;, our client for the &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/books/NBK25501/&quot;&gt;NCBI’s entrez API&lt;/a&gt; got a new release on CRAN. New features include richer records from &lt;code&gt;entrez_summary&lt;/code&gt; and a set functions to help users &lt;a href=&quot;https://github.com/ropensci/rentrez#getting-information-about-ncbi-databases&quot;&gt;learn about what data is available from NCBI and how to get it&lt;/a&gt;. We’ve started &lt;a href=&quot;https://github.com/ropensci/rentrez/milestones/1.0&quot;&gt;planning for a 1.0 release of rentrez&lt;/a&gt;, so add any requests you have for the package.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jwhollister.com/&quot;&gt;Jeff Hollister&lt;/a&gt; is the new maintainer of the &lt;a href=&quot;https://github.com/ropensci/maptools&quot;&gt;maptools task view&lt;/a&gt;. The &lt;code&gt;maptools&lt;/code&gt; task view focuses on tools for mapping and visualizing spatial data in R. Thanks Jeff!&lt;/li&gt;
+  &lt;li&gt;Attendees of our upcoming unconference/hackathon in March have started to generate ideas for the event. Check them out at &lt;a href=&quot;https://github.com/ropensci/unconf/issues&quot;&gt;https://github.com/ropensci/unconf/issues&lt;/a&gt;, and check out the &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;event site&lt;/a&gt;. If you want to join remotely, &lt;a href=&quot;https://github.com/ropensci/unconf#ropensci-2015-unconference&quot;&gt;instructions are in the README&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We were listed in the &lt;a href=&quot;http://guides.library.upenn.edu/R&quot;&gt;UPenn guide for R&lt;/a&gt;. w00t!&lt;/li&gt;
+  &lt;li&gt;Our R client for Solr, &lt;code&gt;solr&lt;/code&gt;, has been added to the &lt;a href=&quot;http://wiki.apache.org/solr/IntegratingSolr#R&quot;&gt;list of Solr clients on the Apache Solr website&lt;/a&gt;. Sweet :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Past events&lt;/strong&gt;&lt;br /&gt;
+* &lt;a href=&quot;http://karthik.io/&quot;&gt;Karthik Ram&lt;/a&gt; participated in a workshop at Imperial College’s school of Medicine on tools for &lt;a href=&quot;https://sites.google.com/site/hackout2/participants&quot;&gt;graphical resources for modeling infectious diseases in R&lt;/a&gt;. Details on &lt;a href=&quot;http://ropensci.org/community/events.html&quot;&gt;our events page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In case you aren’t aware, we have a shiny new discussion forum based on &lt;a href=&quot;http://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt; - it’s at &lt;a href=&quot;http://discuss.ropensci.org/&quot;&gt;http://discuss.ropensci.org/&lt;/a&gt;. Join us there for questions, discussion of use cases, feature requests, and more. &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
+        <link>/biweekly/update-2015-02-16/</link>
+        <guid isPermaLink="true">/biweekly/update-2015-02-16/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-02-02</title>
