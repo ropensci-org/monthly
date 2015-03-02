@@ -5,9 +5,50 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 27 Feb 2015 09:24:10 -0800</pubDate>
-    <lastBuildDate>Fri, 27 Feb 2015 09:24:10 -0800</lastBuildDate>
+    <pubDate>Mon, 02 Mar 2015 08:33:54 -0800</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 08:33:54 -0800</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-03-02</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Our R binding to the libgit2 library, &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;git2r&lt;/a&gt;, is now on CRAN. Find it at &lt;a href=&quot;http://cran.r-project.org/web/packages/git2r/index.html&quot;&gt;http://cran.r-project.org/web/packages/git2r/index.html&lt;/a&gt;. &lt;code&gt;git2r&lt;/code&gt; is maintained by &lt;a href=&quot;https://github.com/stewid&quot;&gt;Stefan Widgren&lt;/a&gt;. This is a powerful way to work with &lt;code&gt;git&lt;/code&gt;, allowing you to never have to leave the comfort of the R command line.&lt;/li&gt;
+  &lt;li&gt;We’ve started a new package, &lt;a href=&quot;https://github.com/ropensci/elasticdsl&quot;&gt;elasticdsl&lt;/a&gt;, as a higher level client wrapping our Elasticsearch client, &lt;a href=&quot;https://github.com/ropensci/elastic&quot;&gt;elastic&lt;/a&gt;, focused mostly around search (as opposed to cluster management, etc.). With &lt;code&gt;elasticdsl&lt;/code&gt; you can easily pipe together query statements without having to deal with messy json strings.&lt;/li&gt;
+  &lt;li&gt;Along the lines of higher level abstractions, we’ve started playing with a new package, &lt;a href=&quot;https://github.com/ropensci/binomen&quot;&gt;binomen&lt;/a&gt;, that provides tools for manipulating data that includes taxonomic names. It’s the same R objects you’re used to (data.frame’s, lists, etc.), but taxonomically aware (and pipe &lt;code&gt;%&amp;gt;%&lt;/code&gt; friendly).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We are in the process of defining policy for new packages, which we’ll roll out soon. We are also working on a set of guidelines for packages contributed to rOpenSci, which are not strictly enforced, but strongly recommended. We call it the &lt;a href=&quot;https://github.com/ropensci/packaging_guide&quot;&gt;rOpenSci Packaging Guide&lt;/a&gt;. Let us know if you have any feedback on this guide. Soon, we’ll be directing current and potential package contributors to these guidelines. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Join us for our second community call. &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; will demo &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. If you have any feedback on community calls, do let us know in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/&quot;&gt;ropensci/commcalls&lt;/a&gt; repository. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;There are a lot of GitHub repos using rOpenSci pacakges. We generated a short list of repos using some rOpenSci packages, and posted to our &lt;a href=&quot;http://discuss.ropensci.org/t/use-of-some-ropensci-packages-on-github/137&quot;&gt;discussion forum&lt;/a&gt;. If you’re curious how our packages are used and in what contexts (teaching, research, etc.), that list is a good place to start.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;api-news&quot;&gt;API news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The folks at &lt;a href=&quot;http://opencontext.org/&quot;&gt;OpenContext.org&lt;/a&gt; - a repository of archaeological data - are working on a new API. We will start work on a new R client for this data &lt;a href=&quot;https://github.com/ropensci/unconf/issues/16&quot;&gt;at the upcoming rOpenSci unconf&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 02 Mar 2015 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-03-02/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-03-02/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-02-16</title>
