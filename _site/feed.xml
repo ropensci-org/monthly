@@ -5,9 +5,42 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 13 Mar 2015 17:51:25 -0700</pubDate>
-    <lastBuildDate>Fri, 13 Mar 2015 17:51:25 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Mar 2015 08:08:18 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Mar 2015 08:08:18 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-03-16</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.0&quot;&gt;release notes&lt;/a&gt; for the changes.&lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;rsnps&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rsnps&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rsnps/releases/tag/v0.1.6&quot;&gt;release notes&lt;/a&gt; for the changes. &lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for the changes. Note that &lt;code&gt;pmid2doi()&lt;/code&gt; and &lt;code&gt;doi2pmid()&lt;/code&gt; are defunct (that is, gone), as the APIs behind them have been at least temporarily taken offline. In addition, there are a number of new functions: &lt;code&gt;cr_ft_links()&lt;/code&gt; gets links for full text content of an article, while &lt;code&gt;cr_ft_text()&lt;/code&gt; retrieves full text content of an article.&lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;alm&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/alm&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/alm/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for the changes. API keys are no longer needed with most data sources that use Lagotto. A new function &lt;code&gt;alm_requests()&lt;/code&gt; to get metadata on incoming API requests (only for authorized users). Many parameter names have changed - and some removed. &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We had our second community call on 2015-03-05, in which &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; gave a demo of &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. The video recording is at &lt;a href=&quot;https://vimeo.com/121720465&quot;&gt;https://vimeo.com/121720465&lt;/a&gt; and the notes are at &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-0305&quot;&gt;https://ropensci.etherpad.mozilla.org/comm-call-0305&lt;/a&gt;. The &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/3&quot;&gt;next community call&lt;/a&gt; is tentatively planned for 15 April. If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the repo&lt;/a&gt;. &lt;/li&gt;
+  &lt;li&gt;We recently rolled out a new way for the community to bring up ideas for possible packages to join the rOpenSci family. The repo is called &lt;a href=&quot;https://github.com/ropensci/wishlist&quot;&gt;wishlist&lt;/a&gt;. The focus is on packages that broadly have a scientific application. See &lt;a href=&quot;https://github.com/ropensci/wishlist/wiki&quot;&gt;the wiki&lt;/a&gt; for proposed packages.&lt;/li&gt;
+  &lt;li&gt;If you use our discussion forum at &lt;a href=&quot;http://discuss.ropensci.org/&quot;&gt;discuss.ropensci.org&lt;/a&gt;, you can get RSS feeds for many things on the site. Details in &lt;a href=&quot;http://discuss.ropensci.org/t/rss-feeds-for-this-site/158&quot;&gt;this post&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;rOpenSci will be getting ad placement on Stackoverflow and Academic StackExchange. There are Community Promotion Ads each year, done by community vote. We are excited to be tied for the most votes on &lt;a href=&quot;http://meta.stackoverflow.com/questions/281524/open-source-advertising-sidebar-1h-2015/287687&quot;&gt;meta.stackexchange.com&lt;/a&gt; and with 3rd most votes on &lt;a href=&quot;http://meta.academia.stackexchange.com/questions/1478/community-promotion-ads-2015/1614&quot;&gt;meta.academia.stackexchange.com&lt;/a&gt; - however, the threshold is only 6 votes to be shown :)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 16 Mar 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-03-16/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-03-16/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-03-02</title>

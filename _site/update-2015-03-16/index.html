@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>rOpenSci Biweekly</title>
+    <title>Update 2015-03-16</title>
     <meta name="description" content="rOpenSci biweekly updates, including for software, what's happening in the community, events, and more.">
 
     <link rel="stylesheet" href="/biweekly/css/main.css">
-    <link rel="canonical" href="http://ropensci.github.io/biweekly/">
+    <link rel="canonical" href="http://ropensci.github.io/biweekly/update-2015-03-16/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -55,85 +55,39 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Mar 16, 2015</span>
+  <header class="post-header">
+    <h1 class="post-title">Update 2015-03-16</h1>
+    <p class="post-meta">Mar 16, 2015</p>
+  </header>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-03-16/">Update 2015-03-16</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 2, 2015</span>
+  <article class="post-content">
+    <h2 id="software">Software</h2>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-03-02/">Update 2015-03-02</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 16, 2015</span>
+<ul>
+  <li>A new version of <code>rgbif</code> is <a href="http://cran.rstudio.com/web/packages/rgbif">on CRAN</a>. See the <a href="https://github.com/ropensci/rgbif/releases/tag/v0.8.0">release notes</a> for the changes.</li>
+  <li>A new version of <code>rsnps</code> is <a href="http://cran.rstudio.com/web/packages/rsnps">on CRAN</a>. See the <a href="https://github.com/ropensci/rsnps/releases/tag/v0.1.6">release notes</a> for the changes. </li>
+  <li>A new version of <code>rcrossref</code> is <a href="http://cran.rstudio.com/web/packages/rcrossref">on CRAN</a>. See the <a href="https://github.com/ropensci/rcrossref/releases/tag/v0.3.0">release notes</a> for the changes. Note that <code>pmid2doi()</code> and <code>doi2pmid()</code> are defunct (that is, gone), as the APIs behind them have been at least temporarily taken offline. In addition, there are a number of new functions: <code>cr_ft_links()</code> gets links for full text content of an article, while <code>cr_ft_text()</code> retrieves full text content of an article.</li>
+  <li>A new version of <code>alm</code> is <a href="http://cran.rstudio.com/web/packages/alm">on CRAN</a>. See the <a href="https://github.com/ropensci/alm/releases/tag/v0.4.0">release notes</a> for the changes. API keys are no longer needed with most data sources that use Lagotto. A new function <code>alm_requests()</code> to get metadata on incoming API requests (only for authorized users). Many parameter names have changed - and some removed. </li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-02-16/">Update 2015-02-16</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 2, 2015</span>
+<h2 id="community">Community</h2>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-02-02/">Update 2015-02-02</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 19, 2015</span>
+<ul>
+  <li>We had our second community call on 2015-03-05, in which <a href="https://github.com/ramnathv">Ramnath Vaidyanathan</a> gave a demo of <a href="http://www.htmlwidgets.org/">htmlwidgets</a>, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at <a href="https://github.com/ropensci/commcalls/issues/2">ropensci/commcalls#2</a>. The video recording is at <a href="https://vimeo.com/121720465">https://vimeo.com/121720465</a> and the notes are at <a href="https://ropensci.etherpad.mozilla.org/comm-call-0305">https://ropensci.etherpad.mozilla.org/comm-call-0305</a>. The <a href="https://github.com/ropensci/commcalls/issues/3">next community call</a> is tentatively planned for 15 April. If you have any ideas for upcoming community calls, get back to us in the <a href="https://github.com/ropensci/commcalls/issues">issues of the repo</a>. </li>
+  <li>We recently rolled out a new way for the community to bring up ideas for possible packages to join the rOpenSci family. The repo is called <a href="https://github.com/ropensci/wishlist">wishlist</a>. The focus is on packages that broadly have a scientific application. See <a href="https://github.com/ropensci/wishlist/wiki">the wiki</a> for proposed packages.</li>
+  <li>If you use our discussion forum at <a href="http://discuss.ropensci.org/">discuss.ropensci.org</a>, you can get RSS feeds for many things on the site. Details in <a href="http://discuss.ropensci.org/t/rss-feeds-for-this-site/158">this post</a>.</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-01-19/">Update 2015-01-19</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 5, 2015</span>
+<h2 id="in-the-news">In the news</h2>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-01-05/">Update 2015-01-05</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2015</span>
+<ul>
+  <li>rOpenSci will be getting ad placement on Stackoverflow and Academic StackExchange. There are Community Promotion Ads each year, done by community vote. We are excited to be tied for the most votes on <a href="http://meta.stackoverflow.com/questions/281524/open-source-advertising-sidebar-1h-2015/287687">meta.stackexchange.com</a> and with 3rd most votes on <a href="http://meta.academia.stackexchange.com/questions/1478/community-promotion-ads-2015/1614">meta.academia.stackexchange.com</a> - however, the threshold is only 6 votes to be shown :)</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/biweekly/ropensci-weekly-updates/">rOpenci Biweekly Updates</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 22, 2014</span>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2014-12-22/">Update 2014-12-22</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 15, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2014-12-15/">Update 2014-12-15</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/biweekly/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 
