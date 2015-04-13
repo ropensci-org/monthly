@@ -5,9 +5,48 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 16 Mar 2015 08:08:18 -0700</pubDate>
-    <lastBuildDate>Mon, 16 Mar 2015 08:08:18 -0700</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2015 10:14:56 -0700</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2015 10:14:56 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-04-13</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.2.6&lt;/code&gt;) is on CRAN: &lt;code&gt;rglobi&lt;/code&gt; (&lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi&quot;&gt;http://cran.rstudio.com/web/packages/rglobi&lt;/a&gt;). See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi/vignettes/rglobi_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.2&lt;/code&gt;) &lt;code&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive/vignettes/internet-archive.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;1.9.1&lt;/code&gt;) of &lt;code&gt;ecoengine&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoengine&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/ecoengine/releases/tag/CRAN-verision-1.9&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have our third community call coming up this Wednesday (2015-04-15), in which &lt;a href=&quot;http://had.co.nz/&quot;&gt;Hadley Wickham&lt;/a&gt; will talk about data ingestion. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/3&quot;&gt;More info&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We added a new person to &lt;a href=&quot;https://ropensci.org/community/#community&quot;&gt;our community page&lt;/a&gt;, &lt;a href=&quot;http://kylehamilton.com/&quot;&gt;Kyle Hamilton&lt;/a&gt;, for his contributions &lt;a href=&quot;https://github.com/ropensci/RStars&quot;&gt;RStars&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ropensci/RCryptsy/&quot;&gt;RCryptsy&lt;/a&gt;. Kyle, who lives in California, had a great idea to help create easy ways to programatically acquire water resource information given the drought in California. Checkout &lt;a href=&quot;https://discuss.ropensci.org/t/water-resource-api-list-and-development/172&quot;&gt;the discussion&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/benmarwick/&quot;&gt;Ben Marwick&lt;/a&gt; had a great idea to make an R client for interacting with the &lt;a href=&quot;https://opendatakit.org/&quot;&gt;Open Dat Kit (ODK)&lt;/a&gt; and the &lt;a href=&quot;https://opendatakit.org/use/collect/&quot;&gt;ODK Collect application&lt;/a&gt;. Checkout &lt;a href=&quot;https://discuss.ropensci.org/t/field-data-collection-workflow/164&quot;&gt;the discussion&lt;/a&gt; and the &lt;a href=&quot;https://github.com/ropensci/wishlist/wiki/Open-Data-Kit-Collect-form-generator-package&quot;&gt;wishlist page&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We held our 2nd annual &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;rOpenSci unconference&lt;/a&gt; 26-27 March in San Francisco. It was a smashing success. We discussed projects in the &lt;a href=&quot;https://github.com/ropensci/unconf&quot;&gt;ropensci/unconf repo&lt;/a&gt; if you want to see what was done - projects included discussions as well as making software. We’ll soon have a blog post discussing the event, so look out for that.&lt;/li&gt;
+  &lt;li&gt;We now use &lt;code&gt;https&lt;/code&gt; instead of &lt;code&gt;http&lt;/code&gt; for our website (&lt;a href=&quot;http://ropensci.org/&quot;&gt;http://ropensci.org/&lt;/a&gt;), and our discussion forum (&lt;a href=&quot;https://discuss.ropensci.org/&quot;&gt;https://discuss.ropensci.org/&lt;/a&gt;). Let us know if you run into any problems due to &lt;code&gt;https&lt;/code&gt; on either of those sites.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;elastic&lt;/code&gt; package, an R client for Elasticsearch. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/elastic/&quot;&gt;http://ropensci.github.io/screencasts/elastic/&lt;/a&gt;. Let us know if you have any feedback on screencasts. &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 13 Apr 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-04-13/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-04-13/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-03-16</title>
