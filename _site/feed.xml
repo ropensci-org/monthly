@@ -5,9 +5,54 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Jul 2015 11:27:24 -0700</pubDate>
-    <lastBuildDate>Mon, 20 Jul 2015 11:27:24 -0700</lastBuildDate>
+    <pubDate>Mon, 03 Aug 2015 10:21:50 -0700</pubDate>
+    <lastBuildDate>Mon, 03 Aug 2015 10:21:50 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-08-03</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.4.1&lt;/code&gt;) &lt;code&gt;rotl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rotl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl/vignettes/how-to-use-rotl.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;. This package is maintained by Francois Michonneau, Joseph Brown, and David Winter, and is Interface to &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt; API - &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a tree of life created by synthesizing published phylogenetic trees along with taxonomic data.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.8.8&lt;/code&gt;) of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif/&quot;&gt;on CRAN&lt;/a&gt;. This was a fairly minor version bump with bug fixes and additional tests. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.8&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.4&lt;/code&gt;) of &lt;code&gt;RCryptsy&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RCryptsy/&quot;&gt;on CRAN&lt;/a&gt;. Some changes listed &lt;a href=&quot;https://github.com/ropensci/RCryptsy/blob/master/NEWS&quot;&gt;in the NEWS&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;p&gt;We’ve had some interesting questions on our discussion forum recently:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data only packages &lt;a href=&quot;https://discuss.ropensci.org/t/data-only-packages/203&quot;&gt;https://discuss.ropensci.org/t/data-only-packages/203&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Including metadata with data.frame’s &lt;a href=&quot;https://discuss.ropensci.org/t/embed-metadata-in-r-objects/221&quot;&gt;https://discuss.ropensci.org/t/embed-metadata-in-r-objects/221&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Docker and general scientific computing setups &lt;a href=&quot;https://discuss.ropensci.org/t/docker-and-general-scientific-computing-set-ups/217&quot;&gt;https://discuss.ropensci.org/t/docker-and-general-scientific-computing-set-ups/217&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, we recently &lt;a href=&quot;https://discuss.ropensci.org/t/new-features-on-this-forum/222&quot;&gt;added two new features to our discussion forum&lt;/a&gt;: tags and polls. &lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Another paper appeared using one of our R packages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sagouis &lt;em&gt;et al.&lt;/em&gt; have a paper in Ecography titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/ecog.01348/abstract&quot;&gt;Non-native species modify the isotopic structure of freshwater fish communities across the globe&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 03 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-08-03/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-08-03/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-07-20</title>
@@ -383,37 +428,6 @@
         <pubDate>Mon, 02 Feb 2015 00:00:00 -0800</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-02-02/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-02/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-01-19</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The &lt;code&gt;rvertnet&lt;/code&gt; update is useable now - we’d love feedback on the new version of the package, which works with the &lt;a href=&quot;https://github.com/VertNet/webapp/wiki&quot;&gt;new Vertnet API&lt;/a&gt;. This will get included in &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;spocc&lt;/a&gt; as another data source. &lt;/li&gt;
-  &lt;li&gt;In our &lt;a href=&quot;&quot;&gt;fulltext&lt;/a&gt; package, we focus on getting open access full text of scholarly content. However, just to explore where it goes, we’ve been adding feaures to help simplify extraction of parts of articles. We shared a few gists recently describing how to &lt;a href=&quot;https://gist.github.com/sckott/9e021eb1c6a949158d69&quot;&gt;pull out chunks of articles and view them&lt;/a&gt;, how to &lt;a href=&quot;https://gist.github.com/sckott/e628be5c412a3bb38ffc&quot;&gt;coerce article data into data.frame’s&lt;/a&gt;, and a use case for &lt;code&gt;fulltext&lt;/code&gt; asking &lt;a href=&quot;https://gist.github.com/sckott/31bf9c6772038a704f95&quot;&gt;how long the time is between article reception and acceptance in PLOS journals&lt;/a&gt;. &lt;/li&gt;
-  &lt;li&gt;We added scroll search to our R client for Elasticsearch &lt;code&gt;elastic&lt;/code&gt; - and shared &lt;a href=&quot;https://gist.github.com/sckott/675cf255f49f37032683&quot;&gt;a gist&lt;/a&gt; demoing its use.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We did our first community call on Wednesday, the 14th of January. It was fun and we really appreciate Ciera Martinez for discussing &lt;a href=&quot;https://twitter.com/hashtag/rrhack?src=hash&quot;&gt;#rrhack&lt;/a&gt;. We’ll put up video and notes from the call very soon. The main home for information on community calls is at &lt;a href=&quot;https://github.com/ropensci/commcalls&quot;&gt;ropensci/commcalls&lt;/a&gt; - see the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues page&lt;/a&gt; for an issue for each call. &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;rOpenSci got a mention in as &lt;a href=&quot;http://beautifulopen.com/2015/01/07/ropensci/&quot;&gt;Beautiful site in Open Source&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/ouzor&quot;&gt;Juuso Parkkinen&lt;/a&gt; did a &lt;a href=&quot;http://ouzor.github.io/blog/2014/11/21/interactive-visualizations.html&quot;&gt;review of interactive vizualizations in R&lt;/a&gt;, including the plotly R client from our suite. &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/taxize/&quot;&gt;taxize&lt;/a&gt; got a citation in a new paper in Molecular Ecology &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/mec.13026/abstract&quot;&gt;Comparative genomics in the Asteraceae reveals little evidence for parallel evolutionary change in invasive taxa&lt;/a&gt;. &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 19 Jan 2015 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-01-19/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-01-19/</guid>
         
         
       </item>
