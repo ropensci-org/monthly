@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>rOpenSci Biweekly</title>
+    <title>Update 2015-08-17</title>
     <meta name="description" content="rOpenSci biweekly updates, including for software, what's happening in the community, events, and more.">
 
     <link rel="stylesheet" href="/biweekly/css/main.css">
-    <link rel="canonical" href="http://ropensci.github.io/biweekly/">
+    <link rel="canonical" href="http://ropensci.github.io/biweekly/update-2015-08-17/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -55,141 +55,41 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="home">
+        <div class="post">
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Aug 17, 2015</span>
+  <header class="post-header">
+    <h1 class="post-title">Update 2015-08-17</h1>
+    <p class="post-meta">Aug 17, 2015</p>
+  </header>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-08-17/">Update 2015-08-17</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Aug 3, 2015</span>
+  <article class="post-content">
+    <h2 id="software">Software</h2>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-08-03/">Update 2015-08-03</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jul 20, 2015</span>
+<ul>
+  <li>A new package (version <code>0.1.0</code>) <code>fulltext</code> is <a href="http://cran.rstudio.com/web/packages/fulltext/">on CRAN</a>. This package makes it easier to search for articles, download articles in full text if available, convert pdf format to plain text, and extract text chunks for vizualization/analysis. We are planning to add bits for analysis in future versions. See the <a href="http://recology.info/2015/08/full-text/">blog post</a> for an introduction to the package. <a href="https://github.com/ropensci/fulltext">Repository on GitHub</a>.</li>
+  <li>A new version (<code>0.5.2</code>) of <code>rplos</code> is <a href="http://cran.rstudio.com/web/packages/rplos/">on CRAN</a>. This was a fairly minor version bump with bug fixes. See the <a href="https://github.com/ropensci/rplos/releases/tag/v0.5.2">release notes</a> for changes.</li>
+  <li>A new version (<code>0.6.2</code>) of <code>taxize</code> is <a href="http://cran.rstudio.com/web/packages/taxize/">on CRAN</a>. This version includes numerous bug fixes; fixes to comply with changes in <code>httr</code> <code>v1</code>; general cleanup of <code>gni_*()</code> functions; and fixes to support COL’s change from numeric taxonomic identifiers to alphanumeric identifiers. See the <a href="https://github.com/ropensci/taxize/releases/tag/v0.6.2">release notes</a> for changes.</li>
+  <li>A new version (<code>0.1.4</code>) of <code>geojsonio</code> is <a href="http://cran.rstudio.com/web/packages/geojsonio/">on CRAN</a>. This version includes bug fixes, and adds a new function <code>map_leaf()</code> to make maps with the <code>leaflet</code> package, and <code>geojson_read</code> allows you to optionally get back a spatial class object instead of geojson. See the <a href="https://github.com/ropensci/geojsonio/releases/tag/v0.1.4">release notes</a> for changes.</li>
+  <li>A new version (<code>0.11</code>) of <code>git2r</code> is <a href="http://cran.rstudio.com/web/packages/git2r/">on CRAN</a>. See the <a href="https://github.com/ropensci/git2r/blob/master/NEWS#L1-L52">NEWS file</a> for changes.</li>
+  <li>A new version (<code>2.0.1</code>) of <code>rfishbase</code> is <a href="http://cran.rstudio.com/web/packages/rfishbase/">on CRAN</a>.</li>
+  <li>A new version (<code>0.0.2</code>) of <code>webchem</code> is <a href="http://cran.rstudio.com/web/packages/webchem/">on CRAN</a>.</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-07-20/">Update 2015-07-20</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 22, 2015</span>
+<h2 id="use-cases">Use cases</h2>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-07-06/">Update 2015-06-22</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jun 8, 2015</span>
+<p>A bunch of papers appeared recently using/citing rOpenSci software:</p>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-06-08/">Update 2015-06-08</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">May 11, 2015</span>
+<ul>
+  <li>Boeger <em>et al.</em> have a paper in <em>Zoologica Scripta</em> titled <a href="http://onlinelibrary.wiley.com/doi/10.1111/zsc.12098/abstract">Tracking the history of an invasion: the freshwater croakers (Teleostei: Sciaenidae) in South America</a> that uses and cites our <a href="https://github.com/ropensci/rfishbase">rfishbase package</a>.</li>
+  <li>Bone <em>et al.</em> have a paper in <em>New Phytologist</em> titled <a href="http://onlinelibrary.wiley.com/doi/10.1111/nph.13572/abstract">A macro-ecological perspective on crassulacean acid metabolism (CAM) photosynthesis evolution in Afro-Madagascan drylands: Eulophiinae orchids as a case study</a> that uses and cites our <a href="https://github.com/ropensci/rgbif">rgbif package</a>.</li>
+  <li>Collins <em>et al.</em> have a paper in <em>Journal of Zoological Systematics and Evolutionary Research</em> titled <a href="http://onlinelibrary.wiley.com/doi/10.1111/jzs.12103/abstract">Phylogenetic systematics of leaffishes (Teleostei: Polycentridae, Nandidae)</a> that uses and cites our <a href="https://github.com/ropensci/rfishbase">rfishbase package</a>.</li>
+  <li>Dodd <em>et al.</em> have a paper in <em>Diversity and Distributions</em> titled <a href="http://onlinelibrary.wiley.com/doi/10.1111/ddi.12351/abstract">The changing patterns of plant naturalization in Australia</a> that uses and cites our <a href="https://github.com/ropensci/taxize">taxize package</a>.</li>
+  <li>Price <em>et al.</em> have a paper in <em>Coral Reefs</em> titled <a href="http://link.springer.com/article/10.1007%2Fs00338-015-1326-7">Phylogenetic insights into the history and diversification of fishes on reefs</a> that uses and cites our <a href="https://github.com/ropensci/rfishbase">rfishbase package</a>.</li>
+  <li>Werner <em>et al.</em> have a paper in <em>PNAS</em> titled <a href="www.pnas.org/cgi/doi/10.1073/pnas.1424030112">Evolutionary signals of symbiotic persistence in the legume–rhizobia mutualism</a> that uses and cites our <a href="https://github.com/ropensci/rgbif">rgbif package</a>.</li>
+</ul>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-05-11/">Update 2015-05-11</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Apr 13, 2015</span>
 
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-04-13/">Update 2015-04-13</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 16, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-03-16/">Update 2015-03-16</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Mar 2, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-03-02/">Update 2015-03-02</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 16, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-02-16/">Update 2015-02-16</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Feb 2, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-02-02/">Update 2015-02-02</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 19, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-01-19/">Update 2015-01-19</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 5, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2015-01-05/">Update 2015-01-05</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Jan 2, 2015</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/ropensci-weekly-updates/">rOpenci Biweekly Updates</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 22, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2014-12-22/">Update 2014-12-22</a>
-        </h2>
-      </li>
-    
-      <li>
-        <span class="post-meta">Dec 15, 2014</span>
-
-        <h2>
-          <a class="post-link" href="/biweekly/update-2014-12-15/">Update 2014-12-15</a>
-        </h2>
-      </li>
-    
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="/biweekly/feed.xml">via RSS</a></p>
+  </article>
 
 </div>
 

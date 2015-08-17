@@ -5,9 +5,44 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 03 Aug 2015 12:29:50 -0700</pubDate>
-    <lastBuildDate>Mon, 03 Aug 2015 12:29:50 -0700</lastBuildDate>
+    <pubDate>Mon, 17 Aug 2015 09:18:40 -0700</pubDate>
+    <lastBuildDate>Mon, 17 Aug 2015 09:18:40 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Update 2015-08-17</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;fulltext&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/fulltext/&quot;&gt;on CRAN&lt;/a&gt;. This package makes it easier to search for articles, download articles in full text if available, convert pdf format to plain text, and extract text chunks for vizualization/analysis. We are planning to add bits for analysis in future versions. See the &lt;a href=&quot;http://recology.info/2015/08/full-text/&quot;&gt;blog post&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/fulltext&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.5.2&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. This was a fairly minor version bump with bug fixes. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.6.2&lt;/code&gt;) of &lt;code&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize/&quot;&gt;on CRAN&lt;/a&gt;. This version includes numerous bug fixes; fixes to comply with changes in &lt;code&gt;httr&lt;/code&gt; &lt;code&gt;v1&lt;/code&gt;; general cleanup of &lt;code&gt;gni_*()&lt;/code&gt; functions; and fixes to support COL’s change from numeric taxonomic identifiers to alphanumeric identifiers. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.1.4&lt;/code&gt;) of &lt;code&gt;geojsonio&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/geojsonio/&quot;&gt;on CRAN&lt;/a&gt;. This version includes bug fixes, and adds a new function &lt;code&gt;map_leaf()&lt;/code&gt; to make maps with the &lt;code&gt;leaflet&lt;/code&gt; package, and &lt;code&gt;geojson_read&lt;/code&gt; allows you to optionally get back a spatial class object instead of geojson. See the &lt;a href=&quot;https://github.com/ropensci/geojsonio/releases/tag/v0.1.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.11&lt;/code&gt;) of &lt;code&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/git2r/blob/master/NEWS#L1-L52&quot;&gt;NEWS file&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.0.1&lt;/code&gt;) of &lt;code&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.0.2&lt;/code&gt;) of &lt;code&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;A bunch of papers appeared recently using/citing rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Boeger &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Zoologica Scripta&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/zsc.12098/abstract&quot;&gt;Tracking the history of an invasion: the freshwater croakers (Teleostei: Sciaenidae) in South America&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Bone &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;New Phytologist&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/nph.13572/abstract&quot;&gt;A macro-ecological perspective on crassulacean acid metabolism (CAM) photosynthesis evolution in Afro-Madagascan drylands: Eulophiinae orchids as a case study&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Collins &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Journal of Zoological Systematics and Evolutionary Research&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/jzs.12103/abstract&quot;&gt;Phylogenetic systematics of leaffishes (Teleostei: Polycentridae, Nandidae)&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Dodd &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Diversity and Distributions&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/ddi.12351/abstract&quot;&gt;The changing patterns of plant naturalization in Australia&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Price &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Coral Reefs&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1007%2Fs00338-015-1326-7&quot;&gt;Phylogenetic insights into the history and diversification of fishes on reefs&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Werner &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;PNAS&lt;/em&gt; titled &lt;a href=&quot;www.pnas.org/cgi/doi/10.1073/pnas.1424030112&quot;&gt;Evolutionary signals of symbiotic persistence in the legume–rhizobia mutualism&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 17 Aug 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-08-17/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-08-17/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-08-03</title>
@@ -374,61 +409,6 @@
         <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-02-16/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-16/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-02-02</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The &lt;code&gt;rvertnet&lt;/code&gt; package update is now on &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/index.html&quot;&gt;CRAN&lt;/a&gt; - we’d love your feedback. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.2.2&quot;&gt;release notes&lt;/a&gt; for changes. This version is the first in quite a while, and works with the new &lt;a href=&quot;https://github.com/VertNet/webapp/wiki/Introduction-to-the-VertNet-API&quot;&gt;VertNet API&lt;/a&gt;. VertNet has &lt;a href=&quot;http://blog.vertnet.org/post/108840046776/rev-up-your-research-with-the-all-new-rvertnet&quot;&gt;a blog post&lt;/a&gt; about the new version. &lt;/li&gt;
-  &lt;li&gt;A new version of &lt;code&gt;spocc&lt;/code&gt; has been &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/index.html&quot;&gt;put on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.2.4&quot;&gt;release notes&lt;/a&gt; for the changes. No major changes, mostly bug fixes, and slimming down dependencies used in the package.&lt;/li&gt;
-  &lt;li&gt;A new version of &lt;code&gt;rplos&lt;/code&gt; has been &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/index.html&quot;&gt;put on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.4.6&quot;&gt;release notes&lt;/a&gt; for the changes. One large change in &lt;code&gt;rplos&lt;/code&gt; is that you no longer need an API key to use the package - lowering the barrier to exploring PLOS data!&lt;/li&gt;
-  &lt;li&gt;Our R client for &lt;a href=&quot;http://www.elasticsearch.org/&quot;&gt;Elasticsearch&lt;/a&gt; - &lt;code&gt;elastic&lt;/code&gt; - is now &lt;a href=&quot;http://cran.rstudio.com/web/packages/elastic/index.html&quot;&gt;on CRAN&lt;/a&gt;. Elasticsearch is a powerful NoSQL-style document database - similar to SOLR (p.s. we have &lt;a href=&quot;http://cran.rstudio.com/web/packages/solr/index.html&quot;&gt;a client for SOLR&lt;/a&gt; if you’re interested). See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt;. &lt;/li&gt;
-  &lt;li&gt;Welcome a new client to the family: &lt;code&gt;parasiteR&lt;/code&gt;. &lt;a href=&quot;https://github.com/ropensci/parasiteR&quot;&gt;parasiteR&lt;/a&gt; is an R client to work with the &lt;a href=&quot;http://www.nhm.ac.uk/research-curation/scientific-resources/taxonomy-systematics/host-parasites/index.html&quot;&gt;London Natural History Museum’s Helminth parasite database&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We announced our &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;upcoming unconference and hackathon&lt;/a&gt; on March 26-27 in San Francisco. There are still spaces if you would like to attend. &lt;a href=&quot;https://docs.google.com/forms/d/14nY7-6CdTKFb7A3j07KAayVqIqgDAzQgdRtyMLr8RiQ/viewform&quot;&gt;Nominate yourself&lt;/a&gt; by February 15th if you’d like to attend.&lt;/li&gt;
-  &lt;li&gt;We gained two new contributors! Check out our &lt;a href=&quot;http://ropensci.org/community/#community&quot;&gt;community page&lt;/a&gt;.
-    &lt;ul&gt;
-      &lt;li&gt;Chris Ray is is a postdoc at the &lt;a href=&quot;http://www.birdpop.org/&quot;&gt;Institute for Bird Populations&lt;/a&gt;. She contributes to &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;rvertnet&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;Tad Dallas is a graduate student in the &lt;a href=&quot;http://www.ecology.uga.edu/&quot;&gt;University of Georgia’s Odum School of Ecology&lt;/a&gt;. He maintains &lt;a href=&quot;https://github.com/ropensci/parasiteR&quot;&gt;parasiteR&lt;/a&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;in-the-news&quot;&gt;In The News&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;rOpenSci got a mention in Hadley Wickham’s article &lt;a href=&quot;http://bulletin.imstat.org/2014/12/hadley-wickham-impact-the-world-by-being-useful/&quot;&gt;Impact the world by being useful&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;We were highlighted in &lt;a href=&quot;http://www.gbif.org/usingdata/dataapplications&quot;&gt;GBIF’s page for applications&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci is listed on &lt;a href=&quot;http://connectedresearchers.com/&quot;&gt;Connected Researchers&lt;/a&gt; for &lt;a href=&quot;http://connectedresearchers.com/online-tools-for-researchers/&quot;&gt;digital tools for researchers&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;We were mentioned in the Coursera course &lt;a href=&quot;https://www.coursera.org/course/&quot;&gt;Getting and Cleaning Data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Past events&lt;/strong&gt;&lt;br /&gt;
-* &lt;a href=&quot;http://www.carlboettiger.info/&quot;&gt;Carl Boettiger&lt;/a&gt; gave a workshop on using rOpenSci packages at the Davis (CA) R user group. Check out the recording at &lt;a href=&quot;https://www.youtube.com/watch?v=JNVRxq-hS9M&quot;&gt;https://www.youtube.com/watch?v=JNVRxq-hS9M&lt;/a&gt;, the &lt;a href=&quot;https://github.com/ropensci/workshops-davis-2015-01&quot;&gt;talk materials&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ropensci/workshops-davis-2015-01/archive/gh-pages.zip&quot;&gt;a zip file of the materials&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Upcoming events&lt;/strong&gt;&lt;br /&gt;
-* &lt;a href=&quot;http://karthik.io/&quot;&gt;Karthik Ram&lt;/a&gt; will be at a workshop at Imperial College to work on tools for &lt;a href=&quot;https://sites.google.com/site/hackout2/participants&quot;&gt;graphical resources for modeling infectious diseases in R&lt;/a&gt;. Karthik will also be running a workshop in Seville on the 16th and 17th. Details on &lt;a href=&quot;http://ropensci.org/community/events.html&quot;&gt;our events page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We recently talked with folks doing neurobiology research and were curious if there’s any way we can help. We started a thread in our discussion forum if you have any thoughts: &lt;a href=&quot;http://discuss.ropensci.org/t/neurobiology-data/112&quot;&gt;http://discuss.ropensci.org/t/neurobiology-data/112&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 02 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-02-02/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-02/</guid>
         
         
       </item>
