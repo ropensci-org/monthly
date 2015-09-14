@@ -5,9 +5,65 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 17 Aug 2015 09:18:40 -0700</pubDate>
-    <lastBuildDate>Mon, 17 Aug 2015 09:18:40 -0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <pubDate>Mon, 14 Sep 2015 12:07:20 -0700</pubDate>
+    <lastBuildDate>Mon, 14 Sep 2015 12:07:20 -0700</lastBuildDate>
+    <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Update 2015-09-14</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code&gt;1.3.3&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See the package &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS&quot;&gt;NEWS file&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.1.4&lt;/code&gt;) of &lt;code&gt;lawn&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/lawn/&quot;&gt;on CRAN&lt;/a&gt;. This version includes a code of conduct, small bug fixes, and implements print methods for most output objects for easier comprehension. &lt;a href=&quot;https://github.com/ropensci/lawn/releases/tag/v0.1.4&quot;&gt;Release notes&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.5.1&lt;/code&gt;) of &lt;code&gt;gender&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gender/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gender/releases/tag/v0.5.1&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.0.3&lt;/code&gt;) of &lt;code&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.3.2&lt;/code&gt;) of &lt;code&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;. This version adds iDigBio in as a new data source; and we have more detail in the documentation now about how we are querying each data source; and bug fixes. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.3.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.1.2&lt;/code&gt;) of &lt;code&gt;traits&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/&quot;&gt;on CRAN&lt;/a&gt;. A few minor changes. See the &lt;a href=&quot;https://github.com/ropensci/traits/releases/tag/v0.1.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;We renamed &lt;code&gt;solr&lt;/code&gt; to &lt;code&gt;solrium&lt;/code&gt; (check it out at &lt;a href=&quot;https://github.com/ropensci/solrium&quot;&gt;solrium&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;awesome-pull-requests&quot;&gt;Awesome pull requests&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;fulltext&lt;/code&gt; now includes a function to grab supplementary data from select outlets thanks to Will Pearse. &lt;a href=&quot;https://github.com/ropensci/fulltext/pull/62&quot;&gt;ropensci/fulltext pull 62&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;rnoaa&lt;/code&gt; now includes a function to get forecast climate data from Global Ensemble Forecast System thanks to Nicholas Potter. &lt;a href=&quot;https://github.com/ropensci/rnoaa/pull/106&quot;&gt;ropensci/rnoaa pull 106&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We had our 6th community call on 2015-08-19, with &lt;a href=&quot;http://gaborcsardi.org/&quot;&gt;Gábor Csárdi&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/metacran/ropensci-commcall-2015&quot;&gt;Tools for R package development&lt;/a&gt;. The video recording will be up soon &lt;a href=&quot;https://vimeo.com/ropensci/&quot;&gt;on Vimeo&lt;/a&gt;. Notes for the call on the &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-08-19&quot;&gt;etherpad&lt;/a&gt; include answers from Gábor to many questions from the audience.&lt;/li&gt;
+  &lt;li&gt;We will have our 7th community call coming up in October with &lt;a href=&quot;http://www.onthelambda.com/&quot;&gt;Tony Fischetti&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/tonyfischetti/assertr&quot;&gt;assertr&lt;/a&gt;. We’re still locking down the date and time.&lt;/li&gt;
+  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;A number of recent papers use/cite rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Patrick Brown has a draft paper in &lt;em&gt;The R Journal&lt;/em&gt; titled &lt;a href=&quot;http://pbrown.ca/mapmisc/mapmisc.pdf&quot;&gt;Simple and flexible maps of geospatial data with mapmisc&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/geonames&quot;&gt;geonames package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Bradie &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Biological Invasions&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1007/s10530-015-0970-8&quot;&gt;Beyond species-specific assessments: an analysis and validation of environmental distance metrics for non-indigenous species risk assessment&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Lapatas &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Journal of Biological Research&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1186/s40709-015-0032-5&quot;&gt;Data integration in biological research: an overview&lt;/a&gt; that cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Pennell &lt;em&gt;et al.&lt;/em&gt; have a pre-print in &lt;em&gt;BioRxiv&lt;/em&gt; titled &lt;a href=&quot;http://www.biorxiv.org/content/early/2015/08/20/024992.abstract&quot;&gt;A simple approach for maximizing the overlap of phylogenetic and comparative data&lt;/a&gt; that cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Davison &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Science&lt;/em&gt; titled &lt;a href=&quot;http://www.sciencemag.org/content/349/6251/970.short&quot;&gt;Global assessment of arbuscular mycorrhizal fungus diversity reveals very low endemism&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Dallas &amp;amp; Cornelius have a paper in &lt;em&gt;Scientific Reports&lt;/em&gt; titled &lt;a href=&quot;http://www.nature.com/srep/2015/150817/srep13185/full/srep13185.html&quot;&gt;Co-extinction in a host-parasite network: identifying key hosts for network stability&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;upcoming-events&quot;&gt;Upcoming events&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Karthik will speak about rOpenSci’s efforts in the research data space at &lt;strong&gt;Data and computing infrastructures for open scholarship&lt;/strong&gt; &lt;a href=&quot;https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html&quot;&gt;Research Data Alliance Plenary&lt;/a&gt; in Paris on September 22nd.&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 14 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-09-14/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-14/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-08-17</title>
@@ -49,7 +105,7 @@
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.4.1&lt;/code&gt;) &lt;code&gt;rotl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rotl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl/vignettes/how-to-use-rotl.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;. This package is maintained by Francois Michonneau, Joseph Brown, and David Winter, and is Interface to &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt; API - &lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.4.1&lt;/code&gt;) &lt;code&gt;rotl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rotl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl/vignettes/how-to-use-rotl.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;. This package is maintained by Francois Michonneau, Joseph Brown, and David Winter, and is Interface to &lt;a href=&quot;http://opentreeoflife.org/&quot;&gt;Open Tree of Life&lt;/a&gt; API -&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
@@ -71,7 +127,7 @@
   &lt;li&gt;Docker and general scientific computing setups &lt;a href=&quot;https://discuss.ropensci.org/t/docker-and-general-scientific-computing-set-ups/217&quot;&gt;https://discuss.ropensci.org/t/docker-and-general-scientific-computing-set-ups/217&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;In addition, we recently &lt;a href=&quot;https://discuss.ropensci.org/t/new-features-on-this-forum/222&quot;&gt;added two new features to our discussion forum&lt;/a&gt;: tags and polls. &lt;/p&gt;
+&lt;p&gt;In addition, we recently &lt;a href=&quot;https://discuss.ropensci.org/t/new-features-on-this-forum/222&quot;&gt;added two new features to our discussion forum&lt;/a&gt;: tags and polls.&lt;/p&gt;
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
 
@@ -98,27 +154,27 @@
 
 &lt;ul&gt;
   &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;spoccutils&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spoccutils/&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;spoccutils&lt;/code&gt; is a companion to the &lt;code&gt;spocc&lt;/code&gt; package. Where &lt;code&gt;spocc&lt;/code&gt; focuses on getting you species occurrence data, &lt;code&gt;spoccutils&lt;/code&gt; will focus on visualizing and cleaning data, among other things. This separation makes both sets of functionality to be maintained more easily. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/spoccutils/vignettes/spoccutils_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/spoccutils&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: 
+  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note:
     &lt;ul&gt;
-      &lt;li&gt;Mapping functions all gone, now in &lt;code&gt;spoccutils&lt;/code&gt;. &lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;occ()&lt;/code&gt; gains new parameter &lt;code&gt;has_coords&lt;/code&gt; (logical) to only retrieve occurrences with lat/long data, or only without that data. &lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;type&lt;/code&gt; and &lt;code&gt;rank&lt;/code&gt; parameters dropped from &lt;code&gt;occ()&lt;/code&gt;. &lt;/li&gt;
-      &lt;li&gt;New functions &lt;code&gt;as.*()&lt;/code&gt; (e.g., &lt;code&gt;as.gbif()&lt;/code&gt;) for all data sources, that take an occurrence key and fetch as detailed information as possible on that occurrence. &lt;/li&gt;
+      &lt;li&gt;Mapping functions all gone, now in &lt;code&gt;spoccutils&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;occ()&lt;/code&gt; gains new parameter &lt;code&gt;has_coords&lt;/code&gt; (logical) to only retrieve occurrences with lat/long data, or only without that data.&lt;/li&gt;
+      &lt;li&gt;&lt;code&gt;type&lt;/code&gt; and &lt;code&gt;rank&lt;/code&gt; parameters dropped from &lt;code&gt;occ()&lt;/code&gt;.&lt;/li&gt;
+      &lt;li&gt;New functions &lt;code&gt;as.*()&lt;/code&gt; (e.g., &lt;code&gt;as.gbif()&lt;/code&gt;) for all data sources, that take an occurrence key and fetch as detailed information as possible on that occurrence.&lt;/li&gt;
       &lt;li&gt;New data source: &lt;a href=&quot;http://vertnet.org/s&quot;&gt;VertNet&lt;/a&gt;.&lt;/li&gt;
       &lt;li&gt;&lt;code&gt;occ2df()&lt;/code&gt; now returns more fields.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.2&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnoaa/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.4.2&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnoaa/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new patch version (&lt;code&gt;0.4.2&lt;/code&gt;) of &lt;code&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rentrez/NEWS&quot;&gt;news&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: &lt;code&gt;searchbyterm()&lt;/code&gt; and &lt;code&gt;bigsearch()&lt;/code&gt; now allow some parameters to accept multiple values. In addition, internals of &lt;code&gt;searchbyterm()&lt;/code&gt;, &lt;code&gt;spatialsearch()&lt;/code&gt;, and &lt;code&gt;vertsearch()&lt;/code&gt; reworked to internally do paging for you for bigger result sets.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rerddap&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rerddap/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: Added a suite of functions to manage locally cached files. &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rerddap&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rerddap/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: Added a suite of functions to manage locally cached files.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.5.0&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.8&lt;/code&gt;) of &lt;code&gt;rbison&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbison/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbison/releases/tag/v0.4.8&quot;&gt;release notes&lt;/a&gt; for changes.  &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.4.8&lt;/code&gt;) of &lt;code&gt;rbison&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbison/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbison/releases/tag/v0.4.8&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.5.0&lt;/code&gt;) of &lt;code&gt;elastic&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/elastic/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;gistr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gistr/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gistr/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: new function &lt;code&gt;gist_save()&lt;/code&gt; to help save files locally; &lt;code&gt;gist()&lt;/code&gt; now accepts either a full or partial gist URL in addition to a gist ID.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.8.6&lt;/code&gt;) of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.6&quot;&gt;release notes&lt;/a&gt; for changes. Of note: New suite of functions for working with GBIF’s &lt;a href=&quot;http://www.gbif.org/developer/occurrence#download&quot;&gt;download API&lt;/a&gt;, all prefixed with &lt;code&gt;download_&lt;/code&gt; - see &lt;code&gt;?downloads&lt;/code&gt; for help.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.2&lt;/code&gt;) of &lt;code&gt;rebird&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rebird/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rebird/releases&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rbhl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbhl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbhl/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: gained many new functions. &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rbhl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbhl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbhl/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: gained many new functions.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.3.4&lt;/code&gt;) of &lt;code&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes. Of note: added new function &lt;code&gt;crosscite()&lt;/code&gt; to work with the &lt;a href=&quot;http://crosscite.org/citeproc/&quot;&gt;Crossref Citeproc service&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;1.3.2&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/neotoma/NEWS&quot;&gt;news&lt;/a&gt; for changes.&lt;/li&gt;
 &lt;/ul&gt;
@@ -126,19 +182,19 @@
 &lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We had our 5th community call on 2015-07-08, in which &lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David Robinson&lt;/a&gt; gave a great talk on &lt;a href=&quot;https://github.com/dgrtwo/broom&quot;&gt;broom&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/5#issuecomment-122951281&quot;&gt;More info&lt;/a&gt;. The video recording will be up soon. &lt;/li&gt;
+  &lt;li&gt;We had our 5th community call on 2015-07-08, in which &lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David Robinson&lt;/a&gt; gave a great talk on &lt;a href=&quot;https://github.com/dgrtwo/broom&quot;&gt;broom&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/5#issuecomment-122951281&quot;&gt;More info&lt;/a&gt;. The video recording will be up soon.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
 
-&lt;p&gt;The following is a small sampling of usage examples of our R packages. &lt;/p&gt;
+&lt;p&gt;The following is a small sampling of usage examples of our R packages.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Tim Poisot &lt;em&gt;et al.&lt;/em&gt; have a paper in bioRxiv titled &lt;a href=&quot;http://www.biorxiv.org/content/early/2015/06/23/021402&quot;&gt;Synthetic datasets and community tools for the rapid testing of ecological hypotheses&lt;/a&gt; that cites our &lt;a href=&quot;http://f1000research.com/articles/2-191/v2&quot;&gt;taxize paper&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Gwiazdowski &lt;em&gt;et al.&lt;/em&gt; use &lt;code&gt;taxize&lt;/code&gt; in their paper &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125635&quot;&gt;The Hemiptera (Insecta) of Canada: Constructing a Reference Library of DNA Barcodes&lt;/a&gt;. In addition, their workflow can be replicated in R with code and data files provided in supporting files. Nice!&lt;/li&gt;
   &lt;li&gt;Pérez-Luque &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;taxize&lt;/code&gt; to check plant taxonomic names in their paper &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4391960/&quot;&gt;Dataset of Phenology of Mediterranean high-mountain meadows flora (Sierra Nevada, Spain)&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Thormann &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;rgbif&lt;/code&gt; to collect species occurrence data in their white paper &lt;a href=&quot;https://www.duo.uio.no/handle/10852/41681&quot;&gt;Predictive characterization of crop wild relatives and landraces&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bdj.pensoft.net/articles.php?id=4162&quot;&gt;Collins &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt; used both our &lt;code&gt;rfishbase&lt;/code&gt; and &lt;code&gt;rgbif&lt;/code&gt; packages to get species occurrence data on catfishes in their study area Rio Nhamundá. &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://bdj.pensoft.net/articles.php?id=4162&quot;&gt;Collins &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt; used both our &lt;code&gt;rfishbase&lt;/code&gt; and &lt;code&gt;rgbif&lt;/code&gt; packages to get species occurrence data on catfishes in their study area Rio Nhamundá.&lt;/li&gt;
   &lt;li&gt;Turner &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;rgbif&lt;/code&gt; to collect &lt;em&gt;Centaurea diffusa&lt;/em&gt; species occurrence data for her paper &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/ece3.1599/full&quot;&gt;Adaptive plasticity and niche expansion in an invasive thistle&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -160,7 +216,7 @@
   &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;traits&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;traits&lt;/code&gt; is an R client to obtain species trait data from many different sources, including &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/nucleotide&quot;&gt;sequence data from NCBI&lt;/a&gt;, plant trait data from &lt;a href=&quot;https://www.betydb.org/&quot;&gt;BETYdb&lt;/a&gt;, invasive species data from the &lt;a href=&quot;http://www.issg.org/database/welcome/&quot;&gt;Global Invasive Species Database&lt;/a&gt; and EOL, &lt;a href=&quot;http://eol.org/info/516&quot;&gt;Traitbank data from EOL&lt;/a&gt;, &lt;a href=&quot;http://coraltraits.org&quot;&gt;Coral traits data&lt;/a&gt;, nativity status from &lt;a href=&quot;http://rbg-web2.rbge.org.uk/FE/fe.html&quot;&gt;Flora Europaea&lt;/a&gt; or &lt;a href=&quot;http://www.itis.gov/&quot;&gt;ITIS&lt;/a&gt;, and bird data from &lt;a href=&quot;http://www.birdlife.org/&quot;&gt;Birdlife International&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/vignettes/traits_intro.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/traits&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.6.0&lt;/code&gt;) of &lt;code&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.3.7&lt;/code&gt;) of &lt;code&gt;rfigshare&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfigshare/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.0&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: NOAA GHCN Daily data is now available in &lt;code&gt;rnoaa&lt;/code&gt;, and NOAA buoy data is available in &lt;code&gt;rnoaa&lt;/code&gt; (was previously on a development git branch, but is now available in the CRAN version). &lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.4.0&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: NOAA GHCN Daily data is now available in &lt;code&gt;rnoaa&lt;/code&gt;, and NOAA buoy data is available in &lt;code&gt;rnoaa&lt;/code&gt; (was previously on a development git branch, but is now available in the CRAN version).&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.1.4&lt;/code&gt;) of &lt;code&gt;rAvis&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rAvis/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -246,7 +302,7 @@
 &lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;rgbif&lt;/code&gt; package, an R client for the &lt;a href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facilty (GBIF)&lt;/a&gt;. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/rgbif/&quot;&gt;http://ropensci.github.io/screencasts/rgbif/&lt;/a&gt;. Let us know if you have any feedback on screencasts. &lt;/li&gt;
+  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;rgbif&lt;/code&gt; package, an R client for the &lt;a href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facilty (GBIF)&lt;/a&gt;. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/rgbif/&quot;&gt;http://ropensci.github.io/screencasts/rgbif/&lt;/a&gt;. Let us know if you have any feedback on screencasts.&lt;/li&gt;
   &lt;li&gt;We created two Vimeo channels, one for &lt;a href=&quot;https://vimeo.com/channels/rocommunitycalls&quot;&gt;community calls&lt;/a&gt;, and one for &lt;a href=&quot;https://vimeo.com/channels/roscreencasts&quot;&gt;screencasts&lt;/a&gt;. Now you can subscribe to/follow one or both to get the latest.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -263,7 +319,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;A new package (version &lt;code&gt;0.2.6&lt;/code&gt;) is on CRAN: &lt;code&gt;rglobi&lt;/code&gt; (&lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi&quot;&gt;http://cran.rstudio.com/web/packages/rglobi&lt;/a&gt;). See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi/vignettes/rglobi_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.2&lt;/code&gt;) &lt;code&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive/vignettes/internet-archive.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.2&lt;/code&gt;) &lt;code&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive/vignettes/internet-archive.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;1.9.1&lt;/code&gt;) of &lt;code&gt;ecoengine&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoengine&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/ecoengine/releases/tag/CRAN-verision-1.9&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -286,7 +342,7 @@
 &lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;elastic&lt;/code&gt; package, an R client for Elasticsearch. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/elastic/&quot;&gt;http://ropensci.github.io/screencasts/elastic/&lt;/a&gt;. Let us know if you have any feedback on screencasts. &lt;/li&gt;
+  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;elastic&lt;/code&gt; package, an R client for Elasticsearch. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/elastic/&quot;&gt;http://ropensci.github.io/screencasts/elastic/&lt;/a&gt;. Let us know if you have any feedback on screencasts.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 13 Apr 2015 00:00:00 -0700</pubDate>
@@ -302,15 +358,15 @@
 
 &lt;ul&gt;
   &lt;li&gt;A new version of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.0&quot;&gt;release notes&lt;/a&gt; for the changes.&lt;/li&gt;
-  &lt;li&gt;A new version of &lt;code&gt;rsnps&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rsnps&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rsnps/releases/tag/v0.1.6&quot;&gt;release notes&lt;/a&gt; for the changes. &lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;rsnps&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rsnps&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rsnps/releases/tag/v0.1.6&quot;&gt;release notes&lt;/a&gt; for the changes.&lt;/li&gt;
   &lt;li&gt;A new version of &lt;code&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for the changes. Note that &lt;code&gt;pmid2doi()&lt;/code&gt; and &lt;code&gt;doi2pmid()&lt;/code&gt; are defunct (that is, gone), as the APIs behind them have been at least temporarily taken offline. In addition, there are a number of new functions: &lt;code&gt;cr_ft_links()&lt;/code&gt; gets links for full text content of an article, while &lt;code&gt;cr_ft_text()&lt;/code&gt; retrieves full text content of an article.&lt;/li&gt;
-  &lt;li&gt;A new version of &lt;code&gt;alm&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/alm&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/alm/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for the changes. API keys are no longer needed with most data sources that use Lagotto. A new function &lt;code&gt;alm_requests()&lt;/code&gt; to get metadata on incoming API requests (only for authorized users). Many parameter names have changed - and some removed. &lt;/li&gt;
+  &lt;li&gt;A new version of &lt;code&gt;alm&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/alm&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/alm/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for the changes. API keys are no longer needed with most data sources that use Lagotto. A new function &lt;code&gt;alm_requests()&lt;/code&gt; to get metadata on incoming API requests (only for authorized users). Many parameter names have changed - and some removed.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We had our second community call on 2015-03-05, in which &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; gave a demo of &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. The video recording is at &lt;a href=&quot;https://vimeo.com/121720465&quot;&gt;https://vimeo.com/121720465&lt;/a&gt; and the notes are at &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-0305&quot;&gt;https://ropensci.etherpad.mozilla.org/comm-call-0305&lt;/a&gt;. The &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/3&quot;&gt;next community call&lt;/a&gt; is tentatively planned for 15 April. If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the repo&lt;/a&gt;. &lt;/li&gt;
+  &lt;li&gt;We had our second community call on 2015-03-05, in which &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; gave a demo of &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. The video recording is at &lt;a href=&quot;https://vimeo.com/121720465&quot;&gt;https://vimeo.com/121720465&lt;/a&gt; and the notes are at &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-0305&quot;&gt;https://ropensci.etherpad.mozilla.org/comm-call-0305&lt;/a&gt;. The &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/3&quot;&gt;next community call&lt;/a&gt; is tentatively planned for 15 April. If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the repo&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;We recently rolled out a new way for the community to bring up ideas for possible packages to join the rOpenSci family. The repo is called &lt;a href=&quot;https://github.com/ropensci/wishlist&quot;&gt;wishlist&lt;/a&gt;. The focus is on packages that broadly have a scientific application. See &lt;a href=&quot;https://github.com/ropensci/wishlist/wiki&quot;&gt;the wiki&lt;/a&gt; for proposed packages.&lt;/li&gt;
   &lt;li&gt;If you use our discussion forum at &lt;a href=&quot;http://discuss.ropensci.org/&quot;&gt;discuss.ropensci.org&lt;/a&gt;, you can get RSS feeds for many things on the site. Details in &lt;a href=&quot;http://discuss.ropensci.org/t/rss-feeds-for-this-site/158&quot;&gt;this post&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -342,13 +398,13 @@
 &lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We are in the process of defining policy for new packages, which we’ll roll out soon. We are also working on a set of guidelines for packages contributed to rOpenSci, which are not strictly enforced, but strongly recommended. We call it the &lt;a href=&quot;https://github.com/ropensci/packaging_guide&quot;&gt;rOpenSci Packaging Guide&lt;/a&gt;. Let us know if you have any feedback on this guide. Soon, we’ll be directing current and potential package contributors to these guidelines. &lt;/li&gt;
+  &lt;li&gt;We are in the process of defining policy for new packages, which we’ll roll out soon. We are also working on a set of guidelines for packages contributed to rOpenSci, which are not strictly enforced, but strongly recommended. We call it the &lt;a href=&quot;https://github.com/ropensci/packaging_guide&quot;&gt;rOpenSci Packaging Guide&lt;/a&gt;. Let us know if you have any feedback on this guide. Soon, we’ll be directing current and potential package contributors to these guidelines.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Join us for our second community call. &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; will demo &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. If you have any feedback on community calls, do let us know in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/&quot;&gt;ropensci/commcalls&lt;/a&gt; repository. &lt;/li&gt;
+  &lt;li&gt;Join us for our second community call. &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; will demo &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. If you have any feedback on community calls, do let us know in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/&quot;&gt;ropensci/commcalls&lt;/a&gt; repository.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
@@ -366,49 +422,6 @@
         <pubDate>Mon, 02 Mar 2015 00:00:00 -0800</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-03-02/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-03-02/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-02-16</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We have started to dive into neuroscience. We recently chatted with three neuroinformaticians about open data and R in their field. They directed us towards lots of interesting sources of open data. Our first shot at this field is the &lt;a href=&quot;https://github.com/ropensci/rif&quot;&gt;rif package&lt;/a&gt; - an R client to search and get data from the &lt;a href=&quot;http://neuinfo.org/&quot;&gt;Neuroscience Information Framework&lt;/a&gt; web services. We’d love to work with people in neuroscience/neuroinformatics on R clients. &lt;/li&gt;
-  &lt;li&gt;Our R client for &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Orcid.org&lt;/a&gt; got a reboot and some new functionality. Give it a try and let us know what you think. &lt;a href=&quot;https://github.com/ropensci/rorcid#installation&quot;&gt;Get started&lt;/a&gt;. In addition, &lt;a href=&quot;https://downwithtime.wordpress.com/about/&quot;&gt;Simon Goring&lt;/a&gt; wrote &lt;a href=&quot;https://downwithtime.wordpress.com/2015/02/12/building-your-network-using-orcid-and-ropensci/&quot;&gt;a blog post&lt;/a&gt; recently about creating a co-author network using &lt;code&gt;rorcid&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;We started work on an R client for the key-value store &lt;a href=&quot;https://github.com/coreos/etcd&quot;&gt;etcd&lt;/a&gt; by &lt;a href=&quot;https://coreos.com/&quot;&gt;Coreos&lt;/a&gt;, written in &lt;a href=&quot;https://golang.org/&quot;&gt;Go&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/etseed&quot;&gt;Try it&lt;/a&gt; - let us know what you think.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;rentrez&lt;/a&gt;, our client for the &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/books/NBK25501/&quot;&gt;NCBI’s entrez API&lt;/a&gt; got a new release on CRAN. New features include richer records from &lt;code&gt;entrez_summary&lt;/code&gt; and a set functions to help users &lt;a href=&quot;https://github.com/ropensci/rentrez#getting-information-about-ncbi-databases&quot;&gt;learn about what data is available from NCBI and how to get it&lt;/a&gt;. We’ve started &lt;a href=&quot;https://github.com/ropensci/rentrez/milestones/1.0&quot;&gt;planning for a 1.0 release of rentrez&lt;/a&gt;, so add any requests you have for the package.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://jwhollister.com/&quot;&gt;Jeff Hollister&lt;/a&gt; is the new maintainer of the &lt;a href=&quot;https://github.com/ropensci/maptools&quot;&gt;maptools task view&lt;/a&gt;. The &lt;code&gt;maptools&lt;/code&gt; task view focuses on tools for mapping and visualizing spatial data in R. Thanks Jeff!&lt;/li&gt;
-  &lt;li&gt;Attendees of our upcoming unconference/hackathon in March have started to generate ideas for the event. Check them out at &lt;a href=&quot;https://github.com/ropensci/unconf/issues&quot;&gt;https://github.com/ropensci/unconf/issues&lt;/a&gt;, and check out the &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;event site&lt;/a&gt;. If you want to join remotely, &lt;a href=&quot;https://github.com/ropensci/unconf#ropensci-2015-unconference&quot;&gt;instructions are in the README&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We were listed in the &lt;a href=&quot;http://guides.library.upenn.edu/R&quot;&gt;UPenn guide for R&lt;/a&gt;. w00t!&lt;/li&gt;
-  &lt;li&gt;Our R client for Solr, &lt;code&gt;solr&lt;/code&gt;, has been added to the &lt;a href=&quot;http://wiki.apache.org/solr/IntegratingSolr#R&quot;&gt;list of Solr clients on the Apache Solr website&lt;/a&gt;. Sweet :)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Past events&lt;/strong&gt;&lt;br /&gt;
-* &lt;a href=&quot;http://karthik.io/&quot;&gt;Karthik Ram&lt;/a&gt; participated in a workshop at Imperial College’s school of Medicine on tools for &lt;a href=&quot;https://sites.google.com/site/hackout2/participants&quot;&gt;graphical resources for modeling infectious diseases in R&lt;/a&gt;. Details on &lt;a href=&quot;http://ropensci.org/community/events.html&quot;&gt;our events page&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In case you aren’t aware, we have a shiny new discussion forum based on &lt;a href=&quot;http://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt; - it’s at &lt;a href=&quot;http://discuss.ropensci.org/&quot;&gt;http://discuss.ropensci.org/&lt;/a&gt;. Join us there for questions, discussion of use cases, feature requests, and more. &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 16 Feb 2015 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-02-16/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-02-16/</guid>
         
         
       </item>
