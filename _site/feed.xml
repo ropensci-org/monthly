@@ -5,9 +5,53 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2015 12:07:20 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 12:07:20 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2015 10:23:16 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 10:23:16 -0700</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Update 2015-09-28</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Version &lt;code&gt;1.0&lt;/code&gt; of &lt;code&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez/&quot;&gt;on CRAN&lt;/a&gt;!  This represents a lot of work (in commits this is: &lt;a href=&quot;https://github.com/ropensci/rentrez/tree/v1.0.0&quot;&gt;357&lt;/a&gt;). Read the blog post about this release on the &lt;a href=&quot;https://ropensci.org/blog/2015/09/24/rentrez-1_0-release/&quot;&gt;rOpenSci blog&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;bold&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/bold/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/bold/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.5.4&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. Minor change in the version of &lt;code&gt;solr&lt;/code&gt; package required. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.3.4&lt;/code&gt;) of &lt;code&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/&quot;&gt;on CRAN&lt;/a&gt;. New function &lt;code&gt;vert_id()&lt;/code&gt; to get occurrence records by single occurrence IDs. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;1.4.0&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS#L1-L4&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.0.3.1&lt;/code&gt;) of &lt;code&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/blob/master/NEWS#L1-L18&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We will have our 7th community call coming up on October 7th 9 am PST with &lt;a href=&quot;http://www.onthelambda.com/&quot;&gt;Tony Fischetti&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/tonyfischetti/assertr&quot;&gt;assertr&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/7&quot;&gt;ropensci/commcalls#7&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;A number of recent papers use/cite rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.carlboettiger.info/&quot;&gt;Carl Boettiger’s&lt;/a&gt; paper on docker titled &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=2723882&quot;&gt;An introduction to Docker for reproducible research&lt;/a&gt; is out in &lt;em&gt;ACM SIGOPS Operating Systems Review&lt;/em&gt;.&lt;/li&gt;
+  &lt;li&gt;rOpenSci got mentions in a number of publiations and reports recently:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://twitter.com/aleksandrana&quot;&gt;Aleksandra Pawlik’s&lt;/a&gt; &lt;a href=&quot;http://scitation.aip.org/content/aip/journal/cise/17/1/10.1109/MCSE.2014.93&quot;&gt;Crowdsourcing Scientific Software Documentation: A Case Study of the NumPy Documentation Project&lt;/a&gt; paper&lt;/li&gt;
+      &lt;li&gt;The &lt;a href=&quot;http://bioconductor.fhcrc.org/about/annual-reports/AnnRep2015.pdf&quot;&gt;Bioconductor 2015 annual report&lt;/a&gt;.&lt;/li&gt;
+      &lt;li&gt;The paper &lt;a href=&quot;http://www.esajournals.org/doi/10.1890/ES14-00198.1&quot;&gt;Connecting people and ideas from around the world: global innovation platforms for next-generation ecology and beyond&lt;/a&gt; by Jørgensen et al. in Ecosphere (bonus points for being in an open access journal).&lt;/li&gt;
+      &lt;li&gt;A paper titled &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4517741/&quot;&gt;Drivers of Emerging Infectious Disease Events as a Framework for Digital Detection&lt;/a&gt; in the journal &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;A paper &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/07317131.2015.1059681&quot;&gt;Reproducibility and Its Application to Technical Service Processes&lt;/a&gt; in the journal &lt;em&gt;Technical Services Quarterly&lt;/em&gt;.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 28 Sep 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-09-28/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-28/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-09-14</title>
@@ -381,47 +425,6 @@
         <pubDate>Mon, 16 Mar 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-03-16/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-03-16/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-03-02</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Our R binding to the libgit2 library, &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;git2r&lt;/a&gt;, is now on CRAN. Find it at &lt;a href=&quot;http://cran.r-project.org/web/packages/git2r/index.html&quot;&gt;http://cran.r-project.org/web/packages/git2r/index.html&lt;/a&gt;. &lt;code&gt;git2r&lt;/code&gt; is maintained by &lt;a href=&quot;https://github.com/stewid&quot;&gt;Stefan Widgren&lt;/a&gt;. This is a powerful way to work with &lt;code&gt;git&lt;/code&gt;, allowing you to never have to leave the comfort of the R command line.&lt;/li&gt;
-  &lt;li&gt;We’ve started a new package, &lt;a href=&quot;https://github.com/ropensci/elasticdsl&quot;&gt;elasticdsl&lt;/a&gt;, as a higher level client wrapping our Elasticsearch client, &lt;a href=&quot;https://github.com/ropensci/elastic&quot;&gt;elastic&lt;/a&gt;, focused mostly around search (as opposed to cluster management, etc.). With &lt;code&gt;elasticdsl&lt;/code&gt; you can easily pipe together query statements without having to deal with messy json strings.&lt;/li&gt;
-  &lt;li&gt;Along the lines of higher level abstractions, we’ve started playing with a new package, &lt;a href=&quot;https://github.com/ropensci/binomen&quot;&gt;binomen&lt;/a&gt;, that provides tools for manipulating data that includes taxonomic names. It’s the same R objects you’re used to (data.frame’s, lists, etc.), but taxonomically aware (and pipe &lt;code&gt;%&amp;gt;%&lt;/code&gt; friendly).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We are in the process of defining policy for new packages, which we’ll roll out soon. We are also working on a set of guidelines for packages contributed to rOpenSci, which are not strictly enforced, but strongly recommended. We call it the &lt;a href=&quot;https://github.com/ropensci/packaging_guide&quot;&gt;rOpenSci Packaging Guide&lt;/a&gt;. Let us know if you have any feedback on this guide. Soon, we’ll be directing current and potential package contributors to these guidelines.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Join us for our second community call. &lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt; will demo &lt;a href=&quot;http://www.htmlwidgets.org/&quot;&gt;htmlwidgets&lt;/a&gt;, an R package that makes it easy to create bindings to javascript visualization libraries. Find more details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/2&quot;&gt;ropensci/commcalls#2&lt;/a&gt;. If you have any feedback on community calls, do let us know in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/&quot;&gt;ropensci/commcalls&lt;/a&gt; repository.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases-questions--answers&quot;&gt;Use cases, questions &amp;amp; answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;There are a lot of GitHub repos using rOpenSci pacakges. We generated a short list of repos using some rOpenSci packages, and posted to our &lt;a href=&quot;http://discuss.ropensci.org/t/use-of-some-ropensci-packages-on-github/137&quot;&gt;discussion forum&lt;/a&gt;. If you’re curious how our packages are used and in what contexts (teaching, research, etc.), that list is a good place to start.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;api-news&quot;&gt;API news&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The folks at &lt;a href=&quot;http://opencontext.org/&quot;&gt;OpenContext.org&lt;/a&gt; - a repository of archaeological data - are working on a new API. We will start work on a new R client for this data &lt;a href=&quot;https://github.com/ropensci/unconf/issues/16&quot;&gt;at the upcoming rOpenSci unconf&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Mar 2015 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-03-02/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-03-02/</guid>
         
         
       </item>
