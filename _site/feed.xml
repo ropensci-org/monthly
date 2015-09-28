@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Sep 2015 10:23:16 -0700</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2015 10:23:16 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Sep 2015 15:44:10 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2015 15:44:10 -0700</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
@@ -19,7 +19,7 @@
   &lt;li&gt;A new version (&lt;code&gt;0.5.4&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. Minor change in the version of &lt;code&gt;solr&lt;/code&gt; package required. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;0.3.4&lt;/code&gt;) of &lt;code&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/&quot;&gt;on CRAN&lt;/a&gt;. New function &lt;code&gt;vert_id()&lt;/code&gt; to get occurrence records by single occurrence IDs. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code&gt;1.4.0&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS#L1-L4&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.0.3.1&lt;/code&gt;) of &lt;code&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/blob/master/NEWS#L1-L18&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.0.3.1&lt;/code&gt;) of &lt;code&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/blob/master/NEWS#L1-L18&quot;&gt;NEWS&lt;/a&gt; for changes. And check out Eduard’s blog post about the new version on &lt;a href=&quot;http://edild.github.io/webchemv003/&quot;&gt;his blog&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
