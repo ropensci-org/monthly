@@ -5,12 +5,12 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Oct 2015 10:56:50 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Oct 2015 10:56:50 -0700</lastBuildDate>
+    <pubDate>Tue, 13 Oct 2015 09:05:13 -0700</pubDate>
+    <lastBuildDate>Tue, 13 Oct 2015 09:05:13 -0700</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
     
       <item>
-        <title>Update 2015-10-12</title>
+        <title>Update 2015-10-13</title>
         <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -55,9 +55,9 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 12 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-10-12/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-12/</guid>
+        <pubDate>Tue, 13 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-10-13/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-13/</guid>
         
         
       </item>
