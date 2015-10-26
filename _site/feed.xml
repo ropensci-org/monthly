@@ -5,9 +5,71 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Oct 2015 09:05:13 -0700</pubDate>
-    <lastBuildDate>Tue, 13 Oct 2015 09:05:13 -0700</lastBuildDate>
+    <pubDate>Mon, 26 Oct 2015 12:06:53 -0700</pubDate>
+    <lastBuildDate>Mon, 26 Oct 2015 12:06:53 -0700</lastBuildDate>
     <generator>Jekyll v2.5.1</generator>
+    
+      <item>
+        <title>Update 2015-10-26</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.0.4&lt;/code&gt;) of &lt;code&gt;RNeXML&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/RNeXML/blob/master/NEWS#L30-L33&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;ckanr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ckanr/&quot;&gt;on CRAN&lt;/a&gt;. This package is an R client for the &lt;a href=&quot;http://ckan.org/&quot;&gt;CKAN&lt;/a&gt; &lt;a href=&quot;http://docs.ckan.org/en/latest/api/&quot;&gt;API&lt;/a&gt;. CKAN is an open source data portal platform. See &lt;a href=&quot;https://github.com/ropensci/ckanr#ckanr&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/ckanr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;wellknown&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/wellknown/&quot;&gt;on CRAN&lt;/a&gt;. This package converts WKT to GeoJSON and vice versa, including making WKT from R objects like lists and data.frame’s. It doesn’t depend on GDAL/GEOS, so installation should be easy everywhere. See &lt;a href=&quot;https://ropensci.org/tutorials/wellknown_tutorial.html&quot;&gt;our tutorial&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/wellknown&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We will have our 8th community call on December 2nd at 9 am PST with &lt;a href=&quot;http://karissa.github.io/&quot;&gt;Karissa McKelvey&lt;/a&gt; talking about &lt;a href=&quot;http://dat-data.com/&quot;&gt;dat&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/8&quot;&gt;ropensci/commcalls#8&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We added &lt;a href=&quot;https://github.com/lmullen&quot;&gt;Lincoln Mullen&lt;/a&gt; to our &lt;a href=&quot;https://github.com/ropensci/onboarding#review-board&quot;&gt;review board&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Our &lt;a href=&quot;https://ropensci.org/packages/&quot;&gt;packages page&lt;/a&gt; got an update, with some new packages and some now on CRAN.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Some uses of our software found perusing GitHub:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;gistr&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/gmbecker/switchrGist&quot;&gt;switchrGist&lt;/a&gt; - A plugin for the &lt;code&gt;switchr&lt;/code&gt; R package allowing users to publish manifests as gists&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;geojsonio&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/timelyportfolio/mapshaper_htmlwidget&quot;&gt;mapshaper_htmlwidget&lt;/a&gt; - An import in an htmlwidget for &lt;a href=&quot;https://github.com/mbloch/mapshaper&quot;&gt;mapshaper&lt;/a&gt;, the JS library for editing Shapefile, GeoJSON and TopoJSON files&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;ckanr&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/dspim/DSPCkan&quot;&gt;DSPCkan&lt;/a&gt; - an R client for the http://www.dsp.im/ CKAN based data portal&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;rcrossref&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/OpenAPC/openapc-de&quot;&gt;openapc-de&lt;/a&gt; Collect and disseminate information on fee-based Open Access publishing&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;rcrossref&lt;/code&gt; and &lt;code&gt;aRxiv&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://github.com/Bubblbu/crawling-framework&quot;&gt;crawling-framework&lt;/a&gt; A framework incorporating ropensci modules and several API’s to crawl bibliographic data&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 26 Oct 2015 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-10-26/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-26/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-10-13</title>
@@ -406,45 +468,6 @@
         <pubDate>Mon, 11 May 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-05-11/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-05-11/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-04-13</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.2.6&lt;/code&gt;) is on CRAN: &lt;code&gt;rglobi&lt;/code&gt; (&lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi&quot;&gt;http://cran.rstudio.com/web/packages/rglobi&lt;/a&gt;). See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi/vignettes/rglobi_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.2&lt;/code&gt;) &lt;code&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive/vignettes/internet-archive.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;1.9.1&lt;/code&gt;) of &lt;code&gt;ecoengine&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoengine&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/ecoengine/releases/tag/CRAN-verision-1.9&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We have our third community call coming up this Wednesday (2015-04-15), in which &lt;a href=&quot;http://had.co.nz/&quot;&gt;Hadley Wickham&lt;/a&gt; will talk about data ingestion. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/3&quot;&gt;More info&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;We added a new person to &lt;a href=&quot;https://ropensci.org/community/#community&quot;&gt;our community page&lt;/a&gt;, &lt;a href=&quot;http://kylehamilton.com/&quot;&gt;Kyle Hamilton&lt;/a&gt;, for his contributions &lt;a href=&quot;https://github.com/ropensci/RStars&quot;&gt;RStars&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ropensci/RCryptsy/&quot;&gt;RCryptsy&lt;/a&gt;. Kyle, who lives in California, had a great idea to help create easy ways to programatically acquire water resource information given the drought in California. Checkout &lt;a href=&quot;https://discuss.ropensci.org/t/water-resource-api-list-and-development/172&quot;&gt;the discussion&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/benmarwick/&quot;&gt;Ben Marwick&lt;/a&gt; had a great idea to make an R client for interacting with the &lt;a href=&quot;https://opendatakit.org/&quot;&gt;Open Dat Kit (ODK)&lt;/a&gt; and the &lt;a href=&quot;https://opendatakit.org/use/collect/&quot;&gt;ODK Collect application&lt;/a&gt;. Checkout &lt;a href=&quot;https://discuss.ropensci.org/t/field-data-collection-workflow/164&quot;&gt;the discussion&lt;/a&gt; and the &lt;a href=&quot;https://github.com/ropensci/wishlist/wiki/Open-Data-Kit-Collect-form-generator-package&quot;&gt;wishlist page&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We held our 2nd annual &lt;a href=&quot;http://unconf.ropensci.org/&quot;&gt;rOpenSci unconference&lt;/a&gt; 26-27 March in San Francisco. It was a smashing success. We discussed projects in the &lt;a href=&quot;https://github.com/ropensci/unconf&quot;&gt;ropensci/unconf repo&lt;/a&gt; if you want to see what was done - projects included discussions as well as making software. We’ll soon have a blog post discussing the event, so look out for that.&lt;/li&gt;
-  &lt;li&gt;We now use &lt;code&gt;https&lt;/code&gt; instead of &lt;code&gt;http&lt;/code&gt; for our website (&lt;a href=&quot;http://ropensci.org/&quot;&gt;http://ropensci.org/&lt;/a&gt;), and our discussion forum (&lt;a href=&quot;https://discuss.ropensci.org/&quot;&gt;https://discuss.ropensci.org/&lt;/a&gt;). Let us know if you run into any problems due to &lt;code&gt;https&lt;/code&gt; on either of those sites.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;elastic&lt;/code&gt; package, an R client for Elasticsearch. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/elastic/&quot;&gt;http://ropensci.github.io/screencasts/elastic/&lt;/a&gt;. Let us know if you have any feedback on screencasts.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 13 Apr 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-04-13/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-04-13/</guid>
         
         
       </item>
