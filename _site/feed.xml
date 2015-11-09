@@ -5,9 +5,65 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 26 Oct 2015 12:06:53 -0700</pubDate>
-    <lastBuildDate>Mon, 26 Oct 2015 12:06:53 -0700</lastBuildDate>
-    <generator>Jekyll v2.5.1</generator>
+    <pubDate>Mon, 09 Nov 2015 09:40:41 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2015 09:40:41 -0800</lastBuildDate>
+    <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Update 2015-11-09</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;p&gt;We have two new packages on CRAN, both of which went through our review process (see links below).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;textreuse&lt;/code&gt; from &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/&quot;&gt;on CRAN&lt;/a&gt;. This package is an R client for measuring similarity among documents and detecting passages which have been reused. There’s a variety of vignettes, from an &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-introduction.html&quot;&gt;introduction to the package&lt;/a&gt; to &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-minhash.html&quot;&gt;Minhash and locality-sensitive hashing&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/textreuse&quot;&gt;Repository on GitHub&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/20&quot;&gt;Link to review&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Another new package (first version &lt;code&gt;0.0.2&lt;/code&gt;) &lt;code&gt;stplanr&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/stplanr/&quot;&gt;on CRAN&lt;/a&gt;. Data access and processing tools for transport planning, including origin-destination analysis, route allocation and modelling travel patterns. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/stplanr/vignettes/introducing-stplanr.html&quot;&gt;the vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/stplanr&quot;&gt;Repository on GitHub&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/10&quot;&gt;Link to review&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;xxx&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have more cheat sheets in the works, for &lt;code&gt;spocc&lt;/code&gt;, &lt;code&gt;rgbif&lt;/code&gt;, and &lt;code&gt;elastic&lt;/code&gt;. We’ll have drafts of these soon, so let us know if you have any feedback on them at &lt;a href=&quot;https://github.com/ropensci/cheatsheets&quot;&gt;ropensci/cheatsheets&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-in-the-news&quot;&gt;rOpenSci in the news&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/gender&quot;&gt;gender&lt;/a&gt; (by our community member &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt;) was discussed in a blog post by the website Voxxed: https://www.voxxed.com/blog/2015/11/how-packages-make-r-complete/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; is a dependency in a newish R package &lt;a href=&quot;https://cran.rstudio.com/web/packages/MonoPhy/index.html&quot;&gt;MonoPhy&lt;/a&gt; for exploring monophyly in a taxonomic group, and data for the &lt;a href=&quot;https://cran.rstudio.com/web/packages/MonoPhy/vignettes/MonoPhyVignette.html&quot;&gt;monophy tutorial&lt;/a&gt; are based on a &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25530223&quot;&gt;(pay-walled) paper&lt;/a&gt; from the author.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A recent paper cites rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Brian O’Meara et al. have a paper titled &lt;a href=&quot;http://adb.sagepub.com/content/early/2015/10/23/1059712315611733.abstract&quot;&gt;Evolutionary models for the retention of adult–adult social play in primates: The roles of diet and other factors associated with resource acquisition&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;O’Meara, Brian C., et al. “Evolutionary models for the retention of adult–adult social play in primates: The roles of diet and other factors associated with resource acquisition.” Adaptive Behavior (2015): 1059712315611733. &lt;a href=&quot;http://dx.doi.org/10.1177/1059712315611733&quot;&gt;doi:10.1177/1059712315611733&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 09 Nov 2015 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-11-09/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-11-09/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-10-26</title>
@@ -425,49 +481,6 @@
         <pubDate>Mon, 08 Jun 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-06-08/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-06-08/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-05-11</title>
-        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We welcome package submissions to the rOpenSci suite through a new process. We have always accepted packages, but we now have a more streamlined setup. Go to our &lt;a href=&quot;https://github.com/ropensci/onboarding/&quot;&gt;onboarding repository&lt;/a&gt;, and follow instructions in the README on how to submit. The process is all GitHub based: submit your package as a new issue in &lt;code&gt;onboarding&lt;/code&gt;, we assign a reviewer or two, and hold a discussion of the submission in the issue itself. We have more clear &lt;a href=&quot;https://github.com/ropensci/packaging_guide&quot;&gt;guidelines to follow for creating packages&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;geojsonio&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/geojsonio/&quot;&gt;on CRAN&lt;/a&gt;. This package helps you convert data.frame’s, lists, numeric vectors, and many spatial data classes (from packages &lt;code&gt;sp&lt;/code&gt;, &lt;code&gt;rgeos&lt;/code&gt;) to &lt;a href=&quot;http://geojson.org/geojson-spec.html&quot;&gt;GeoJSON&lt;/a&gt;, either as lists, json, or json written to disk. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/geojsonio/vignettes/geojsonio_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/geojsonio&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) is on CRAN: &lt;code&gt;rerdddap&lt;/code&gt; (&lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/&quot;&gt;http://cran.rstudio.com/web/packages/rerddap/&lt;/a&gt;). This package is a general interface for working with ERDDAP servers - basically, many different groups provide data through this open source technology, and this package will let you query and fetch data from any of them. See &lt;a href=&quot;http://upwell.pfeg.noaa.gov/erddap/information.html&quot;&gt;here&lt;/a&gt; for an introduction to ERDDAP. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/vignettes/rerddap_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rerddap&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;1.2-0&lt;/code&gt;) &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. This is an R client to interact with the &lt;a href=&quot;http://www.neotomadb.org/&quot;&gt;Neotoma Paleoecological Database&lt;/a&gt;. See the &lt;a href=&quot;http://www.openquaternary.com/articles/10.5334/oq.ab/&quot;&gt;article by the package authors&lt;/a&gt; for information on the Neotoma database, and an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/neotoma&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.6&lt;/code&gt;) of &lt;code&gt;bold&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/bold&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/bold/releases/tag/v0.2.6&quot;&gt;release notes&lt;/a&gt; for changes. This is a minor update, focus on fixes to &lt;code&gt;bold_trace()&lt;/code&gt;. &lt;a href=&quot;https://github.com/ropensci/bold&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.7&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.4.7&quot;&gt;release notes&lt;/a&gt; for changes. This is a minor update, but includes a new function &lt;code&gt;citations()&lt;/code&gt; to get data from the &lt;a href=&quot;http://api.richcitations.org/&quot;&gt;PLOS Rich Citations API&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.0&lt;/code&gt;) of &lt;code&gt;elastic&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/elastic&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for changes. This is a relatively major update, including the new function &lt;code&gt;Search_uri()&lt;/code&gt; for when POST requests are blocked on a server (which the &lt;code&gt;Search()&lt;/code&gt; function uses), an update to &lt;code&gt;docs_bulk()&lt;/code&gt; to load data directly from a data.frame or list to Elasticsearch via the bulk API. &lt;a href=&quot;https://github.com/ropensci/elastic&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;gistr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gistr&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gistr/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. This is a major update, including: &lt;code&gt;gist_reate()&lt;/code&gt; can now include source when &lt;code&gt;knit=TRUE&lt;/code&gt;, new function &lt;code&gt;gist_create_obj()&lt;/code&gt; posts gists directly from R objects (e.g., data.frame, list), new function &lt;code&gt;gist_map()&lt;/code&gt; opens a full page map locally from a geojson gist, and new function &lt;code&gt;tabl()&lt;/code&gt; coerces gist data (including commits) into a data.frame for easy manipulation. &lt;a href=&quot;https://github.com/ropensci/gistr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;2.0.2&lt;/code&gt;) of &lt;code&gt;RNeXML&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/NEWS&quot;&gt;CRAN page NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/RNeXML&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.10.1&lt;/code&gt;) of &lt;code&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/git2r/compare/v0.7...v0.10.1&quot;&gt;diff&lt;/a&gt; for changes since last version on CRAN. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had our third community call on 2015-04-15, with &lt;a href=&quot;http://had.co.nz/&quot;&gt;Hadley Wickham&lt;/a&gt; talking about data ingestion. Watch the vieo &lt;a href=&quot;https://vimeo.com/125174198&quot;&gt;on Vimeo&lt;/a&gt;. Notes for the call on the &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-04-15&quot;&gt;etherpad&lt;/a&gt; include Hadley’s answers to many questions from the audience.&lt;/li&gt;
-  &lt;li&gt;We added a new person to &lt;a href=&quot;https://ropensci.org/community/#noam&quot;&gt;our community page&lt;/a&gt;, &lt;a href=&quot;http://www.noamross.net/&quot;&gt;Noam Ross&lt;/a&gt;, for serving as a reviewer for &lt;a href=&quot;https://github.com/ropensci/onboarding#review-board&quot;&gt;rOpenSci package onboarding&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We have a new screencast. It is for the &lt;code&gt;rgbif&lt;/code&gt; package, an R client for the &lt;a href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facilty (GBIF)&lt;/a&gt;. Find the screencast at &lt;a href=&quot;http://ropensci.github.io/screencasts/rgbif/&quot;&gt;http://ropensci.github.io/screencasts/rgbif/&lt;/a&gt;. Let us know if you have any feedback on screencasts.&lt;/li&gt;
-  &lt;li&gt;We created two Vimeo channels, one for &lt;a href=&quot;https://vimeo.com/channels/rocommunitycalls&quot;&gt;community calls&lt;/a&gt;, and one for &lt;a href=&quot;https://vimeo.com/channels/roscreencasts&quot;&gt;screencasts&lt;/a&gt;. Now you can subscribe to/follow one or both to get the latest.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 11 May 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-05-11/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-05-11/</guid>
         
         
       </item>
