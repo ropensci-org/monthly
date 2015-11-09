@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2015 09:40:41 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2015 09:40:41 -0800</lastBuildDate>
+    <pubDate>Mon, 09 Nov 2015 11:00:58 -0800</pubDate>
+    <lastBuildDate>Mon, 09 Nov 2015 11:00:58 -0800</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -16,44 +16,44 @@
 &lt;p&gt;We have two new packages on CRAN, both of which went through our review process (see links below).&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;textreuse&lt;/code&gt; from &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/&quot;&gt;on CRAN&lt;/a&gt;. This package is an R client for measuring similarity among documents and detecting passages which have been reused. There’s a variety of vignettes, from an &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-introduction.html&quot;&gt;introduction to the package&lt;/a&gt; to &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-minhash.html&quot;&gt;Minhash and locality-sensitive hashing&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/textreuse&quot;&gt;Repository on GitHub&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/20&quot;&gt;Link to review&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.2&lt;/code&gt;) &lt;code&gt;textreuse&lt;/code&gt; from &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/&quot;&gt;on CRAN&lt;/a&gt;. This package is an R client for measuring similarity among documents and detecting passages which have been reused. There’s a variety of vignettes, from an &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-introduction.html&quot;&gt;introduction to the package&lt;/a&gt; to &lt;a href=&quot;https://cran.rstudio.com/web/packages/textreuse/vignettes/textreuse-minhash.html&quot;&gt;Minhash and locality-sensitive hashing&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/textreuse&quot;&gt;Repository on GitHub&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/20&quot;&gt;Link to review&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Another new package (first version &lt;code&gt;0.0.2&lt;/code&gt;) &lt;code&gt;stplanr&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/stplanr/&quot;&gt;on CRAN&lt;/a&gt;. Data access and processing tools for transport planning, including origin-destination analysis, route allocation and modelling travel patterns. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/stplanr/vignettes/introducing-stplanr.html&quot;&gt;the vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/stplanr&quot;&gt;Repository on GitHub&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/10&quot;&gt;Link to review&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;xxx&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;documentation&quot;&gt;Documentation&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;We have more cheat sheets in the works, for &lt;code&gt;spocc&lt;/code&gt;, &lt;code&gt;rgbif&lt;/code&gt;, and &lt;code&gt;elastic&lt;/code&gt;. We’ll have drafts of these soon, so let us know if you have any feedback on them at &lt;a href=&quot;https://github.com/ropensci/cheatsheets&quot;&gt;ropensci/cheatsheets&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We are working on more cheat sheets, for &lt;code&gt;spocc&lt;/code&gt;, &lt;code&gt;rgbif&lt;/code&gt;, and more. We’ll have drafts of these soon, so let us know if you have any feedback on those in the works, or if you want a cheat sheet we don’t have yet at &lt;a href=&quot;https://github.com/ropensci/cheatsheets&quot;&gt;ropensci/cheatsheets&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;ropensci-in-the-news&quot;&gt;rOpenSci in the news&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/gender&quot;&gt;gender&lt;/a&gt; (by our community member &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt;) was discussed in a blog post by the website Voxxed: https://www.voxxed.com/blog/2015/11/how-packages-make-r-complete/&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/gender&quot;&gt;gender&lt;/a&gt; (by our community member &lt;a href=&quot;http://lincolnmullen.com/&quot;&gt;Lincoln Mullen&lt;/a&gt;) was discussed in a blog post by the website Voxxed: &lt;a href=&quot;https://www.voxxed.com/blog/2015/11/how-packages-make-r-complete/&quot;&gt;https://www.voxxed.com/blog/2015/11/how-packages-make-r-complete/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;A new R package uses an rOpenSci package:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; is a dependency in a newish R package &lt;a href=&quot;https://cran.rstudio.com/web/packages/MonoPhy/index.html&quot;&gt;MonoPhy&lt;/a&gt; for exploring monophyly in a taxonomic group, and data for the &lt;a href=&quot;https://cran.rstudio.com/web/packages/MonoPhy/vignettes/MonoPhyVignette.html&quot;&gt;monophy tutorial&lt;/a&gt; are based on a &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pubmed/25530223&quot;&gt;(pay-walled) paper&lt;/a&gt; from the author.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;A recent paper cites rOpenSci software:&lt;/p&gt;
+&lt;p&gt;A few recent papers cite rOpenSci software:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Brian O’Meara et al. have a paper titled &lt;a href=&quot;http://adb.sagepub.com/content/early/2015/10/23/1059712315611733.abstract&quot;&gt;Evolutionary models for the retention of adult–adult social play in primates: The roles of diet and other factors associated with resource acquisition&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Dellinger et al. have a paper titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/nph.13694/full&quot;&gt;Niche dynamics of alien species do not differ among sexual and apomictic flowering plants&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;O’Meara, Brian C., et al. “Evolutionary models for the retention of adult–adult social play in primates: The roles of diet and other factors associated with resource acquisition.” Adaptive Behavior (2015): 1059712315611733. &lt;a href=&quot;http://dx.doi.org/10.1177/1059712315611733&quot;&gt;doi:10.1177/1059712315611733&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Dellinger, Agnes S., et al. “Niche dynamics of alien species do not differ among sexual and apomictic flowering plants.” New Phytologist (2015). &lt;a href=&quot;http://dx.doi.org/10.1111/nph.13694&quot;&gt;doi:10.1111/nph.13694&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
