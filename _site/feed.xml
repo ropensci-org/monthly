@@ -5,9 +5,45 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Nov 2015 11:00:58 -0800</pubDate>
-    <lastBuildDate>Mon, 09 Nov 2015 11:00:58 -0800</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2015 08:13:56 -0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 08:13:56 -0800</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Update 2015-11-23</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A package in development for a while now, for making interactive visualizations, &lt;code&gt;plotly&lt;/code&gt; (version &lt;code&gt;2.0.2&lt;/code&gt;), is &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/&quot;&gt;on CRAN&lt;/a&gt;. It is maintained by the &lt;a href=&quot;https://plot.ly/&quot;&gt;Plot.ly team&lt;/a&gt;, and &lt;a href=&quot;https://github.com/cpsievert&quot;&gt;Carson Sievert&lt;/a&gt;. &lt;code&gt;plotly&lt;/code&gt; is an R client for easily translating &lt;code&gt;ggplot2&lt;/code&gt; graphs to an interactive web-based version and/or create other plot types not available in &lt;code&gt;ggplot2&lt;/code&gt;. Once uploaded to a plotly account, plotly graphs (and the data behind them) can be viewed and modified in a web browser. See &lt;a href=&quot;https://cdn.rawgit.com/ropensci/plotly/master/vignettes/intro.html&quot;&gt;An overview of plotly’s R API&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.1.0&lt;/code&gt;) of &lt;code&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.0.7&lt;/code&gt;) of &lt;code&gt;prism&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/prism&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.1&lt;/code&gt;) of &lt;code&gt;ecoretriever&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoretriever&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;1.0.6&lt;/code&gt;) of &lt;code&gt;rusda&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rusda&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;brranching&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/brranching&quot;&gt;on CRAN&lt;/a&gt;. This aims to be an R client for many sources of phylogenies. However, only one source of data is available now: &lt;a href=&quot;http://phylodiversity.net/phylomatic/&quot;&gt;Phylomatic&lt;/a&gt;. Other data sources will be added. Some sources of phylogenies already have nice R clients so won’t be included in this one, e.g., &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Open Tree of Life - &lt;code&gt;rotl&lt;/code&gt;&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/brranching#brranching&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/brranching&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;A recent paper cites rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Baden et al. have a paper titled &lt;a href=&quot;http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;amp;aid=10032904&amp;amp;fileId=S0960428615000256&quot;&gt;A botanical inventory of forest on karstic limestone and metamorphic substrate in the Chiquibul Forest, Belize, with focus on woody taxa&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Baden, H. M., Särkinen, T., Conde, D. A., Matthews, A. C., Vandrot, H., Chicas, S., … (2015). A BOTANICAL INVENTORY OF FOREST ON KARSTIC LIMESTONE AND METAMORPHIC SUBSTRATE IN THE CHIQUIBUL FOREST, BELIZE, WITH FOCUS ON WOODY TAXA. Edinburgh Journal of Botany, 1–43. &lt;a href=&quot;http://dx.doi.org/10.1017/S0960428615000256&quot;&gt;doi:10.1017/S0960428615000256&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2015 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-11-23/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-11-23/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-11-09</title>
@@ -445,42 +481,6 @@
         <pubDate>Mon, 22 Jun 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-07-06/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-07-06/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-06-08</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;lawn&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/lawn/&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;lawn&lt;/code&gt; is an R client for &lt;a href=&quot;http://turfjs.org/&quot;&gt;turf.js&lt;/a&gt; for geospatial analysis. The package revolves around using GeoJSON data. Functions are included for creating GeoJSON data objects, measuring aspects of GeoJSON, and combining, transforming, and creating random GeoJSON data objects. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/lawn/vignettes/lawn_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/lawn&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;1.3-0&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/neotoma/releases/tag/v1.3.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.8.4&lt;/code&gt;) of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;2.0.3&lt;/code&gt;) of &lt;code&gt;RNeXML&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.5.10&lt;/code&gt;) of &lt;code&gt;aRxiv&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/aRxiv/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;1.2.8&lt;/code&gt;) of &lt;code&gt;rglobi&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had our 4th community call on 2015-05-27, with &lt;a href=&quot;http://sciblogs.co.nz/the-atavism/&quot;&gt;David Winter&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;rentrez&lt;/a&gt;, and &lt;a href=&quot;http://www.carlboettiger.info/&quot;&gt;Carl Boettiger&lt;/a&gt; talking about Rocker. Watch the vieo &lt;a href=&quot;https://vimeo.com/129182308&quot;&gt;on Vimeo&lt;/a&gt;. Notes for the call on the &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-05-27&quot;&gt;etherpad&lt;/a&gt; include answers from David and Carl to many questions from the audience.&lt;/li&gt;
-  &lt;li&gt;We have our 5th community call coming up on 2015-07-08, in which &lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David Robinson&lt;/a&gt; will talk about &lt;a href=&quot;https://github.com/dgrtwo/broom&quot;&gt;broom&lt;/a&gt;, and &lt;a href=&quot;http://richfitz.github.io/&quot;&gt;Rich FitzJohn&lt;/a&gt; will talk about something cool. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/5&quot;&gt;More info&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases-questions-and-answers&quot;&gt;Use cases, questions, and answers&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The draft &lt;a href=&quot;https://github.com/ropensci/fishbaseapi&quot;&gt;Fishbase API&lt;/a&gt; we’re working on is being used in a real project! Find it in the &lt;code&gt;scrapeSpeciesFromFishbase()&lt;/code&gt; function in &lt;a href=&quot;https://github.com/ehgoodenough/fishy/blob/master/20fish.js&quot;&gt;ehgoodenough/fishy repo&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jonesor/compadreDB&quot;&gt;CompadreDB&lt;/a&gt; - a database of Plant Matrices for population biology - uses &lt;code&gt;taxize&lt;/code&gt; to check taxonomic names in their database. See specifically &lt;a href=&quot;https://github.com/jonesor/compadreDB/blob/master/Scripts/COMADRE_Check_Taxonomy.R&quot;&gt;COMADRE_Check_Taxonomy.R&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.flmnh.ufl.edu/malacology/michonneau.htm&quot;&gt;Francois Michonneau&lt;/a&gt; uses &lt;code&gt;taxize&lt;/code&gt; to make a poster for a conference. &lt;a href=&quot;https://github.com/fmichonneau/inat-poster&quot;&gt;Repo here&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 08 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-06-08/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-06-08/</guid>
         
         
       </item>
