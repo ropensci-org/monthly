@@ -5,9 +5,135 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2015 08:13:56 -0800</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2015 08:13:56 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Jan 2016 08:52:58 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Jan 2016 08:52:58 -0800</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
+    
+      <item>
+        <title>Update 2016-01-05</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We would like a few minutes of your time for a survey so we can learn about your research software needs. &lt;a href=&quot;https://ropensci.org/survey/&quot;&gt;ropensci.org/survey&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;binomen&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/binomen&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;binomen&lt;/code&gt; provides various taxonomic classes for defining a single taxon, multiple taxa, and a taxonomic data.frame. It is designed as a companion to &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt;, where you can get taxonomic data on taxonomic names from the web. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/binomen/vignettes/binomen_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/binomen&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (version &lt;code&gt;0.0.4&lt;/code&gt;) of &lt;code&gt;webchem&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/releases/tag/v0.0.4&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.13.1&lt;/code&gt;) of &lt;code&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/git2r/blob/master/NEWS#L1-L18&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.0.16&lt;/code&gt;) of &lt;code&gt;plotly&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/plotly/blob/master/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.3.6&lt;/code&gt;) of &lt;code&gt;gistr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gistr&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gistr/releases/tag/v0.3.6&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/gistr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rdryad&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rdryad&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rdryad/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rdryad&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.0.5&lt;/code&gt;) of &lt;code&gt;RNeXML&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/RNeXML/blob/master/NEWS#L30-L40&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/RNeXML&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;USAboundaries&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/USAboundaries/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/USAboundaries/blob/master/NEWS#L1-L5&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/USAboundaries&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cran-dependencies&quot;&gt;CRAN dependencies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rfigshare&quot;&gt;rfigshare&lt;/a&gt; has a new package that imports it on CRAN: &lt;a href=&quot;https://github.com/zoonproject/zoon&quot;&gt;zoon&lt;/a&gt; - for reproducible and remixable species distribution modelling.&lt;/li&gt;
+  &lt;li&gt;A suite of packages (some older, some new) use &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;git2r&lt;/a&gt;: &lt;a href=&quot;https://cran.rstudio.com/web/packages/archivist/index.html&quot;&gt;archivist&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/spm12r/index.html&quot;&gt;spm12r&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/nat.templatebrains/index.html&quot;&gt;nat.templatebrains&lt;/a&gt;, and , &lt;a href=&quot;https://cran.rstudio.com/web/packages/Rcereal/index.html&quot;&gt;Rcereal&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Eight recent papers cite rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cimiano et al., in a project proposal titled &lt;a href=&quot;https://zenodo.org/record/31298&quot;&gt;Continuous quality control for research data to ensure reproducibility: an institutional approach&lt;/a&gt; mentions rOpenSci &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Crouzier in a European Commission report titled &lt;a href=&quot;https://zenodo.org/record/33044&quot;&gt;Science Ecosystem 2.0: how will change occur?&lt;/a&gt; mentions rOpenSci&lt;/li&gt;
+  &lt;li&gt;Vandepitte et al. have a paper in &lt;em&gt;Journal of Marine Science and Engineering&lt;/em&gt; titled &lt;a href=&quot;http://www.mdpi.com/2077-1312/3/4/1448/htm&quot;&gt;How Aphia—the platform behind several online and taxonomically oriented databases—can serve both the taxonomic community and the field of biodiversity informatics&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Bevan has a paper in &lt;em&gt;Antiquity&lt;/em&gt; titled &lt;a href=&quot;http://www.mdpi.com/2077-1312/3/4/1448/htm&quot;&gt;The data deluge&lt;/a&gt; in which he mentions rOpenSci &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Pilaar Birch &amp;amp; Graham have a letter in &lt;em&gt;Bioscience&lt;/em&gt; titled &lt;a href=&quot;https://bioscience.oxfordjournals.org/content/early/2015/09/16/biosci.biv133.extract&quot;&gt;A stable isotope data repository as part of neotoma, a paleoecological database&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/neotoma&quot;&gt;neotoma&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Schaefer et al. have a paper in &lt;em&gt;Transactions of the American Fisheries Society&lt;/em&gt; titled &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/00028487.2015.1111253&quot;&gt;Dynamics of near-coastal fish assemblages following the deepwater horizon oil spill in the northern gulf of mexico&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Zizka &amp;amp; Antonelli have a pre-print in &lt;em&gt;Biorxiv&lt;/em&gt; titled &lt;a href=&quot;http://biorxiv.org/content/early/2015/11/24/032755.abstract&quot;&gt;speciesgeocodeR: An R package for linking species occurrences, user-defined regions and phylogenetic trees for biogeography, ecology and evolution&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Westcott &amp;amp; Schloss have a paper in &lt;em&gt;PeerJ&lt;/em&gt; titled &lt;a href=&quot;https://peerj.com/articles/1487/&quot;&gt;De novo clustering methods outperform reference-based methods for assigning 16S rRNA gene sequences to operational taxonomic units&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;rentrez&lt;/a&gt; &lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Cimiano, Philipp, and Ing Gerhard Sagerer. “Continuous quality control for research data to ensure reproducibility: an institutional approach.” &lt;a href=&quot;http://doi.org/10.5281/zenodo.31298&quot;&gt;http://doi.org/10.5281/zenodo.31298&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Vandepitte, Leen, et al. “How Aphia—The Platform behind Several Online and Taxonomically Oriented Databases—Can Serve Both the Taxonomic Community and the Field of Biodiversity Informatics.” Journal of Marine Science and Engineering 3.4 (2015): 1448-1473. &lt;a href=&quot;http://doi.org/10.3390/jmse3041448&quot;&gt;http://doi.org/10.3390/jmse3041448&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Bevan, Andrew. “The data deluge.” Antiquity 89.348 (2015): 1473-1484. &lt;a href=&quot;http://doi.org/10.15184/aqy.2015.102&quot;&gt;http://doi.org/10.15184/aqy.2015.102&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Birch, Suzanne E. Pilaar, and Russell W. Graham. “A Stable Isotope Data Repository as Part of Neotoma, a Paleoecological Database.” BioScience (2015): biv133. &lt;a href=&quot;http://doi.org/10.1093/biosci/biv133&quot;&gt;http://doi.org/10.1093/biosci/biv133&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Schaefer, Jacob, Nkrumah Frazier, and Jonathan Barr. “Dynamics of Near-Coastal Fish Assemblages following the Deepwater Horizon Oil Spill in the Northern Gulf of Mexico.” Transactions of the American Fisheries Society 145.1 (2015): 108-119. &lt;a href=&quot;http://doi.org/10.1080/00028487.2015.1111253&quot;&gt;http://doi.org/10.1080/00028487.2015.1111253&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;Zizka, Alexander, and Alexandre Antonelli. “speciesgeocodeR: An R package for linking species occurrences, user-defined regions and phylogenetic trees for biogeography, ecology and evolution.” bioRxiv (2015): 032755. &lt;a href=&quot;http://doi.org/10.1101/032755&quot;&gt;http://doi.org/10.1101/032755&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;Westcott, Sarah L., and Patrick D. Schloss. “De novo clustering methods outperform reference-based methods for assigning 16S rRNA gene sequences to operational taxonomic units.” PeerJ 3 (2015): e1487. &lt;a href=&quot;http://doi.org/10.7717/peerj.1487&quot;&gt;http://doi.org/10.7717/peerj.1487&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 05 Jan 2016 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-01-05/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-01-05/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Update 2015-12-07</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.2.0&lt;/code&gt;) &lt;code&gt;rorcid&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rorcid&quot;&gt;on CRAN&lt;/a&gt;. An R client for &lt;a href=&quot;http://orcid.org/&quot;&gt;ORCID&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rorcid#rorcid&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;pangaear&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/pangaear&quot;&gt;on CRAN&lt;/a&gt;. This is an R client for &lt;a href=&quot;Pangaea.de&quot;&gt;Pangaea.de&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/pangaear#pangaear&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/pangaear&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (version &lt;code&gt;2.0.3&lt;/code&gt;) of &lt;code&gt;plotly&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.9.0&lt;/code&gt;) of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.7.0&lt;/code&gt;) of &lt;code&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.7.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.5.0&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnoaa&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rnoaa&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.4.1&lt;/code&gt;) of &lt;code&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.4.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.12.1&lt;/code&gt;) of &lt;code&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/git2r/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Three recent papers cite and/or rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Rothman et al. have a paper in &lt;em&gt;Circulation Cardiovascular Interventions&lt;/em&gt; titled &lt;a href=&quot;http://circinterventions.ahajournals.org/content/8/11/e002569.short&quot;&gt;Pulmonary artery denervation reduces pulmonary artery pressure and induces histological changes in an acute porcine model of pulmonary hypertension&lt;/a&gt; in which they use and cite the &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;plotly R client&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;McGee et al. have a paper in &lt;em&gt;Science&lt;/em&gt; titled &lt;a href=&quot;http://www.sciencemag.org/content/350/6264/1077.short&quot;&gt;A pharyngeal jaw evolutionary innovation facilitated extinction in Lake Victoria cichlids&lt;/a&gt; in which they use and cite [rfishbase][rfishbase] (see the Supplement) &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Riva et al. have a paper in &lt;em&gt;Oikos&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/oik.02305/abstract&quot;&gt;Exploring the evolutionary signature of food webs’ backbones using functional traits&lt;/a&gt; in which they use &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt;, but only evidence in their GitHub repo for the paper, see &lt;a href=&quot;https://github.com/gvdr/RDPG_foodweb/blob/master/Code/Ancillary_Code/create_tree.R&quot;&gt;gvdr/RDPG_foodweb/blob/master/Code/Ancillary_Code/create_tree.R&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Rothman, A. M. K., Arnold, N. D., Chang, W., Watson, O., Swift, A. J., Condliffe, R., et al. (2015). Pulmonary Artery Denervation Reduces Pulmonary Artery Pressure and Induces Histological Changes in an Acute Porcine Model of Pulmonary Hypertension. Circulation: Cardiovascular Interventions, 8(11), e002569–e002569. &lt;a href=&quot;http://doi.org/10.1161/circinterventions.115.002569&quot;&gt;http://doi.org/10.1161/circinterventions.115.002569&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;McGee, M. D., Borstein, S. R., Neches, R. Y., Buescher, H. H., Seehausen, O., &amp;amp; Wainwright, P. C. (2015). A pharyngeal jaw evolutionary innovation facilitated extinction in Lake Victoria cichlids. Science, 350(6264), 1077–1079. &lt;a href=&quot;http://doi.org/10.1126/science.aab0800&quot;&gt;http://doi.org/10.1126/science.aab0800&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Dalla Riva, G. V., &amp;amp; Stouffer, D. B. (in press). Exploring the evolutionary signature of food webs’ backbones using functional traits. Oikos &lt;a href=&quot;http://doi.org/10.1111/oik.02305&quot;&gt;http://doi.org/10.1111/oik.02305&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 07 Dec 2015 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2015-12-07/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-12-07/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2015-11-23</title>
@@ -15,25 +141,48 @@
 
 &lt;ul&gt;
   &lt;li&gt;A package in development for a while now, for making interactive visualizations, &lt;code&gt;plotly&lt;/code&gt; (version &lt;code&gt;2.0.2&lt;/code&gt;), is &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/&quot;&gt;on CRAN&lt;/a&gt;. It is maintained by the &lt;a href=&quot;https://plot.ly/&quot;&gt;Plot.ly team&lt;/a&gt;, and &lt;a href=&quot;https://github.com/cpsievert&quot;&gt;Carson Sievert&lt;/a&gt;. &lt;code&gt;plotly&lt;/code&gt; is an R client for easily translating &lt;code&gt;ggplot2&lt;/code&gt; graphs to an interactive web-based version and/or create other plot types not available in &lt;code&gt;ggplot2&lt;/code&gt;. Once uploaded to a plotly account, plotly graphs (and the data behind them) can be viewed and modified in a web browser. See &lt;a href=&quot;https://cdn.rawgit.com/ropensci/plotly/master/vignettes/intro.html&quot;&gt;An overview of plotly’s R API&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;2.1.0&lt;/code&gt;) of &lt;code&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.0.7&lt;/code&gt;) of &lt;code&gt;prism&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/prism&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.1&lt;/code&gt;) of &lt;code&gt;ecoretriever&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoretriever&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;1.0.6&lt;/code&gt;) of &lt;code&gt;rusda&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rusda&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;2.1.0&lt;/code&gt;) of &lt;code&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase&quot;&gt;on CRAN&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.0.7&lt;/code&gt;) of &lt;code&gt;prism&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/prism&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/prism/blob/master/NEWS.md#changes&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;0.2.1&lt;/code&gt;) of &lt;code&gt;ecoretriever&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/ecoretriever&quot;&gt;on CRAN&lt;/a&gt;. This version adds a new function &lt;code&gt;get_updates()&lt;/code&gt; to update the retriever scripts; a big improvement as it avoids automatically updating the scripts every time the package is imported. See the &lt;a href=&quot;https://github.com/ropensci/ecoretriever/releases/tag/v0.2.1&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code&gt;1.0.6&lt;/code&gt;) of &lt;code&gt;rusda&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rusda&quot;&gt;on CRAN&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/rusda&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;brranching&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/brranching&quot;&gt;on CRAN&lt;/a&gt;. This aims to be an R client for many sources of phylogenies. However, only one source of data is available now: &lt;a href=&quot;http://phylodiversity.net/phylomatic/&quot;&gt;Phylomatic&lt;/a&gt;. Other data sources will be added. Some sources of phylogenies already have nice R clients so won’t be included in this one, e.g., &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Open Tree of Life - &lt;code&gt;rotl&lt;/code&gt;&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/brranching#brranching&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/brranching&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have a paper in &lt;em&gt;Journal of Open Research Software&lt;/em&gt; titled &lt;a href=&quot;http://doi.org/10.5334/jors.bu&quot;&gt;Building Software, Building Community: Lessons from the rOpenSci Project&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
 
-&lt;p&gt;A recent paper cites rOpenSci software:&lt;/p&gt;
+&lt;p&gt;A few recent papers cite rOpenSci software:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Baden et al. have a paper titled &lt;a href=&quot;http://journals.cambridge.org/action/displayAbstract?fromPage=online&amp;amp;aid=10032904&amp;amp;fileId=S0960428615000256&quot;&gt;A botanical inventory of forest on karstic limestone and metamorphic substrate in the Chiquibul Forest, Belize, with focus on woody taxa&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Baden et al. have a paper in &lt;em&gt;Edinburgh Journal of Botany&lt;/em&gt; titled &lt;a href=&quot;http://dx.doi.org/10.1017/S0960428615000256&quot;&gt;A botanical inventory of forest on karstic limestone and metamorphic substrate in the Chiquibul Forest, Belize, with focus on woody taxa&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Price et al. have a paper in &lt;em&gt;Proceedings of the Royal Society B: Biological Sciences&lt;/em&gt; titled &lt;a href=&quot;http://dx.doi.org/10.1098/rspb.2015.1428&quot;&gt;How predation shaped fish: the impact of fin spines on body form evolution across teleosts&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Mindel et al. have a paper in &lt;em&gt;Journal of Animal Ecology&lt;/em&gt; titled &lt;a href=&quot;http://dx.doi.org/10.1111/1365-2656.12471&quot;&gt;A trait-based metric sheds new light on the nature of the body size-depth relationship in the deep sea&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Munch and Galizia have a paper in &lt;em&gt;bioRxiv&lt;/em&gt; titled &lt;a href=&quot;http://dx.doi.org/10.1101/027920&quot;&gt;DoOR 2.0 - Comprehensive Mapping of Drosophila melanogaster Odorant Responses&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;webchem&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Baden, H. M., Särkinen, T., Conde, D. A., Matthews, A. C., Vandrot, H., Chicas, S., … (2015). A BOTANICAL INVENTORY OF FOREST ON KARSTIC LIMESTONE AND METAMORPHIC SUBSTRATE IN THE CHIQUIBUL FOREST, BELIZE, WITH FOCUS ON WOODY TAXA. Edinburgh Journal of Botany, 1–43. &lt;a href=&quot;http://dx.doi.org/10.1017/S0960428615000256&quot;&gt;doi:10.1017/S0960428615000256&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Boettiger C, Chamberlain S, Hart E, Ram K. Building Software, Building Community: Lessons from the rOpenSci Project. Journal of Open Research Software. 2015;3(1):e8. &lt;a href=&quot;http://dx.doi.org/10.5334/jors.bu&quot;&gt;http://dx.doi.org/10.5334/jors.bu&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Baden, H. M., Särkinen, T., Conde, D. A., Matthews, A. C., Vandrot, H., Chicas, S., … (2015). A BOTANICAL INVENTORY OF FOREST ON KARSTIC LIMESTONE AND METAMORPHIC SUBSTRATE IN THE CHIQUIBUL FOREST, BELIZE, WITH FOCUS ON WOODY TAXA. Edinburgh Journal of Botany, 1–43. &lt;a href=&quot;http://dx.doi.org/10.1017/S0960428615000256&quot;&gt;http://dx.doi.org/10.1017/S0960428615000256&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Price, S. A., Friedman, S. T., &amp;amp; Wainwright, P. C. (2015). How predation shaped fish: the impact of fin spines on body form evolution across teleosts. Proceedings of the Royal Society B: Biological Sciences, 282(1819), 20151428–20151428. &lt;a href=&quot;http://dx.doi.org/10.1098/rspb.2015.1428&quot;&gt;http://dx.doi.org/10.1098/rspb.2015.1428&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Mindel, B. L., Webb, T. J., Neat, F. C., &amp;amp; Blanchard, J. L. (Accepted). A trait-based metric sheds new light on the nature of the body size-depth relationship in the deep sea. J Anim Ecol. &lt;a href=&quot;http://dx.doi.org/10.1111/1365-2656.12471&quot;&gt;http://dx.doi.org/10.1111/1365-2656.12471&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Muench, D., &amp;amp; Galizia, C. G. (2015). DoOR 2.0 - Comprehensive Mapping of Drosophila melanogaster Odorant Responses. &lt;a href=&quot;http://dx.doi.org/10.1101/027920&quot;&gt;http://dx.doi.org/10.1101/027920&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -393,94 +542,6 @@
         <pubDate>Mon, 03 Aug 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-08-03/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-08-03/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-07-20</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;p&gt;A number of packages below were updated simply to fix one or both of two issues: &lt;code&gt;httr&lt;/code&gt; &lt;code&gt;v1&lt;/code&gt;, recently on CRAN, made some functionality of our packages not work, and CRAN now requires that all non &lt;code&gt;base&lt;/code&gt; package functions are explicitly imported (e.g., if &lt;code&gt;setNames()&lt;/code&gt; is used in the package, then we import &lt;code&gt;stats::setNames()&lt;/code&gt; in the &lt;code&gt;NAMESPACE&lt;/code&gt; file). Of course there were other changes too in packages updated below, as noted.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;spoccutils&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spoccutils/&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;spoccutils&lt;/code&gt; is a companion to the &lt;code&gt;spocc&lt;/code&gt; package. Where &lt;code&gt;spocc&lt;/code&gt; focuses on getting you species occurrence data, &lt;code&gt;spoccutils&lt;/code&gt; will focus on visualizing and cleaning data, among other things. This separation makes both sets of functionality to be maintained more easily. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/spoccutils/vignettes/spoccutils_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/spoccutils&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note:
-    &lt;ul&gt;
-      &lt;li&gt;Mapping functions all gone, now in &lt;code&gt;spoccutils&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;occ()&lt;/code&gt; gains new parameter &lt;code&gt;has_coords&lt;/code&gt; (logical) to only retrieve occurrences with lat/long data, or only without that data.&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;type&lt;/code&gt; and &lt;code&gt;rank&lt;/code&gt; parameters dropped from &lt;code&gt;occ()&lt;/code&gt;.&lt;/li&gt;
-      &lt;li&gt;New functions &lt;code&gt;as.*()&lt;/code&gt; (e.g., &lt;code&gt;as.gbif()&lt;/code&gt;) for all data sources, that take an occurrence key and fetch as detailed information as possible on that occurrence.&lt;/li&gt;
-      &lt;li&gt;New data source: &lt;a href=&quot;http://vertnet.org/s&quot;&gt;VertNet&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;&lt;code&gt;occ2df()&lt;/code&gt; now returns more fields.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.2&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnoaa/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new patch version (&lt;code&gt;0.4.2&lt;/code&gt;) of &lt;code&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rentrez/NEWS&quot;&gt;news&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: &lt;code&gt;searchbyterm()&lt;/code&gt; and &lt;code&gt;bigsearch()&lt;/code&gt; now allow some parameters to accept multiple values. In addition, internals of &lt;code&gt;searchbyterm()&lt;/code&gt;, &lt;code&gt;spatialsearch()&lt;/code&gt;, and &lt;code&gt;vertsearch()&lt;/code&gt; reworked to internally do paging for you for bigger result sets.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rerddap&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rerddap/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: Added a suite of functions to manage locally cached files.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.5.0&lt;/code&gt;) of &lt;code&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.8&lt;/code&gt;) of &lt;code&gt;rbison&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbison/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbison/releases/tag/v0.4.8&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.5.0&lt;/code&gt;) of &lt;code&gt;elastic&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/elastic/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.0&lt;/code&gt;) of &lt;code&gt;gistr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gistr/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gistr/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: new function &lt;code&gt;gist_save()&lt;/code&gt; to help save files locally; &lt;code&gt;gist()&lt;/code&gt; now accepts either a full or partial gist URL in addition to a gist ID.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.8.6&lt;/code&gt;) of &lt;code&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.6&quot;&gt;release notes&lt;/a&gt; for changes. Of note: New suite of functions for working with GBIF’s &lt;a href=&quot;http://www.gbif.org/developer/occurrence#download&quot;&gt;download API&lt;/a&gt;, all prefixed with &lt;code&gt;download_&lt;/code&gt; - see &lt;code&gt;?downloads&lt;/code&gt; for help.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2&lt;/code&gt;) of &lt;code&gt;rebird&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rebird/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rebird/releases&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.2.0&lt;/code&gt;) of &lt;code&gt;rbhl&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rbhl/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rbhl/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: gained many new functions.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.4&lt;/code&gt;) of &lt;code&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes. Of note: added new function &lt;code&gt;crosscite()&lt;/code&gt; to work with the &lt;a href=&quot;http://crosscite.org/citeproc/&quot;&gt;Crossref Citeproc service&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;1.3.2&lt;/code&gt;) of &lt;code&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/neotoma/NEWS&quot;&gt;news&lt;/a&gt; for changes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had our 5th community call on 2015-07-08, in which &lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David Robinson&lt;/a&gt; gave a great talk on &lt;a href=&quot;https://github.com/dgrtwo/broom&quot;&gt;broom&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/5#issuecomment-122951281&quot;&gt;More info&lt;/a&gt;. The video recording will be up soon.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;The following is a small sampling of usage examples of our R packages.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tim Poisot &lt;em&gt;et al.&lt;/em&gt; have a paper in bioRxiv titled &lt;a href=&quot;http://www.biorxiv.org/content/early/2015/06/23/021402&quot;&gt;Synthetic datasets and community tools for the rapid testing of ecological hypotheses&lt;/a&gt; that cites our &lt;a href=&quot;http://f1000research.com/articles/2-191/v2&quot;&gt;taxize paper&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Gwiazdowski &lt;em&gt;et al.&lt;/em&gt; use &lt;code&gt;taxize&lt;/code&gt; in their paper &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125635&quot;&gt;The Hemiptera (Insecta) of Canada: Constructing a Reference Library of DNA Barcodes&lt;/a&gt;. In addition, their workflow can be replicated in R with code and data files provided in supporting files. Nice!&lt;/li&gt;
-  &lt;li&gt;Pérez-Luque &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;taxize&lt;/code&gt; to check plant taxonomic names in their paper &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4391960/&quot;&gt;Dataset of Phenology of Mediterranean high-mountain meadows flora (Sierra Nevada, Spain)&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Thormann &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;rgbif&lt;/code&gt; to collect species occurrence data in their white paper &lt;a href=&quot;https://www.duo.uio.no/handle/10852/41681&quot;&gt;Predictive characterization of crop wild relatives and landraces&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://bdj.pensoft.net/articles.php?id=4162&quot;&gt;Collins &lt;em&gt;et al.&lt;/em&gt;&lt;/a&gt; used both our &lt;code&gt;rfishbase&lt;/code&gt; and &lt;code&gt;rgbif&lt;/code&gt; packages to get species occurrence data on catfishes in their study area Rio Nhamundá.&lt;/li&gt;
-  &lt;li&gt;Turner &lt;em&gt;et al.&lt;/em&gt; used &lt;code&gt;rgbif&lt;/code&gt; to collect &lt;em&gt;Centaurea diffusa&lt;/em&gt; species occurrence data for her paper &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1002/ece3.1599/full&quot;&gt;Adaptive plasticity and niche expansion in an invasive thistle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 20 Jul 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-07-20/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-07-20/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-06-22</title>
-        <description>&lt;p&gt;UPDATE: Sorry for any confusion. This post is for 2015-06-22, whereas the URL slug has 2015-07-06.&lt;/p&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code&gt;0.1.0&lt;/code&gt;) &lt;code&gt;traits&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/&quot;&gt;on CRAN&lt;/a&gt;. &lt;code&gt;traits&lt;/code&gt; is an R client to obtain species trait data from many different sources, including &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/nucleotide&quot;&gt;sequence data from NCBI&lt;/a&gt;, plant trait data from &lt;a href=&quot;https://www.betydb.org/&quot;&gt;BETYdb&lt;/a&gt;, invasive species data from the &lt;a href=&quot;http://www.issg.org/database/welcome/&quot;&gt;Global Invasive Species Database&lt;/a&gt; and EOL, &lt;a href=&quot;http://eol.org/info/516&quot;&gt;Traitbank data from EOL&lt;/a&gt;, &lt;a href=&quot;http://coraltraits.org&quot;&gt;Coral traits data&lt;/a&gt;, nativity status from &lt;a href=&quot;http://rbg-web2.rbge.org.uk/FE/fe.html&quot;&gt;Flora Europaea&lt;/a&gt; or &lt;a href=&quot;http://www.itis.gov/&quot;&gt;ITIS&lt;/a&gt;, and bird data from &lt;a href=&quot;http://www.birdlife.org/&quot;&gt;Birdlife International&lt;/a&gt;. See the &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/vignettes/traits_intro.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/traits&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.6.0&lt;/code&gt;) of &lt;code&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.3.7&lt;/code&gt;) of &lt;code&gt;rfigshare&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfigshare/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.4.0&lt;/code&gt;) of &lt;code&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for changes. Of note: NOAA GHCN Daily data is now available in &lt;code&gt;rnoaa&lt;/code&gt;, and NOAA buoy data is available in &lt;code&gt;rnoaa&lt;/code&gt; (was previously on a development git branch, but is now available in the CRAN version).&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code&gt;0.1.4&lt;/code&gt;) of &lt;code&gt;rAvis&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rAvis/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We have our 5th community call coming up on 2015-07-08, in which &lt;a href=&quot;http://varianceexplained.org/&quot;&gt;David Robinson&lt;/a&gt; will talk about &lt;a href=&quot;https://github.com/dgrtwo/broom&quot;&gt;broom&lt;/a&gt;, and &lt;a href=&quot;http://richfitz.github.io/&quot;&gt;Rich FitzJohn&lt;/a&gt; will talk about something cool. &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/5&quot;&gt;More info&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 22 Jun 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-07-06/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-07-06/</guid>
         
         
       </item>
