@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Feb 2016 12:08:18 -0800</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 12:08:18 -0800</lastBuildDate>
+    <pubDate>Mon, 01 Feb 2016 12:15:08 -0800</pubDate>
+    <lastBuildDate>Mon, 01 Feb 2016 12:15:08 -0800</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -25,6 +25,12 @@
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;fulltext&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/fulltext&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;ft_get_si()&lt;/code&gt; improvements. See the &lt;a href=&quot;https://github.com/ropensci/fulltext/releases/tag/v0.1.6&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/fulltext&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rnoaa&quot;&gt;on CRAN&lt;/a&gt;. Two new data sources: ARGO buoy data via &lt;a href=&quot;http://www.argo.ucsd.edu/&quot;&gt;http://www.argo.ucsd.edu/&lt;/a&gt; and &lt;a href=&quot;http://co-ops.nos.noaa.gov/api/&quot;&gt;CO-OPS tide and current data&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.5.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rnoaa&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.4.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/spocc&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.4.5&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We will have our 9th community call on March 2nd at 9 am PST with &lt;a href=&quot;https://github.com/jennybc&quot;&gt;Dr. Jenny Bryan&lt;/a&gt; talking about her &lt;a href=&quot;https://github.com/jennybc/googlesheets&quot;&gt;Google Spreadsheets R API&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/9&quot;&gt;ropensci/commcalls#9&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
