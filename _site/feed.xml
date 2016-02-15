@@ -5,9 +5,66 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 01 Feb 2016 12:15:08 -0800</pubDate>
-    <lastBuildDate>Mon, 01 Feb 2016 12:15:08 -0800</lastBuildDate>
-    <generator>Jekyll v3.1.0</generator>
+    <pubDate>Mon, 15 Feb 2016 14:00:30 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 14:00:30 -0800</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Update 2016-02-15</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We are holding our 3rd annual &lt;a href=&quot;http://unconf16.ropensci.org&quot;&gt;rOpenSci unconference&lt;/a&gt; 31 March - April 1 in San Francisco.&lt;/li&gt;
+  &lt;li&gt;We are trying something new: rOpenSci office hours. The first one is this Thursday at 9 am PST. We’ll focus not so much on bug fixing your code, but talking about use cases researchers have working with data, either on the web or not, in R. Our goal with these discussions is to identify common problems researchers have, and then later solve those through software. It’s open to anyone - join us!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;solrium&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/solrium&quot;&gt;on CRAN&lt;/a&gt;. See the vignettes for intros to &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/search.html&quot;&gt;solr search&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/local_setup.html&quot;&gt;local Solr setup&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/document_management.html&quot;&gt;document management&lt;/a&gt;, and &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/cores_collections.html&quot;&gt;core/collection management&lt;/a&gt;. This is a reboot of the &lt;code class=&quot;highlighter-rouge&quot;&gt;solr&lt;/code&gt; package, now compliant with Solr v5 and up, and now with functions for managing cores and collections. The package was re-named because of the major changes in the package, and to make use of the package easier to find on the web. &lt;a href=&quot;https://github.com/ropensci/solrium&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;rdatacite&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rdatacite&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rdatacite&lt;/code&gt; is an R client for &lt;a href=&quot;https://www.datacite.org/node&quot;&gt;Datacite&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rdatacite#rdatacite&quot;&gt;README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rdatacite&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.9.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is an R client for the &lt;a href=&quot;http://www.gbif.org/developer/summary&quot;&gt;GBIF API&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rotl&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rotl/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;oai&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/oai&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/oai/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/oai&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rorcid&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rorcid/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rorcid/releases/tag/v0.2.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.5.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rcrossref&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A few members were added to our community page: &lt;a href=&quot;http://ropensci.org/community/#will&quot;&gt;Will Pearse&lt;/a&gt; and &lt;a href=&quot;http://ropensci.org/community/#stefan&quot;&gt;Stefan Bache&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We will have our 9th community call on March 2nd at 9 am PST with &lt;a href=&quot;https://github.com/jennybc&quot;&gt;Dr. Jenny Bryan&lt;/a&gt; talking about her &lt;a href=&quot;https://github.com/jennybc/googlesheets&quot;&gt;Google Spreadsheets R API&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/9&quot;&gt;ropensci/commcalls#9&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Two recent papers cite and/or rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Dallas has a paper in &lt;em&gt;Ecography&lt;/em&gt; titled &lt;a href=&quot;http://doi.org/10.1111/ecog.02131&quot;&gt;helminthR: An R interface to the London Natural History Museum’s Host-Parasite Database&lt;/a&gt; in which he describes the &lt;a href=&quot;https://github.com/ropensci/helminthR&quot;&gt;helminthR&lt;/a&gt; package &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Colomb and Brembs have a paper in &lt;em&gt;Peerj Preprints&lt;/em&gt; titled &lt;a href=&quot;http://doi.org/10.7287/peerj.preprints.1712v1&quot;&gt;PKC in motorneurons underlies self-learning, a form of motor learning in Drosophila&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/rfigshare&quot;&gt;rfigshare&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Dallas, T. (2016). helminthR: An R interface to the London Natural History Museum’s Host-Parasite Database. Ecography, &lt;a href=&quot;http://doi.org/10.1111/ecog.02131&quot;&gt;http://doi.org/10.1111/ecog.02131&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Colomb, J., &amp;amp; B. Brembs. (2016). PKC in motorneurons underlies self-learning, a form of motor learning in Drosophila. PeerJ PrePrints. &lt;a href=&quot;http://doi.org/10.7287/peerj.preprints.1712v1&quot;&gt;http://doi.org/10.7287/peerj.preprints.1712v1&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 15 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-02-15/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-02-15/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-02-01</title>
@@ -539,41 +596,6 @@
         <pubDate>Mon, 14 Sep 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-09-14/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-14/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-08-17</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;fulltext&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/fulltext/&quot;&gt;on CRAN&lt;/a&gt;. This package makes it easier to search for articles, download articles in full text if available, convert pdf format to plain text, and extract text chunks for vizualization/analysis. We are planning to add bits for analysis in future versions. See the &lt;a href=&quot;http://recology.info/2015/08/full-text/&quot;&gt;blog post&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/fulltext&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. This was a fairly minor version bump with bug fixes. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.6.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize/&quot;&gt;on CRAN&lt;/a&gt;. This version includes numerous bug fixes; fixes to comply with changes in &lt;code class=&quot;highlighter-rouge&quot;&gt;httr&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;v1&lt;/code&gt;; general cleanup of &lt;code class=&quot;highlighter-rouge&quot;&gt;gni_*()&lt;/code&gt; functions; and fixes to support COL’s change from numeric taxonomic identifiers to alphanumeric identifiers. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/geojsonio/&quot;&gt;on CRAN&lt;/a&gt;. This version includes bug fixes, and adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;map_leaf()&lt;/code&gt; to make maps with the &lt;code class=&quot;highlighter-rouge&quot;&gt;leaflet&lt;/code&gt; package, and &lt;code class=&quot;highlighter-rouge&quot;&gt;geojson_read&lt;/code&gt; allows you to optionally get back a spatial class object instead of geojson. See the &lt;a href=&quot;https://github.com/ropensci/geojsonio/releases/tag/v0.1.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.11&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/git2r/blob/master/NEWS#L1-L52&quot;&gt;NEWS file&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.0.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;A bunch of papers appeared recently using/citing rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Boeger &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Zoologica Scripta&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/zsc.12098/abstract&quot;&gt;Tracking the history of an invasion: the freshwater croakers (Teleostei: Sciaenidae) in South America&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Bone &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;New Phytologist&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/nph.13572/abstract&quot;&gt;A macro-ecological perspective on crassulacean acid metabolism (CAM) photosynthesis evolution in Afro-Madagascan drylands: Eulophiinae orchids as a case study&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Collins &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Journal of Zoological Systematics and Evolutionary Research&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/jzs.12103/abstract&quot;&gt;Phylogenetic systematics of leaffishes (Teleostei: Polycentridae, Nandidae)&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Dodd &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Diversity and Distributions&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/ddi.12351/abstract&quot;&gt;The changing patterns of plant naturalization in Australia&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Price &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Coral Reefs&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1007%2Fs00338-015-1326-7&quot;&gt;Phylogenetic insights into the history and diversification of fishes on reefs&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Werner &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;PNAS&lt;/em&gt; titled &lt;a href=&quot;www.pnas.org/cgi/doi/10.1073/pnas.1424030112&quot;&gt;Evolutionary signals of symbiotic persistence in the legume–rhizobia mutualism&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 17 Aug 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-08-17/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-08-17/</guid>
         
         
       </item>
