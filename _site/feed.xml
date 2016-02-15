@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Feb 2016 14:00:30 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 14:00:30 -0800</lastBuildDate>
+    <pubDate>Mon, 15 Feb 2016 14:07:38 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 14:07:38 -0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -15,7 +15,7 @@
 
 &lt;ul&gt;
   &lt;li&gt;We are holding our 3rd annual &lt;a href=&quot;http://unconf16.ropensci.org&quot;&gt;rOpenSci unconference&lt;/a&gt; 31 March - April 1 in San Francisco.&lt;/li&gt;
-  &lt;li&gt;We are trying something new: rOpenSci office hours. The first one is this Thursday at 9 am PST. We’ll focus not so much on bug fixing your code, but talking about use cases researchers have working with data, either on the web or not, in R. Our goal with these discussions is to identify common problems researchers have, and then later solve those through software. It’s open to anyone - join us!&lt;/li&gt;
+  &lt;li&gt;We are trying something new: rOpenSci office hours. The first one is this Thursday at 9 am PST. We’ll focus not so much on bug fixing your code, but talking about use cases researchers have working with data, either on the web or not, in R. Our goal with these discussions is to identify common problems researchers have, and then later solve those through software. It’s open to anyone - join us! More info in our &lt;a href=&quot;https://discuss.ropensci.org/t/ropensci-office-hours/312&quot;&gt;discussion forum&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
