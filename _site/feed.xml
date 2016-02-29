@@ -5,9 +5,53 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Feb 2016 14:07:38 -0800</pubDate>
-    <lastBuildDate>Mon, 15 Feb 2016 14:07:38 -0800</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <pubDate>Mon, 29 Feb 2016 10:38:58 -0800</pubDate>
+    <lastBuildDate>Mon, 29 Feb 2016 10:38:58 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Update 2016-02-29</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;geoaxe&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/geoaxe&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;geoaxe&lt;/code&gt; makes it easy to split geospatial objects (polygons) into pieces. For an intro to the package see &lt;a href=&quot;https://cran.rstudio.com/web/packages/geoaxe/vignettes/geoaxe_vignette.html&quot;&gt;the vignette&lt;/a&gt;. The immediate use case we have is to make it easy to chop up polygons to use in requests for open data on the web when the data provider limits the length of a polygon specification (usually in &lt;a href=&quot;https://en.wikipedia.org/wiki/Well-known_text&quot;&gt;WKT&lt;/a&gt;). &lt;a href=&quot;https://github.com/ropensci/geoaxe&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.0.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/rentrez/releases/tag/v1.0.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.6&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rfisheries&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfisheries&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rfisheries/blob/master/NEWS#L1-L4&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rfisheries&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.4-1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;clifro&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/clifro&quot;&gt;on CRAN&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/clifro&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS#L1-L5&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/neotoma&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We will have our 9th community call this Wednesday, March 2nd, at 9 am PST with &lt;a href=&quot;https://github.com/jennybc&quot;&gt;Dr. Jenny Bryan&lt;/a&gt; talking about her &lt;a href=&quot;https://github.com/jennybc/googlesheets&quot;&gt;Google Spreadsheets R API&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/9&quot;&gt;ropensci/commcalls#9&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;One recent book cites rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Wegmann, M. et al. cite a number of rOpenSci packages (&lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rebird&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rfishbase&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rWBclimate&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt;) in their book &lt;a href=&quot;https://books.google.com/books?hl=en&amp;amp;lr=&amp;amp;id=rCCUCwAAQBAJ&quot;&gt;Remote sensing and GIS for ecologists: using open source software&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Wegmann, M., B. Leutner, and S. Dech, eds. (2016) Remote sensing and GIS for ecologists: using open source software. Pelagic Publishing Ltd. &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 29 Feb 2016 00:00:00 -0800</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-02-29/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-02-29/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-02-15</title>
@@ -540,62 +584,6 @@
         <pubDate>Mon, 28 Sep 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-09-28/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-28/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-09-14</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.3.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See the package &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS&quot;&gt;NEWS file&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;lawn&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/lawn/&quot;&gt;on CRAN&lt;/a&gt;. This version includes a code of conduct, small bug fixes, and implements print methods for most output objects for easier comprehension. &lt;a href=&quot;https://github.com/ropensci/lawn/releases/tag/v0.1.4&quot;&gt;Release notes&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;gender&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gender/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/gender/releases/tag/v0.5.1&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.0.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rfishbase&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rfishbase/&quot;&gt;on CRAN&lt;/a&gt;. This version adds iDigBio in as a new data source; and we have more detail in the documentation now about how we are querying each data source; and bug fixes. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.3.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;traits&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits/&quot;&gt;on CRAN&lt;/a&gt;. A few minor changes. See the &lt;a href=&quot;https://github.com/ropensci/traits/releases/tag/v0.1.2&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;We renamed &lt;code class=&quot;highlighter-rouge&quot;&gt;solr&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;solrium&lt;/code&gt; (check it out at &lt;a href=&quot;https://github.com/ropensci/solrium&quot;&gt;solrium&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;awesome-pull-requests&quot;&gt;Awesome pull requests&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;fulltext&lt;/code&gt; now includes a function to grab supplementary data from select outlets thanks to Will Pearse. &lt;a href=&quot;https://github.com/ropensci/fulltext/pull/62&quot;&gt;ropensci/fulltext pull 62&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; now includes a function to get forecast climate data from Global Ensemble Forecast System thanks to Nicholas Potter. &lt;a href=&quot;https://github.com/ropensci/rnoaa/pull/106&quot;&gt;ropensci/rnoaa pull 106&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had our 6th community call on 2015-08-19, with &lt;a href=&quot;http://gaborcsardi.org/&quot;&gt;Gábor Csárdi&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/metacran/ropensci-commcall-2015&quot;&gt;Tools for R package development&lt;/a&gt;. The video recording will be up soon &lt;a href=&quot;https://vimeo.com/ropensci/&quot;&gt;on Vimeo&lt;/a&gt;. Notes for the call on the &lt;a href=&quot;https://ropensci.etherpad.mozilla.org/comm-call-08-19&quot;&gt;etherpad&lt;/a&gt; include answers from Gábor to many questions from the audience.&lt;/li&gt;
-  &lt;li&gt;We will have our 7th community call coming up in October with &lt;a href=&quot;http://www.onthelambda.com/&quot;&gt;Tony Fischetti&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/tonyfischetti/assertr&quot;&gt;assertr&lt;/a&gt;. We’re still locking down the date and time.&lt;/li&gt;
-  &lt;li&gt;If you have any ideas for upcoming community calls, get back to us in the &lt;a href=&quot;https://github.com/ropensci/commcalls/issues&quot;&gt;issues of the community calls repo&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;A number of recent papers use/cite rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Patrick Brown has a draft paper in &lt;em&gt;The R Journal&lt;/em&gt; titled &lt;a href=&quot;http://pbrown.ca/mapmisc/mapmisc.pdf&quot;&gt;Simple and flexible maps of geospatial data with mapmisc&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/geonames&quot;&gt;geonames package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Bradie &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Biological Invasions&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1007/s10530-015-0970-8&quot;&gt;Beyond species-specific assessments: an analysis and validation of environmental distance metrics for non-indigenous species risk assessment&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Lapatas &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Journal of Biological Research&lt;/em&gt; titled &lt;a href=&quot;http://link.springer.com/article/10.1186/s40709-015-0032-5&quot;&gt;Data integration in biological research: an overview&lt;/a&gt; that cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Pennell &lt;em&gt;et al.&lt;/em&gt; have a pre-print in &lt;em&gt;BioRxiv&lt;/em&gt; titled &lt;a href=&quot;http://www.biorxiv.org/content/early/2015/08/20/024992.abstract&quot;&gt;A simple approach for maximizing the overlap of phylogenetic and comparative data&lt;/a&gt; that cites our &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Davison &lt;em&gt;et al.&lt;/em&gt; have a paper in &lt;em&gt;Science&lt;/em&gt; titled &lt;a href=&quot;http://www.sciencemag.org/content/349/6251/970.short&quot;&gt;Global assessment of arbuscular mycorrhizal fungus diversity reveals very low endemism&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif package&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;Dallas &amp;amp; Cornelius have a paper in &lt;em&gt;Scientific Reports&lt;/em&gt; titled &lt;a href=&quot;http://www.nature.com/srep/2015/150817/srep13185/full/srep13185.html&quot;&gt;Co-extinction in a host-parasite network: identifying key hosts for network stability&lt;/a&gt; that uses and cites our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase package&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;upcoming-events&quot;&gt;Upcoming events&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Karthik will speak about rOpenSci’s efforts in the research data space at &lt;strong&gt;Data and computing infrastructures for open scholarship&lt;/strong&gt; &lt;a href=&quot;https://rd-alliance.org/plenary-meetings/rda-sixth-plenary-meeting.html&quot;&gt;Research Data Alliance Plenary&lt;/a&gt; in Paris on September 22nd.&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 14 Sep 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-09-14/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-14/</guid>
         
         
       </item>
