@@ -5,9 +5,70 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 29 Feb 2016 13:19:59 -0800</pubDate>
-    <lastBuildDate>Mon, 29 Feb 2016 13:19:59 -0800</lastBuildDate>
+    <pubDate>Mon, 14 Mar 2016 12:48:39 -0700</pubDate>
+    <lastBuildDate>Mon, 14 Mar 2016 12:48:39 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Update 2016-03-14</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We’re hiring a community manager! Read about the position &lt;a href=&quot;https://ropensci.org/blog/2016/03/10/community-manager-position&quot;&gt;on our blog&lt;/a&gt; to find out more. Informal questions and inquiries welcome at &lt;code class=&quot;highlighter-rouge&quot;&gt;jobs at ropensci org&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;For the first time, we have an rOpenSci &lt;a href=&quot;http://auunconf.ropensci.org&quot;&gt;unconference in Australia&lt;/a&gt;. It will be 21-22 April in Brisbane. If you want to go be sure to apply before April 1st at &lt;a href=&quot;http://auunconf.ropensci.org/#apply&quot;&gt;auunconf.ropensci.org/#apply&lt;/a&gt;. Read more about the event on our blog in a &lt;a href=&quot;https://ropensci.org/blog/2016/03/09/au-unconf-down-under&quot;&gt;post by Nicholas Tierney&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;We’ve done a few &lt;a href=&quot;https://discuss.ropensci.org/t/ropensci-office-hours/312&quot;&gt;rOpenSci office hours&lt;/a&gt;. The last one we had two people! We’d like to keep the momentum going. Join us this week! Thursday at 9 AM PST&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.7.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.7.4&quot;&gt;release notes&lt;/a&gt; for changes. This version adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;lowest_common()&lt;/code&gt; to obtain the lowest common taxon and rank for a set of taxon names or IDs; now using &lt;code class=&quot;highlighter-rouge&quot;&gt;rredlist&lt;/code&gt; for IUCN Red List data; fixes to &lt;code class=&quot;highlighter-rouge&quot;&gt;iucn_*()&lt;/code&gt; functions; lots of improvements and bug fixes. &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/webchem/releases/tag/v0.1.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;lawn&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/lawn&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/lawn/releases/tag/v0.1.6&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/lawn&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;pdftools&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/pdftools&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/pdftools/blob/master/NEWS&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.0.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;RNeXML &lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/RNeXML&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/RNeXML/blob/master/NEWS&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/RNeXML&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;scrubr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/scrubr&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/scrubr/releases/tag/v0.1.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropenscilabs/scrubr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.9&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rglobi&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rglobi&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rglobi/blob/master/NEWS#L1-L9&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rglobi&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.14.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/git2r/blob/master/NEWS#L1-L21&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;3.4.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/plotly&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/plotly/blob/master/NEWS&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Video and notes from our &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/9&quot;&gt;9th community call&lt;/a&gt; are up on Vimeo on &lt;a href=&quot;https://vimeo.com/channels/rocommunitycalls&quot;&gt;our community calls channel&lt;/a&gt;. The recording was a bit longer than normal, so it’s split up into two parts: &lt;a href=&quot;https://vimeo.com/158445563&quot;&gt;part 1&lt;/a&gt; and &lt;a href=&quot;https://vimeo.com/158445864&quot;&gt;part 2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cran-dependencies&quot;&gt;CRAN dependencies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/gistr&quot;&gt;gistr&lt;/a&gt; has a new package that imports it on CRAN: &lt;a href=&quot;https://github.com/bokeh/rbokeh&quot;&gt;rbokeh&lt;/a&gt; - an R interface to Bokeh &lt;a href=&quot;http://hafen.github.io/rbokeh/&quot;&gt;http://hafen.github.io/rbokeh/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;One recent paper cites rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sessa and Der cite and use &lt;a href=&quot;https://github.com/ropensci/chromer&quot;&gt;chromer&lt;/a&gt; (an R client for interacting with the &lt;a href=&quot;http://ccdb.tau.ac.il http://ropensci.org&quot;&gt;chromosome counts database&lt;/a&gt;) in their paper &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0065229616300052&quot;&gt;Evolutionary Genomics of Ferns and Lycophytes&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Sessa, E. B., &amp;amp; Der, J. P. (2016). Evolutionary Genomics of Ferns and Lycophytes. Advances in Botanical Research. doi:10.1016/bs.abr.2016.02.001 &lt;a href=&quot;http://doi.org/10.1016/bs.abr.2016.02.001&quot;&gt;http://doi.org/10.1016/bs.abr.2016.02.001&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 14 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-03-14/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-03-14/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-02-29</title>
@@ -540,50 +601,6 @@
         <pubDate>Tue, 13 Oct 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-10-13/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-13/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-09-28</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Version &lt;code class=&quot;highlighter-rouge&quot;&gt;1.0&lt;/code&gt; of &lt;code class=&quot;highlighter-rouge&quot;&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez/&quot;&gt;on CRAN&lt;/a&gt;!  This represents a lot of work (in commits this is: &lt;a href=&quot;https://github.com/ropensci/rentrez/tree/v1.0.0&quot;&gt;357&lt;/a&gt;). Read the blog post about this release on the &lt;a href=&quot;https://ropensci.org/blog/2015/09/24/rentrez-1_0-release/&quot;&gt;rOpenSci blog&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;bold&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/bold/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/bold/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rplos&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rplos/&quot;&gt;on CRAN&lt;/a&gt;. Minor change in the version of &lt;code class=&quot;highlighter-rouge&quot;&gt;solr&lt;/code&gt; package required. See the &lt;a href=&quot;https://github.com/ropensci/rplos/releases/tag/v0.5.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet/&quot;&gt;on CRAN&lt;/a&gt;. New function &lt;code class=&quot;highlighter-rouge&quot;&gt;vert_id()&lt;/code&gt; to get occurrence records by single occurrence IDs. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.4.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;neotoma&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/neotoma/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/neotoma/blob/master/NEWS#L1-L4&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.3.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;webchem&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/blob/master/NEWS#L1-L18&quot;&gt;NEWS&lt;/a&gt; for changes. And check out Eduard’s blog post about the new version on &lt;a href=&quot;http://edild.github.io/webchemv003/&quot;&gt;his blog&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We will have our 7th community call coming up on October 7th 9 am PST with &lt;a href=&quot;http://www.onthelambda.com/&quot;&gt;Tony Fischetti&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/tonyfischetti/assertr&quot;&gt;assertr&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/7&quot;&gt;ropensci/commcalls#7&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;A number of recent papers use/cite rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.carlboettiger.info/&quot;&gt;Carl Boettiger’s&lt;/a&gt; paper on docker titled &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=2723882&quot;&gt;An introduction to Docker for reproducible research&lt;/a&gt; is out in &lt;em&gt;ACM SIGOPS Operating Systems Review&lt;/em&gt;.&lt;/li&gt;
-  &lt;li&gt;rOpenSci got mentions in a number of publiations and reports recently:
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://twitter.com/aleksandrana&quot;&gt;Aleksandra Pawlik’s&lt;/a&gt; &lt;a href=&quot;http://scitation.aip.org/content/aip/journal/cise/17/1/10.1109/MCSE.2014.93&quot;&gt;Crowdsourcing Scientific Software Documentation: A Case Study of the NumPy Documentation Project&lt;/a&gt; paper&lt;/li&gt;
-      &lt;li&gt;The &lt;a href=&quot;http://bioconductor.fhcrc.org/about/annual-reports/AnnRep2015.pdf&quot;&gt;Bioconductor 2015 annual report&lt;/a&gt;.&lt;/li&gt;
-      &lt;li&gt;The paper &lt;a href=&quot;http://www.esajournals.org/doi/10.1890/ES14-00198.1&quot;&gt;Connecting people and ideas from around the world: global innovation platforms for next-generation ecology and beyond&lt;/a&gt; by Jørgensen et al. in Ecosphere (bonus points for being in an open access journal).&lt;/li&gt;
-      &lt;li&gt;A paper titled &lt;a href=&quot;http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4517741/&quot;&gt;Drivers of Emerging Infectious Disease Events as a Framework for Digital Detection&lt;/a&gt; in the journal &lt;em&gt;Emerging Infectious Diseases&lt;/em&gt;.&lt;/li&gt;
-      &lt;li&gt;A paper &lt;a href=&quot;http://www.tandfonline.com/doi/abs/10.1080/07317131.2015.1059681&quot;&gt;Reproducibility and Its Application to Technical Service Processes&lt;/a&gt; in the journal &lt;em&gt;Technical Services Quarterly&lt;/em&gt;.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Mon, 28 Sep 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-09-28/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-09-28/</guid>
         
         
       </item>
