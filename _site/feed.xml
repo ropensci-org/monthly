@@ -5,9 +5,60 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Mar 2016 12:53:14 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Mar 2016 12:53:14 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Mar 2016 09:33:41 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Mar 2016 09:33:41 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Update 2016-03-28</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We’re still looking for a community manager! Read about the position &lt;a href=&quot;https://ropensci.org/blog/2016/03/10/community-manager-position&quot;&gt;on our blog&lt;/a&gt; to find out more. Informal questions and inquiries welcome at &lt;code class=&quot;highlighter-rouge&quot;&gt;jobs at ropensci org&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/jqr&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; is an R interface to &lt;a href=&quot;http://stedolan.github.io/jq&quot;&gt;jq&lt;/a&gt; - a JSON processor. &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; makes it easy to slice and dice JSON really easily; it’s a C library, and has a CLI interface that’s really handy in combination with &lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt; or similar.  &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; has a low level interace to &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; so that you can copy/paste the exact &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; commands you use on the CLI. In addition, &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; has a high level interace that aims to make it easy to construct &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; commands with R functions. Additionally, we make it easy to build up &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; commands with pipes - although you don’t have to use pipes. &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; supports NSE and SE. &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; comes bundled with &lt;code class=&quot;highlighter-rouge&quot;&gt;jq&lt;/code&gt; itself, and works across all platforms. &lt;a href=&quot;https://github.com/ropensci/jqr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.0&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/datapack&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; is an R package to handle data packages. &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; provides an abstraction for collating heterogeneous collections of data objects and metadata into a bundle that can be transported and loaded into a single composite file. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/datapack/vignettes/datapack-overview.html&quot;&gt;the vignette for an overview&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/datapack&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;traits&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/traits&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/traits/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. This version deprecates a number of functions (they’re still avail., but will be defunct/gone in the next version), which are going into a new package &lt;a href=&quot;https://github.com/ropenscilabs/originr&quot;&gt;originr&lt;/a&gt; focused on data on where taxa are native/invasive/etc. &lt;a href=&quot;https://github.com/ropensci/traits&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;hunspell&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/webchem&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/hunspell/blob/master/NEWS&quot;&gt;news&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/hunspell&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive&quot;&gt;on CRAN&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/internetarchive/blob/master/NEWS.md&quot;&gt;news&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/internetarchive&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;bold&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/bold&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/bold/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/bold&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rebird&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rebird&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rebird/releases/tag/v0.3&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rebird&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cran-dependencies&quot;&gt;CRAN dependencies&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[gistr][gistr] has a new package that imports it on CRAN: [rbokeh][rbokeh] - an R interface to Bokeh &lt;a href=&quot;http://hafen.github.io/rbokeh/&quot;&gt;http://hafen.github.io/rbokeh/&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;One recent paper cites rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sessa and Der cite and use [chromer][chromer] (an R client for interacting with the &lt;a href=&quot;http://ccdb.tau.ac.il&quot;&gt;chromosome counts database&lt;/a&gt;) in their paper &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0065229616300052&quot;&gt;Evolutionary Genomics of Ferns and Lycophytes&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Sessa, E. B., &amp;amp; Der, J. P. (2016). Evolutionary Genomics of Ferns and Lycophytes. Advances in Botanical Research. doi:10.1016/bs.abr.2016.02.001 &lt;a href=&quot;http://doi.org/10.1016/bs.abr.2016.02.001&quot;&gt;http://doi.org/10.1016/bs.abr.2016.02.001&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 28 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-03-28/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-03-28/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-03-14</title>
@@ -548,59 +599,6 @@
         <pubDate>Mon, 26 Oct 2015 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2015-10-26/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-26/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-10-13</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;internetarchive&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/internetarchive/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/internetarchive/blob/master/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.6.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize/&quot;&gt;on CRAN&lt;/a&gt;. This version introduces a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;iucn_id()&lt;/code&gt; to get an IUCN ID from a taxon name. All uBIO functions are now defunct - that is, gone; no longer available in the package. A whole bunch of minor fixes and improvements. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.6.6&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;fulltext&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/fulltext/&quot;&gt;on CRAN&lt;/a&gt;. This version adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;ft_get_si()&lt;/code&gt; to fetch supplementary files for articles (from &lt;a href=&quot;https://github.com/willpearse&quot;&gt;Will Pearse&lt;/a&gt;). Another new function &lt;code class=&quot;highlighter-rouge&quot;&gt;ft_links()&lt;/code&gt; helps you grab links for the full text versions of articles (where available). Also included are some bug fixes and minor improvements. See the &lt;a href=&quot;https://github.com/ropensci/fulltext/releases/tag/v0.1.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.4.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc/&quot;&gt;on CRAN&lt;/a&gt;. This version includes a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;as.vertnet()&lt;/code&gt; to coerce various inputs to vertnet occurrence data objects. In addition, &lt;code class=&quot;highlighter-rouge&quot;&gt;occ()&lt;/code&gt;, the major workhorse in &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt; gains two new functions, &lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;start&lt;/code&gt;, to facilitate paging across data sources, regardless of the paging parameters/scheme they use. Also included are some bug fixes and minor improvements. See the &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.8.9&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif/&quot;&gt;on CRAN&lt;/a&gt;. This version includes a number of minor changes and bug fixes, including a fix to the &lt;code class=&quot;highlighter-rouge&quot;&gt;elevation()&lt;/code&gt; function to make sure checks are done on incoming data (thanks &lt;a href=&quot;https://github.com/luisDVA&quot;&gt;luisDVA&lt;/a&gt;). See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.8.9&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;gistr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gistr/&quot;&gt;on CRAN&lt;/a&gt;. This version adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;gist_create_git()&lt;/code&gt; to use git via the rOpenSci client &lt;code class=&quot;highlighter-rouge&quot;&gt;git2r&lt;/code&gt; instead of the GitHub HTTP API. The git interface allows you easily include any arifacts during &lt;code class=&quot;highlighter-rouge&quot;&gt;knit()&lt;/code&gt;, and to push binary files (e.g., images). Also, improvments and bug fixes. See the &lt;a href=&quot;https://github.com/ropensci/gistr/releases/tag/v0.3.4&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rerddap&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rerddap/&quot;&gt;on CRAN&lt;/a&gt;. This version makes the suite of cache functions easier to use by acting not only on cached file names, but the outputs of the main data acquisition functions so you can easily delete cached files as needed. See the &lt;a href=&quot;https://github.com/ropensci/rerddap/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We had our 7th community call on October 7th with &lt;a href=&quot;http://www.onthelambda.com/&quot;&gt;Tony Fischetti&lt;/a&gt; talking about &lt;a href=&quot;https://github.com/tonyfischetti/assertr&quot;&gt;assertr&lt;/a&gt;. &lt;a href=&quot;https://docs.google.com/document/d/1qvJmMCw-TFsq70r6Qb19SVbhr24PsbrSV5zHdRLz7Cc/edit&quot;&gt;Notes from the call&lt;/a&gt; and &lt;a href=&quot;https://vimeo.com/141906295&quot;&gt;the video&lt;/a&gt; are now up.&lt;/li&gt;
-  &lt;li&gt;Out &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/8&quot;&gt;8th community call&lt;/a&gt; is tenatively planned for Wednesday December 2nd, but no speaker planned yet.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;A recent paper cites rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Gomez et al. have a paper titled &lt;a href=&quot;http://www.biorxiv.org/content/early/2015/09/29/027821.abstract&quot;&gt;COMADRE: a global database of animal demography&lt;/a&gt; in which they cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;In our discussion forum we maintain a list of uses of our software found in GitHub repos (combination of occassional manual search and via http://scisoft-net-map.isri.cmu.edu): https://discuss.ropensci.org/t/use-of-some-ropensci-packages-on-github/137. This is a good place to look if you’re interested in using, or already use, one of our packages, and want to know how others use it. Here’s a smattering of cool examples:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/rdatsci/rt&quot;&gt;rt&lt;/a&gt; - R tools for the command line (uses &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;git2r&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jsgosnell/ratlantis&quot;&gt;ratlantis&lt;/a&gt; - R code for interfacing with &lt;a href=&quot;http://atlantis.cmar.csiro.au/&quot;&gt;Atlantis ecosystem modeling software&lt;/a&gt; (uses &lt;a href=&quot;https://github.com/ropensci/rglobi&quot;&gt;rglobi&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt;, &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;spocc&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/skgrange/gissr&quot;&gt;gissr&lt;/a&gt; - R functions which make working with spatial data easier (uses &lt;a href=&quot;https://github.com/ropensci/geojsonio&quot;&gt;geojsonio&lt;/a&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/kmanlove/ParticipationInComputing&quot;&gt;ParticipationInComputing&lt;/a&gt; - Explore rate and composition of individuals actively participating in the online statistical computing community. (uses &lt;a href=&quot;https://github.com/skgrange/rcrossref&quot;&gt;rcrossref&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Salguero Gomez, R., Jones, O., Archer, R., Bein, C., de Burh, H., Farack, C., … Vaupel, J. (2015). COMADRE: a global database of animal demography. doi:10.1101/027821 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 13 Oct 2015 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-10-13/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-10-13/</guid>
         
         
       </item>
