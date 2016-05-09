@@ -5,8 +5,8 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 May 2016 11:44:54 -0700</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 11:44:54 -0700</lastBuildDate>
+    <pubDate>Mon, 09 May 2016 12:10:23 -0700</pubDate>
+    <lastBuildDate>Mon, 09 May 2016 12:10:23 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -64,13 +64,15 @@
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
 
-&lt;p&gt;Four recent papers cite and/or use rOpenSci software:&lt;/p&gt;
+&lt;p&gt;Six recent papers cite and/or use rOpenSci software (or reference rOpenSci):&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Iraola and Naya cite and use &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; (the taxonomic toolbelt for R) in their paper &lt;a href=&quot;https://doi.org/10.1101/044115&quot;&gt;Wedding higher taxonomic ranks with metabolic signatures coded in prokaryotic genomes&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Perez-Riveral et al. cite &lt;a href=&quot;https://ropensci.org/&quot;&gt;rOpenSci&lt;/a&gt; in general and &lt;a href=&quot;https://github.com/ropensci/RNeXML&quot;&gt;RNeXML&lt;/a&gt; specifically in their paper &lt;a href=&quot;https://doi.org/10.1101/048744&quot;&gt;Ten Simple Rules for Taking Advantage of git and GitHub&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Jacobs et al. cite [rfigshare][rfigshare] and [dvn][dvn] in their paper &lt;a href=&quot;http://arxiv.org/abs/1509.04729&quot;&gt;Integrating Research Data Management into Geographical Information Systems&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Jacobs et al. cite &lt;a href=&quot;https://github.com/ropensci/rfigshare&quot;&gt;rfigshare&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/dvn&quot;&gt;dvn&lt;/a&gt; in their paper &lt;a href=&quot;http://arxiv.org/abs/1509.04729&quot;&gt;Integrating Research Data Management into Geographical Information Systems&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Schwery, O., &amp;amp; O’Meara cite and use &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.7717/peerj-cs.56&quot;&gt;MonoPhy: a simple R package to find and visualize monophyly issues&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Dafforn et al. reference rOpenSci in their paper &lt;a href=&quot;https://doi.org/10.1071/mf15108&quot;&gt;Big data opportunities and challenges for assessing multiple stressors across scales in aquatic ecosystems&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Bachelot et al. cite and use &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1890/15-1397.1/abstract&quot;&gt;Long‐lasting effects of land use history on soil fungal communities in second‐growth tropical rain forests&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -100,6 +102,12 @@
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
       &lt;p&gt;Schwery, O., &amp;amp; O’Meara, B. C. (2016).  MonoPhy : a simple R package to find and visualize monophyly issues . PeerJ Computer Science, 2, e56. &lt;a href=&quot;https://doi.org/10.7717/peerj-cs.56&quot;&gt;https://doi.org/10.7717/peerj-cs.56&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Dafforn, K. A., Johnston, E. L., Ferguson, A., Humphrey, C. L., Monk, W., Nichols, S. J., … Baird, D. J. (2016). Big data opportunities and challenges for assessing multiple stressors across scales in aquatic ecosystems. Marine and Freshwater Research, 67(4), 393. &lt;a href=&quot;https://doi.org/10.1071/mf15108&quot;&gt;https://doi.org/10.1071/mf15108&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;Bachelot, et al. (2016) Long‐lasting effects of land use history on soil fungal communities in second‐growth tropical rain forests. Ecological Applications. &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1890/15-1397.1/abstract&quot;&gt;https://doi.org/10.1890/15-1397.1&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
