@@ -5,9 +5,101 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 May 2016 12:10:23 -0700</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 12:10:23 -0700</lastBuildDate>
+    <pubDate>Mon, 23 May 2016 11:54:27 -0700</pubDate>
+    <lastBuildDate>Mon, 23 May 2016 11:54:27 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Update 2016-05-23</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We’ve added six new people to our Community page &lt;a href=&quot;https://ropensci.org/community#community&quot;&gt;ropensci.org/community&lt;/a&gt; - all from new packages contributed via our onboarding/software review process.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;eechidna&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/eechidna&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;eechidna&lt;/code&gt; gets data from the 2013 Australian Federal Election (House of Representatives) and the 2011 Australian Census. Includes tools for visualizing and analysing the data. For an introduction to the package see the five vignettes (CRAN link above). &lt;a href=&quot;https://github.com/ropenscilabs/eechidna&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;gutenbergr&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.1&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/gutenbergr&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;gutenbergr&lt;/code&gt; helps you download and process public domain works from the &lt;a href=&quot;https://www.gutenberg.org/&quot;&gt;Project Gutenberg collection&lt;/a&gt;. For an introduction to the package see &lt;a href=&quot;https://cran.rstudio.com/web/packages/gutenbergr/vignettes/intro.html&quot;&gt;the vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/gutenbergr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;opencage&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/opencage&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;opencage&lt;/code&gt; includes tools for accessing the &lt;a href=&quot;https://geocoder.opencagedata.com/&quot;&gt;OpenCage API&lt;/a&gt;, which provides forward geocoding (from placename to longitude and latitude) and reverse geocoding (from longitude and latitude to placename). For an introduction to the package see &lt;a href=&quot;https://cran.r-project.org/web/packages/opencage/vignettes/opencage.html&quot;&gt;the vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/opencage&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.0.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/datapack&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/datapack/releases/tag/1.0.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/datapack&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;3.6.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/plotly&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/plotly/releases/tag/v3.6.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.15.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/git2r/blob/master/NEWS#L5-L21&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.5.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.7.6&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;jqr&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/jqr&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/jqr/releases/tag/v0.2.3&quot;&gt;release notes&lt;/a&gt; for changes - Just a minor release to fix warnings on R CMD CHECK. &lt;a href=&quot;https://github.com/ropensci/jqr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review,
+but way better. We’ll highlight new pacakages here that have come through this system. A huge thanks to our reviewers, who
+do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;The following are rOpenSci packages that have recently gone through our onboarding process:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropenscilabs/gutenbergr&quot;&gt;gutenbergr&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/dgrtwo&quot;&gt;David Robinson&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Review: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/41&quot;&gt;ropensci/onboarding#41&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropenscilabs/convertr&quot;&gt;convertr&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/GShotwell&quot;&gt;Gordon Shotwell&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Review: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/40&quot;&gt;ropensci/onboarding#40&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropenscilabs/osmplotr&quot;&gt;osmplotr&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/mpadge&quot;&gt;Mark Padgham&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Review: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/27&quot;&gt;ropensci/onboarding#27&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Two recent papers cite and/or use rOpenSci software (or reference rOpenSci):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Butterfield &lt;em&gt;et al&lt;/em&gt;. cite and use &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; (our GBIF R client) in their paper &lt;a href=&quot;https://doi.org/10.1111/rec.12381&quot;&gt;Prestoration: using species in restoration that will persist now and into the future&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Drost &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; (the taxonomic toolbelt for R) in their paper &lt;a href=&quot;https://doi.org/10.1101/051565&quot;&gt;Capturing Evolutionary Signatures in Transcriptomes with myTAI&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;http://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;http://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;http://ropensci.org/feed.xml&quot;&gt;http://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Butterfield, B. J., Copeland, S. M., Munson, S. M., Roybal, C. M., &amp;amp; Wood, T. E. (2016). Prestoration: using species in restoration that will persist now and into the future. Restoration Ecology. &lt;a href=&quot;https://doi.org/10.1111/rec.12381&quot;&gt;https://doi.org/10.1111/rec.12381&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Drost, H.-G., Gabel, A., Domazet-Lošo, T., Quint, M., &amp;amp; Grosse, I. (2016). Capturing Evolutionary Signatures in Transcriptomes with myTAI. &lt;a href=&quot;https://doi.org/10.1101/051565&quot;&gt;https://doi.org/10.1101/051565&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 23 May 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-05-23/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-05-23/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-05-09</title>
@@ -610,54 +702,6 @@
         <pubDate>Tue, 05 Jan 2016 00:00:00 -0800</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2016-01-05/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-01-05/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2015-12-07</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;rorcid&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rorcid&quot;&gt;on CRAN&lt;/a&gt;. An R client for &lt;a href=&quot;http://orcid.org/&quot;&gt;ORCID&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rorcid#rorcid&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;pangaear&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/pangaear&quot;&gt;on CRAN&lt;/a&gt;. This is an R client for &lt;a href=&quot;Pangaea.de&quot;&gt;Pangaea.de&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/pangaear#pangaear&quot;&gt;the README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/pangaear&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (version &lt;code class=&quot;highlighter-rouge&quot;&gt;2.0.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.9.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.7.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.7.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnoaa&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rnoaa&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.4.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.4.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.12.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;git2r&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/git2r&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/git2r/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/git2r&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;Three recent papers cite and/or rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Rothman et al. have a paper in &lt;em&gt;Circulation Cardiovascular Interventions&lt;/em&gt; titled &lt;a href=&quot;http://circinterventions.ahajournals.org/content/8/11/e002569.short&quot;&gt;Pulmonary artery denervation reduces pulmonary artery pressure and induces histological changes in an acute porcine model of pulmonary hypertension&lt;/a&gt; in which they use and cite the &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;plotly R client&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;McGee et al. have a paper in &lt;em&gt;Science&lt;/em&gt; titled &lt;a href=&quot;http://www.sciencemag.org/content/350/6264/1077.short&quot;&gt;A pharyngeal jaw evolutionary innovation facilitated extinction in Lake Victoria cichlids&lt;/a&gt; in which they use and cite [rfishbase][rfishbase] (see the Supplement) &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Riva et al. have a paper in &lt;em&gt;Oikos&lt;/em&gt; titled &lt;a href=&quot;http://onlinelibrary.wiley.com/doi/10.1111/oik.02305/abstract&quot;&gt;Exploring the evolutionary signature of food webs’ backbones using functional traits&lt;/a&gt; in which they use &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt;, but only evidence in their GitHub repo for the paper, see &lt;a href=&quot;https://github.com/gvdr/RDPG_foodweb/blob/master/Code/Ancillary_Code/create_tree.R&quot;&gt;gvdr/RDPG_foodweb/blob/master/Code/Ancillary_Code/create_tree.R&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;references&quot;&gt;References&lt;/h2&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Rothman, A. M. K., Arnold, N. D., Chang, W., Watson, O., Swift, A. J., Condliffe, R., et al. (2015). Pulmonary Artery Denervation Reduces Pulmonary Artery Pressure and Induces Histological Changes in an Acute Porcine Model of Pulmonary Hypertension. Circulation: Cardiovascular Interventions, 8(11), e002569–e002569. &lt;a href=&quot;http://doi.org/10.1161/circinterventions.115.002569&quot;&gt;http://doi.org/10.1161/circinterventions.115.002569&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;McGee, M. D., Borstein, S. R., Neches, R. Y., Buescher, H. H., Seehausen, O., &amp;amp; Wainwright, P. C. (2015). A pharyngeal jaw evolutionary innovation facilitated extinction in Lake Victoria cichlids. Science, 350(6264), 1077–1079. &lt;a href=&quot;http://doi.org/10.1126/science.aab0800&quot;&gt;http://doi.org/10.1126/science.aab0800&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Dalla Riva, G. V., &amp;amp; Stouffer, D. B. (in press). Exploring the evolutionary signature of food webs’ backbones using functional traits. Oikos &lt;a href=&quot;http://doi.org/10.1111/oik.02305&quot;&gt;http://doi.org/10.1111/oik.02305&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 07 Dec 2015 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2015-12-07/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2015-12-07/</guid>
         
         
       </item>
