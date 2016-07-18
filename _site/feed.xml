@@ -5,9 +5,103 @@
     <description>rOpenSci biweekly updates, including for software, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 04 Jul 2016 07:21:47 -0700</pubDate>
-    <lastBuildDate>Mon, 04 Jul 2016 07:21:47 -0700</lastBuildDate>
+    <pubDate>Mon, 18 Jul 2016 13:13:02 -0700</pubDate>
+    <lastBuildDate>Mon, 18 Jul 2016 13:13:02 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Update 2016-07-18</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.1&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; provides access to air quality data from the API of the OpenAQ platform &lt;a href=&quot;https://docs.openaq.org/&quot;&gt;https://docs.openaq.org/&lt;/a&gt;, with the different services the API offers (getting measurements for a given query, getting latest measurements, getting lists of available countries/cities/locations). For an introduction to the package see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq/vignettes/Ropenaq-vignette.html&quot;&gt;vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/ropenaq&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rgeospatialquality&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.2&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rgeospatialquality&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rgeospatialquality&lt;/code&gt; provides native wrappers for the functions available via the spatial quality REST API described at &lt;a href=&quot;http://bit.ly/bioinformatics_btw057&quot;&gt;http://bit.ly/bioinformatics_btw057&lt;/a&gt;. For an introduction to the package see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rgeospatialquality/vignettes/geospatial-quality-api.html&quot;&gt;vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/rgeospatialquality&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ritis&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/ritis&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/ritis/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for more, and see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/ritis/vignettes/ritis_vignette.html&quot;&gt;vignette&lt;/a&gt; for an introduction to the package. This is a re-boot of &lt;code class=&quot;highlighter-rouge&quot;&gt;ritis&lt;/code&gt;, overhauled to use the new JSON API, instead of XML, and functions reworked internally, reduced complexity. &lt;a href=&quot;https://github.com/ropensci/ritis&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;gutenbergr&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/gutenbergr&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;gutenbergr&lt;/code&gt; is an R package to help you download and process public domain works from Project Gutenberg. See the &lt;a href=&quot;https://github.com/ropenscilabs/gutenbergr/blob/master/NEWS.md#gutenbergr-012&quot;&gt;NEWS&lt;/a&gt; for changes. For an introduction to the package see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/gutenbergr/vignettes/intro.html&quot;&gt;vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/gutenbergr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.0.7&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;RNeXML&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/RNeXML&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;RNeXML&lt;/code&gt; is an R package to provide access to phyloinformatic data in ‘NeXML’ format. See the &lt;a href=&quot;https://github.com/ropensci/RNeXML/blob/master/NEWS#L31&quot;&gt;NEWS&lt;/a&gt; for changes. For an introduction to the package see the vignettes linked on the CRAN landing page. &lt;a href=&quot;https://github.com/ropensci/RNeXML&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.9.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is an R interface to the &lt;a href=&quot;http://www.gbif.org/&quot;&gt;Global Biodiversity Information Facility&lt;/a&gt; API. See &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.4&quot;&gt;release notes&lt;/a&gt; for changes. This version adds a new vignette, switches to using &lt;code class=&quot;highlighter-rouge&quot;&gt;tibble&lt;/code&gt; for data.frame’s, ands includes some minor improvements and bug fixes. For an introduction to the package see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rgbif/vignettes/rgbif_vignette.html&quot;&gt;vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;osmplotr&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmplotr&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;osmplotr&lt;/code&gt; provides customisable images of OpenStreetMap (OSM) data and data visualisation using OSM objects. See &lt;a href=&quot;https://github.com/ropenscilabs/osmplotr/blob/master/NEWS#L1-L6&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropenscilabs/osmplotr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.4.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;hunspell&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/hunspell&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;hunspell&lt;/code&gt; is a spell checker and morphological analyzer library designed for languages with rich morphology and complex word compounding or character encoding. See &lt;a href=&quot;https://github.com/ropensci/hunspell/releases/tag/v1.4.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/hunspell&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/geojsonio&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio&lt;/code&gt; does I/O for GeoJSON. This version brings a major performance improvement for &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio::geojson_json()&lt;/code&gt; by moving to reading in &lt;code class=&quot;highlighter-rouge&quot;&gt;json&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;readr::read_file()&lt;/code&gt;. See &lt;a href=&quot;https://github.com/ropensci/geojsonio/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/geojsonio&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review
+system, sorta like scholarly paper review, but way better. We’ll highlight new pacakages
+here that have come through this system. A huge thanks to our reviewers, who
+do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;), and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;The following package recently made it through our onboarding process:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/europepmc&quot;&gt;europepmc&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/njahn82&quot;&gt;Najko Jahn&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Review: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/29&quot;&gt;ropensci/onboarding#29&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewer: &lt;a href=&quot;https://github.com/toph-allen&quot;&gt;Toph Allen&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Four recent papers cite and/or use rOpenSci software (or reference rOpenSci):&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Weber &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1093/aob/mcw118&quot;&gt;Foliar nectar enhances plant–mite mutualisms: the effect of leaf sugar on the control of powdery mildew by domatia-inhabiting mites&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Madden &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://github.com/ropensci/rAltmetric&quot;&gt;rAlmteric&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1177/0886260516657914&quot;&gt;Knowledge Dissemination of Intimate Partner Violence Intervention Studies Measured Using Alternative Metrics: Results From a Scoping Review&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Michonneau &lt;em&gt;et al&lt;/em&gt;. wrote a paper describing &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;rotl&lt;/a&gt;, and cite our &lt;a href=&quot;https://github.com/ropensci/traits&quot;&gt;traits&lt;/a&gt; package in their paper &lt;a href=&quot;https://doi.org/10.1111/2041-210x.12593&quot;&gt;rotl: an R package to interact with the Open Tree of Life data&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Wagner cited &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in her paper &lt;a href=&quot;https://doi.org/10.1111/jvs.12432&quot;&gt;A review of software tools for spell-checking taxon names in vegetation databases&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Weber, M. G., Porturas, L. D., &amp;amp; Taylor, S. A. (2016). Foliar nectar enhances plant–mite mutualisms: the effect of leaf sugar on the control of powdery mildew by domatia-inhabiting mites. Annals of Botany, mcw118. &lt;a href=&quot;https://doi.org/10.1093/aob/mcw118&quot;&gt;https://doi.org/10.1093/aob/mcw118&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Madden, K., Evaniew, N., Scott, T., Domazetoska, E., Dosanjh, P., Li, C. S., … Sprague, S. (2016). Knowledge Dissemination of Intimate Partner Violence Intervention Studies Measured Using Alternative Metrics: Results From a Scoping Review. Journal of Interpersonal Violence. &lt;a href=&quot;https://doi.org/10.1177/0886260516657914&quot;&gt;https://doi.org/10.1177/0886260516657914&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Michonneau, F., Brown, J. W., &amp;amp; Winter, D. J. (2016). rotl: an R package to interact with the Open Tree of Life data. Methods in Ecology and Evolution. &lt;a href=&quot;https://doi.org/10.1111/2041-210x.12593&quot;&gt;https://doi.org/10.1111/2041-210x.12593&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Wagner, V. (2016). A review of software tools for spell-checking taxon names in vegetation databases. Journal of Vegetation Science. &lt;a href=&quot;https://doi.org/10.1111/jvs.12432&quot;&gt;https://doi.org/10.1111/jvs.12432&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 18 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-07-18/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-07-18/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-06-20</title>
@@ -679,63 +773,6 @@ and the authors of the packages!&lt;/p&gt;
         <pubDate>Mon, 29 Feb 2016 00:00:00 -0800</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2016-02-29/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-02-29/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2016-02-15</title>
-        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We are holding our 3rd annual &lt;a href=&quot;http://unconf16.ropensci.org&quot;&gt;rOpenSci unconference&lt;/a&gt; 31 March - April 1 in San Francisco.&lt;/li&gt;
-  &lt;li&gt;We are trying something new: rOpenSci office hours. The first one is this Thursday at 9 am PST. We’ll focus not so much on bug fixing your code, but talking about use cases researchers have working with data, either on the web or not, in R. Our goal with these discussions is to identify common problems researchers have, and then later solve those through software. It’s open to anyone - join us! More info in our &lt;a href=&quot;https://discuss.ropensci.org/t/ropensci-office-hours/312&quot;&gt;discussion forum&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;solrium&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/solrium&quot;&gt;on CRAN&lt;/a&gt;. See the vignettes for intros to &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/search.html&quot;&gt;solr search&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/local_setup.html&quot;&gt;local Solr setup&lt;/a&gt;, &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/document_management.html&quot;&gt;document management&lt;/a&gt;, and &lt;a href=&quot;https://cran.rstudio.com/web/packages/solrium/vignettes/cores_collections.html&quot;&gt;core/collection management&lt;/a&gt;. This is a reboot of the &lt;code class=&quot;highlighter-rouge&quot;&gt;solr&lt;/code&gt; package, now compliant with Solr v5 and up, and now with functions for managing cores and collections. The package was re-named because of the major changes in the package, and to make use of the package easier to find on the web. &lt;a href=&quot;https://github.com/ropensci/solrium&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new package (version &lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.0&lt;/code&gt;) &lt;code class=&quot;highlighter-rouge&quot;&gt;rdatacite&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rdatacite&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rdatacite&lt;/code&gt; is an R client for &lt;a href=&quot;https://www.datacite.org/node&quot;&gt;Datacite&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rdatacite#rdatacite&quot;&gt;README&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropensci/rdatacite&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.9.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is an R client for the &lt;a href=&quot;http://www.gbif.org/developer/summary&quot;&gt;GBIF API&lt;/a&gt;. See the the &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rotl&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rotl/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;oai&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/oai&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/oai/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/oai&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rorcid&lt;/code&gt; is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rorcid/&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rorcid/releases/tag/v0.2.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rcrossref&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rcrossref&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rcrossref/releases/tag/v0.5.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rcrossref&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;community&quot;&gt;Community&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A few members were added to our community page: &lt;a href=&quot;http://ropensci.org/community/#will&quot;&gt;Will Pearse&lt;/a&gt; and &lt;a href=&quot;http://ropensci.org/community/#stefan&quot;&gt;Stefan Bache&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;We will have our 9th community call on March 2nd at 9 am PST with &lt;a href=&quot;https://github.com/jennybc&quot;&gt;Dr. Jenny Bryan&lt;/a&gt; talking about her &lt;a href=&quot;https://github.com/jennybc/googlesheets&quot;&gt;Google Spreadsheets R API&lt;/a&gt;. More details at &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/9&quot;&gt;ropensci/commcalls#9&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;Two recent papers cite and/or rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Dallas has a paper in &lt;em&gt;Ecography&lt;/em&gt; titled &lt;a href=&quot;http://doi.org/10.1111/ecog.02131&quot;&gt;helminthR: An R interface to the London Natural History Museum’s Host-Parasite Database&lt;/a&gt; in which he describes the &lt;a href=&quot;https://github.com/ropensci/helminthR&quot;&gt;helminthR&lt;/a&gt; package &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Colomb and Brembs have a paper in &lt;em&gt;Peerj Preprints&lt;/em&gt; titled &lt;a href=&quot;http://doi.org/10.7287/peerj.preprints.1712v1&quot;&gt;PKC in motorneurons underlies self-learning, a form of motor learning in Drosophila&lt;/a&gt; in which they use and cite &lt;a href=&quot;https://github.com/ropensci/rfigshare&quot;&gt;rfigshare&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Dallas, T. (2016). helminthR: An R interface to the London Natural History Museum’s Host-Parasite Database. Ecography, &lt;a href=&quot;http://doi.org/10.1111/ecog.02131&quot;&gt;http://doi.org/10.1111/ecog.02131&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Colomb, J., &amp;amp; B. Brembs. (2016). PKC in motorneurons underlies self-learning, a form of motor learning in Drosophila. PeerJ PrePrints. &lt;a href=&quot;http://doi.org/10.7287/peerj.preprints.1712v1&quot;&gt;http://doi.org/10.7287/peerj.preprints.1712v1&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 15 Feb 2016 00:00:00 -0800</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2016-02-15/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-02-15/</guid>
         
         
       </item>
