@@ -5,9 +5,129 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Aug 2016 10:10:45 -0700</pubDate>
-    <lastBuildDate>Tue, 30 Aug 2016 10:10:45 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2016 10:19:52 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2016 10:19:52 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Update 2016-09-12</title>
+        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;monkeylearn&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.1&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/monkeylearn&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;monkeylearn&lt;/code&gt; provides access the &lt;a href=&quot;http://docs.monkeylearn.com/article/api-reference/&quot;&gt;Monkeylearn API&lt;/a&gt; for text classifiers and extractors. Maintained by &lt;a href=&quot;https://github.com/masalmon&quot;&gt;Maëlle Salmon&lt;/a&gt;. For an introduction to the package see the &lt;a href=&quot;https://cran.rstudio.com/web/packages/monkeylearn/vignettes/monkeylearn_intro.html&quot;&gt;introductory vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropenscilabs/monkeylearn&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;riem&lt;/code&gt; hit &lt;a href=&quot;https://cran.rstudio.com/web/packages/riem&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/riem/releases/tag/v1.0.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropenscilabs/riem&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;hunspell&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/hunspell&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/hunspell/releases/tag/v2.0&quot;&gt;release notes&lt;/a&gt; for changes. Make sure to checkout the &lt;a href=&quot;https://cran.rstudio.com/web/packages/hunspell/vignettes/intro.html&quot;&gt;new vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/hunspell&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v0.3&quot;&gt;release notes&lt;/a&gt; for changes. Check out the new &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick/vignettes/intro.html&quot;&gt;magick vignette&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;treebase&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/treebase&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/treeBASE/blob/master/NEWS#L4&quot;&gt;the news&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/treeBASE&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;paleobioDB&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/paleobioDB&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/paleobioDB/blob/master/NEWS.md#paleobiodb-050&quot;&gt;the news&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/paleobioDB&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.6.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rnoaa&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.6.0&quot;&gt;release notes&lt;/a&gt; for changes. This version of &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; gains a suite of functions prefixed with &lt;code class=&quot;highlighter-rouge&quot;&gt;meteo_&lt;/code&gt; that help users deal with GHCND data. In addition, this version makes &lt;code class=&quot;highlighter-rouge&quot;&gt;isd_stations_search()&lt;/code&gt; much faster; a fix to &lt;code class=&quot;highlighter-rouge&quot;&gt;seaice()&lt;/code&gt;; and more. &lt;a href=&quot;https://github.com/ropensci/rnoaa&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review
+system, sorta like scholarly paper review, but way better. We’ll highlight new pacakages
+here that have come through this system. A huge thanks to our reviewers, who
+do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;), and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;The following package recently went through our onboarding process and has been approved:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropenscilabs/monkeylearn&quot;&gt;monkeylearn&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/masalmon&quot;&gt;Maëlle Salmon&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/45&quot;&gt;ropensci/onboarding#45&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/leeper&quot;&gt;Thomas Leeper&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following was recently submitted to our onboarding process and is undergoing review:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/cvitolo/hddtools&quot;&gt;hddtools&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/cvitolo&quot;&gt;Claudia Vitolo&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/73&quot;&gt;ropensci/onboarding#73&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/mdsumner&quot;&gt;Michael Sumner&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/ledell&quot;&gt;Erin LeDell&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Four recent papers and one poster/shiny app cite and/or use rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Macdonald references &lt;a href=&quot;https://ropensci.org&quot;&gt;rOpenSci&lt;/a&gt; in his thesis &lt;a href=&quot;https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0308741&quot;&gt;Abiotic and biotic factors creating variation among bromeliad communities&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Rachael Lammey references &lt;a href=&quot;https://ropensci.org&quot;&gt;rOpenSci&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/rcrossref&quot;&gt;rcrossref&lt;/a&gt; in her paper &lt;a href=&quot;https://doi.org/10.6087/kcse.75&quot;&gt;Using the Crossref Metadata API to explore publisher content&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Winslow &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://github.com/ropensci/rfigshare&quot;&gt;rfigshare&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/ckanr&quot;&gt;ckanr&lt;/a&gt; in their paper &lt;a href=&quot;https://journal.r-project.org/archive/2016-1/winslow-chamberlain-appling-etal.pdf&quot;&gt;Using the Crossref Metadata API to explore publisher content&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Foster &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1101/071019&quot;&gt;MetacodeR: An R package for manipulation and heat tree visualization of community taxonomic data from metabarcoding&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;MacDonald, A. A. M. (2016). Abiotic and biotic factors creating variation among bromeliad communities (Doctoral dissertation, University of British Columbia). &lt;a href=&quot;https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0308741&quot;&gt;https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0308741&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Lammey, R. (2016). Using the Crossref Metadata API to explore publisher content. Sci Ed, 3(2), 109–111. &lt;a href=&quot;https://doi.org/10.6087/kcse.75&quot;&gt;https://doi.org/10.6087/kcse.75&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Winslow, L. A., Chamberlain, S., Appling, A. P., &amp;amp; Read, J. S. sbtools: A Package Connecting R to Cloud-based Data for Collaborative Online Research. &lt;a href=&quot;https://journal.r-project.org/archive/2016-1/winslow-chamberlain-appling-etal.pdf&quot;&gt;https://journal.r-project.org/archive/2016-1/winslow-chamberlain-appling-etal.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Foster, Z. S. L., Sharpton, T., &amp;amp; Grunwald, N. J. (2016). MetacodeR: An R package for manipulation and heat tree visualization of community taxonomic data from metabarcoding. &lt;a href=&quot;https://doi.org/10.1101/071019&quot;&gt;https://doi.org/10.1101/071019&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 12 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-09-12/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-09-12/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-08-30</title>
@@ -953,67 +1073,6 @@ and the authors of the packages!&lt;/p&gt;
         <pubDate>Mon, 25 Apr 2016 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2016-04-25/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-04-25/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2016-04-11</title>
-        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We’re still looking for a community manager! Read about the position &lt;a href=&quot;https://ropensci.org/blog/2016/03/10/community-manager-position&quot;&gt;on our blog&lt;/a&gt; to find out more. Informal questions and inquiries welcome at &lt;code class=&quot;highlighter-rouge&quot;&gt;jobs at ropensci org&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;We had our 3rd annual rOpenSci unconference in San Francisco from 31 March to 1 April. Check out the website &lt;a href=&quot;http://unconf16.ropensci.org&quot;&gt;http://unconf16.ropensci.org&lt;/a&gt;, and the &lt;a href=&quot;https://github.com/ropensci/unconf16/issues&quot;&gt;issue tracker with lots of ideas&lt;/a&gt;, some of which we worked on (you can tell which had discussion/work by looking at the little icon for number of comments in each issue).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;bold&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/bold&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/bold/releases/tag/v0.3.5&quot;&gt;release notes&lt;/a&gt; for changes. This version fixes a bug in an internal data parser, and adds more tests. &lt;a href=&quot;https://github.com/ropensci/bold&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.9.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rgbif&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rgbif&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rgbif/releases/tag/v0.9.3&quot;&gt;release notes&lt;/a&gt; for changes. In this version: Fixed parsing bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;name_usage()&lt;/code&gt; function; fix to &lt;code class=&quot;highlighter-rouge&quot;&gt;occ_download()&lt;/code&gt; to parse error correctly when empty body passed from GBIF; code tidying throughout the package;. The big change: &lt;code class=&quot;highlighter-rouge&quot;&gt;occ_data()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;occ_search()&lt;/code&gt; gain ability to more flexibly deal with inputs to the &lt;code class=&quot;highlighter-rouge&quot;&gt;geometry&lt;/code&gt; parameter. Previously, long WKT strings passed to &lt;code class=&quot;highlighter-rouge&quot;&gt;occ_data()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;occ_search()&lt;/code&gt; would fail because URIs can only be so long. Another option is to use the download API (see &lt;code class=&quot;highlighter-rouge&quot;&gt;?downloads&lt;/code&gt;). This version adds the ability to choose what to do with long WKT strings. &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.0.8&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rusda&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rusda&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rusda/blob/master/NEWS.md#rusda-108&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rusda&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.7.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/taxize&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/taxize/releases/tag/v0.9.3&quot;&gt;release notes&lt;/a&gt; for changes. This version has a few fixes: Fixes to &lt;code class=&quot;highlighter-rouge&quot;&gt;bold&lt;/code&gt; package (see above), a &lt;code class=&quot;highlighter-rouge&quot;&gt;taxize&lt;/code&gt; dependency, fixes bugs here; fixed bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;gnr_resolve()&lt;/code&gt; where we indexed to columns improperly; fixed bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;iucn_summary()&lt;/code&gt; - requires an API key for the Redlist API when passing in a taxon name, so the function gains new parameter &lt;code class=&quot;highlighter-rouge&quot;&gt;key&lt;/code&gt; and we updated the docs accordingly. &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;pdftools&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/pdftools&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/pdftools/blob/master/NEWS#L1-L3&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.8&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/geojsonio&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/geojsonio/releases/tag/v0.1.8&quot;&gt;release notes&lt;/a&gt; for changes. This version fixes a bug in &lt;code class=&quot;highlighter-rouge&quot;&gt;geojson_write()&lt;/code&gt;, and other minor improvements. &lt;a href=&quot;https://github.com/ropensci/geojsonio&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;One recent paper cites rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Miya et al. cite and use &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; (the &lt;a href=&quot;http://www.fishbase.org/&quot;&gt;Fishbase&lt;/a&gt; R client) in their paper &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0073535&quot;&gt;Evolutionary Origin of the Scombridae (Tunas and Mackerels): Members of a Paleogene Adaptive Radiation with 14 Other Pelagic Fish Families&lt;/a&gt; (Note: this is a 2013 paper, but we just found it now :)) &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Amano et al. cite and use &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; (the &lt;a href=&quot;http://www.gbif.org/&quot;&gt;GBIF&lt;/a&gt; R client) in their paper &lt;a href=&quot;http://bioscience.oxfordjournals.org/content/early/2016/03/29/biosci.biw022&quot;&gt;Spatial Gaps in Global Biodiversity Information and the Role of Citizen Science&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
-
-&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;http://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;http://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;http://ropensci.org/feed.xml&quot;&gt;http://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Miya, M., Friedman, M., Satoh, T. P., Takeshima, H., Sado, T., Iwasaki, W., … Nishida, M. (2013). Evolutionary Origin of the Scombridae (Tunas and Mackerels): Members of a Paleogene Adaptive Radiation with 14 Other Pelagic Fish Families. PLoS ONE, 8(9), e73535. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0073535&quot;&gt;https://doi.org/10.1371/journal.pone.0073535&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Amano, T., Lamming, J. D. L., &amp;amp; Sutherland, W. J. (2016). Spatial Gaps in Global Biodiversity Information and the Role of Citizen Science. BioScience, biw022. &lt;a href=&quot;https://doi.org/10.1093/biosci/biw022&quot;&gt;https://doi.org/10.1093/biosci/biw022&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 11 Apr 2016 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2016-04-11/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-04-11/</guid>
         
         
       </item>
