@@ -5,8 +5,8 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 28 Sep 2016 11:11:00 -0700</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 11:11:00 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 11:21:10 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 11:21:10 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -45,7 +45,7 @@
 &lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
 
 &lt;p&gt;We accept community contributed packages via our onboarding system - a software review
-system, sorta like scholarly paper review, but way better. We’ll highlight new pacakages
+system, sorta like scholarly paper review, but way better. We’ll highlight new packages
 here that have come through this system. A huge thanks to our reviewers, who
 do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;), and the authors of the packages!&lt;/p&gt;
 
