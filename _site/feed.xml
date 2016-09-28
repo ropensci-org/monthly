@@ -5,9 +5,119 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what&#39;s happening in the community, events, and more.</description>
     <link>http://ropensci.github.io/biweekly/</link>
     <atom:link href="http://ropensci.github.io/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Sep 2016 10:19:52 -0700</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2016 10:19:52 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 11:11:00 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 11:11:00 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Update 2016-09-28</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;p&gt;We’re hiring a postdoc!  Check out &lt;a href=&quot;https://ropensci.org/blog/2016/09/07/postdoc-position&quot;&gt;our blog&lt;/a&gt; for a description of the position and what we’re looking for.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The postdoctoral scholar will focus on a research topic aligned with their own interests in order to better understand and improve scientific software practices.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ezknitr&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ezknitr&quot;&gt;CRAN&lt;/a&gt;. This is not the first version of this package, but it is the first version of this package within our suite. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/ezknitr/vignettes/ezknitr.html&quot;&gt;the vignette&lt;/a&gt; for an introduction to the package. &lt;a href=&quot;https://github.com/ropenscilabs/ezknitr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.1.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/ropenaq/releases/tag/v0.1.3&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropenscilabs/ropenaq&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;3.0.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rotl&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rotl/releases/tag/v3.0.1&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rorcid&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rorcid&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rorcid/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rorcid&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.6.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;neotoma&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/neotoma&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/neotoma/releases/tag/v1.6.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/neotoma&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rvertnet&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rvertnet&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;4.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/plotly/blob/master/NEWS.md#452----23-september-2016&quot;&gt;the NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review
+system, sorta like scholarly paper review, but way better. We’ll highlight new pacakages
+here that have come through this system. A huge thanks to our reviewers, who
+do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;), and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;The following package recently went through our onboarding process and has been approved:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropenscilabs/ezknitr&quot;&gt;ezknitr&lt;/a&gt; &amp;gt; Avoid the Typical Working Directory Pain When Using ‘knitr’
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/daattali&quot;&gt;Dean Attali&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/56&quot;&gt;ropensci/onboarding#56&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/ttimbers&quot;&gt;Tiffany Timbers&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/karthik&quot;&gt;Karthik Ram&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;Three recent papers cite and/or use rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sanyal and Decocq use and cite &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1186/s12862-016-0752-7&quot;&gt;Adaptive evolution of seed oil content in angiosperms: accounting for the global patterns of seed oils&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Antonelli &lt;em&gt;et al&lt;/em&gt;. cite &lt;a href=&quot;https://ropensci.org&quot;&gt;rOpenSci&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1093/sysbio/syw066&quot;&gt;Towards a Self-Updating Platform for Estimating Rates of Speciation and Migration, Ages, and Relationships of Taxa (SUPERSMART)&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Springer &lt;em&gt;et al&lt;/em&gt;. use and cite &lt;a href=&quot;https://github.com/ropensci/paleobioDB&quot;&gt;paleobioDB&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1016/j.ympev.2016.09.017&quot;&gt;Waking the undead: implications of a soft explosive model for the timing of placental mammal diversification&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Sanyal, A., &amp;amp; Decocq, G. (2016). Adaptive evolution of seed oil content in angiosperms: accounting for the global patterns of seed oils. BMC Evolutionary Biology, 16(1). &lt;a href=&quot;https://doi.org/10.1186/s12862-016-0752-7&quot;&gt;https://doi.org/10.1186/s12862-016-0752-7&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Antonelli, A., Hettling, H., Condamine, F. L., Vos, K., Nilsson, R. H., Sanderson, M. J., … Vos, R. A. (2016). Towards a Self-Updating Platform for Estimating Rates of Speciation and Migration, Ages, and Relationships of Taxa (SUPERSMART). Systematic Biology, syw066. &lt;a href=&quot;https://doi.org/10.1093/sysbio/syw066&quot;&gt;https://doi.org/10.1093/sysbio/syw066&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Springer, M. S., Emerling, C. A., Meredith, R. W., Janečka, J. E., Eizirik, E., &amp;amp; Murphy, W. J. (2016). Waking the undead: implications of a soft explosive model for the timing of placental mammal diversification. Molecular Phylogenetics and Evolution. &lt;a href=&quot;https://doi.org/10.1016/j.ympev.2016.09.017&quot;&gt;https://doi.org/10.1016/j.ympev.2016.09.017&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 28 Sep 2016 00:00:00 -0700</pubDate>
+        <link>http://ropensci.github.io/biweekly/update-2016-09-28/</link>
+        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-09-28/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2016-09-12</title>
@@ -1013,66 +1123,6 @@ and the authors of the packages!&lt;/p&gt;
         <pubDate>Mon, 09 May 2016 00:00:00 -0700</pubDate>
         <link>http://ropensci.github.io/biweekly/update-2016-05-09/</link>
         <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-05-09/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2016-04-25</title>
-        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;We’re still looking for a community manager! Read about the position &lt;a href=&quot;https://ropensci.org/blog/2016/03/10/community-manager-position&quot;&gt;on our blog&lt;/a&gt; to find out more. Informal questions and inquiries welcome at &lt;code class=&quot;highlighter-rouge&quot;&gt;jobs at ropensci org&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rnpn&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rnpn&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rnpn&lt;/code&gt; is an R interface to &lt;a href=&quot;http://usanpn.org&quot;&gt;USA National Phenology Network&lt;/a&gt;. For an introduction to the package see the &lt;a href=&quot;https://github.com/ropensci/rnpn#rnpn&quot;&gt;README&lt;/a&gt;. &lt;a href=&quot;https://github.com/ropensci/rnpn&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;3.4.13&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/plotly&quot;&gt;on CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/plotly/blob/master/NEWS#L23&quot;&gt;NEWS&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;brranching&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/brranching&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/brranching/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. A change of note is that we added a function &lt;code class=&quot;highlighter-rouge&quot;&gt;phylomatic_local()&lt;/code&gt; to use Phylomatic locally. &lt;a href=&quot;https://github.com/ropensci/brranching&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.4.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rvertnet&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rvertnet&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.4.4&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;1.0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rentrez&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/rentrez&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rentrez/releases/tag/v1.0.2&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;spocc&lt;/code&gt; is &lt;a href=&quot;http://cran.rstudio.com/web/packages/spocc&quot;&gt;on CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/spocc/releases/tag/v0.5.0&quot;&gt;release notes&lt;/a&gt; for changes. &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;Two recent papers cite rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tennant et al. cite &lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt; (the &lt;a href=&quot;http://plos.org/&quot;&gt;Public Library of Science API&lt;/a&gt; R client) in their paper &lt;a href=&quot;http://f1000research.com/articles/5-632/v1&quot;&gt;The academic, economic and societal impacts of Open Access: an evidence-based review&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Froehlich et al. cite and use &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; (the &lt;a href=&quot;http://www.fishbase.org/&quot;&gt;Fishbase.org&lt;/a&gt; R client) in their paper &lt;a href=&quot;http://www.sciencedirect.com/science/article/pii/S0044848616302034&quot;&gt;Synthesis and comparative analysis of physiological tolerance and life-history growth traits of marine aquaculture species&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
-
-&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;http://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;http://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;http://ropensci.org/feed.xml&quot;&gt;http://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Tennant, J. P., Waldner, F., Jacques, D. C., Masuzzo, P., Collister, L. B., &amp;amp; Hartgerink, C. H. J. (2016). The academic, economic and societal impacts of Open Access: an evidence-based review. F1000Res, 5, 632. &lt;a href=&quot;https://doi.org/10.12688/f1000research.8460.1&quot;&gt;https://doi.org/10.12688/f1000research.8460.1&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Froehlich, H. E., Gentry, R. R., &amp;amp; Halpern, B. S. (2016). Synthesis and comparative analysis of physiological tolerance and life-history growth traits of marine aquaculture species. Aquaculture. &lt;a href=&quot;https://doi.org/10.1016/j.aquaculture.2016.04.018&quot;&gt;https://doi.org/10.1016/j.aquaculture.2016.04.018&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Mon, 25 Apr 2016 00:00:00 -0700</pubDate>
-        <link>http://ropensci.github.io/biweekly/update-2016-04-25/</link>
-        <guid isPermaLink="true">http://ropensci.github.io/biweekly/update-2016-04-25/</guid>
         
         
       </item>
