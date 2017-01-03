@@ -11,7 +11,7 @@
 
     <link rel="stylesheet" href="/biweekly/css/main.css">
     <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/ropensci/biweekly/gh-pages/css/main.scss"> -->
-    <link rel="canonical" href="http://localhost:4000/biweekly/update-2015-07-20/">
+    <link rel="canonical" href="http://ropensci.github.io/biweekly/update-2015-07-20/">
 
     <link rel="shortcut icon" href="assets/img/favicon.ico">
 </head>
@@ -70,27 +70,27 @@
 
 <ul>
   <li>A new package (version <code class="highlighter-rouge">0.1.0</code>) <code class="highlighter-rouge">spoccutils</code> is <a href="http://cran.rstudio.com/web/packages/spoccutils/">on CRAN</a>. <code class="highlighter-rouge">spoccutils</code> is a companion to the <code class="highlighter-rouge">spocc</code> package. Where <code class="highlighter-rouge">spocc</code> focuses on getting you species occurrence data, <code class="highlighter-rouge">spoccutils</code> will focus on visualizing and cleaning data, among other things. This separation makes both sets of functionality to be maintained more easily. See the <a href="https://cran.rstudio.com/web/packages/spoccutils/vignettes/spoccutils_vignette.html">vignette</a> for an introduction to the package. <a href="https://github.com/ropensci/spoccutils">Repository on GitHub</a>.</li>
-  <li>A new version (<code class="highlighter-rouge">0.3.0</code>) of <code class="highlighter-rouge">spocc</code> is <a href="http://cran.rstudio.com/web/packages/spocc/">on CRAN</a>. See the <a href="https://github.com/ropensci/spocc/releases/tag/v0.3.0">release notes</a> for changes. Of note:
+  <li>A new version (<code class="highlighter-rouge">0.3.0</code>) of <code class="highlighter-rouge">spocc</code> is <a href="http://cran.rstudio.com/web/packages/spocc/">on CRAN</a>. See the <a href="https://github.com/ropensci/spocc/releases/tag/v0.3.0">release notes</a> for changes. Of note: 
     <ul>
-      <li>Mapping functions all gone, now in <code class="highlighter-rouge">spoccutils</code>.</li>
-      <li><code class="highlighter-rouge">occ()</code> gains new parameter <code class="highlighter-rouge">has_coords</code> (logical) to only retrieve occurrences with lat/long data, or only without that data.</li>
-      <li><code class="highlighter-rouge">type</code> and <code class="highlighter-rouge">rank</code> parameters dropped from <code class="highlighter-rouge">occ()</code>.</li>
-      <li>New functions <code class="highlighter-rouge">as.*()</code> (e.g., <code class="highlighter-rouge">as.gbif()</code>) for all data sources, that take an occurrence key and fetch as detailed information as possible on that occurrence.</li>
+      <li>Mapping functions all gone, now in <code class="highlighter-rouge">spoccutils</code>. </li>
+      <li><code class="highlighter-rouge">occ()</code> gains new parameter <code class="highlighter-rouge">has_coords</code> (logical) to only retrieve occurrences with lat/long data, or only without that data. </li>
+      <li><code class="highlighter-rouge">type</code> and <code class="highlighter-rouge">rank</code> parameters dropped from <code class="highlighter-rouge">occ()</code>. </li>
+      <li>New functions <code class="highlighter-rouge">as.*()</code> (e.g., <code class="highlighter-rouge">as.gbif()</code>) for all data sources, that take an occurrence key and fetch as detailed information as possible on that occurrence. </li>
       <li>New data source: <a href="http://vertnet.org/s">VertNet</a>.</li>
       <li><code class="highlighter-rouge">occ2df()</code> now returns more fields.</li>
     </ul>
   </li>
-  <li>A new version (<code class="highlighter-rouge">0.4.2</code>) of <code class="highlighter-rouge">rnoaa</code> is <a href="http://cran.rstudio.com/web/packages/rnoaa/">on CRAN</a>. See the <a href="https://github.com/ropensci/rnoaa/releases/tag/v0.4.2">release notes</a> for changes.</li>
+  <li>A new version (<code class="highlighter-rouge">0.4.2</code>) of <code class="highlighter-rouge">rnoaa</code> is <a href="http://cran.rstudio.com/web/packages/rnoaa/">on CRAN</a>. See the <a href="https://github.com/ropensci/rnoaa/releases/tag/v0.4.2">release notes</a> for changes. </li>
   <li>A new patch version (<code class="highlighter-rouge">0.4.2</code>) of <code class="highlighter-rouge">rentrez</code> is <a href="http://cran.rstudio.com/web/packages/rentrez/">on CRAN</a>. See the <a href="https://cran.rstudio.com/web/packages/rentrez/NEWS">news</a> for changes.</li>
   <li>A new version (<code class="highlighter-rouge">0.3.0</code>) of <code class="highlighter-rouge">rvertnet</code> is <a href="http://cran.rstudio.com/web/packages/rvertnet/">on CRAN</a>. See the <a href="https://github.com/ropensci/rvertnet/releases/tag/v0.3.0">release notes</a> for changes. Of note: <code class="highlighter-rouge">searchbyterm()</code> and <code class="highlighter-rouge">bigsearch()</code> now allow some parameters to accept multiple values. In addition, internals of <code class="highlighter-rouge">searchbyterm()</code>, <code class="highlighter-rouge">spatialsearch()</code>, and <code class="highlighter-rouge">vertsearch()</code> reworked to internally do paging for you for bigger result sets.</li>
-  <li>A new version (<code class="highlighter-rouge">0.2.0</code>) of <code class="highlighter-rouge">rerddap</code> is <a href="http://cran.rstudio.com/web/packages/rerddap/">on CRAN</a>. See the <a href="https://github.com/ropensci/rerddap/releases/tag/v0.2.0">release notes</a> for changes. Of note: Added a suite of functions to manage locally cached files.</li>
+  <li>A new version (<code class="highlighter-rouge">0.2.0</code>) of <code class="highlighter-rouge">rerddap</code> is <a href="http://cran.rstudio.com/web/packages/rerddap/">on CRAN</a>. See the <a href="https://github.com/ropensci/rerddap/releases/tag/v0.2.0">release notes</a> for changes. Of note: Added a suite of functions to manage locally cached files. </li>
   <li>A new version (<code class="highlighter-rouge">0.5.0</code>) of <code class="highlighter-rouge">rplos</code> is <a href="http://cran.rstudio.com/web/packages/rplos/">on CRAN</a>. See the <a href="https://github.com/ropensci/rplos/releases/tag/v0.5.0">release notes</a> for changes.</li>
-  <li>A new version (<code class="highlighter-rouge">0.4.8</code>) of <code class="highlighter-rouge">rbison</code> is <a href="http://cran.rstudio.com/web/packages/rbison/">on CRAN</a>. See the <a href="https://github.com/ropensci/rbison/releases/tag/v0.4.8">release notes</a> for changes.</li>
+  <li>A new version (<code class="highlighter-rouge">0.4.8</code>) of <code class="highlighter-rouge">rbison</code> is <a href="http://cran.rstudio.com/web/packages/rbison/">on CRAN</a>. See the <a href="https://github.com/ropensci/rbison/releases/tag/v0.4.8">release notes</a> for changes.  </li>
   <li>A new version (<code class="highlighter-rouge">0.5.0</code>) of <code class="highlighter-rouge">elastic</code> is <a href="http://cran.rstudio.com/web/packages/elastic/">on CRAN</a>. See the <a href="https://github.com/ropensci/elastic/releases/tag/v0.5.0">release notes</a> for changes.</li>
   <li>A new version (<code class="highlighter-rouge">0.3.0</code>) of <code class="highlighter-rouge">gistr</code> is <a href="http://cran.rstudio.com/web/packages/gistr/">on CRAN</a>. See the <a href="https://github.com/ropensci/gistr/releases/tag/v0.3.0">release notes</a> for changes. Of note: new function <code class="highlighter-rouge">gist_save()</code> to help save files locally; <code class="highlighter-rouge">gist()</code> now accepts either a full or partial gist URL in addition to a gist ID.</li>
   <li>A new version (<code class="highlighter-rouge">0.8.6</code>) of <code class="highlighter-rouge">rgbif</code> is <a href="http://cran.rstudio.com/web/packages/rgbif/">on CRAN</a>. See the <a href="https://github.com/ropensci/rgbif/releases/tag/v0.8.6">release notes</a> for changes. Of note: New suite of functions for working with GBIF’s <a href="http://www.gbif.org/developer/occurrence#download">download API</a>, all prefixed with <code class="highlighter-rouge">download_</code> - see <code class="highlighter-rouge">?downloads</code> for help.</li>
   <li>A new version (<code class="highlighter-rouge">0.2</code>) of <code class="highlighter-rouge">rebird</code> is <a href="http://cran.rstudio.com/web/packages/rebird/">on CRAN</a>. See the <a href="https://github.com/ropensci/rebird/releases">release notes</a> for changes.</li>
-  <li>A new version (<code class="highlighter-rouge">0.2.0</code>) of <code class="highlighter-rouge">rbhl</code> is <a href="http://cran.rstudio.com/web/packages/rbhl/">on CRAN</a>. See the <a href="https://github.com/ropensci/rbhl/releases/tag/v0.2.0">release notes</a> for changes. Of note: gained many new functions.</li>
+  <li>A new version (<code class="highlighter-rouge">0.2.0</code>) of <code class="highlighter-rouge">rbhl</code> is <a href="http://cran.rstudio.com/web/packages/rbhl/">on CRAN</a>. See the <a href="https://github.com/ropensci/rbhl/releases/tag/v0.2.0">release notes</a> for changes. Of note: gained many new functions. </li>
   <li>A new version (<code class="highlighter-rouge">0.3.4</code>) of <code class="highlighter-rouge">rcrossref</code> is <a href="http://cran.rstudio.com/web/packages/rcrossref/">on CRAN</a>. See the <a href="https://github.com/ropensci/rcrossref/releases/tag/v0.3.4">release notes</a> for changes. Of note: added new function <code class="highlighter-rouge">crosscite()</code> to work with the <a href="http://crosscite.org/citeproc/">Crossref Citeproc service</a>.</li>
   <li>A new version (<code class="highlighter-rouge">1.3.2</code>) of <code class="highlighter-rouge">neotoma</code> is <a href="http://cran.rstudio.com/web/packages/neotoma/">on CRAN</a>. See the <a href="https://cran.rstudio.com/web/packages/neotoma/NEWS">news</a> for changes.</li>
 </ul>
@@ -98,19 +98,19 @@
 <h2 id="community">Community</h2>
 
 <ul>
-  <li>We had our 5th community call on 2015-07-08, in which <a href="http://varianceexplained.org/">David Robinson</a> gave a great talk on <a href="https://github.com/dgrtwo/broom">broom</a>. <a href="https://github.com/ropensci/commcalls/issues/5#issuecomment-122951281">More info</a>. The video recording will be up soon.</li>
+  <li>We had our 5th community call on 2015-07-08, in which <a href="http://varianceexplained.org/">David Robinson</a> gave a great talk on <a href="https://github.com/dgrtwo/broom">broom</a>. <a href="https://github.com/ropensci/commcalls/issues/5#issuecomment-122951281">More info</a>. The video recording will be up soon. </li>
 </ul>
 
 <h2 id="use-cases">Use cases</h2>
 
-<p>The following is a small sampling of usage examples of our R packages.</p>
+<p>The following is a small sampling of usage examples of our R packages. </p>
 
 <ul>
   <li>Tim Poisot <em>et al.</em> have a paper in bioRxiv titled <a href="http://www.biorxiv.org/content/early/2015/06/23/021402">Synthetic datasets and community tools for the rapid testing of ecological hypotheses</a> that cites our <a href="http://f1000research.com/articles/2-191/v2">taxize paper</a>.</li>
   <li>Gwiazdowski <em>et al.</em> use <code class="highlighter-rouge">taxize</code> in their paper <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125635">The Hemiptera (Insecta) of Canada: Constructing a Reference Library of DNA Barcodes</a>. In addition, their workflow can be replicated in R with code and data files provided in supporting files. Nice!</li>
   <li>Pérez-Luque <em>et al.</em> used <code class="highlighter-rouge">taxize</code> to check plant taxonomic names in their paper <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4391960/">Dataset of Phenology of Mediterranean high-mountain meadows flora (Sierra Nevada, Spain)</a>.</li>
   <li>Thormann <em>et al.</em> used <code class="highlighter-rouge">rgbif</code> to collect species occurrence data in their white paper <a href="https://www.duo.uio.no/handle/10852/41681">Predictive characterization of crop wild relatives and landraces</a></li>
-  <li><a href="http://bdj.pensoft.net/articles.php?id=4162">Collins <em>et al.</em></a> used both our <code class="highlighter-rouge">rfishbase</code> and <code class="highlighter-rouge">rgbif</code> packages to get species occurrence data on catfishes in their study area Rio Nhamundá.</li>
+  <li><a href="http://bdj.pensoft.net/articles.php?id=4162">Collins <em>et al.</em></a> used both our <code class="highlighter-rouge">rfishbase</code> and <code class="highlighter-rouge">rgbif</code> packages to get species occurrence data on catfishes in their study area Rio Nhamundá. </li>
   <li>Turner <em>et al.</em> used <code class="highlighter-rouge">rgbif</code> to collect <em>Centaurea diffusa</em> species occurrence data for her paper <a href="http://onlinelibrary.wiley.com/doi/10.1002/ece3.1599/full">Adaptive plasticity and niche expansion in an invasive thistle</a></li>
 </ul>
 

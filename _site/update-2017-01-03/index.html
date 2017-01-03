@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Update 2017-01-03</title>
+    <meta name="description" content="rOpenSci twice monthly updates, including for software, software review news, what's happening in the community, events, and more.">
+
+    <link rel="stylesheet" href="/biweekly/css/main.css">
+    <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/ropensci/biweekly/gh-pages/css/main.scss"> -->
+    <link rel="canonical" href="http://ropensci.github.io/biweekly/update-2017-01-03/">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/biweekly/">rOpenSci News</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/biweekly/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Update 2017-01-03</h1>
+    <p class="post-meta">Jan 3, 2017</p>
+  </header>
+
+  <article class="post-content">
+    <h2 id="software">Software</h2>
+
+<h3 id="new-packages">New packages</h3>
+
+<ul>
+  <li>A new package <code class="highlighter-rouge">finch</code> (<code class="highlighter-rouge">v0.1.0</code>) is <a href="https://cran.rstudio.com/web/packages/finch">on CRAN</a>. <code class="highlighter-rouge">finch</code> parses Darwin Core simple and archive directories/zip files. One major source of these kinds of data come from the <a href="http://www.gbif.org/">Global Biodiversity Information Facility</a> (GBIF). Check out the <a href="https://github.com/ropensci/finch#finch">README</a> to get started. p.s. depends on <code class="highlighter-rouge">EML</code> below :) <a href="https://github.com/ropensci/finch">Repository on GitHub</a></li>
+  <li>A new package <code class="highlighter-rouge">EML</code> (<code class="highlighter-rouge">v1.0.1</code>) is <a href="https://cran.rstudio.com/web/packages/EML">on CRAN</a>. <code class="highlighter-rouge">EML</code> parses and serializes Ecological Metadata Language (EML, see <a href="https://en.wikipedia.org/wiki/Ecological_Metadata_Language">https://en.wikipedia.org/wiki/Ecological_Metadata_Language</a> for more information) files into S4 objects. Check out the vignettes to get started. <a href="https://github.com/ropensci/EML">Repository on GitHub</a></li>
+</ul>
+
+<h3 id="releases">Releases</h3>
+
+<ul>
+  <li>A new version (<code class="highlighter-rouge">v3.1-1</code>) of <code class="highlighter-rouge">clifro</code> is on <a href="https://cran.rstudio.com/web/packages/clifro">CRAN</a>. See <a href="https://github.com/ropensci/clifro/releases/tag/v3.1-1">release notes</a> for changes. <a href="https://github.com/ropensci/clifro">Repository on GitHub</a>.</li>
+  <li>A new version (<code class="highlighter-rouge">v0.3.0</code>) of <code class="highlighter-rouge">rbhl</code> is on <a href="https://cran.rstudio.com/web/packages/clifro">CRAN</a>. See <a href="https://github.com/ropensci/rbhl/releases/tag/v0.3.0">release notes</a> for changes. <a href="https://github.com/ropensci/rbhl">Repository on GitHub</a>.</li>
+  <li>A new version (<code class="highlighter-rouge">v0.1.7-2</code>) of <code class="highlighter-rouge">stplanr</code> is on <a href="https://cran.rstudio.com/web/packages/stplanr">CRAN</a>. See <a href="https://github.com/ropensci/stplanr/releases/tag/0.1.7">release notes</a> for changes. <a href="https://github.com/ropensci/stplanr">Repository on GitHub</a>.</li>
+  <li>Two new versions of <code class="highlighter-rouge">git2r</code> have hit CRAN since the last rOpenSci News: (<code class="highlighter-rouge">v0.17.0</code>) and (<code class="highlighter-rouge">v0.18.0</code>). <code class="highlighter-rouge">git2r</code> on <a href="https://cran.rstudio.com/web/packages/git2r">CRAN</a>. See release notes for <a href="https://github.com/ropensci/git2r/releases/tag/v0.17.0">v0.17.0</a> and <a href="https://github.com/ropensci/git2r/releases/tag/v0.18.0">v0.18.0</a> for changes. <a href="https://github.com/ropensci/git2r">Repository on GitHub</a>.</li>
+  <li>A new version (<code class="highlighter-rouge">v0.2.0</code>) of <code class="highlighter-rouge">crul</code> is on <a href="https://cran.rstudio.com/web/packages/crul">CRAN</a>. This version includes more documentation, fixed URL encoding, fixed parsing of request and response headers, and now supports multiple query parameters of the same name. See <a href="https://github.com/ropensci/crul/releases/tag/v0.2.0">release notes</a> for changes and links to issues. <a href="https://github.com/ropensci/crul">Repository on GitHub</a>.</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="onboarding">Onboarding</h2>
+
+<p>We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review, but way better. We’ll highlight new packages here that have come through this system. A huge thanks to our reviewers, who do a lot of work reviewing (see the <a href="https://ropensci.org/blog/2016/03/28/software-review">blog post on our review system</a>),
+and the authors of the packages!</p>
+
+<p>If you want to be a reviewer we have a new <a href="https://ropensci.org/onboarding/">form</a> you can fill out, and we’ll ping you when there’s a submission that fits in your area of expertise.</p>
+
+<p>The following package was recently submitted to our onboarding process and is undergoing review:</p>
+
+<ul>
+  <li><a href="https://github.com/benmarwick/JSTORr">JSTORr</a> &gt; Simple text mining and document clustering of JSTOR journal articles
+    <ul>
+      <li>Author: <a href="https://github.com/benmarwick">Ben Marwick</a></li>
+      <li>Issue: <a href="https://github.com/ropensci/onboarding/issues/86">ropensci/onboarding#86</a></li>
+      <li>Reviewers:
+        <ul>
+          <li><a href="https://github.com/leeper">Thomas Leeper</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /><br /></p>
+
+<h2 id="use-cases">Use cases</h2>
+
+<p>Two blog posts and many new (and some old) papers cite rOpenSci packages:</p>
+
+<ul>
+  <li>Kan Nishida wrote a nice blog post on <a href="https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6">Making Maps for Canada’s Provisions and Census Divisions in R</a>, which included use of <a href="https://github.com/ropensci/geojsonio">geojsonio</a>, an rOpenSci package for working with GeoJSON data. <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></li>
+  <li>Tuja Sonkkila wrote a nice blog post on <a href="https://blogs.aalto.fi/suoritin/2017/01/02/impact/">Semi-automatic IT at work</a>, which used <a href="https://github.com/ropensci/rAltmetric">rAltmetric</a>, an rOpenSci package for working with <a href="https://altmetric.com/">Altmetric.com</a> data. Check out her code in her repository <a href="https://github.com/tts/finunipolicy">tts/finunipolicy</a>. <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> </li>
+  <li>Gilles <em>et al</em>. cite and use <a href="https://github.com/ropensci/rgbif">rgbif</a> in their paper <a href="https://doi.org/10.3897/phytokeys.74.9723">RAINBIO: a mega-database of tropical African vascular plants distributions</a> <sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup></li>
+  <li>Lundgren &amp; Christin cite and use <a href="https://github.com/ropensci/rgbif">rgbif</a> in their paper <a href="https://doi.org/10.1093/jxb/erw451">Despite phylogenetic effects, C3-C4 lineages bridge the ecological gap to C4 photosynthesis</a> <sup id="fnref:4"><a href="#fn:4" class="footnote">4</a></sup></li>
+  <li>Galata <em>et al</em>. cite and use <a href="https://github.com/ropensci/taxize">taxize</a> in their paper <a href="https://doi.org/10.1093/bib/bbw122">Comparing genome versus proteome-based identification of clinical bacterial isolates</a> <sup id="fnref:5"><a href="#fn:5" class="footnote">5</a></sup></li>
+  <li>Hassall <em>et al</em>. cite and use <a href="https://github.com/ropensci/bold">bold</a> in their paper <a href="https://doi.org/10.1111/ecog.02623">Phenological shifts in hoverflies (Diptera: Syrphidae): linking measurement and mechanism</a> <sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup></li>
+  <li>Hampton <em>et al</em>. cite and use <a href="https://github.com/ropensci/rentrez">rentrez</a> in their paper <a href="https://doi.org/10.1890/es14-00402.1">The Tao of open science for ecology</a> <sup id="fnref:7"><a href="#fn:7" class="footnote">7</a></sup></li>
+  <li>Nguyen <em>et al</em>. cite and use <a href="https://github.com/ropensci/rentrez">rentrez</a> in their paper <a href="https://doi.org/10.1371/journal.pcbi.1003472">Integrative Computational and Experimental Approaches to Establish a Post-Myocardial Infarction Knowledge Map</a> <sup id="fnref:8"><a href="#fn:8" class="footnote">8</a></sup></li>
+  <li>Killen <em>et al</em>. cite and use <a href="https://github.com/ropensci/rotl">rotl</a> in their paper <a href="https://doi.org/10.1111/jfb.13195">Do method and species lifestyle affect measures of maximum metabolic rate in fishes?</a> <sup id="fnref:9"><a href="#fn:9" class="footnote">9</a></sup></li>
+  <li>Estrada-Peña &amp; de la Fuente cite and use <a href="https://github.com/ropensci/rotl">rotl</a> in their paper <a href="https://doi.org/10.1038/sdata.2016.56">Species interactions in occurrence data for a community of tick-transmitted pathogens</a> <sup id="fnref:10"><a href="#fn:10" class="footnote">10</a></sup></li>
+  <li>Bauer <em>et al</em>. cite <a href="https://github.com/ropensci/fulltext">fulltext</a> and <a href="https://github.com/ropensci/rcrossref">rcrossref</a> in their paper <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549">The Quality of Citations: Towards Quantifying Qualitative Impact in Social Science Research</a> <sup id="fnref:11"><a href="#fn:11" class="footnote">11</a></sup></li>
+  <li>Mackinnon <em>et al</em>. cite and use <a href="https://github.com/ropensci/rsnps">rsnps</a> in their paper <a href="https://doi.org/10.1093/molbev/msw004">Environmental Correlation Analysis for Genes Associated with Protection against Malaria</a> <sup id="fnref:12"><a href="#fn:12" class="footnote">12</a></sup></li>
+  <li>Söderholm cites and uses <a href="https://github.com/ropensci/rsnps">rsnps</a> in his thesis <a href="http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;dswid=-3564">The Complex Genetics of Multiple Sclerosis: A preliminary study of MS-associated SNPs prior to a larger genotyping project</a> <sup id="fnref:13"><a href="#fn:13" class="footnote">13</a></sup></li>
+  <li>Kolb uses and cites <a href="https://github.com/ropensci/geonames">geonames</a> in his paper <a href="https://doi.org/10.17713/ajs.v45i1.88">Visualizing GeoData with R</a> <sup id="fnref:14"><a href="#fn:14" class="footnote">14</a></sup></li>
+</ul>
+
+<p><br /><br /></p>
+
+<hr />
+
+<p><br /><br /></p>
+
+<h2 id="keep-up-with-ropensci-news">Keep up with rOpenSci news</h2>
+
+<p>There are a number of ways to keep up with what rOpenSci is doing:</p>
+
+<ul>
+  <li>Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&gt; <a href="https://ropensci.org/#subscribe">ropensci.org/#subscribe</a></li>
+  <li>rOpenSci on Twitter: we’re <a href="https://twitter.com/ropensci">@ropensci</a></li>
+  <li>The rOpenSci blog at <a href="https://ropensci.org/blog">ropensci.org/blog</a> - you can subscribe in any RSS aggregator, or manually via <a href="https://ropensci.org/feed.xml">https://ropensci.org/feed.xml</a>. We also announce new blog posts on our Twitter account.</li>
+</ul>
+
+<p><br /><br /></p>
+
+<h3 id="footnotes">Footnotes</h3>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>Nishida, Kan. 2017. Making Maps for Canada’s Provisions and Census Divisions in R. <a href="https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6">https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Sonkkila, Tuja. 2017. Semi-automatic IT at work. <a href="https://blogs.aalto.fi/suoritin/2017/01/02/impact/">https://blogs.aalto.fi/suoritin/2017/01/02/impact/</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Gilles, D., Zaiss, R., Blach-Overgaard, A., Catarino, L., Damen, T., Deblauwe, V., et al. (2016). RAINBIO: a mega-database of tropical African vascular plants distributions. PhytoKeys, 74, 1–18. <a href="https://doi.org/10.3897/phytokeys.74.9723">https://doi.org/10.3897/phytokeys.74.9723</a> <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:4">
+      <p>Lundgren, M. R., &amp; Christin, P.-A. (2016). Despite phylogenetic effects, C3-C4 lineages bridge the ecological gap to C4 photosynthesis. Journal of Experimental Botany, erw451. <a href="https://doi.org/10.1093/jxb/erw451">https://doi.org/10.1093/jxb/erw451</a> <a href="#fnref:4" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>Galata, V., Backes, C., Laczny, C. C., Hemmrich-Stanisak, G., Li, H., Smoot, L., et al. (2016). Comparing genome versus proteome-based identification of clinical bacterial isolates. Briefings in Bioinformatics, bbw122. <a href="https://doi.org/10.1093/bib/bbw122">https://doi.org/10.1093/bib/bbw122</a> <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:6">
+      <p>Hassall, C., Owen, J., &amp; Gilbert, F. (2016). Phenological shifts in hoverflies (Diptera: Syrphidae): linking measurement and mechanism. Ecography. <a href="https://doi.org/10.1111/ecog.02623">https://doi.org/10.1111/ecog.02623</a> <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:7">
+      <p>Hampton, S. E., Anderson, S. S., Bagby, S. C., Gries, C., Han, X., Hart, E. M., et al. (2015). The Tao of open science for ecology. Ecosphere, 6(7), art120. <a href="https://doi.org/10.1890/es14-00402.1">https://doi.org/10.1890/es14-00402.1</a> <a href="#fnref:7" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:8">
+      <p>Nguyen, N. T., Zhang, X., Wu, C., Lange, R. A., Chilton, R. J., Lindsey, M. L., &amp; Jin, Y.-F. (2014). Integrative Computational and Experimental Approaches to Establish a Post-Myocardial Infarction Knowledge Map. PLoS Computational Biology, 10(3), e1003472. <a href="https://doi.org/10.1371/journal.pcbi.1003472">https://doi.org/10.1371/journal.pcbi.1003472</a> <a href="#fnref:8" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:9">
+      <p>Killen, S. S., Norin, T., &amp; Halsey, L. G. (2016). Do method and species lifestyle affect measures of maximum metabolic rate in fishes? Journal of Fish Biology. <a href="https://doi.org/10.1111/jfb.13195">https://doi.org/10.1111/jfb.13195</a> <a href="#fnref:9" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:10">
+      <p>Estrada-Peña, A., &amp; de la Fuente, J. (2016). Species interactions in occurrence data for a community of tick-transmitted pathogens. Scientific Data, 3, 160056. <a href="https://doi.org/10.1038/sdata.2016.56">https://doi.org/10.1038/sdata.2016.56</a> <a href="#fnref:10" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:11">
+      <p>Bauer, P. C., Barbera, P., &amp; Munzert, S. (2016). The Quality of Citations: Towards Quantifying Qualitative Impact in Social Science Research. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549</a> <a href="#fnref:11" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:12">
+      <p>Mackinnon, M. J., Ndila, C., Uyoga, S., Macharia, A., Snow, R. W., Band, G., et al. (2016). Environmental Correlation Analysis for Genes Associated with Protection against Malaria. Molecular Biology and Evolution, 33(5), 1188–1204. <a href="https://doi.org/10.1093/molbev/msw004">https://doi.org/10.1093/molbev/msw004</a> <a href="#fnref:12" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:13">
+      <p>Söderholm, S. (2016). The Complex Genetics of Multiple Sclerosis: A preliminary study of MS-associated SNPs prior to a larger genotyping project. <a href="http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;dswid=-3564">http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;dswid=-3564</a> <a href="#fnref:13" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:14">
+      <p>Kolb, J.-P. (2016). Visualizing GeoData with R. Austrian Journal of Statistics, 45(1), 45. <a href="https://doi.org/10.17713/ajs.v45i1.88">https://doi.org/10.17713/ajs.v45i1.88</a> <a href="#fnref:14" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </article>
+
+</div>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">rOpenSci News</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li>rOpenSci News</li>
+          <li><a href="mailto:info@ropensci.org">info@ropensci.org</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/ropensci">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">ropensci</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/ropensci">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">ropensci</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">rOpenSci twice monthly updates, including for software, software review news, what's happening in the community, events, and more.</p>
+      </div>
+    </div>
+
+  </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63168295-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</footer>
+
+
+  </body>
+
+</html>
