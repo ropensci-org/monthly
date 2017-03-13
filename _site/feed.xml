@@ -5,9 +5,121 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 28 Feb 2017 09:18:09 -0800</pubDate>
-    <lastBuildDate>Tue, 28 Feb 2017 09:18:09 -0800</lastBuildDate>
+    <pubDate>Mon, 13 Mar 2017 14:16:23 -0700</pubDate>
+    <lastBuildDate>Mon, 13 Mar 2017 14:16:23 -0700</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Update 2017-03-13</title>
+        <description>&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;randgeo&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/randgeo&quot;&gt;CRAN&lt;/a&gt;. This version is thanks to &lt;a href=&quot;https://github.com/noamross&quot;&gt;Noam Ross&lt;/a&gt; - he improved internals of the package to have more appropriate/proper random shapes. See &lt;a href=&quot;https://github.com/ropensci/randgeo/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/randgeo&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;geojson&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/geojson&quot;&gt;CRAN&lt;/a&gt;. This version is a bug fix patch - do install this version as the bug did cause problems for some users. See &lt;a href=&quot;https://github.com/ropensci/geojson/releases/tag/v0.1.2&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/geojson&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.6.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;hddtools&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/hddtools&quot;&gt;CRAN&lt;/a&gt;. See the &lt;code class=&quot;highlighter-rouge&quot;&gt;hddtools&lt;/code&gt; &lt;a href=&quot;https://github.com/ropensci/hddtools/blob/master/NEWS.md#hddtools-06&quot;&gt;NEWS file&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/hddtools&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v3.0.3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rotl&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rotl&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rotl/releases/tag/v3.0.3&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;pangaear&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/pangaear&quot;&gt;CRAN&lt;/a&gt;. This version adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_search_es()&lt;/code&gt; for searching the Pangaea Elasticsearch instance - make some minor improvements - and important for for &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_search()&lt;/code&gt; as they changed their paging strategy. See &lt;a href=&quot;https://github.com/ropensci/pangaear/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/oharar/pangaear&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rinat&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rinat&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rinat/releases/tag/v0.1.5&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/rinat&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review, but way better. We’ll highlight new packages here that have come through this system. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;If you want to be a reviewer we have a new &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt; you can fill out, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
+
+&lt;p&gt;There haven’t been any submissions or approved packages since last news - it’s a good time to submit your package!  At least ask questions if you’re not sure how it works, or if your package is a good fit.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
+
+&lt;p&gt;Our own &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Jeroen Oooms&lt;/a&gt; came out with a post on his package &lt;code class=&quot;highlighter-rouge&quot;&gt;mongolite&lt;/code&gt; &lt;a href=&quot;https://ropensci.org/blog/blog/2017/03/10/mongolite&quot;&gt;Release mongolite 1.0&lt;/a&gt; - it’s a great interface to the NoSQL database &lt;a href=&quot;https://www.mongodb.com/&quot;&gt;MongoDB&lt;/a&gt;. Jeroen has done a great job on &lt;code class=&quot;highlighter-rouge&quot;&gt;mongolite&lt;/code&gt;, including &lt;a href=&quot;https://jeroenooms.github.io/mongolite/&quot;&gt;thorough documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;onboarding-series&quot;&gt;Onboarding series&lt;/h3&gt;
+
+&lt;p&gt;We’re doing a series of guest blog posts for packages that have gone through our software review process at &lt;a href=&quot;https://github.com/ropensci/onboarding/&quot;&gt;ropensci/onboarding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The 3rd post came out last week, and was by &lt;a href=&quot;https://claudiavitolo.com/&quot;&gt;Claudia Vitolo&lt;/a&gt; on her package &lt;code class=&quot;highlighter-rouge&quot;&gt;hddtools&lt;/code&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/03/07/hddtools&quot;&gt;Discover hydrological data using the hddtools R package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;2nd: &lt;a href=&quot;http://www.masalmon.eu/&quot;&gt;Maëlle Salmon&lt;/a&gt; on her package &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/02/21/ropenaq&quot;&gt;ropenaq, a breath of fresh air/R&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;1st: &lt;a href=&quot;https://github.com/seaaan&quot;&gt;Sean Hughes&lt;/a&gt; on his package &lt;code class=&quot;highlighter-rouge&quot;&gt;plater&lt;/code&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/02/06/plater-blog-post&quot;&gt;From a million nested &lt;code class=&quot;highlighter-rouge&quot;&gt;ifelse&lt;/code&gt;s to the plater package&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;We’ll have more posts in this series coming out soon - keep an eye out.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
+
+&lt;p&gt;Two papers use/cite rOpenSci packages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Odonnel &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.7717/peerj.3044&quot;&gt;Spatial distribution of environmental DNA in a nearshore marine habitat&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Mohiuddin &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1016/j.watres.2017.02.057&quot;&gt;Shotgun metagenomic sequencing reveals freshwater beach sands as reservoir of bacterial pathogens&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Rai &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1371/journal.pntd.0005420&quot;&gt;Single locus genotyping to track Leishmania donovani in the Indian subcontinent: Application in Nepal&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Paul Oldham used our package &lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt; in a book chapter on &lt;a href=&quot;https://wipo-analytics.github.io/scientific-literature-with-rplos.html&quot;&gt;Scientific Literature with rplos&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Paul Oldham used the &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;plotly&lt;/a&gt; package in a book chapter on &lt;a href=&quot;https://wipo-analytics.github.io/patent-analytics-with-plotly.html&quot;&gt;Patent Analytics with Plotly&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Ben Marwick referenced rOpenSci in his book chapter &lt;a href=&quot;https://www.practicereproducibleresearch.org/case-studies/benmarwick.html&quot;&gt;Using R and Related Tools for Reproducible Research in Archaeology&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.github.io/biweekly/&quot;&gt;rOpenSci news&lt;/a&gt; feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;O’Donnell JL, Kelly RP, Shelton AO, Samhouri JF, Lowell NC, Williams GD. (2017) Spatial distribution of environmental DNA in a nearshore marine habitat. PeerJ 5:e3044 &lt;a href=&quot;https://doi.org/10.7717/peerj.3044&quot;&gt;https://doi.org/10.7717/peerj.3044&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Mohiuddin, M. M., Salama, Y., Schellhorn, H. E., &amp;amp; Golding, G. B. (2017). Shotgun metagenomic sequencing reveals freshwater beach sands as reservoir of bacterial pathogens. Water Research. &lt;a href=&quot;https://doi.org/10.1016/j.watres.2017.02.057&quot;&gt;https://doi.org/10.1016/j.watres.2017.02.057&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Rai, K., Bhattarai, N. R., Vanaerschot, M., Imamura, H., Gebru, G., Khanal, B., … Van der Auwera, G. (2017). Single locus genotyping to track Leishmania donovani in the Indian subcontinent: Application in Nepal. PLOS Neglected Tropical Diseases, 11(3), e0005420. &lt;a href=&quot;https://doi.org/10.1371/journal.pntd.0005420&quot;&gt;https://doi.org/10.1371/journal.pntd.0005420&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Oldam, P. (2017). Scientific Literature with rplos; in “The WIPO Manual on Open Source Patent Analytics” &lt;a href=&quot;https://wipo-analytics.github.io/index.html&quot;&gt;https://wipo-analytics.github.io/index.html&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Oldam, P. (2017). Patent Analytics with Plotly; in “The WIPO Manual on Open Source Patent Analytics” &lt;a href=&quot;https://wipo-analytics.github.io/index.html&quot;&gt;https://wipo-analytics.github.io/index.html&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;Marwick, B. Using R and Related Tools for Reproducible Research in Archaeology. in Kitzes, J., Turek, D., &amp;amp; Deniz, F. (Eds.). (2017). The Practice of Reproducible Research: Case Studies and Lessons from the Data-Intensive Sciences. Oakland, CA: University of California Press. &lt;a href=&quot;https://www.practicereproducibleresearch.org/&quot;&gt;https://www.practicereproducibleresearch.org/&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 13 Mar 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/biweekly/update-2017-03-13/</link>
+        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-03-13/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2017-02-27</title>
@@ -137,10 +249,10 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Shabangu, F. W., Yemane, D., Stafford, K. M., Ensor, P., &amp;amp; Findlay, K. P. (2017). Modelling the effects of environmental conditions on the acoustic occurrence and behaviour of Antarctic blue whales. PLOS ONE, 12(2), e0172705. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0172705&quot;&gt;https://doi.org/10.1371/journal.pone.0172705&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Shabangu, F. W., Yemane, D., Stafford, K. M., Ensor, P., &amp;amp; Findlay, K. P. (2017). Modelling the effects of environmental conditions on the acoustic occurrence and behaviour of Antarctic blue whales. PLOS ONE, 12(2), e0172705. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0172705&quot;&gt;https://doi.org/10.1371/journal.pone.0172705&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Bezerra, L. A. V., Padial, A. A., Mariano, F. B., Garcez, D. S., &amp;amp; Sánchez-Botero, J. I. (2017). Fish diversity in tidepools: assembling effects of environmental heterogeneity. Environmental Biology of Fishes. &lt;a href=&quot;https://doi.org/10.1007/s10641-017-0584-3&quot;&gt;https://doi.org/10.1007/s10641-017-0584-3&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Bezerra, L. A. V., Padial, A. A., Mariano, F. B., Garcez, D. S., &amp;amp; Sánchez-Botero, J. I. (2017). Fish diversity in tidepools: assembling effects of environmental heterogeneity. Environmental Biology of Fishes. &lt;a href=&quot;https://doi.org/10.1007/s10641-017-0584-3&quot;&gt;https://doi.org/10.1007/s10641-017-0584-3&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -243,19 +355,19 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Baker, M. (2017). Scientific computing: Code alert. Nature, 541(7638), 563–565. &lt;a href=&quot;https://doi.org/10.1038/nj7638-563a&quot;&gt;https://doi.org/10.1038/nj7638-563a&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Baker, M. (2017). Scientific computing: Code alert. Nature, 541(7638), 563–565. &lt;a href=&quot;https://doi.org/10.1038/nj7638-563a&quot;&gt;https://doi.org/10.1038/nj7638-563a&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Mayor, J. R., Sanders, N. J., Classen, A. T., Bardgett, R. D., Clément, J.-C., Fajardo, A., et al. (2017). Elevation alters ecosystem properties across temperate treelines globally. Nature, 542(7639), 91–95. &lt;a href=&quot;https://doi.org/10.1038/nature21027&quot;&gt;https://doi.org/10.1038/nature21027&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Mayor, J. R., Sanders, N. J., Classen, A. T., Bardgett, R. D., Clément, J.-C., Fajardo, A., et al. (2017). Elevation alters ecosystem properties across temperate treelines globally. Nature, 542(7639), 91–95. &lt;a href=&quot;https://doi.org/10.1038/nature21027&quot;&gt;https://doi.org/10.1038/nature21027&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Szöcs, E. (2017). Statistical eco (-toxico) logy: improving the utilisation of data for environmental risk assessment (Doctoral dissertation, Dissertation, Landau, Universität Koblenz-Landau, Campus Landau, 2017). &lt;a href=&quot;https://portal.dnb.de/opac.htm?method=simpleSearch&amp;amp;cqlMode=true&amp;amp;query=idn%3D1124465774&quot;&gt;https://portal.dnb.de/opac.htm?method=simpleSearch&amp;amp;cqlMode=true&amp;amp;query=idn%3D1124465774&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Szöcs, E. (2017). Statistical eco (-toxico) logy: improving the utilisation of data for environmental risk assessment (Doctoral dissertation, Dissertation, Landau, Universität Koblenz-Landau, Campus Landau, 2017). &lt;a href=&quot;https://portal.dnb.de/opac.htm?method=simpleSearch&amp;amp;cqlMode=true&amp;amp;query=idn%3D1124465774&quot;&gt;https://portal.dnb.de/opac.htm?method=simpleSearch&amp;amp;cqlMode=true&amp;amp;query=idn%3D1124465774&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Réjou-Méchain, M., Tanguy, A., Piponiot, C., Chave, J., &amp;amp; Hérault, B. (2017). BIOMASS: An R Package for estimating aboveground biomass and its uncertainty in tropical forests. Methods in Ecology and Evolution. &lt;a href=&quot;https://doi.org/10.1111/2041-210x.12753&quot;&gt;https://doi.org/10.1111/2041-210x.12753&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Réjou-Méchain, M., Tanguy, A., Piponiot, C., Chave, J., &amp;amp; Hérault, B. (2017). BIOMASS: An R Package for estimating aboveground biomass and its uncertainty in tropical forests. Methods in Ecology and Evolution. &lt;a href=&quot;https://doi.org/10.1111/2041-210x.12753&quot;&gt;https://doi.org/10.1111/2041-210x.12753&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Puschmann, C., &amp;amp; Ausserhofer, J. (2017). Social Data APIs. &lt;a href=&quot;http://cbpuschmann.net/pubs/social_data_apis.pdf&quot;&gt;http://cbpuschmann.net/pubs/social_data_apis.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Puschmann, C., &amp;amp; Ausserhofer, J. (2017). Social Data APIs. &lt;a href=&quot;http://cbpuschmann.net/pubs/social_data_apis.pdf&quot;&gt;http://cbpuschmann.net/pubs/social_data_apis.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -399,10 +511,10 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Lucas, T. C. (2016). The role of population structure and size in determining bat pathogen richness (Doctoral dissertation, UCL (University College London)). &lt;a href=&quot;http://discovery.ucl.ac.uk/1531925/&quot;&gt;http://discovery.ucl.ac.uk/1531925/&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Lucas, T. C. (2016). The role of population structure and size in determining bat pathogen richness (Doctoral dissertation, UCL (University College London)). &lt;a href=&quot;http://discovery.ucl.ac.uk/1531925/&quot;&gt;http://discovery.ucl.ac.uk/1531925/&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Rebecca Cain. (2015). NCDC API: an R Interface with many NOAA Data Sources. &lt;a href=&quot;http://spatialecology.weebly.com/r-code--data/34&quot;&gt;http://spatialecology.weebly.com/r-code--data/34&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Rebecca Cain. (2015). NCDC API: an R Interface with many NOAA Data Sources. &lt;a href=&quot;http://spatialecology.weebly.com/r-code--data/34&quot;&gt;http://spatialecology.weebly.com/r-code--data/34&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -500,13 +612,13 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Kevin Ummel. 2012. “CARMA Revisited: An Updated Database of Carbon Dioxide Emissions from Power Plants Worldwide.” CGD Working Paper 304. Washington, D.C.: Center for Global Development. &lt;a href=&quot;http://www.cgdev.org/content/publications/detail/1426429&quot;&gt;http://www.cgdev.org/content/publications/detail/1426429&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Kevin Ummel. 2012. “CARMA Revisited: An Updated Database of Carbon Dioxide Emissions from Power Plants Worldwide.” CGD Working Paper 304. Washington, D.C.: Center for Global Development. &lt;a href=&quot;http://www.cgdev.org/content/publications/detail/1426429&quot;&gt;http://www.cgdev.org/content/publications/detail/1426429&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;LeBauer, D., Kooper, R., Mulrooney, P., Rohde, S., Wang, D., Long, S. P., &amp;amp; Dietze, M. C. (2017). BETYdb: a yield, trait, and ecosystem service database applied to second-generation bioenergy feedstock production. GCB Bioenergy. &lt;a href=&quot;https://doi.org/10.1111/gcbb.12420&quot;&gt;https://doi.org/10.1111/gcbb.12420&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;LeBauer, D., Kooper, R., Mulrooney, P., Rohde, S., Wang, D., Long, S. P., &amp;amp; Dietze, M. C. (2017). BETYdb: a yield, trait, and ecosystem service database applied to second-generation bioenergy feedstock production. GCB Bioenergy. &lt;a href=&quot;https://doi.org/10.1111/gcbb.12420&quot;&gt;https://doi.org/10.1111/gcbb.12420&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Munkhbat, Oyungerel. 2017. Putting a magnifying glass on air pollution. The UB Post. &lt;a href=&quot;http://theubpost.mn/2017/01/12/putting-a-magnifying-glass-on-air-pollution&quot;&gt;http://theubpost.mn/2017/01/12/putting-a-magnifying-glass-on-air-pollution&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Munkhbat, Oyungerel. 2017. Putting a magnifying glass on air pollution. The UB Post. &lt;a href=&quot;http://theubpost.mn/2017/01/12/putting-a-magnifying-glass-on-air-pollution&quot;&gt;http://theubpost.mn/2017/01/12/putting-a-magnifying-glass-on-air-pollution&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -610,46 +722,46 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Nishida, Kan. 2017. Making Maps for Canada’s Provisions and Census Divisions in R. &lt;a href=&quot;https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6&quot;&gt;https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Nishida, Kan. 2017. Making Maps for Canada’s Provisions and Census Divisions in R. &lt;a href=&quot;https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6&quot;&gt;https://blog.exploratory.io/making-maps-for-canadas-provisions-and-census-divisions-in-r-c189b88ccd8a#.gzi5khrh6&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Sonkkila, Tuja. 2017. Semi-automatic IT at work. &lt;a href=&quot;https://blogs.aalto.fi/suoritin/2017/01/02/impact/&quot;&gt;https://blogs.aalto.fi/suoritin/2017/01/02/impact/&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Sonkkila, Tuja. 2017. Semi-automatic IT at work. &lt;a href=&quot;https://blogs.aalto.fi/suoritin/2017/01/02/impact/&quot;&gt;https://blogs.aalto.fi/suoritin/2017/01/02/impact/&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Gilles, D., Zaiss, R., Blach-Overgaard, A., Catarino, L., Damen, T., Deblauwe, V., et al. (2016). RAINBIO: a mega-database of tropical African vascular plants distributions. PhytoKeys, 74, 1–18. &lt;a href=&quot;https://doi.org/10.3897/phytokeys.74.9723&quot;&gt;https://doi.org/10.3897/phytokeys.74.9723&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Gilles, D., Zaiss, R., Blach-Overgaard, A., Catarino, L., Damen, T., Deblauwe, V., et al. (2016). RAINBIO: a mega-database of tropical African vascular plants distributions. PhytoKeys, 74, 1–18. &lt;a href=&quot;https://doi.org/10.3897/phytokeys.74.9723&quot;&gt;https://doi.org/10.3897/phytokeys.74.9723&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Lundgren, M. R., &amp;amp; Christin, P.-A. (2016). Despite phylogenetic effects, C3-C4 lineages bridge the ecological gap to C4 photosynthesis. Journal of Experimental Botany, erw451. &lt;a href=&quot;https://doi.org/10.1093/jxb/erw451&quot;&gt;https://doi.org/10.1093/jxb/erw451&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Lundgren, M. R., &amp;amp; Christin, P.-A. (2016). Despite phylogenetic effects, C3-C4 lineages bridge the ecological gap to C4 photosynthesis. Journal of Experimental Botany, erw451. &lt;a href=&quot;https://doi.org/10.1093/jxb/erw451&quot;&gt;https://doi.org/10.1093/jxb/erw451&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Galata, V., Backes, C., Laczny, C. C., Hemmrich-Stanisak, G., Li, H., Smoot, L., et al. (2016). Comparing genome versus proteome-based identification of clinical bacterial isolates. Briefings in Bioinformatics, bbw122. &lt;a href=&quot;https://doi.org/10.1093/bib/bbw122&quot;&gt;https://doi.org/10.1093/bib/bbw122&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Galata, V., Backes, C., Laczny, C. C., Hemmrich-Stanisak, G., Li, H., Smoot, L., et al. (2016). Comparing genome versus proteome-based identification of clinical bacterial isolates. Briefings in Bioinformatics, bbw122. &lt;a href=&quot;https://doi.org/10.1093/bib/bbw122&quot;&gt;https://doi.org/10.1093/bib/bbw122&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Hassall, C., Owen, J., &amp;amp; Gilbert, F. (2016). Phenological shifts in hoverflies (Diptera: Syrphidae): linking measurement and mechanism. Ecography. &lt;a href=&quot;https://doi.org/10.1111/ecog.02623&quot;&gt;https://doi.org/10.1111/ecog.02623&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Hassall, C., Owen, J., &amp;amp; Gilbert, F. (2016). Phenological shifts in hoverflies (Diptera: Syrphidae): linking measurement and mechanism. Ecography. &lt;a href=&quot;https://doi.org/10.1111/ecog.02623&quot;&gt;https://doi.org/10.1111/ecog.02623&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;Hampton, S. E., Anderson, S. S., Bagby, S. C., Gries, C., Han, X., Hart, E. M., et al. (2015). The Tao of open science for ecology. Ecosphere, 6(7), art120. &lt;a href=&quot;https://doi.org/10.1890/es14-00402.1&quot;&gt;https://doi.org/10.1890/es14-00402.1&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Hampton, S. E., Anderson, S. S., Bagby, S. C., Gries, C., Han, X., Hart, E. M., et al. (2015). The Tao of open science for ecology. Ecosphere, 6(7), art120. &lt;a href=&quot;https://doi.org/10.1890/es14-00402.1&quot;&gt;https://doi.org/10.1890/es14-00402.1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;Nguyen, N. T., Zhang, X., Wu, C., Lange, R. A., Chilton, R. J., Lindsey, M. L., &amp;amp; Jin, Y.-F. (2014). Integrative Computational and Experimental Approaches to Establish a Post-Myocardial Infarction Knowledge Map. PLoS Computational Biology, 10(3), e1003472. &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1003472&quot;&gt;https://doi.org/10.1371/journal.pcbi.1003472&lt;/a&gt; &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Nguyen, N. T., Zhang, X., Wu, C., Lange, R. A., Chilton, R. J., Lindsey, M. L., &amp;amp; Jin, Y.-F. (2014). Integrative Computational and Experimental Approaches to Establish a Post-Myocardial Infarction Knowledge Map. PLoS Computational Biology, 10(3), e1003472. &lt;a href=&quot;https://doi.org/10.1371/journal.pcbi.1003472&quot;&gt;https://doi.org/10.1371/journal.pcbi.1003472&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:9&quot;&gt;
-      &lt;p&gt;Killen, S. S., Norin, T., &amp;amp; Halsey, L. G. (2016). Do method and species lifestyle affect measures of maximum metabolic rate in fishes? Journal of Fish Biology. &lt;a href=&quot;https://doi.org/10.1111/jfb.13195&quot;&gt;https://doi.org/10.1111/jfb.13195&lt;/a&gt; &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Killen, S. S., Norin, T., &amp;amp; Halsey, L. G. (2016). Do method and species lifestyle affect measures of maximum metabolic rate in fishes? Journal of Fish Biology. &lt;a href=&quot;https://doi.org/10.1111/jfb.13195&quot;&gt;https://doi.org/10.1111/jfb.13195&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:10&quot;&gt;
-      &lt;p&gt;Estrada-Peña, A., &amp;amp; de la Fuente, J. (2016). Species interactions in occurrence data for a community of tick-transmitted pathogens. Scientific Data, 3, 160056. &lt;a href=&quot;https://doi.org/10.1038/sdata.2016.56&quot;&gt;https://doi.org/10.1038/sdata.2016.56&lt;/a&gt; &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Estrada-Peña, A., &amp;amp; de la Fuente, J. (2016). Species interactions in occurrence data for a community of tick-transmitted pathogens. Scientific Data, 3, 160056. &lt;a href=&quot;https://doi.org/10.1038/sdata.2016.56&quot;&gt;https://doi.org/10.1038/sdata.2016.56&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:11&quot;&gt;
-      &lt;p&gt;Bauer, P. C., Barbera, P., &amp;amp; Munzert, S. (2016). The Quality of Citations: Towards Quantifying Qualitative Impact in Social Science Research. &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549&quot;&gt;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549&lt;/a&gt; &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Bauer, P. C., Barbera, P., &amp;amp; Munzert, S. (2016). The Quality of Citations: Towards Quantifying Qualitative Impact in Social Science Research. &lt;a href=&quot;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549&quot;&gt;https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2874549&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:12&quot;&gt;
-      &lt;p&gt;Mackinnon, M. J., Ndila, C., Uyoga, S., Macharia, A., Snow, R. W., Band, G., et al. (2016). Environmental Correlation Analysis for Genes Associated with Protection against Malaria. Molecular Biology and Evolution, 33(5), 1188–1204. &lt;a href=&quot;https://doi.org/10.1093/molbev/msw004&quot;&gt;https://doi.org/10.1093/molbev/msw004&lt;/a&gt; &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Mackinnon, M. J., Ndila, C., Uyoga, S., Macharia, A., Snow, R. W., Band, G., et al. (2016). Environmental Correlation Analysis for Genes Associated with Protection against Malaria. Molecular Biology and Evolution, 33(5), 1188–1204. &lt;a href=&quot;https://doi.org/10.1093/molbev/msw004&quot;&gt;https://doi.org/10.1093/molbev/msw004&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:13&quot;&gt;
-      &lt;p&gt;Söderholm, S. (2016). The Complex Genetics of Multiple Sclerosis: A preliminary study of MS-associated SNPs prior to a larger genotyping project. &lt;a href=&quot;http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;amp;dswid=-3564&quot;&gt;http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;amp;dswid=-3564&lt;/a&gt; &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Söderholm, S. (2016). The Complex Genetics of Multiple Sclerosis: A preliminary study of MS-associated SNPs prior to a larger genotyping project. &lt;a href=&quot;http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;amp;dswid=-3564&quot;&gt;http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A939390&amp;amp;dswid=-3564&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:14&quot;&gt;
-      &lt;p&gt;Kolb, J.-P. (2016). Visualizing GeoData with R. Austrian Journal of Statistics, 45(1), 45. &lt;a href=&quot;https://doi.org/10.17713/ajs.v45i1.88&quot;&gt;https://doi.org/10.17713/ajs.v45i1.88&lt;/a&gt; &lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Kolb, J.-P. (2016). Visualizing GeoData with R. Austrian Journal of Statistics, 45(1), 45. &lt;a href=&quot;https://doi.org/10.17713/ajs.v45i1.88&quot;&gt;https://doi.org/10.17713/ajs.v45i1.88&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -736,16 +848,16 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Simpson, Gavin. 2016. Pangaea and R and open palaeo data. &lt;a href=&quot;http://www.fromthebottomoftheheap.net/2016/12/16/pangaea-r-open-palaeo-data/&quot;&gt;http://www.fromthebottomoftheheap.net/2016/12/16/pangaea-r-open-palaeo-data/&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Simpson, Gavin. 2016. Pangaea and R and open palaeo data. &lt;a href=&quot;http://www.fromthebottomoftheheap.net/2016/12/16/pangaea-r-open-palaeo-data/&quot;&gt;http://www.fromthebottomoftheheap.net/2016/12/16/pangaea-r-open-palaeo-data/&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Bradie, J., &amp;amp; Leung, B. (2016). A quantitative synthesis of the importance of variables used in MaxEnt species distribution models. Journal of Biogeography. &lt;a href=&quot;https://doi.org/10.1111/jbi.12894&quot;&gt;https://doi.org/10.1111/jbi.12894&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Bradie, J., &amp;amp; Leung, B. (2016). A quantitative synthesis of the importance of variables used in MaxEnt species distribution models. Journal of Biogeography. &lt;a href=&quot;https://doi.org/10.1111/jbi.12894&quot;&gt;https://doi.org/10.1111/jbi.12894&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Cramer, M. D., &amp;amp; Verboom, G. A. (2016). Measures of biologically relevant environmental heterogeneity improve prediction of regional plant species richness. Journal of Biogeography. &lt;a href=&quot;https://doi.org/10.1111/jbi.12911&quot;&gt;https://doi.org/10.1111/jbi.12911&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Cramer, M. D., &amp;amp; Verboom, G. A. (2016). Measures of biologically relevant environmental heterogeneity improve prediction of regional plant species richness. Journal of Biogeography. &lt;a href=&quot;https://doi.org/10.1111/jbi.12911&quot;&gt;https://doi.org/10.1111/jbi.12911&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Pfenninger, S., DeCarolis, J., Hirth, L., Quoilin, S., &amp;amp; Staffell, I. (2017). The importance of open data and software: Is energy research lagging behind? Energy Policy, 101, 211–215. &lt;a href=&quot;https://doi.org/10.1016/j.enpol.2016.11.046&quot;&gt;https://doi.org/10.1016/j.enpol.2016.11.046&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Pfenninger, S., DeCarolis, J., Hirth, L., Quoilin, S., &amp;amp; Staffell, I. (2017). The importance of open data and software: Is energy research lagging behind? Energy Policy, 101, 211–215. &lt;a href=&quot;https://doi.org/10.1016/j.enpol.2016.11.046&quot;&gt;https://doi.org/10.1016/j.enpol.2016.11.046&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -825,25 +937,25 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Harsch, M. A., &amp;amp; HilleRisLambers, J. (2016). Climate Warming and Seasonal Precipitation Change Interact to Limit Species Distribution Shifts across Western North America. PLOS ONE, 11(7), e0159184. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0159184&quot;&gt;https://doi.org/10.1371/journal.pone.0159184&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Harsch, M. A., &amp;amp; HilleRisLambers, J. (2016). Climate Warming and Seasonal Precipitation Change Interact to Limit Species Distribution Shifts across Western North America. PLOS ONE, 11(7), e0159184. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0159184&quot;&gt;https://doi.org/10.1371/journal.pone.0159184&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Ummel, K. (2012). CARMA revisited: an updated database of carbon dioxide emissions from power plants worldwide. Center for Global Development Working Paper, (304). &lt;a href=&quot;http://www.cgdev.org/publication/carma-revisited-updated-database-carbon-dioxide-emissions-power-plants-worldwide-working&quot;&gt;http://www.cgdev.org/publication/carma-revisited-updated-database-carbon-dioxide-emissions-power-plants-worldwide-working&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Ummel, K. (2012). CARMA revisited: an updated database of carbon dioxide emissions from power plants worldwide. Center for Global Development Working Paper, (304). &lt;a href=&quot;http://www.cgdev.org/publication/carma-revisited-updated-database-carbon-dioxide-emissions-power-plants-worldwide-working&quot;&gt;http://www.cgdev.org/publication/carma-revisited-updated-database-carbon-dioxide-emissions-power-plants-worldwide-working&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Curtis, C. A., &amp;amp; Bradley, B. A. (2016). Plant Distribution Data Show Broader Climatic Limits than Expert-Based Climatic Tolerance Estimates. PLOS ONE, 11(11), e0166407. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0166407&quot;&gt;https://doi.org/10.1371/journal.pone.0166407&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Curtis, C. A., &amp;amp; Bradley, B. A. (2016). Plant Distribution Data Show Broader Climatic Limits than Expert-Based Climatic Tolerance Estimates. PLOS ONE, 11(11), e0166407. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0166407&quot;&gt;https://doi.org/10.1371/journal.pone.0166407&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;O’Neill, Jill (2016) “NISO Recommended Practice: Outputs of the Alternative Assessment Metrics Project” Collaborative Librarianship: Vol. 8: Iss. 3, Article 4. &lt;a href=&quot;http://digitalcommons.du.edu/collaborativelibrarianship/vol8/iss3/4&quot;&gt;http://digitalcommons.du.edu/collaborativelibrarianship/vol8/iss3/4&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;O’Neill, Jill (2016) “NISO Recommended Practice: Outputs of the Alternative Assessment Metrics Project” Collaborative Librarianship: Vol. 8: Iss. 3, Article 4. &lt;a href=&quot;http://digitalcommons.du.edu/collaborativelibrarianship/vol8/iss3/4&quot;&gt;http://digitalcommons.du.edu/collaborativelibrarianship/vol8/iss3/4&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;Costello, M. J., Basher, Z., McLeod, L., Asaad, I., Claus, S., Vandepitte, L., et al. (2017). Methods for the Study of Marine Biodiversity. In The GEO Handbook on Biodiversity Observation Networks (pp. 129-163). Springer International Publishing. &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-27288-7_6&quot;&gt;http://link.springer.com/chapter/10.1007/978-3-319-27288-7_6&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Costello, M. J., Basher, Z., McLeod, L., Asaad, I., Claus, S., Vandepitte, L., et al. (2017). Methods for the Study of Marine Biodiversity. In The GEO Handbook on Biodiversity Observation Networks (pp. 129-163). Springer International Publishing. &lt;a href=&quot;http://link.springer.com/chapter/10.1007/978-3-319-27288-7_6&quot;&gt;http://link.springer.com/chapter/10.1007/978-3-319-27288-7_6&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Liang, J., Crowther, T. W., Picard, N., Wiser, S., Zhou, M., Alberti, G., et al. (2016). Positive biodiversity-productivity relationship predominant in global forests. Science, 354(6309), aaf8957–aaf8957. &lt;a href=&quot;https://doi.org/10.1126/science.aaf8957&quot;&gt;https://doi.org/10.1126/science.aaf8957&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Liang, J., Crowther, T. W., Picard, N., Wiser, S., Zhou, M., Alberti, G., et al. (2016). Positive biodiversity-productivity relationship predominant in global forests. Science, 354(6309), aaf8957–aaf8957. &lt;a href=&quot;https://doi.org/10.1126/science.aaf8957&quot;&gt;https://doi.org/10.1126/science.aaf8957&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;Boehmke, B. (2016). Data Wrangling with R. &lt;a href=&quot;http://link.springer.com/book/10.1007/978-3-319-45599-0&quot;&gt;http://link.springer.com/book/10.1007/978-3-319-45599-0&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Boehmke, B. (2016). Data Wrangling with R. &lt;a href=&quot;http://link.springer.com/book/10.1007/978-3-319-45599-0&quot;&gt;http://link.springer.com/book/10.1007/978-3-319-45599-0&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -931,13 +1043,13 @@ and the authors of the packages!&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Kraker, P., Kittel, C., &amp;amp; Enkhbayar, A. (2016). Open Knowledge Maps: Creating a Visual Interface to the World’s Scientific Knowledge Based on Natural Language Processing. 027.7 Zeitschrift für Bibliothekskultur/Journal for Library Culture, 4(2), 98-103. &lt;a href=&quot;http://0277.ch/ojs/index.php/cdrs_0277/article/view/157&quot;&gt;http://0277.ch/ojs/index.php/cdrs_0277/article/view/157&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Kraker, P., Kittel, C., &amp;amp; Enkhbayar, A. (2016). Open Knowledge Maps: Creating a Visual Interface to the World’s Scientific Knowledge Based on Natural Language Processing. 027.7 Zeitschrift für Bibliothekskultur/Journal for Library Culture, 4(2), 98-103. &lt;a href=&quot;http://0277.ch/ojs/index.php/cdrs_0277/article/view/157&quot;&gt;http://0277.ch/ojs/index.php/cdrs_0277/article/view/157&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Erdt, M., Aw, A. S., Aung, H. H., Mohammadi, E., &amp;amp; Theng, Y. L. (2016, October). Investigating Singapore’s altmetric landscape. In Proceedings of the 79th ASIS&amp;amp;T Annual Meeting: Creating Knowledge, Enhancing Lives through Information &amp;amp; Technology (p. 29). American Society for Information Science. &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=3017476&quot;&gt;http://dl.acm.org/citation.cfm?id=3017476&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Erdt, M., Aw, A. S., Aung, H. H., Mohammadi, E., &amp;amp; Theng, Y. L. (2016, October). Investigating Singapore’s altmetric landscape. In Proceedings of the 79th ASIS&amp;amp;T Annual Meeting: Creating Knowledge, Enhancing Lives through Information &amp;amp; Technology (p. 29). American Society for Information Science. &lt;a href=&quot;http://dl.acm.org/citation.cfm?id=3017476&quot;&gt;http://dl.acm.org/citation.cfm?id=3017476&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Lane, R. J. (2016). Revisiting Open Source Software Development Models for Community-Based Digital Humanities Research Generation. Scholarly and Research Communication, 7(2). Chicago &lt;a href=&quot;http://src-online.ca/index.php/src/article/view/254&quot;&gt;http://src-online.ca/index.php/src/article/view/254&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Lane, R. J. (2016). Revisiting Open Source Software Development Models for Community-Based Digital Humanities Research Generation. Scholarly and Research Communication, 7(2). Chicago &lt;a href=&quot;http://src-online.ca/index.php/src/article/view/254&quot;&gt;http://src-online.ca/index.php/src/article/view/254&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -1072,49 +1184,49 @@ do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Ladam, C., Harden, J. J., &amp;amp; Windett, J. H. (2016). Does the Election of a Female Governor Influence Women’s Political Ambition? &lt;a href=&quot;https://www.princeton.edu/csdp/events/Harden%2010062016/Harden-10062016.pdf&quot;&gt;https://www.princeton.edu/csdp/events/Harden%2010062016/Harden-10062016.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Ladam, C., Harden, J. J., &amp;amp; Windett, J. H. (2016). Does the Election of a Female Governor Influence Women’s Political Ambition? &lt;a href=&quot;https://www.princeton.edu/csdp/events/Harden%2010062016/Harden-10062016.pdf&quot;&gt;https://www.princeton.edu/csdp/events/Harden%2010062016/Harden-10062016.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://tidytextmining.com/tidytext.html#the-gutenbergr-package&quot;&gt;Tidy Text Mining with R&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;http://tidytextmining.com/tidytext.html#the-gutenbergr-package&quot;&gt;Tidy Text Mining with R&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://blog.exploratory.io/riem-package-getting-world-weather-data-in-super-easy-way-78aa94ed45f5#.q58jjkuo4&quot;&gt;riem Package — Getting World Weather Data in Super Easy Way&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.exploratory.io/riem-package-getting-world-weather-data-in-super-easy-way-78aa94ed45f5#.q58jjkuo4&quot;&gt;riem Package — Getting World Weather Data in Super Easy Way&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://medium.com/@openaq/personalizing-the-data-points-following-the-open-data-trail-to-coyhaique-40604278bf71#.qkm2slfv4&quot;&gt;Personalizing the Data Points: Following the Open Data Trail to Coyhaique&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://medium.com/@openaq/personalizing-the-data-points-following-the-open-data-trail-to-coyhaique-40604278bf71#.qkm2slfv4&quot;&gt;Personalizing the Data Points: Following the Open Data Trail to Coyhaique&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://medium.com/@openaq/open-air-quality-fun-with-fireworks-13f9bd47ba36#.j64syt9tm&quot;&gt;Open Air Quality Fun with Fireworks&lt;/a&gt; &lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://medium.com/@openaq/open-air-quality-fun-with-fireworks-13f9bd47ba36#.j64syt9tm&quot;&gt;Open Air Quality Fun with Fireworks&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;https://blog.monkeylearn.com/analyzing-first7jobs-tweets-monkeylearn-r/&quot;&gt;Analyzing #first7jobs tweets with MonkeyLearn and R&lt;/a&gt; &lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;a href=&quot;https://blog.monkeylearn.com/analyzing-first7jobs-tweets-monkeylearn-r/&quot;&gt;Analyzing #first7jobs tweets with MonkeyLearn and R&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;Mihaljević-Brandt, H., Santamaría, L., &amp;amp; Tullney, M. (2016). The Effect of Gender in the Publication Patterns in Mathematics. PLOS ONE, 11(10), e0165367. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0165367&quot;&gt;https://doi.org/10.1371/journal.pone.0165367&lt;/a&gt; &lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Mihaljević-Brandt, H., Santamaría, L., &amp;amp; Tullney, M. (2016). The Effect of Gender in the Publication Patterns in Mathematics. PLOS ONE, 11(10), e0165367. &lt;a href=&quot;https://doi.org/10.1371/journal.pone.0165367&quot;&gt;https://doi.org/10.1371/journal.pone.0165367&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:8&quot;&gt;
-      &lt;p&gt;Halse-Gramkow, M., Ernst, M., Rønsted, N., Dunn, R. R., &amp;amp; Saslis-Lagoudakis, C. H. (2016). Using evolutionary tools to search for novel psychoactive plants. Plant Genetic Resources, 1–10. &lt;a href=&quot;https://doi.org/10.1017/s1479262116000344&quot;&gt;https://doi.org/10.1017/s1479262116000344&lt;/a&gt; &lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Halse-Gramkow, M., Ernst, M., Rønsted, N., Dunn, R. R., &amp;amp; Saslis-Lagoudakis, C. H. (2016). Using evolutionary tools to search for novel psychoactive plants. Plant Genetic Resources, 1–10. &lt;a href=&quot;https://doi.org/10.1017/s1479262116000344&quot;&gt;https://doi.org/10.1017/s1479262116000344&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:9&quot;&gt;
-      &lt;p&gt;Doyle, J. M., Merovitch, N., Wyeth, R. C., Stoyek, M. R., Schmidt, M., Wilfart, F., … Croll, R. P. (2017). A simple automated system for appetitive conditioning of zebrafish in their home tanks. Behavioural Brain Research, 317, 444–452. &lt;a href=&quot;https://doi.org/10.1016/j.bbr.2016.09.044&quot;&gt;https://doi.org/10.1016/j.bbr.2016.09.044&lt;/a&gt; &lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Doyle, J. M., Merovitch, N., Wyeth, R. C., Stoyek, M. R., Schmidt, M., Wilfart, F., … Croll, R. P. (2017). A simple automated system for appetitive conditioning of zebrafish in their home tanks. Behavioural Brain Research, 317, 444–452. &lt;a href=&quot;https://doi.org/10.1016/j.bbr.2016.09.044&quot;&gt;https://doi.org/10.1016/j.bbr.2016.09.044&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:10&quot;&gt;
-      &lt;p&gt;Hertler, B., Buitrago, M. M., Luft, A. R., &amp;amp; Hosp, J. A. (2016). Temporal course of gene expression during motor memory formation in primary motor cortex of rats. Neurobiology of Learning and Memory, 136, 105–115. &lt;a href=&quot;https://doi.org/10.1016/j.nlm.2016.09.018&quot;&gt;https://doi.org/10.1016/j.nlm.2016.09.018&lt;/a&gt; &lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Hertler, B., Buitrago, M. M., Luft, A. R., &amp;amp; Hosp, J. A. (2016). Temporal course of gene expression during motor memory formation in primary motor cortex of rats. Neurobiology of Learning and Memory, 136, 105–115. &lt;a href=&quot;https://doi.org/10.1016/j.nlm.2016.09.018&quot;&gt;https://doi.org/10.1016/j.nlm.2016.09.018&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:10&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:11&quot;&gt;
-      &lt;p&gt;Meyer, A. G. (2016). Analysis of infection biomarkers within a Bayesian framework reveals their role in pneumococcal pneumonia diagnosis in HIV patients. &lt;a href=&quot;https://doi.org/10.1101/070144&quot;&gt;https://doi.org/10.1101/070144&lt;/a&gt; &lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Meyer, A. G. (2016). Analysis of infection biomarkers within a Bayesian framework reveals their role in pneumococcal pneumonia diagnosis in HIV patients. &lt;a href=&quot;https://doi.org/10.1101/070144&quot;&gt;https://doi.org/10.1101/070144&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:11&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:12&quot;&gt;
-      &lt;p&gt;Cole, C. B., Patel, S., French, L., &amp;amp; Knight, J. (2016). Semi-Automated Identification of Ontological Labels in the Biomedical Literature with goldi. &lt;a href=&quot;https://doi.org/10.1101/073460&quot;&gt;https://doi.org/10.1101/073460&lt;/a&gt; &lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Cole, C. B., Patel, S., French, L., &amp;amp; Knight, J. (2016). Semi-Automated Identification of Ontological Labels in the Biomedical Literature with goldi. &lt;a href=&quot;https://doi.org/10.1101/073460&quot;&gt;https://doi.org/10.1101/073460&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:12&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:13&quot;&gt;
-      &lt;p&gt;Walker, K. E. (2016). Tools for Interactive Visualization of Global Demographic Concepts in R. Spatial Demography, 4(3), 207–220. &lt;a href=&quot;https://doi.org/10.1007/s40980-016-0029-1&quot;&gt;https://doi.org/10.1007/s40980-016-0029-1&lt;/a&gt; &lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Walker, K. E. (2016). Tools for Interactive Visualization of Global Demographic Concepts in R. Spatial Demography, 4(3), 207–220. &lt;a href=&quot;https://doi.org/10.1007/s40980-016-0029-1&quot;&gt;https://doi.org/10.1007/s40980-016-0029-1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:13&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:14&quot;&gt;
-      &lt;p&gt;Silva, D.; Meireles, F. (2015). Ciência Política na era do Big Data: automação na coleta de dados digitais. Politica Hoje, v.2, (pp. 87-102) &lt;a href=&quot;https://github.com/meirelesff/meirelesff.github.io/raw/master/files/bigdata2016.pdf&quot;&gt;https://github.com/meirelesff/meirelesff.github.io/raw/master/files/bigdata2016.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Silva, D.; Meireles, F. (2015). Ciência Política na era do Big Data: automação na coleta de dados digitais. Politica Hoje, v.2, (pp. 87-102) &lt;a href=&quot;https://github.com/meirelesff/meirelesff.github.io/raw/master/files/bigdata2016.pdf&quot;&gt;https://github.com/meirelesff/meirelesff.github.io/raw/master/files/bigdata2016.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:14&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:15&quot;&gt;
-      &lt;p&gt;Dennis, T. (2016). Using R and ggvis to Create Interactive Graphics for Exploratory Data Analysis. Data Visualization: A Guide to Visual Storytelling for Libraries, 149. &lt;a href=&quot;https://books.google.com/books?id=wxrMDAAAQBAJ&amp;amp;dq=A+Guide+to+Visual+Storytelling+for+Libraries&amp;amp;source=gbs_navlinks_s&quot;&gt;https://books.google.com/books?id=wxrMDAAAQBAJ&amp;amp;dq=A+Guide+to+Visual+Storytelling+for+Libraries&amp;amp;source=gbs_navlinks_s&lt;/a&gt; &lt;a href=&quot;#fnref:15&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Dennis, T. (2016). Using R and ggvis to Create Interactive Graphics for Exploratory Data Analysis. Data Visualization: A Guide to Visual Storytelling for Libraries, 149. &lt;a href=&quot;https://books.google.com/books?id=wxrMDAAAQBAJ&amp;amp;dq=A+Guide+to+Visual+Storytelling+for+Libraries&amp;amp;source=gbs_navlinks_s&quot;&gt;https://books.google.com/books?id=wxrMDAAAQBAJ&amp;amp;dq=A+Guide+to+Visual+Storytelling+for+Libraries&amp;amp;source=gbs_navlinks_s&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:15&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
@@ -1122,117 +1234,6 @@ do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2
         <pubDate>Mon, 07 Nov 2016 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/biweekly/update-2016-11-07/</link>
         <guid isPermaLink="true">http://localhost:4000/biweekly/update-2016-11-07/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2016-10-24</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;sofa&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/sofa&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;sofa&lt;/code&gt; provides an interface to the NoSQL database CouchDB (&lt;a href=&quot;http://couchdb.apache.org&quot;&gt;http://couchdb.apache.org&lt;/a&gt;). &lt;code class=&quot;highlighter-rouge&quot;&gt;sofa&lt;/code&gt; targets Couch v2 and greater, but some functionality will work with older Couch versions. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/sofa/vignettes/sofa_vignette.html&quot;&gt;intro vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/sofa&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.5.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ritis&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ritis&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/ritis/releases/tag/v0.5.4&quot;&gt;release notes&lt;/a&gt; for changes. This version includes a single change: ITIS updated some of their API endpoints to use https. Please do upgrade! &lt;a href=&quot;https://github.com/ropensci/ritis&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rredlist&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rredlist&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/rredlist/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for changes. This version adds new methods &lt;code class=&quot;highlighter-rouge&quot;&gt;rl_history()&lt;/code&gt; and its companion &lt;code class=&quot;highlighter-rouge&quot;&gt;rl_history_()&lt;/code&gt;. In addition, there’s a minor improvement, and an important bug fix that was affecting Windows users. Windows users are especially encouraged to upgrade. &lt;a href=&quot;https://github.com/ropenscilabs/rredlist&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;0.6.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rnoaa&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rnoaa&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rnoaa/releases/tag/v0.6.5&quot;&gt;release notes&lt;/a&gt; for changes. This version includes a major bug fix in which binary installations introduced the wrong cache path for those functions that used &lt;code class=&quot;highlighter-rouge&quot;&gt;rappdirs&lt;/code&gt; for determining the cache path. This was introduced recently when the cache path was initialized on package build. This is now fixed. Everyone should upgrade. &lt;a href=&quot;https://github.com/ropensci/rnoaa&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
-
-&lt;p&gt;We accept community contributed packages via our onboarding system - a software review
-system, sorta like scholarly paper review, but way better. We’ll highlight new packages
-here that have come through this system. A huge thanks to our reviewers, who
-do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;), and the authors of the packages!&lt;/p&gt;
-
-&lt;p&gt;The following package recently went through our onboarding process and has been approved:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rdpla&quot;&gt;rdpla&lt;/a&gt; &amp;gt; Client for the Digital Public Library of America (DPLA)
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/sckott&quot;&gt;Scott Chamberlain&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/71&quot;&gt;ropensci/onboarding#71&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/jsonbecker&quot;&gt;Jason Becker&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/fmichonneau&quot;&gt;Francois Michonneau&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following packages were recently submitted to our onboarding process and are undergoing review:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/adamhsparks/GSODR&quot;&gt;GSODR&lt;/a&gt; &amp;gt; Global Summary Daily Weather Data in R
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/adamhsparks&quot;&gt;Adam Sparks&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/79&quot;&gt;ropensci/onboarding#79&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/jeffreyhanson&quot;&gt;Jeff Hanson&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/deniederhut&quot;&gt;Dillon Niederhut&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/EML&quot;&gt;EML&lt;/a&gt; &amp;gt; Read and Write Ecological Metadata Language Files
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/cboettig&quot;&gt;Carl Boettiger&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/80&quot;&gt;ropensci/onboarding#80&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/gmbecker&quot;&gt;Gabe Becker&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/cgries&quot;&gt;Corinna Gries&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;One recent thesis cites rOpenSci:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Döhmen, T.R. cites &lt;code class=&quot;highlighter-rouge&quot;&gt;testdat&lt;/code&gt; in their thesis &lt;a href=&quot;http://homepages.cwi.nl/~boncz/msc/2016-Doehmen.pdf&quot;&gt;Multi-hypothesis parsing of tabular data in comma-separated values (CSV) files&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
-
-&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
-
-</description>
-        <pubDate>Mon, 24 Oct 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/biweekly/update-2016-10-24/</link>
-        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2016-10-24/</guid>
         
         
       </item>
