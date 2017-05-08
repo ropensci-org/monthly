@@ -14,10 +14,6 @@
 		"releases": [
 			{
 				"package": "rgbif",
-				"text": ""
-			},
-			{
-				"package": "rgbif",
 				"text": "A new version (`v0.9.8`) of `rgbif` is on [CRAN](https://cran.rstudio.com/web/packages/rgbif). This version includes a biggish change in some functions that can accept two kinds of ways to pass in many values for a parameter. In addition, we dropped V8 dependency, replacing it with a WKT toolkit based in C++ [wicket](https://cran.rstudio.com/web/packages/wicket/). This release changes to using `crul` instead of `httr`. See [release notes](https://github.com/ropensci/rgbif/releases/tag/v0.9.8) for details. [Repository on GitHub][rgbif]"
 			},
 			{
