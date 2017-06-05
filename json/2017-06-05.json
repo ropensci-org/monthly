@@ -1,0 +1,192 @@
+{
+    "meta": {
+        "layout": "post",
+        "title":  "Update 2017-06-05",
+        "date":   "2017-06-05"
+    },
+    "ropensci_hq": {
+        "text": "Our 4th annual rOpenSci Unconference (<http://unconf17.ropensci.org/>) happened a few weeks ago (25-26 May) in Los Angeles, CA. * Checkout what happened on Twitter using `#runconf17` - and [Karthik's Storify](https://storify.com/_inundata/4th-annual-ropensci-unconf) * Our community manager got a blog post up the other day about the event: [Bringing Together People and Projects at Unconf17](https://ropensci.org/blog/blog/2017/06/02/unconf2017) * We'll be rolling out a series of blog posts soon covering some of the work accomplished at the event * There's been a numbrer of blog posts already by unconf attendees: [Jasmine Dumas](https://jasdumas.github.io/2017-05-28-runconf17-experience/), [Bob Rudis](https://rud.is/b/2017/05/28/l-a-unconf-idential-a-k-a-an-ropensci-runconf17-retrospective/), [David Smith](http://blog.revolutionanalytics.com/2017/05/runconf17.html), [Karl Broman](http://kbroman.org/blog/2017/05/27/ropensci-unconf-2017/), and [Lucy D'Agostino](http://livefreeordichotomize.com/2017/06/03/runconf17-an-analysis-of-emoji-use/).  Our community manager [Stefanie Butland](https://twitter.com/StefanieButland) is at meeting this week for [AAAS Community Engagement Fellows Program](https://www.aaas.org/cefp/meet-our-fellows)."
+    },
+    "software": {
+        "new_packages": [
+            {
+                "package": "cld2",
+                "text": "A new package `cld2` (`v1.0`) is [on CRAN](https://cran.rstudio.com/web/packages/cld2). `cld2` is an R Wrapper for Google's Compact Language Detector 2. Check out the [cld2 README](https://github.com/ropensci/cld2#cld2) to get started. [Repository on GitHub][cld2]"
+            }
+        ],
+        "releases": [
+            {
+                "package": "graphql",
+                "text": "A new version (`v1.3`) of `graphql` is on [CRAN](https://cran.rstudio.com/web/packages/graphql). See [release notes](https://github.com/ropensci/graphql/releases/tag/v1.3) for  etails. [Repository on GitHub][graphql]"
+            },
+            {
+                "package": "stplanr",
+                "text": "A new version (`v0.1.8`) of `stplanr` is on [CRAN](https://cran.rstudio.com/web/packages/stplanr). See [release notes](https://github.com/ropensci/stplanr/releases/tag/0.1.8)  or details. Check out [the vignettes](https://cran.rstudio.com/web/packages/stplanr/vignettes/) to get started. [Repository on GitHub][stplanr]"
+            },
+            {
+                "package": "rentrez",
+                "text": "A new version (`v1.1.0`) of `rentrez` is on [CRAN](https://cran.rstudio.com/web/packages/rentrez). This version makes a change to use `POST` requests over `GET` when sending  200 IDS to NCBI - other changes as well. See [release notes](https://github.com/ropensci/rentrez/releases/tag/v1.1.0) for details. Check out [the vignette](https://cran.rstudio.com/web/packages/rentrez/vignettes/rentrez_tutorial.html) to get started. [Repository on GitHub][rentrez]"
+            },
+            {
+                "package": "assertr",
+                "text": "A new version (`v2.0.2.1`) of `assertr` is on [CRAN](https://cran.rstudio.com/web/packages/assertr). Check out [the vignette](https://cran.rstudio.com/web/packages/assertr/ ignettes/assertr.html) to get started. [Repository on GitHub][assertr]"
+            },
+            {
+                "package": "plotly",
+                "text": "A new version (`v4.7.0`) of `plotly` is on [CRAN](https://cran.rstudio.com/web/packages/crminer). This version adds support for fixed coordinates, and `geom_sf`/`coord_sf` - and  ther changes. See [the NEWS](https://cran.rstudio.com/web/packages/plotly/news.html) for details. Check out [the plotly book](https://cpsievert.github.io/plotly_book/) to get started.  [Repository on GitHub][plotly]"
+            },
+            {
+                "package": "eechidna",
+                "text": "A new version (`v1.1`) of `eechidna` is on [CRAN](https://cran.rstudio.com/web/packages/eechidna). [Repository on GitHub][eechidna]"
+            },
+            {
+                "package": "crul",
+                "text": "A new version (`v0.3.6`) of `crul` is on [CRAN](https://cran.rstudio.com/web/packages/crul). This version adds integration for the R package `webmockr`, a new package which  llows you to mock HTTP requests. `webmockr` only supports `crul` for now, but will support other HTTP libs soon. This version also adds a simple authentication helper (`auth`), and some minor improvements. See [release notes](https://github.com/ropensci/crul/releases/tag/v0.3.6) for details. Check out [the vignettes](https://cran.rstudio.com/web/packages/crul/vignettes/) to get started.  [Repository on GitHub][crul]"
+            }
+        ]
+    },
+    "onboarding": {
+        "new_submissions": [
+            {
+                "package": "bikedata",
+                "description": "Download and Aggregate Data from Public Hire Bicycle Systems",
+                "author": {
+                    "name": "Mark Padgham",
+                    "github": "https://github.com/mpadge"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/116",
+                "reviewers": [
+                    {
+                        "name": "Elaine McVey",
+                        "github": "https://github.com/eamcvey"
+                    },
+                    {
+                        "name": "chucheria",
+                        "github": "https://github.com/chucheria"
+                    }
+                ]
+            },
+            {
+                "package": "rrricanes",
+                "description": "Web scraper for real-time and archived advisory products for Atlantic and east Pacific hurricanes and tropical storms",
+                "author": {
+                    "name": "Tim Trice",
+                    "github": "https://github.com/timtrice"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/118",
+                "reviewers": {}
+            },
+            {
+                "package": "RefManageR",
+                "description": "Straightforward 'BibTeX' and 'BibLaTeX' Bibliography Management",
+                "author": {
+                    "name": "Mathew McLean",
+                    "github": "https://github.com/mwmclean"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/119",
+                "reviewers": {}
+            },
+            {
+                "package": "bittrex",
+                "description": "Client for the Bitrex Exchange",
+                "author": {
+                    "name": "Michael Kane",
+                    "github": "https://github.com/kaneplusplus"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/120",
+                "reviewers": {}
+            },
+            {
+                "package": "bomrang",
+                "description": "Fetch Australian Government Bureau of Meteorology Data",
+                "author": {
+                    "name": "Adam Sparks",
+                    "github": "https://github.com/adamhsparks"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/121",
+                "reviewers": {}
+            }
+
+        ],
+        "accepted": [
+            {
+                "package": "osmdata",
+                "description": "Download OpenStreetMap Data with the Overpass API",
+                "author": {
+                    "name": "Mark Padgham",
+                    "github": "https://github.com/mpadge"
+                },
+                "issue": "https://github.com/ropensci/onboarding/issues/103",
+                "reviewers": [
+                    {
+                        "name": "Edzer Pebesma",
+                        "github": "https://github.com/edzer"
+                    }
+                ]
+            }
+        ]
+    },
+    "on_the_blog": {
+        "text": "Our community manager got a blog post up the other day about the event: [Bringing Together People and Projects at Unconf17](https://ropensci.org/blog/blog/2017/06/02/unconf2017)",
+        "onboarding_series": [
+            {
+                "package": "lingtypology",
+                "text": "8th: [George Moroz](https://www.hse.ru/en/org/persons/103489498#teaching) on his package [lingtypology][lingtypology] - [Easy linguistic mapping with lingtypology](https://ropensci.org/blog/blog/2017/05/16/lingtypology)."
+            },
+            {
+                "package": "tabulizer",
+                "text": "7th: [Thomas Leeper](http://thomasleeper.com/) on his package [tabulizer][] - [Release 'open' data from their PDF prisons using tabulizer](https://ropensci.org/blog/blog/2017/04/11/assertr)."
+            },
+            {
+                "package": "assertr",
+                "text": "6th: [Tony Fischetti](http://www.onthelambda.com/) on his package [assertr][] - [Data validation with the assertr package](https://ropensci.org/blog/blog/2017/04/11/assertr)."
+            },
+            {
+                "package": "GSODR",
+                "text": "5th: [Adam Sparks](https://github.com/adamhsparks) on his package [GSODR][] - [Everybody talks about the weather](https://ropensci.org/blog/blog/2017/04/04/gsodr)."
+            },
+            {
+                "package": "camsRad",
+                "text": "4th: [Lukas Lundstrom](https://github.com/lukas-rokka) on his package [camsRad][] - [camsRad, satellite-based time series of solar irradiation](https://ropensci.org/blog/blog/2017/03/21/camsrad)."
+            },
+            {
+                "package": "hddtools",
+                "text": "3rd: [Claudia Vitolo](https://claudiavitolo.com/) on her package [hddtools][] - [Discover hydrological data using the hddtools R package](https://ropensci.org/blog/blog/2017/03/07/hddtools)."
+            },
+            {
+                "package": "ropenaq",
+                "text": "2nd: [Maëlle Salmon](http://www.masalmon.eu/) on her package [ropenaq][] - [ropenaq, a breath of fresh air/R](https://ropensci.org/blog/blog/2017/02/21/ropenaq)."
+            },
+            {
+                "package": "plater",
+                "text": "1st: [Sean Hughes](https://github.com/seaaan) on his package [plater][] - [From a million nested `ifelse`s to the plater package](https://ropensci.org/blog/blog/2017/02/06/plater-blog-post)."
+            }
+        ]
+    },
+    "use_cases": [
+        {
+            "package": "taxize",
+            "text": "Ordano _et al_. used and cited [taxize][taxize] in their paper [The role of trait combination in the conspicuousness of fruit display among bird-dispersed plants. Functional Ecology](https://doi.org/10.1111/1365-2435.12899) [^1]",
+            "citation": "Ordano, M., Blendinger, P. G., Lomáscolo, S. B., Chacoff, N. P., Sánchez, M. S., Núñez Montellano, M. G., … Valoy, M. (2017). The role of trait combination in the conspicuousness of fruit display among bird-dispersed plants. Functional Ecology. <https://doi.org/10.1111/1365-2435.12899>"
+        },
+        {
+            "package": ["ropensci", "ecoengine"],
+            "text": "Lehmann _et al_. cited rOpenSci and [ecoengine][ecoengine] in their paper [Lifting the Information Barriers to Address Sustainability Challenges with Data from Physical Geography and Earth Observation](https://doi.org/10.3390/su9050858) [^2]",
+            "citation": "Lehmann, A., Chaplin-Kramer, R., Lacayo, M., Giuliani, G., Thau, D., Koy, K., … Jr., R. S. (2017). Lifting the Information Barriers to Address Sustainability Challenges with Data from Physical Geography and Earth Observation. Sustainability, 9(6), 858. <https://doi.org/10.3390/su9050858>"
+        },
+        {
+            "package": "ropensci",
+            "text": "Mounce _et al_. cited rOpenSci in their paper [A machine-compiled microbial supertree from figure-",
+            "citation": "Mounce, R., Murray-Rust, P., & Wills, M. (2017). A machine-compiled microbial supertree from figure-mining thousands of papers. Research Ideas and Outcomes, 3, e13589. <https://doi.org/10.3897/rio.3.e13589>"
+        }
+    ],
+    "keep_up_with_ropensci_news": {
+        "lead": "There are a number of ways to keep up with what rOpenSci is doing:",
+        "items": [
+            "Mailing list: Sign up with an email address to get new blog posts sent to your inbox -> [ropensci.org/#subscribe](https://ropensci.org/#subscribe)",
+            "rOpenSci on Twitter: we're [@ropensci](https://twitter.com/ropensci)",
+            "The rOpenSci blog at [ropensci.org/blog](https://ropensci.org/blog) - you can subscribe in any RSS aggregator, or manually via [https://ropensci.org/feed.xml](https://ropensci.org/feed.xml). We also announce new blog posts on our Twitter account.",
+            "[rOpenSci news](https://ropensci.github.io/biweekly/) feed at <https://ropensci.github.io/biweekly/feed.xml>"
+        ]
+    }
+}
