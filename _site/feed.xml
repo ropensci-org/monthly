@@ -5,8 +5,8 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 05 Jun 2017 11:51:25 -0700</pubDate>
-    <lastBuildDate>Mon, 05 Jun 2017 11:51:25 -0700</lastBuildDate>
+    <pubDate>Mon, 05 Jun 2017 13:35:59 -0700</pubDate>
+    <lastBuildDate>Mon, 05 Jun 2017 13:35:59 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -21,7 +21,7 @@
   &lt;li&gt;Checkout what happened on Twitter using &lt;code class=&quot;highlighter-rouge&quot;&gt;#runconf17&lt;/code&gt; - and &lt;a href=&quot;https://storify.com/_inundata/4th-annual-ropensci-unconf&quot;&gt;Karthik’s Storify&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Our community manager got a blog post up the other day about the event: &lt;a href=&quot;https://ropensci.org/blog/blog/2017/06/02/unconf2017&quot;&gt;Bringing Together People and Projects at Unconf17&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;We’ll be rolling out a series of blog posts soon covering some of the work accomplished at the event&lt;/li&gt;
-  &lt;li&gt;There’s been a numbrer of blog posts already by unconf attendees: &lt;a href=&quot;https://jasdumas.github.io/2017-05-28-runconf17-experience/&quot;&gt;Jasmine Dumas&lt;/a&gt;, &lt;a href=&quot;https://rud.is/b/2017/05/28/l-a-unconf-idential-a-k-a-an-ropensci-runconf17-retrospective/&quot;&gt;Bob Rudis&lt;/a&gt;, &lt;a href=&quot;http://blog.revolutionanalytics.com/2017/05/runconf17.html&quot;&gt;David Smith&lt;/a&gt;, &lt;a href=&quot;http://kbroman.org/blog/2017/05/27/ropensci-unconf-2017/&quot;&gt;Karl Broman&lt;/a&gt;, and &lt;a href=&quot;http://livefreeordichotomize.com/2017/06/03/runconf17-an-analysis-of-emoji-use/&quot;&gt;Lucy D’Agostino&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;There’s been a numbrer of blog posts already by unconf attendees: &lt;a href=&quot;https://jasdumas.github.io/2017-05-28-runconf17-experience/&quot;&gt;Jasmine Dumas&lt;/a&gt;, &lt;a href=&quot;https://rud.is/b/2017/05/28/l-a-unconf-idential-a-k-a-an-ropensci-runconf17-retrospective/&quot;&gt;Bob Rudis&lt;/a&gt;, &lt;a href=&quot;http://blog.revolutionanalytics.com/2017/05/runconf17.html&quot;&gt;David Smith&lt;/a&gt;, &lt;a href=&quot;http://kbroman.org/blog/2017/05/27/ropensci-unconf-2017/&quot;&gt;Karl Broman&lt;/a&gt;, and &lt;a href=&quot;http://livefreeordichotomize.com/2017/06/03/runconf17-an-analysis-of-emoji-use/&quot;&gt;Lucy McGowan&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Our community manager &lt;a href=&quot;https://twitter.com/StefanieButland&quot;&gt;Stefanie Butland&lt;/a&gt; is at meeting this week for &lt;a href=&quot;https://www.aaas.org/cefp/meet-our-fellows&quot;&gt;AAAS Community Engagement Fellows Program&lt;/a&gt;.&lt;/p&gt;
