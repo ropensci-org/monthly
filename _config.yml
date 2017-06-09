@@ -8,3 +8,5 @@ twitter_username: ropensci
 github_username:  ropensci
 
 markdown: kramdown
+
+exclude: "posts_heatmap_calendar.md"

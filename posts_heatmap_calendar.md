@@ -41,7 +41,7 @@ permalink: /posts-cal/
 }
 </style>
 
-This heatmap calendar gives you a visual representation of when you posted on your Jekyll site. It loops through all of your posts, counts how many posts you have each day, creates a JSON string to hold them, then uses [moment.js](http://momentjs.com), [D3.js](http://d3js.org) and [Cal-HeatMap](http://cal-heatmap.com) to visualize them. 
+This heatmap calendar gives you a visual representation of when you posted on your Jekyll site. It loops through all of your posts, counts how many posts you have each day, creates a JSON string to hold them, then uses [moment.js](http://momentjs.com), [D3.js](http://d3js.org) and [Cal-HeatMap](http://cal-heatmap.com) to visualize them.
 
 It automatically loads the current month on the right and it has responsive breakpoints at 1400px, 730px, and 420px. It will work on Github Pages because it doesn't need any additional plugins to run. It only uses Liquid to do the counting and build the JSON string.
 
@@ -131,6 +131,7 @@ $(window).resize(function() {
 $(window).bind('resizeEnd', function() {
 	 responsiveCal( cal.options );
 });
-  
-	
+
+
 </script>
+
