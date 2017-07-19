@@ -6,6 +6,7 @@ baseurl:     "/biweekly"
 permalink:   "/:title/"
 twitter_username: ropensci
 github_username:  ropensci
+author: ropensci
 
 markdown: kramdown
 
