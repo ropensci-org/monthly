@@ -5,9 +5,197 @@
     <description>rOpenSci twice monthly updates, including for software, software review news, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Aug 2017 12:52:08 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Aug 2017 12:52:08 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Aug 2017 14:14:19 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Aug 2017 14:14:19 -0700</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
+    
+      <item>
+        <title>Update 2017-08-28</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;h3 id=&quot;community-calls&quot;&gt;Community Calls&lt;/h3&gt;
+
+&lt;p&gt;We’ll have our next community call on September 13th, on rOpenSci Software Review and Onboarding.&lt;/p&gt;
+
+&lt;p&gt;Save the date! &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/15&quot;&gt;https://github.com/ropensci/commcalls/issues/15&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We hope past authors and reviewers will attend, as well as people considering volunteering to review rOpenSci packages or people considering submitting their package for review.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;discussion-forum&quot;&gt;Discussion forum&lt;/h2&gt;
+
+&lt;p&gt;Recently, on our discussion forum &lt;a href=&quot;https://discuss.ropensci.org&quot;&gt;https://discuss.ropensci.org&lt;/a&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/retiring-ropensci-packages/827&quot;&gt;Retiring rOpenSci packages?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/best-practice-for-documenting-raw-data-in-a-package/843&quot;&gt;Best practice for documenting raw data in a package?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/nceas-data-science-fellowship/833&quot;&gt;NCEAS Data Science Fellowship&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;tesseract&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/tesseract&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/tesseract/releases/tag/v1.6&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/tesseract#tesseract&quot;&gt;tesseract README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/tesseract&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.6.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rvertnet&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rvertnet&quot;&gt;CRAN&lt;/a&gt;. This version switches to using &lt;a href=&quot;https://github.com/ropensci/crul&quot;&gt;crul&lt;/a&gt; for HTTP requests and adds a new function &lt;code class=&quot;highlighter-rouge&quot;&gt;traitsearch&lt;/code&gt; for getting VertNet trait data. See the &lt;a href=&quot;https://github.com/ropensci/rvertnet/releases/tag/v0.6.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rvertnet/vignettes/rvertnet_vignette.html&quot;&gt;rvertnet vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rvertnet&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;lingtypology&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/lingtypology&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/lingtypology/releases/tag/v1.0.6&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/lingtypology/vignettes/lingtypology.html&quot;&gt;lingtypology vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/lingtypology&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.0.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;bikedata&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/bikedata&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/bikedata/releases/tag/v0.0.4&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/bikedata/vignettes/bikedata.html&quot;&gt;bikedata vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/bikedata&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.14.20&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;RefManageR&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/RefManageR&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/RefManageR/releases/tag/v0.14.20&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/RefManageR/vignettes/&quot;&gt;RefManageR vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/RefManageR&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.11.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ecoengine&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ecoengine&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/ecoengine/releases/tag/1.11.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/ecoengine#ecoengine&quot;&gt;README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/ecoengine&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v2.4.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;FedData&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/FedData&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/FedData/news.html&quot;&gt;NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;http://ropensci.github.io/FedData/&quot;&gt;FedData docs&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/FedData&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;GSODR&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/GSODR&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/GSODR/releases/tag/1.0.5&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/GSODR/vignettes/&quot;&gt;GSODR vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/GSODR&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.9&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;getCRUCLdata&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/getCRUCLdata&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/getCRUCLdata/news.html&quot;&gt;NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/getCRUCLdata/vignettes/getCRUCLdata.html&quot;&gt;getCRUCLdata vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/getCRUCLdata&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.4.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;geojsonio&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/geojsonio&quot;&gt;CRAN&lt;/a&gt;. This version gains a suite of new funtions for working with TopoJSON data. See the &lt;a href=&quot;https://github.com/ropensci/geojsonio/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/geojsonio/vignettes/&quot;&gt;geojsonio vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/geojsonio&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;worrms&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/worrms&quot;&gt;CRAN&lt;/a&gt;. This version adds sister functions to most of the main exported functions to allow passing in many inputs (scientific names or WoRMS AphiaIDs). See the &lt;a href=&quot;https://github.com/ropensci/worrms/releases/tag/v0.2.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/worrms/vignettes/worrms_vignette.html&quot;&gt;worrms vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/worrms&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.4.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rredlist&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rredlist&quot;&gt;CRAN&lt;/a&gt;. This version adds new functions for getting IUCN Redlist growth form data and does many small improvements. See the &lt;a href=&quot;https://github.com/ropensci/rredlist/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/rredlist#rredlist&quot;&gt;rredlist README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rredlist&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v1.2&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick/vignettes/intro.html&quot;&gt;magick vignette&lt;/a&gt; to get started. [Repository on GitHub][magick]&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review, but way better. We’ll highlight new packages here that have come through this system. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;If you want to be a reviewer we have a new &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt; you can fill out, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
+
+&lt;p&gt;The following package was recently submitted to our onboarding process:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[rperseus][] &amp;gt; Gets texts from the Perseus Digital Library
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/daranzolin&quot;&gt;David Ranzolin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/145&quot;&gt;ropensci/onboarding#145&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers: not assigned yet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following package recently went through our onboarding process and has been approved!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[bomrang][] &amp;gt; Fetch Australian Government Bureau of Meteorology Data
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/adamhsparks&quot;&gt;Adam Sparks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/121&quot;&gt;ropensci/onboarding#121&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/mpadge&quot;&gt;Mark Padgham&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/geanders&quot;&gt;Brooke Anderson&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
+
+&lt;p&gt;We’ve had three blog posts on our main blog in the past two weeks:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/blog/2017/08/15/magick-10&quot;&gt;Magick 1.0: 🎩 ✨🐇 Advanced Graphics and Image Processing in R&lt;/a&gt; by &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Jeroen Ooms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/blog/2017/08/22/first-package-review&quot;&gt;So you (don’t) think you can review a package&lt;/a&gt; by &lt;a href=&quot;http://maraaverick.rbind.io/&quot;&gt;Mara Averick&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/blog/2017/08/22/visdat&quot;&gt;Onboarding visdat, a tool for preliminary visualisation of whole dataframes&lt;/a&gt; by &lt;a href=&quot;http://www.njtierney.com/&quot;&gt;Nicholas Tierney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We’ve also had two blog posts on our developer blog in the same timeframe:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/technotes/2017/08/17/tesseract-16&quot;&gt;Tesseract and Magick: High Quality OCR in R&lt;/a&gt; by &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Jeroen Ooms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/technotes/2017/08/24/FedData-release&quot;&gt;FedData - Getting assorted geospatial data into R&lt;/a&gt; by &lt;a href=&quot;https://github.com/bocinsky&quot;&gt;Kyle Bocinsky&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
+
+&lt;p&gt;The following 9 works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Peter Smits cited &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in his thesis &lt;a href=&quot;https://search.proquest.com/openview/2a353f0e54c8c3ee37a0d8d2bcd8ad6d/1?pq-origsite=gscholar&amp;amp;cbl=18750&amp;amp;diss=y&quot;&gt;Remodeling the Fossil Record: Analysis of Emergent Evolutionary and Ecological Patterns&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Leander Love-Anderegg cited &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their thesis &lt;a href=&quot;https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/39962/LoveAnderegg_washington_0250E_17084.pdf?sequence=1&quot;&gt;On the variation of traits and tree range constraints&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Brown &lt;strong&gt;et al&lt;/strong&gt;. cited rOpenSci in their paper &lt;a href=&quot;http://dalspace.library.dal.ca/bitstream/handle/10222/72817/Brown%20Kennedy%20Sherin%20Appeltans%20Mills%20%20Laviolette%20PNSIS%2049.1.pdf?sequence=1&quot;&gt;NSIS and Atlantic Ecosystems Initiative to make data accessible-one dataset at a time&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Carota &lt;strong&gt;et al&lt;/strong&gt;. cited [spocc][spocc] in their paper &lt;a href=&quot;https://www.univda.it/UploadDocs/16975_WP2017_N15_Nava.pdf&quot;&gt;A Bayesian semi‐parametric GLMM for historical and newly collected presence‐only data: an applica on to species richness of Ross Sea Mollusca&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;David Winter wrote a paper about his rOpenSci package [rentrez][rentrez], in preprint form right now: &lt;a href=&quot;https://doi.org/10.7287/peerj.preprints.3179v1&quot;&gt;rentrez: An R package for the NCBI eUtils API&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Amelia McNamara and Nick Horton mentioned the rOpenSci blog post &lt;a href=&quot;https://ropensci.org/blog/2014/06/09/reproducibility/&quot;&gt;Reproducible research is still a challenge&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.7287/peerj.preprints.3163v1&quot;&gt;Wrangling categorical data in R&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Rosen cited our package [gender][gender] in his paper &lt;a href=&quot;https://sites.northwestern.edu/rosen/files/2017/02/POSTPRINT_RMP-1e3n8l9.pdf&quot;&gt;Correlations, trends and potential biases among publicly accessible web-based student evaluations of teaching: a large-scale study of RateMyProfessors. com data&lt;/a&gt; &lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Mendez &lt;strong&gt;et al&lt;/strong&gt;. cited our package [rerddap][rerddap] in their paper &lt;a href=&quot;https://doi.org/10.3354/meps12052&quot;&gt;Geographical variation in the foraging behaviour of the pantropical red-footed booby&lt;/a&gt; &lt;sup id=&quot;fnref:8&quot;&gt;&lt;a href=&quot;#fn:8&quot; class=&quot;footnote&quot;&gt;8&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Tennant &lt;strong&gt;et al&lt;/strong&gt;. cited rOpenSci in their paper &lt;a href=&quot;https://doi.org/10.12688/f1000research.12037.1&quot;&gt;A multi-disciplinary perspective on emergent and future innovations in peer review&lt;/a&gt; &lt;sup id=&quot;fnref:9&quot;&gt;&lt;a href=&quot;#fn:9&quot; class=&quot;footnote&quot;&gt;9&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;submit-news-to-ropensci&quot;&gt;Submit news to rOpenSci&lt;/h2&gt;
+
+&lt;p&gt;Reach out to us with your news suggestions by sending us an email &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt; or by
+contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
+
+&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.github.io/biweekly/&quot;&gt;rOpenSci news&lt;/a&gt;. XML feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt; - JSON feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.json&quot;&gt;https://ropensci.github.io/biweekly/feed.json&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Smits, P. D. (2017). Remodeling the Fossil Record: Analysis of Emergent Evolutionary and Ecological Patterns (Doctoral dissertation, The University of Chicago). &lt;a href=&quot;https://search.proquest.com/openview/2a353f0e54c8c3ee37a0d8d2bcd8ad6d/1?pq-origsite=gscholar&amp;amp;cbl=18750&amp;amp;diss=y&quot;&gt;https://search.proquest.com/openview/2a353f0e54c8c3ee37a0d8d2bcd8ad6d/1?pq-origsite=gscholar&amp;amp;cbl=18750&amp;amp;diss=y&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Love-Anderegg, L. D. (2017). On the variation of traits and tree range constraints (Doctoral dissertation, The University of Washington). &lt;a href=&quot;https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/39962/LoveAnderegg_washington_0250E_17084.pdf?sequence=1&quot;&gt;https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/39962/LoveAnderegg_washington_0250E_17084.pdf?sequence=1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Brown, G., Kennedy, M., Sherin, A., Appletans, W., Mills, E. L., &amp;amp; Lavoilette, L. (2017). NSIS and Atlantic Ecosystems Initiative to make data accessible-one dataset at a time. Proceedings of the Nova Scotian Institute of Science. &lt;a href=&quot;http://dalspace.library.dal.ca/bitstream/handle/10222/72817/Brown%20Kennedy%20Sherin%20Appeltans%20Mills%20%20Laviolette%20PNSIS%2049.1.pdf?sequence=1&quot;&gt;http://dalspace.library.dal.ca/bitstream/handle/10222/72817/Brown%20Kennedy%20Sherin%20Appeltans%20Mills%20%20Laviolette%20PNSIS%2049.1.pdf?sequence=1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Carota, C., Nava, C. R., Ghiglione, C., &amp;amp; Schiaparelli, S. (2017). A Bayesian semi‐parametric GLMM for historical and newly collected presence‐only data: an applica on to species richness of Ross Sea Mollusca. Preprint - for submissison to Environmetrics. &lt;a href=&quot;https://www.univda.it/UploadDocs/16975_WP2017_N15_Nava.pdf&quot;&gt;https://www.univda.it/UploadDocs/16975_WP2017_N15_Nava.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:5&quot;&gt;
+      &lt;p&gt;Winter, D. J. (2017). rentrez: An R package for the NCBI eUtils API (Version 1). PeerJ Preprints. &lt;a href=&quot;https://doi.org/10.7287/peerj.preprints.3179v1&quot;&gt;https://doi.org/10.7287/peerj.preprints.3179v1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:6&quot;&gt;
+      &lt;p&gt;McNamara A, Horton NJ. (2017) Wrangling categorical data in R. PeerJ Preprints 5:e3163v1 &lt;a href=&quot;https://doi.org/10.7287/peerj.preprints.3163v1&quot;&gt;https://doi.org/10.7287/peerj.preprints.3163v1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:7&quot;&gt;
+      &lt;p&gt;Rosen, A. S. (2017). Correlations, trends and potential biases among publicly accessible web-based student evaluations of teaching: a large-scale study of RateMyProfessors. com data. Assessment &amp;amp; Evaluation in Higher Education, 1-14. &lt;a href=&quot;https://sites.northwestern.edu/rosen/files/2017/02/POSTPRINT_RMP-1e3n8l9.pdf&quot;&gt;https://sites.northwestern.edu/rosen/files/2017/02/POSTPRINT_RMP-1e3n8l9.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:8&quot;&gt;
+      &lt;p&gt;Mendez, L., Borsa, P., Cruz, S., de Grissac, S., Hennicke, J., Lallemand, J., … Weimerskirch, H. (2017). Geographical variation in the foraging behaviour of the pantropical red-footed booby. Marine Ecology Progress Series, 568, 217–230. &lt;a href=&quot;https://doi.org/10.3354/meps12052&quot;&gt;https://doi.org/10.3354/meps12052&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:8&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:9&quot;&gt;
+      &lt;p&gt;Tennant, J. P., Dugan, J. M., Graziotin, D., Jacques, D. C., Waldner, F., Mietchen, D., … Colomb, J. (2017). A multi-disciplinary perspective on emergent and future innovations in peer review. F1000Research, 6, 1151. &lt;a href=&quot;https://doi.org/10.12688/f1000research.12037.1&quot;&gt;https://doi.org/10.12688/f1000research.12037.1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:9&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 28 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/biweekly/update-2017-08-28/</link>
+        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-08-28/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2017-08-14</title>
@@ -15,7 +203,11 @@
 
 &lt;h3 id=&quot;community-calls&quot;&gt;Community Calls&lt;/h3&gt;
 
-&lt;p&gt;We’ll have our next community call on September 13th, on rOpenSci Software Review and Onboarding. Save the date! &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/15&quot;&gt;https://github.com/ropensci/commcalls/issues/15&lt;/a&gt;. We hope past authors and reviewers will attend, as well as people considering volunteering to review rOpenSci packages or people considering submitting their package for review.&lt;/p&gt;
+&lt;p&gt;We’ll have our next community call on September 13th, on rOpenSci Software Review and Onboarding.&lt;/p&gt;
+
+&lt;p&gt;Save the date! &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/15&quot;&gt;https://github.com/ropensci/commcalls/issues/15&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We hope past authors and reviewers will attend, as well as people considering volunteering to review rOpenSci packages or people considering submitting their package for review.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -33,9 +225,13 @@
 &lt;h2 id=&quot;ropensci-in-the-news&quot;&gt;rOpenSci in the News&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;NumFOCUS blog post by our editorial team &lt;a href=&quot;https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/&quot;&gt;https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Six tips for running a successful unconference &lt;a href=&quot;https://blog.trelliscience.com/six-tips-for-running-a-successful-unconference/&quot;&gt;https://blog.trelliscience.com/six-tips-for-running-a-successful-unconference/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Value of #welcome, part 2: How to prepare 40 new community members for an unconference &lt;a href=&quot;https://blog.trelliscience.com/the-value-of-welcome-part-2-how-to-prepare-40-new-community-members-for-an-unconference/&quot;&gt;https://blog.trelliscience.com/the-value-of-welcome-part-2-how-to-prepare-40-new-community-members-for-an-unconference/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.numfocus.org/&quot;&gt;NumFOCUS&lt;/a&gt;, of which rOpenSci is a part, recently hosted a blog post by our editorial team: &lt;a href=&quot;https://www.numfocus.org/blog/how-ropensci-uses-code-review-to-promote-reproducible-science/&quot;&gt;How rOpenSci uses Code Review to Promote Reproducible Science&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Our community manager &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Stefanie Butland&lt;/a&gt; had two blog posts on the &lt;a href=&quot;https://blog.trelliscience.com/&quot;&gt;AAAS Trellis blog&lt;/a&gt; in the past week
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.trelliscience.com/six-tips-for-running-a-successful-unconference/&quot;&gt;Six tips for running a successful unconference&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://blog.trelliscience.com/the-value-of-welcome-part-2-how-to-prepare-40-new-community-members-for-an-unconference/&quot;&gt;The Value of #welcome, part 2: How to prepare 40 new community members for an unconference&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -45,20 +241,20 @@
 &lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rtimicropem&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.3&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rtimicropem&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rtimicropem&lt;/code&gt; supports the input and reproducible analysis of output files from &lt;a href=&quot;https://www.rti.org/sites/default/files/brochures/rti_micropem.pdf&quot;&gt;RTI MicroPEM&lt;/a&gt; (personal monitoring devices for air quality data). Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rtimicropem/vignettes/&quot;&gt;rtimicropem vignettes&lt;/a&gt; to get started. [Repository on GitHub][rtimicropem]&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rtimicropem&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.3&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rtimicropem&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rtimicropem&lt;/code&gt; supports the input and reproducible analysis of output files from &lt;a href=&quot;https://www.rti.org/sites/default/files/brochures/rti_micropem.pdf&quot;&gt;RTI MicroPEM&lt;/a&gt; (personal monitoring devices for air quality data). Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rtimicropem/vignettes/&quot;&gt;rtimicropem vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rtimicropem&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq/news.html&quot;&gt;the NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq/vignettes/&quot;&gt;ropenaq vignettes&lt;/a&gt; to get started. [Repository on GitHub][ropenaq]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v4.7.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/news.html&quot;&gt;the NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://plotly-book.cpsievert.me/&quot;&gt;plotly book&lt;/a&gt; to get started. [Repository on GitHub][plotly]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2-3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;dbhydroR&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/dbhydroR&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/dbhydroR/releases/tag/0.2-3&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/dbhydroR/vignettes/dbhydroR.pdf&quot;&gt;dbhydroR vignette&lt;/a&gt; to get started. [Repository on GitHub][dbhydroR]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/datapack&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/datapack/releases/tag/1.3.0&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/datapack/vignettes/datapack-overview.html&quot;&gt;datapack vignette&lt;/a&gt; to get started. [Repository on GitHub][datapack]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v1.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick/vignettes/intro.html&quot;&gt;magick vignette&lt;/a&gt; to get started. Watch out for a blog post on this package on our blog later today. [Repository on GitHub][magick]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;crminer&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/crminer&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/crminer/releases/tag/v0.1.4&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/crminer#crminer&quot;&gt;crminer README&lt;/a&gt; to get started. [Repository on GitHub][crminer]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.0.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;osmdata&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/osmdata/releases/tag/v0.0.5&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata/vignettes/&quot;&gt;osmdata vignettes&lt;/a&gt; to get started. [Repository on GitHub][osmdata]&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdpla&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdpla&quot;&gt;CRAN&lt;/a&gt;. This version switches to using our [crul][crul] package for HTTP requests and gains a function to work with DPLA bulk data. See &lt;a href=&quot;https://github.com/ropensci/rdpla/releases/tag/v0.2.0&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdpla/vignettes/&quot;&gt;rdpla vignettes&lt;/a&gt; to get started. [Repository on GitHub][rdpla]&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ropenaq&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq/news.html&quot;&gt;the NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/ropenaq/vignettes/&quot;&gt;ropenaq vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/ropenaq&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v4.7.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;plotly&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://cran.rstudio.com/web/packages/plotly/news.html&quot;&gt;the NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://plotly-book.cpsievert.me/&quot;&gt;plotly book&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/plotly&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2-3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;dbhydroR&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/dbhydroR&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropenscilabs/dbhydroR/releases/tag/0.2-3&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/dbhydroR/vignettes/dbhydroR.pdf&quot;&gt;dbhydroR vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropenscilabs/dbhydroR&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;datapack&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/datapack&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/datapack/releases/tag/1.3.0&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/datapack/vignettes/datapack-overview.html&quot;&gt;datapack vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/datapack&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v1.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick/vignettes/intro.html&quot;&gt;magick vignette&lt;/a&gt; to get started. Watch out for a blog post on this package on our blog later today. &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;crminer&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/crminer&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/crminer/releases/tag/v0.1.4&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/crminer#crminer&quot;&gt;crminer README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/crminer&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.0.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;osmdata&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/osmdata/releases/tag/v0.0.5&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata/vignettes/&quot;&gt;osmdata vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/osmdata&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdpla&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdpla&quot;&gt;CRAN&lt;/a&gt;. This version switches to using our &lt;a href=&quot;https://github.com/ropensci/crul&quot;&gt;crul&lt;/a&gt; package for HTTP requests and gains a function to work with DPLA bulk data. See &lt;a href=&quot;https://github.com/ropensci/rdpla/releases/tag/v0.2.0&quot;&gt;the release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdpla/vignettes/&quot;&gt;rdpla vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rdpla&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -73,7 +269,7 @@ and the authors of the packages!&lt;/p&gt;
 &lt;p&gt;The following packages were recently submitted to our onboarding process:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;[bowerbird][] &amp;gt; Keep a Collection of Sparkly Data Resources
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AustralianAntarcticDivision/bowerbird&quot;&gt;bowerbird&lt;/a&gt; &amp;gt; Keep a Collection of Sparkly Data Resources
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/raymondben&quot;&gt;Ben Raymond&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/139&quot;&gt;ropensci/onboarding#139&lt;/a&gt;&lt;/li&gt;
@@ -85,7 +281,7 @@ and the authors of the packages!&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[comtradr][] &amp;gt; Interface with the United Nations Comtrade API
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ChrisMuir/comtradr&quot;&gt;comtradr&lt;/a&gt; &amp;gt; Interface with the United Nations Comtrade API
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/ChrisMuir&quot;&gt;Chris Muir&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/141&quot;&gt;ropensci/onboarding#141&lt;/a&gt;&lt;/li&gt;
@@ -114,7 +310,7 @@ and the authors of the packages!&lt;/p&gt;
 &lt;p&gt;The following two packages recently went through our onboarding process and have been approved!&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;[FedData][] &amp;gt; Automate Downloading Geospatial Data Available from Several Federated Data Sources
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/FedData&quot;&gt;FedData&lt;/a&gt; &amp;gt; Automate Downloading Geospatial Data Available from Several Federated Data Sources
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/bocinsky&quot;&gt;R. Kyle Bocinsky&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/13&quot;&gt;ropensci/onboarding#13&lt;/a&gt;&lt;/li&gt;
@@ -125,7 +321,7 @@ and the authors of the packages!&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[bikedata][] &amp;gt; Download and Aggregate Data from Public Hire Bicycle Systems
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/bikedata&quot;&gt;bikedata&lt;/a&gt; &amp;gt; Download and Aggregate Data from Public Hire Bicycle Systems
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/mpadge&quot;&gt;Mark Padgham&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/116&quot;&gt;ropensci/onboarding#116&lt;/a&gt;&lt;/li&gt;
@@ -137,7 +333,7 @@ and the authors of the packages!&lt;/p&gt;
       &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;[rrricanes][] &amp;gt; Web scraper for real-time and archived advisory products for Atlantic and east Pacific hurricanes and tropical storms
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rrricanes&quot;&gt;rrricanes&lt;/a&gt; &amp;gt; Web scraper for real-time and archived advisory products for Atlantic and east Pacific hurricanes and tropical storms
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/timtrice&quot;&gt;Tim Trice&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/118&quot;&gt;ropensci/onboarding#118&lt;/a&gt;&lt;/li&gt;
@@ -155,9 +351,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Stefanie Butland, our community manager, wrote a post on where the rOpenSci team will be at various events over the next 5 months: &lt;a href=&quot;https://ropensci.org/blog/blog/2017/08/11/ropensci-at-meetings&quot;&gt;Chat with the rOpenSci team at upcoming meetings&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Stefanie Butland, our community manager, wrote a post on where the rOpenSci team will be at various events over the next 5 months: &lt;a href=&quot;https://ropensci.org/blog/blog/2017/08/11/ropensci-at-meetings&quot;&gt;Chat with the rOpenSci team at upcoming meetings&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;We have two blog posts wrapping up our series of posts from &lt;a href=&quot;http://unconf17.ropensci.org/&quot;&gt;#runconf17&lt;/a&gt;:&lt;/p&gt;
 
@@ -170,13 +364,13 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
 
-&lt;p&gt;The following 9 papers/blog posts use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
+&lt;p&gt;The following 5 works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Williams, has many examples using [ckanr][ckanr] in his book &lt;a href=&quot;https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005&quot;&gt;The Essentials of Data Science: Knowledge Discovery Using R&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Bartomeus &lt;em&gt;et al&lt;/em&gt;. used and cited [taxize][taxize] in their paper &lt;a href=&quot;https://doi.org/10.1111/oik.04507&quot;&gt;On the inconsistency of pollinator species traits for predicting either response to land-use change or functional contribution&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Williams, has many examples using &lt;a href=&quot;https://github.com/ropensci/ckanr&quot;&gt;ckanr&lt;/a&gt; in his book &lt;a href=&quot;https://www.crcpress.com/The-Essentials-of-Data-Science-Knowledge-Discovery-Using-R/Williams/p/book/9781498740005&quot;&gt;The Essentials of Data Science: Knowledge Discovery Using R&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Bartomeus &lt;em&gt;et al&lt;/em&gt;. used and cited &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/oik.04507&quot;&gt;On the inconsistency of pollinator species traits for predicting either response to land-use change or functional contribution&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Swani and Tyagi cite one of our blog posts (&lt;a href=&quot;https://ropensci.org/blog/2014/06/09/reproducibility/&quot;&gt;Reproducible research is still a challenge&lt;/a&gt;) in their paper &lt;a href=&quot;https://www.irjet.net/archives/V4/i7/IRJET-V4I7650.pdf&quot;&gt;Dockerization (Replacement of VMs)&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Bosch cites and uses [rgbif][rgbif] in his thesis &lt;a href=&quot;http://www.vliz.be/imisdocs/publications/303185.pdf&quot;&gt;Marine Species Distributions: From data to predictive models&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Bosch cites and uses &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in his thesis &lt;a href=&quot;http://www.vliz.be/imisdocs/publications/303185.pdf&quot;&gt;Marine Species Distributions: From data to predictive models&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Senderov &lt;em&gt;et al&lt;/em&gt;. mentions rOpenSci in their paper &lt;a href=&quot;https://doi.org/10.3897/tdwgproceedings.1.20084&quot;&gt;OpenBiodiv: an Implementaion of a Semantic System Running on top of the Biodiversity Knowledge Graph&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -1633,147 +1827,6 @@ and the authors of the packages!&lt;/p&gt;
         <pubDate>Mon, 10 Apr 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/biweekly/update-2017-04-10/</link>
         <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-04-10/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2017-03-28</title>
-        <description>&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rif&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rif&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rif&lt;/code&gt; is a client for &lt;a href=&quot;https://neuinfo.org/&quot;&gt;Neuroscience Information Framework (NIF)&lt;/a&gt; metadata - with functions for each API route, and gives back data in tidy data.frame format. Check out the &lt;a href=&quot;https://cran.r-project.org/web/packages/rif/vignettes/rif_vignette.html&quot;&gt;rif vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rif&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rnaturalearth&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/rnaturalearth&quot;&gt;on CRAN&lt;/a&gt; - maintained by &lt;a href=&quot;https://github.com/AndySouth&quot;&gt;Andy South&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rnaturalearth&lt;/code&gt; is a client for &lt;a href=&quot;http://www.naturalearthdata.com/&quot;&gt;Natural Earth&lt;/a&gt; data, a set of public domain vector map data available at 1:10m, 1:50m, and 1:110 million scales. Check out the &lt;a href=&quot;https://cran.r-project.org/web/packages/rnaturalearth/vignettes/rnaturalearth.html&quot;&gt;rnaturalearth vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rnaturalearth&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rzmq&lt;/code&gt;, a package now maintained by rOpenSci (&lt;a href=&quot;https://github.com/jeroen&quot;&gt;Jeroen Oooms&lt;/a&gt;), has a new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.9.1&lt;/code&gt;) &lt;a href=&quot;https://cran.rstudio.com/web/packages/rzmq&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rzmq&lt;/code&gt; is an interface to the ZeroMQ lightweight messaging kernel (see &lt;a href=&quot;http://www.zeromq.org/&quot;&gt;http://www.zeromq.org/&lt;/a&gt; for more information). Check out the &lt;a href=&quot;https://github.com/ropensci/rzmq#rzmq&quot;&gt;README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rzmq&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdataretriever&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdataretriever&quot;&gt;CRAN&lt;/a&gt;. Note that this is the first version of what used to be known as &lt;code class=&quot;highlighter-rouge&quot;&gt;ecoretriever&lt;/code&gt;. See &lt;a href=&quot;https://github.com/ropensci/rdataretriever/releases/tag/v1.0.0&quot;&gt;release notes&lt;/a&gt; for details. &lt;a href=&quot;https://github.com/ropensci/rdataretriever&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v3.1-3&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;clifro&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/clifro&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/clifro/releases/tag/v3.1-3&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/clifro&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v2.0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;assertr&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/assertr&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/assertr/blob/master/NEWS&quot;&gt;the NEWS&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/assertr&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.1&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;pdftools&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/pdftools&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/pdftools/releases/tag/v1.1&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;webchem&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/webchem&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/webchem/releases/tag/v0.2&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdefra&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdefra&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/rdefra/blob/master/NEWS.md#rdefra-034&quot;&gt;the NEWS&lt;/a&gt; for details. &lt;a href=&quot;https://github.com/ropensci/rdefra&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;europepmc&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/europepmc&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/europepmc/releases/tag/v0.1.4&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/europepmc&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;tesseract&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/tesseract&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/tesseract/releases/tag/v1.4&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/tesseract&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;wicket&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/wicket&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/wicket/blob/master/NEWS&quot;&gt;the NEWS&lt;/a&gt; for details. &lt;a href=&quot;https://github.com/ropensci/wicket&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.4&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v0.4&quot;&gt;release notes&lt;/a&gt; for the details. &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;Repository on GitHub&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;onboarding&quot;&gt;Onboarding&lt;/h2&gt;
-
-&lt;p&gt;We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review, but way better. We’ll highlight new packages here that have come through this system. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
-and the authors of the packages!&lt;/p&gt;
-
-&lt;p&gt;If you want to be a reviewer we have a new &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt; you can fill out, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
-
-&lt;p&gt;The following package was recently submitted to our onboarding process:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/osmdatar/osmdata&quot;&gt;osmdata&lt;/a&gt; &amp;gt; Download OpenStreetMap data
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/&quot;&gt;Mark Padgham&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/103&quot;&gt;ropensci/onboarding#103&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers:
-        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/edzer&quot;&gt;Edzer Pebesma&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;https://github.com/ramnathv&quot;&gt;Ramnath Vaidyanathan&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
-
-&lt;h3 id=&quot;onboarding-series&quot;&gt;Onboarding series&lt;/h3&gt;
-
-&lt;p&gt;We’re doing a series of guest blog posts for packages that have gone through our software review process at &lt;a href=&quot;https://github.com/ropensci/onboarding/&quot;&gt;ropensci/onboarding&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The 4th post came out last week, by &lt;a href=&quot;https://github.com/lukas-rokka&quot;&gt;Lukas Lundstrom&lt;/a&gt; on his package &lt;a href=&quot;https://github.com/ropenscilabs/camsRad&quot;&gt;camsRad&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/03/21/camsrad&quot;&gt;camsRad, satellite-based time series of solar irradiation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;3rd: &lt;a href=&quot;https://claudiavitolo.com/&quot;&gt;Claudia Vitolo&lt;/a&gt; on her package &lt;a href=&quot;https://github.com/ropensci/hddtools&quot;&gt;hddtools&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/03/07/hddtools&quot;&gt;Discover hydrological data using the hddtools R package&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;2nd: &lt;a href=&quot;http://www.masalmon.eu/&quot;&gt;Maëlle Salmon&lt;/a&gt; on her package &lt;a href=&quot;https://github.com/ropensci/ropenaq&quot;&gt;ropenaq&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/02/21/ropenaq&quot;&gt;ropenaq, a breath of fresh air/R&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;1st: &lt;a href=&quot;https://github.com/seaaan&quot;&gt;Sean Hughes&lt;/a&gt; on his package &lt;a href=&quot;https://github.com/ropensci/plater&quot;&gt;plater&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/blog/2017/02/06/plater-blog-post&quot;&gt;From a million nested &lt;code class=&quot;highlighter-rouge&quot;&gt;ifelse&lt;/code&gt;s to the plater package&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;We’ll have more posts in this series coming out soon - keep an eye out.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use Cases&lt;/h2&gt;
-
-&lt;p&gt;Seven papers use/cite rOpenSci packages:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Carvajal-Endara &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/ele.12753&quot;&gt;Habitat filtering not dispersal limitation shapes oceanic island floras: species assembly of the Galápagos archipelago&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Galvez used our package &lt;a href=&quot;https://github.com/ropensci/rplos&quot;&gt;rplos&lt;/a&gt; in her paper &lt;a href=&quot;https://doi.org/10.1007/s11192-017-2330-1&quot;&gt;Assessing author self-citation as a mechanism of relevant knowledge diffusion&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Power &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/jbi.12971&quot;&gt;Environmental correlates of biome-level floristic turnover in South Africa&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Zenil-Ferguson &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/chromer&quot;&gt;chromer&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/evo.13226&quot;&gt;Testing the association of phenotypes with polyploidy: An example using herbaceous and woody eudicots&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Sparks &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/GSODR&quot;&gt;GSODR&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.21105/joss.00177&quot;&gt;GSODR: Global Summary Daily Weather Data in R&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Berlemont used our package &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1038/s41598-017-00258-w&quot;&gt;Distribution and diversity of enzymes for polysaccharide degradation in fungi&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Martin &lt;em&gt;et al&lt;/em&gt;. used our package &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/1365-2656.12667&quot;&gt;Integrating lipid storage into general representations of fish energetics&lt;/a&gt; &lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;keep-up-with-ropensci-news&quot;&gt;Keep up with rOpenSci news&lt;/h2&gt;
-
-&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mailing list: Sign up with an email address to get new blog posts sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ropensci.github.io/biweekly/&quot;&gt;rOpenSci news&lt;/a&gt; feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Carvajal-Endara, S., Hendry, A. P., Emery, N. C., &amp;amp; Davies, T. J. (2017). Habitat filtering not dispersal limitation shapes oceanic island floras: species assembly of the Galápagos archipelago. Ecology Letters, 20(4), 495–504. &lt;a href=&quot;https://doi.org/10.1111/ele.12753&quot;&gt;https://doi.org/10.1111/ele.12753&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Gálvez, R. H. (2017). Assessing author self-citation as a mechanism of relevant knowledge diffusion. Scientometrics. &lt;a href=&quot;https://doi.org/10.1007/s11192-017-2330-1&quot;&gt;https://doi.org/10.1007/s11192-017-2330-1&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Power, S. C., Anthony Verboom, G., Bond, W. J., &amp;amp; Cramer, M. D. (2017). Environmental correlates of biome-level floristic turnover in South Africa. Journal of Biogeography. &lt;a href=&quot;https://doi.org/10.1111/jbi.12971&quot;&gt;https://doi.org/10.1111/jbi.12971&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Zenil-Ferguson, R., Ponciano, J. M., &amp;amp; Burleigh, J. G. (2017). Testing the association of phenotypes with polyploidy: An example using herbaceous and woody eudicots. Evolution. &lt;a href=&quot;https://doi.org/10.1111/evo.13226&quot;&gt;https://doi.org/10.1111/evo.13226&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:5&quot;&gt;
-      &lt;p&gt;H Sparks, A., Hengl, T., &amp;amp; Nelson, A. (2017). GSODR: Global Summary Daily Weather Data in R. The Journal of Open Source Software, 2(10). &lt;a href=&quot;https://doi.org/10.21105/joss.00177&quot;&gt;https://doi.org/10.21105/joss.00177&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:5&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:6&quot;&gt;
-      &lt;p&gt;Berlemont, R. (2017). Distribution and diversity of enzymes for polysaccharide degradation in fungi. Scientific Reports, 7(1). &lt;a href=&quot;https://doi.org/10.1038/s41598-017-00258-w&quot;&gt;https://doi.org/10.1038/s41598-017-00258-w&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:6&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:7&quot;&gt;
-      &lt;p&gt;Martin, B. T., Heintz, R., Danner, E. M., &amp;amp; Nisbet, R. M. (2017). Integrating lipid storage into general representations of fish energetics. Journal of Animal Ecology. &lt;a href=&quot;https://doi.org/10.1111/1365-2656.12667&quot;&gt;https://doi.org/10.1111/1365-2656.12667&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:7&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 28 Mar 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/biweekly/update-2017-03-28/</link>
-        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-03-28/</guid>
         
         
       </item>
