@@ -5,21 +5,13 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 25 Sep 2017 14:20:50 -0700</pubDate>
-    <lastBuildDate>Mon, 25 Sep 2017 14:20:50 -0700</lastBuildDate>
+    <pubDate>Tue, 26 Sep 2017 10:39:35 -0700</pubDate>
+    <lastBuildDate>Tue, 26 Sep 2017 10:39:35 -0700</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
     
       <item>
-        <title>Update 2017-09-25</title>
-        <description>&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #CBEAF2&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;rOpenSci HQ&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
+        <title>Update 2017-09-26</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
 
 &lt;h3 id=&quot;community-calls&quot;&gt;Community Calls&lt;/h3&gt;
 
@@ -29,37 +21,21 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #B2E1ED&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;Discussion forum&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h2 id=&quot;discussion-forum&quot;&gt;Discussion forum&lt;/h2&gt;
 
 &lt;p&gt;Recently, on our discussion forum &lt;a href=&quot;https://discuss.ropensci.org&quot;&gt;https://discuss.ropensci.org&lt;/a&gt;:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/how-to-avoid-space-hogging-raster-tempfiles/864&quot;&gt;How to avoid space-hogging raster tempfiles?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/a-research-compendium-and-methylation-raw-data/867&quot;&gt;A research compendium and methylation raw data&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/resources-for-leaning-c-rcpp/877&quot;&gt;Resources for leaning C++/Rcpp?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/how-do-you-hire-data-people-in-a-fair-and-unbiased-way/876&quot;&gt;How do you hire data people in a fair and unbiased way?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://discuss.ropensci.org/t/traits-ncbi-byname-to-dnabin-objects/878&quot;&gt;traits::ncbi_byname to DNAbin objects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Best Practices] &lt;a href=&quot;https://discuss.ropensci.org/t/a-research-compendium-and-methylation-raw-data/867&quot;&gt;A research compendium and methylation raw data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Questions] &lt;a href=&quot;https://discuss.ropensci.org/t/how-to-avoid-space-hogging-raster-tempfiles/864&quot;&gt;How to avoid space-hogging raster tempfiles?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Questions] &lt;a href=&quot;https://discuss.ropensci.org/t/resources-for-leaning-c-rcpp/877&quot;&gt;Resources for leaning C++/Rcpp?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Community] &lt;a href=&quot;https://discuss.ropensci.org/t/how-do-you-hire-data-people-in-a-fair-and-unbiased-way/876&quot;&gt;How do you hire data people in a fair and unbiased way?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;[Gists] &lt;a href=&quot;https://discuss.ropensci.org/t/traits-ncbi-byname-to-dnabin-objects/878&quot;&gt;traits::ncbi_byname to DNAbin objects&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #7CCCC8&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;Software&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
 
 &lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
 
@@ -82,22 +58,14 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #64B7A9&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;Software Review&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;
-We accept community contributed packages via our onboarding system - a software review system, sorta like scholarly paper review, but way better. We’ll highlight new packages here that have come through this system. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+&lt;h2 id=&quot;software-review&quot;&gt;Software Review&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - an open software review system, sorta like scholarly paper review, but way better. We’ll highlight newly onboarded packages here. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
 and the authors of the packages!&lt;/p&gt;
 
-&lt;p&gt;If you want to be a reviewer we have a new &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt; you can fill out, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
+&lt;p&gt;If you want to be a reviewer fill out this short &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt;, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
 
-&lt;p&gt;The following package was recently submitted to our onboarding process:&lt;/p&gt;
+&lt;p&gt;The following packages were recently submitted for review:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/bcgov/tidyhydat&quot;&gt;tidyhydat&lt;/a&gt; &amp;gt; Extract and Tidy Canadian Hydrometric Data
@@ -118,17 +86,9 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #8CD4E0&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;On the blog&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-We’ve had one blog post on our main blog in the past two weeks:&lt;/p&gt;
+&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
+
+&lt;p&gt;We’ve had one blog post on our main blog in the past two weeks:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/blog/2017/09/19/patentsview&quot;&gt;Accessing patent data with the patentsview package&lt;/a&gt; by &lt;a href=&quot;https://github.com/crew102&quot;&gt;Chris Baker&lt;/a&gt;&lt;/li&gt;
@@ -136,24 +96,24 @@ We’ve had one blog post on our main blog in the past two weeks:&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;table border=&quot;0&quot; cellpadding=&quot;18&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot; style=&quot;min-width: 100% !important;background-color: #79CAC7&quot;&gt;
-  &lt;tbody&gt;
-  	&lt;tr&gt;
-      &lt;td valign=&quot;top&quot; style=&quot;color: #FFFFFF;font-size: 14px;font-weight: bold;line-height: 250%&quot;&gt;
-          &lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size:27px&quot;&gt;&lt;span&gt;Use cases&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;
-      &lt;/td&gt;
-  	&lt;/tr&gt;
-	&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
 
-&lt;p&gt;The following 3 works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
+&lt;p&gt;The following four works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Olson &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.7717/peerj.3729&quot;&gt;Challenging a bioinformatic tool’s ability to detect microbial contaminants using in silico whole genome sequencing data&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Reznik &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1016/j.celrep.2017.08.066&quot;&gt;Genome-scale architecture of small molecule regulatory networks and the fundamental trade-off between regulation and enzymatic activity&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Cardoso &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1073/pnas.1706756114&quot;&gt;Amazon plant diversity revealed by a taxonomically verified species list&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Jayasankar cited &lt;a href=&quot;https://github.com/ropensci/rfisheries&quot;&gt;rfishbase&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/rfisheries&quot;&gt;rfisheries&lt;/a&gt; in his paper &lt;a href=&quot;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&quot;&gt;Computational options for marine fisheries research and management&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;If you’ve used rOpenSci software in a blog post or a paper, tell us on the &lt;a href=&quot;https://discuss.ropensci.org/t/share-ropensci-package-citations-plz/515/11&quot;&gt;discussion forum&lt;/a&gt; and we’ll share it with our community here.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
+
+&lt;p&gt;One of our own, &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Karthik Ram&lt;/a&gt;, was on the Changelog podcast: &lt;a href=&quot;https://changelog.com/podcast/263&quot;&gt;Conversations about sustaining open source&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -161,27 +121,25 @@ We’ve had one blog post on our main blog in the past two weeks:&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;submit-news-to-ropensci&quot;&gt;Submit news to rOpenSci&lt;/h2&gt;
+&lt;h3 id=&quot;submit-news-to-ropensci&quot;&gt;Submit news to rOpenSci&lt;/h3&gt;
 
 &lt;p&gt;Reach out to us with your news suggestions by sending us an email &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt; or by
 contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;keep-up-with-ropensci&quot;&gt;Keep up with rOpenSci&lt;/h2&gt;
-
-&lt;p&gt;There are a number of ways to keep up with what rOpenSci is doing:&lt;/p&gt;
+&lt;h3 id=&quot;keep-up-with-ropensci&quot;&gt;Keep up with rOpenSci&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Mailing list: Sign up with an email address to get this newsletter sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Alternatively, you can subscribe to this newsletter via our XML feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt; or our JSON feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.json&quot;&gt;https://ropensci.github.io/biweekly/feed.json&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: we’re &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h3&gt;
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
 
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
@@ -194,12 +152,15 @@ contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
       &lt;p&gt;Cardoso, D., Särkinen, T., Alexander, S., Amorim, A. M., Bittrich, V., Celis, M., … Forzza, R. C. (2017). Amazon plant diversity revealed by a taxonomically verified species list. Proceedings of the National Academy of Sciences, 201706756. &lt;a href=&quot;https://doi.org/10.1073/pnas.1706756114&quot;&gt;https://doi.org/10.1073/pnas.1706756114&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Jayasankar, J. Computational options for marine fisheries research and management. Advanced Methods for Fish Stock Assessment and Fisheries Management, 136. &lt;a href=&quot;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&quot;&gt;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 25 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/biweekly/update-2017-09-25/</link>
-        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-09-25/</guid>
+        <pubDate>Tue, 26 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/biweekly/update-2017-09-26/</link>
+        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-09-26/</guid>
         
         
       </item>
