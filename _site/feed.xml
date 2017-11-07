@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Nov 2017 13:48:03 -0800</pubDate>
-    <lastBuildDate>Mon, 06 Nov 2017 13:48:03 -0800</lastBuildDate>
+    <pubDate>Tue, 07 Nov 2017 10:39:55 -0800</pubDate>
+    <lastBuildDate>Tue, 07 Nov 2017 10:39:55 -0800</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
     
       <item>
@@ -149,15 +149,13 @@ contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;
 
 &lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
 
-&lt;p&gt;Chicago. Code4lib Journal. &lt;a href=&quot;http://journal.code4lib.org/articles/12792&quot;&gt;http://journal.code4lib.org/articles/12792&lt;/a&gt;&lt;/p&gt;
-
 &lt;div class=&quot;footnotes&quot;&gt;
   &lt;ol&gt;
     &lt;li id=&quot;fn:1&quot;&gt;
       &lt;p&gt;Cardoso P (2017) red - an R package to facilitate species red list assessments according to the IUCN criteria. Biodiversity Data Journal 5: e20530. &lt;a href=&quot;https://doi.org/10.3897/BDJ.5.e20530&quot;&gt;https://doi.org/10.3897/BDJ.5.e20530&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Lee, Y. Y., Foster, E. D., Polley, D. E., &amp;amp; Odell, J. Using the ‘rentrez’ R Package to Identify Repository Records for NCBI LinkOut.&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Lee, Y. Y., Foster, E. D., Polley, D. E., &amp;amp; Odell, J. Using the ‘rentrez’ R Package to Identify Repository Records for NCBI LinkOut. Chicago. Code4lib Journal. &lt;a href=&quot;http://journal.code4lib.org/articles/12792&quot;&gt;http://journal.code4lib.org/articles/12792&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:3&quot;&gt;
       &lt;p&gt;Bakker, M., van Assen, M. A. L. M., Crompvoets, E. A. V., Ong, H. H., &amp;amp; Soderberg, C. K. Restriction of opportunistic use of researcher degrees of freedom in pre-registrations on the Open Science Framework. THE HUMAN FALLIBILITY OF SCIENTISTS, 105. &lt;a href=&quot;https://psyarxiv.com/g8cjq/download?format=pdf#page=105&quot;&gt;https://psyarxiv.com/g8cjq/download?format=pdf#page=105&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
