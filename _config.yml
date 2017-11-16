@@ -10,4 +10,4 @@ author: ropensci
 
 markdown: kramdown
 
-exclude: ["posts_heatmap_calendar.md"]
+exclude: ["posts_heatmap_calendar.md", "ignore"]
