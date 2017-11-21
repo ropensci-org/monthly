@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 20 Nov 2017 16:50:19 -0800</pubDate>
-    <lastBuildDate>Mon, 20 Nov 2017 16:50:19 -0800</lastBuildDate>
+    <pubDate>Tue, 21 Nov 2017 10:02:07 -0800</pubDate>
+    <lastBuildDate>Tue, 21 Nov 2017 10:02:07 -0800</lastBuildDate>
     <generator>Jekyll v3.4.4</generator>
     
       <item>
@@ -110,6 +110,8 @@ and the authors of the packages!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Landis &amp;amp; Schraiber cited and used &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1073/pnas.1710920114&quot;&gt;Pulsed evolution shaped modern vertebrate body sizes&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Weingart &amp;amp; Eichmann-Kalwara cited &lt;a href=&quot;https://github.com/ropensci/gender&quot;&gt;gender&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.16995/dscn.284&quot;&gt;What’s Under the Big Tent?: A Study of ADHO Conference Abstracts&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Chalmandrier &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1038/s41598-017-15334-4&quot;&gt;Species pool distributions along functional trade-offs shape plant productivity–diversity relationships&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Maisak used [lingtypology][] in their paper &lt;a href=&quot;https://doi.org/10.1177/1367006917740060&quot;&gt;Repetitive prefix in Agul: Morphological copy from a closely related language&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;If you’ve used rOpenSci software in a blog post or a paper, tell us on the &lt;a href=&quot;https://discuss.ropensci.org/t/share-ropensci-package-citations-plz/515/11&quot;&gt;discussion forum&lt;/a&gt; and we’ll share it with our community here.&lt;/p&gt;
@@ -147,6 +149,12 @@ contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
       &lt;p&gt;Weingart, S. B., &amp;amp; Eichmann-Kalwara, N. (2017). What’s Under the Big Tent?: A Study of ADHO Conference Abstracts. Digital Studies/Le Champ Numérique, 7(1). &lt;a href=&quot;https://doi.org/10.16995/dscn.284&quot;&gt;https://doi.org/10.16995/dscn.284&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Chalmandrier, L., Albouy, C., &amp;amp; Pellissier, L. (2017). Species pool distributions along functional trade-offs shape plant productivity–diversity relationships. Scientific Reports, 7(1). &lt;a href=&quot;https://doi.org/10.1038/s41598-017-15334-4&quot;&gt;https://doi.org/10.1038/s41598-017-15334-4&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:4&quot;&gt;
+      &lt;p&gt;Maisak, T. (2017). Repetitive prefix in Agul: Morphological copy from a closely related language. International Journal of Bilingualism, 136700691774006. &lt;a href=&quot;https://doi.org/10.1177/1367006917740060&quot;&gt;https://doi.org/10.1177/1367006917740060&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
