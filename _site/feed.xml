@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 18 Dec 2017 12:19:25 -0800</pubDate>
-    <lastBuildDate>Mon, 18 Dec 2017 12:19:25 -0800</lastBuildDate>
+    <pubDate>Mon, 18 Dec 2017 12:23:01 -0800</pubDate>
+    <lastBuildDate>Mon, 18 Dec 2017 12:23:01 -0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -122,14 +122,14 @@ and the authors of the packages!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Ramasubramanian and Albrecht used &lt;a href=&quot;https://github.com/ropensci/stplanr&quot;&gt;stplanr&lt;/a&gt; in their book chapter &lt;a href=&quot;https://doi.org/10.1007/978-3-319-68041-5_5&quot;&gt;Placemaking: Why Everything Is Local&lt;/a&gt; in the book &lt;em&gt;The Urban Book Series&lt;/em&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Marx &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;pdftools&lt;/a&gt; in their white paper &lt;a href=&quot;http://bit.ly/2kfB5td&quot;&gt;Synthesis Report on Disaster Risk Reduction and Climate Change Adaptation in Germany&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Armstrong &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/monkeylearn&quot;&gt;monkeylearn&lt;/a&gt; in a book &lt;a href=&quot;http://bit.ly/2B8Lilz&quot;&gt;The 2016 Presidential Election: The Causes and Consequences of a Political Earthquake&lt;/a&gt;. We can’t link to an open access version but there is &lt;a href=&quot;https://cl.ly/oNXR&quot;&gt;a screenshot&lt;/a&gt; showing discussion of the use of the package.&lt;/li&gt;
+  &lt;li&gt;Armstrong &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/monkeylearn&quot;&gt;monkeylearn&lt;/a&gt; in a book &lt;a href=&quot;http://bit.ly/2B8Lilz&quot;&gt;The 2016 Presidential Election: The Causes and Consequences of a Political Earthquake&lt;/a&gt;. We can’t link to an open access version but there is &lt;a href=&quot;https://cl.ly/oNXR&quot;&gt;a screenshot&lt;/a&gt; showing discussion of the use of the package. &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
 
-&lt;p&gt;Ther was a nice tweet about our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; package:&lt;/p&gt;
+&lt;p&gt;There was a nice tweet about our &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; package:&lt;/p&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; package rfishbase is making my day. &lt;a href=&quot;https://t.co/tNWNWkfGl0&quot;&gt;https://t.co/tNWNWkfGl0&lt;/a&gt; &lt;a href=&quot;https://twitter.com/BrentBHughes?ref_src=twsrc%5Etfw&quot;&gt;@BrentBHughes&lt;/a&gt; &lt;a href=&quot;https://twitter.com/ecophyte?ref_src=twsrc%5Etfw&quot;&gt;@ecophyte&lt;/a&gt;&lt;/p&gt;&amp;mdash; Wendel Raymond (@wendel_raymond) &lt;a href=&quot;https://twitter.com/wendel_raymond/status/939231178975985664?ref_src=twsrc%5Etfw&quot;&gt;December 8, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 
@@ -171,6 +171,9 @@ contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:2&quot;&gt;
       &lt;p&gt;Marx, S., Barbeito, G., Fleming, K., Petrovic, B., Pickl, S., Thieken, A., &amp;amp; Zeidler, M. 2017. Synthesis Report on Disaster Risk Reduction and Climate Change Adaptation in Germany. Chicago &lt;a href=&quot;http://bit.ly/2kfB5td&quot;&gt;http://bit.ly/2kfB5td&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Armstrong, J. S., Berger, R., Boatright, R., Brewer, M., Cuzán, A. G., Dye, R. G., … &amp;amp; Jones Jr, R. J. (2017). The 2016 Presidential Election: The Causes and Consequences of a Political Earthquake. Lexington Books. Chicago &lt;a href=&quot;http://bit.ly/2B8Lilz&quot;&gt;http://bit.ly/2B8Lilz&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
