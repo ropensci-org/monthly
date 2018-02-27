@@ -5,9 +5,240 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 12 Feb 2018 13:02:37 -0800</pubDate>
-    <lastBuildDate>Mon, 12 Feb 2018 13:02:37 -0800</lastBuildDate>
+    <pubDate>Mon, 26 Feb 2018 17:36:21 -0800</pubDate>
+    <lastBuildDate>Mon, 26 Feb 2018 17:36:21 -0800</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Update 2018-02-27</title>
+        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
+
+&lt;h3 id=&quot;ropensci-unconference-2018&quot;&gt;rOpenSci Unconference 2018&lt;/h3&gt;
+
+&lt;div&gt;&lt;a href=&quot;http://unconf18.ropensci.org&quot;&gt;&lt;img src=&quot;https://d33wubrfki0l68.cloudfront.net/c7d01cd0d3d9a7dc5d4f2f3193b28dbf733e5973/ae7c0/img/blog-images/2018-02-08-unconf18/seattle.svg&quot; width=&quot;500&quot; /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;p&gt;We’ve announced our 2018 unconference in a recent blog post &lt;a href=&quot;https://ropensci.org/blog/2018/02/08/unconf2018/&quot;&gt;Apply to attend rOpenSci unconf 2018!&lt;/a&gt;. You’ll find all the details in the post.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software-&quot;&gt;Software 📦&lt;/h2&gt;
+
+&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;cRegulome&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/cRegulome&quot;&gt;CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;cRegulome&lt;/code&gt; lets you obtain and visualize regulome-gene expression correlations in cancer. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/cRegulome/vignettes/&quot;&gt;cRegulome vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/cRegulome&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;ijtiff&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/ijtiff&quot;&gt;CRAN&lt;/a&gt; - this isn’t the first version of the package on CRAN, but is the first version on CRAN under rOpenSci. See the &lt;a href=&quot;https://github.com/rorynolan/ijtiff/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/ijtiff/vignettes/ijtiff.html&quot;&gt;ijtiff vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/ijtiff&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.12&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rglobi&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rglobi&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rglobi/releases/tag/v0.2.12&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rglobi/vignettes/rglobi_vignette.html&quot;&gt;rglobi vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rglobi&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.9&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;tesseract&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/tesseract&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/tesseract/NEWS&quot;&gt;tesseract NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/tesseract#tesseract&quot;&gt;tesseract README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/tesseract&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.0.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;osmdata&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/osmdata/releases/tag/v0.0.6&quot;&gt;osmdata release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/osmdata/vignettes/&quot;&gt;tesseract vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/osmdata&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;crul&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/crul&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/crul/releases/tag/v0.5.2&quot;&gt;crul release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/crul/vignettes/&quot;&gt;crul vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/crul&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.7&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;magick&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/magick/releases/tag/v1.7&quot;&gt;magick release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/magick/vignettes/intro.html&quot;&gt;magick vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;software-review-&quot;&gt;Software Review ✔&lt;/h2&gt;
+
+&lt;p&gt;We accept community contributed packages via our onboarding system - an open software review system, sorta like scholarly paper review, but way better. We’ll highlight newly onboarded packages here. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+and the authors of the packages!&lt;/p&gt;
+
+&lt;p&gt;If you want to be a reviewer fill out &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;this short form&lt;/a&gt;, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
+
+&lt;p&gt;The following six packages recently went through our onboarding process and has been approved!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/ijtiff&quot;&gt;ijtiff&lt;/a&gt; &amp;gt; TIFF I/O for ImageJ Users
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/rorynolan&quot;&gt;Rory Nolan&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/164&quot;&gt;ropensci/onboarding#164&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/jeroen&quot;&gt;Jeroen Ooms&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/jonclayden&quot;&gt;John Clayden&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rdflib&quot;&gt;rdflib&lt;/a&gt; &amp;gt; Tools to Manipulate and Query Semantic Data
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/cboettig&quot;&gt;Carl Boettiger&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/169&quot;&gt;ropensci/onboarding#169&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/annakrystalli&quot;&gt;Anna Krystalli&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/amoeba&quot;&gt;Bryce Mecum&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/onekp&quot;&gt;onekp&lt;/a&gt; &amp;gt; Retrieve Data from the 1000 Plants Initiative (1KP)
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/arendsee&quot;&gt;Zebulun Arendsee&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/178&quot;&gt;ropensci/onboarding#178&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/jminnier&quot;&gt;Jessica Minnier&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/zachary-foster&quot;&gt;Zachary Foster&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/AustralianAntarcticDivision/bowerbird&quot;&gt;bowerbird&lt;/a&gt; &amp;gt; Keep a Collection of Sparkly Data Resources
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/raymondben&quot;&gt;Ben Raymond&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/139&quot;&gt;ropensci/onboarding#139&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers:
+        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/milesmcbain&quot;&gt;Miles McBain&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;https://github.com/lwasser&quot;&gt;Leah Wasser&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following package was recently submitted for review:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/SCAR/antanym&quot;&gt;antanym&lt;/a&gt; &amp;gt; Antarctic Geographic Place Names
+    &lt;ul&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/raymondben&quot;&gt;Ben Raymond&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/198&quot;&gt;ropensci/onboarding#198&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Reviewers: not assigned yet&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
+
+&lt;h3 id=&quot;main-blog&quot;&gt;main blog&lt;/h3&gt;
+
+&lt;p&gt;The other week we announced our new cohort of four rOpenSci fellows: &lt;a href=&quot;https://ropensci.org/blog/2018/02/14/announcing-2018-ropensci-fellows/&quot;&gt;Introducing the 2018 rOpenSci Research Fellows!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;They are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sam Tyner&lt;/li&gt;
+  &lt;li&gt;Zachary Foster&lt;/li&gt;
+  &lt;li&gt;Kelly Hondula&lt;/li&gt;
+  &lt;li&gt;Jon Zelner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;rOpenSci has supported one fellow so far (see &lt;a href=&quot;https://github.com/ropensci/commcalls/issues/16&quot;&gt;our most recent community call&lt;/a&gt;).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Our community manager &lt;a href=&quot;https://ropensci.org/about/#team&quot;&gt;Stefanie Butland&lt;/a&gt; wrote about &lt;a href=&quot;https://ropensci.org/blog/2018/02/23/ropensci-in-yvr/&quot;&gt;rOpenSci Vancouver Community Meetup: Transforming science through open data and software&lt;/a&gt;. If you’ll be in Vancouver on March 12 join us.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;technotes&quot;&gt;technotes&lt;/h3&gt;
+
+&lt;p&gt;We’ve had two posts by rOpenSci developers in the last few weeks.&lt;/p&gt;
+
+&lt;p&gt;The first &lt;a href=&quot;https://ropensci.org/technotes/2018/02/14/tesseract-18/&quot;&gt;Support for hOCR and Tesseract 4 in R&lt;/a&gt; by &lt;a href=&quot;https://ropensci.org/about/#team&quot;&gt;Jeroen Ooms&lt;/a&gt; discusses a new version of the rOpenSci package &lt;code class=&quot;highlighter-rouge&quot;&gt;tesseract&lt;/code&gt; (R bindings to Google’s open source optical character recognition (OCR) engine &lt;a href=&quot;https://github.com/tesseract-ocr/tesseract&quot;&gt;Tesseract&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The second post &lt;a href=&quot;https://ropensci.org/technotes/2018/02/20/webmockr-intro/&quot;&gt;webmockr: mock HTTP requests&lt;/a&gt; by &lt;a href=&quot;https://ropensci.org/about/#team&quot;&gt;Scott Chamberlains&lt;/a&gt; is an overview of the rOpenSci package &lt;code class=&quot;highlighter-rouge&quot;&gt;webmockr&lt;/code&gt;, including lots of new features and fixes.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
+
+&lt;p&gt;If you’ve used rOpenSci software in a blog post or a paper, tell us on the &lt;a href=&quot;https://discuss.ropensci.org/t/share-ropensci-package-citations-plz/515/11&quot;&gt;discussion forum&lt;/a&gt; and we’ll share it with our community here.&lt;/p&gt;
+
+&lt;p&gt;The following three works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Krotov &amp;amp; Tennyson used the rOpenSci package &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;pdftools&lt;/a&gt; in their paper &lt;em&gt;Scraping Financial Data from the Web Using R Language&lt;/em&gt; (the url is https://doi.org/10.2308/jeta-52063 but it doesn’t resolve, not sure what happened) &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Gogleva &lt;em&gt;et al&lt;/em&gt;. used the rOpenSci package &lt;a href=&quot;https://github.com/ropensci/biomartr&quot;&gt;biomartr&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1093/bioinformatics/bty088&quot;&gt;SecretSanta: flexible pipelines for functional secretome prediction&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Chen &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rentrez&quot;&gt;rentrez&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1093/database/bay004&quot;&gt;miRToolsGallery: a tag-based and rankable microRNA bioinformatics resources database portal&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
+
+&lt;p&gt;Suzan Baert used rOpenSci’s &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;pdftools&lt;/a&gt; package to extract text from PDFs to make Galentine’s Day Cards in R:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Happy Galentine&amp;#39;s day &lt;a href=&quot;https://twitter.com/hashtag/rladies?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rladies&lt;/a&gt;!!! 🎉 New blog post featuring some short &lt;a href=&quot;https://twitter.com/hashtag/tidytext?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#tidytext&lt;/a&gt; analysis on parks and recreation! &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt;&lt;a href=&quot;https://t.co/HUGlngDBe3&quot;&gt;https://t.co/HUGlngDBe3&lt;/a&gt; &lt;a href=&quot;https://t.co/6kDhc7hKaa&quot;&gt;pic.twitter.com/6kDhc7hKaa&lt;/a&gt;&lt;/p&gt;&amp;mdash; Suzan Baert (@SuzanBaert) &lt;a href=&quot;https://twitter.com/SuzanBaert/status/963451624776749057?ref_src=twsrc%5Etfw&quot;&gt;February 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In a blog post Katie Jolly used the rOpenSci package &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;magick&lt;/a&gt; to manipulate images to create Valentine’s Day cards in R:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; blog post! &lt;a href=&quot;https://twitter.com/yung__pip?ref_src=twsrc%5Etfw&quot;&gt;@yung__pip&lt;/a&gt; and I made valentines for our friends with markovifyR, magick, and ponyexpress 😊 Feeling extra appreciation for &lt;a href=&quot;https://twitter.com/hashtag/ropensci?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#ropensci&lt;/a&gt; this week! &lt;a href=&quot;https://t.co/Y8mEpFnUQr&quot;&gt;https://t.co/Y8mEpFnUQr&lt;/a&gt; &lt;a href=&quot;https://t.co/vcy3SNZVwS&quot;&gt;pic.twitter.com/vcy3SNZVwS&lt;/a&gt;&lt;/p&gt;&amp;mdash; Katie Jolly (@katiejolly6) &lt;a href=&quot;https://twitter.com/katiejolly6/status/965600233831976968?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In a &lt;a href=&quot;https://jesse.tw/post/open-canada-audit/&quot;&gt;blog post&lt;/a&gt; &lt;a href=&quot;https://github.com/tweed1e&quot;&gt;Jesse Tweedle&lt;/a&gt; used the rOpenSci package &lt;a href=&quot;https://github.com/ropensci/ckanr&quot;&gt;ckanr&lt;/a&gt; to audit some open data:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I try to audit &lt;a href=&quot;https://twitter.com/OpenGovCan?ref_src=twsrc%5Etfw&quot;&gt;@OpenGovCan&lt;/a&gt;&amp;#39;s open data API with &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt;: &lt;a href=&quot;https://t.co/izCIzJBDcX&quot;&gt;https://t.co/izCIzJBDcX&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/opendata?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opendata&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/opendatacan?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#opendatacan&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gcdigital?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gcdigital&lt;/a&gt;&lt;/p&gt;&amp;mdash; tweedle🦑⦩ (@tweed1e) &lt;a href=&quot;https://twitter.com/tweed1e/status/965438006919401473?ref_src=twsrc%5Etfw&quot;&gt;February 19, 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/n_a_gilbert/&quot;&gt;Neil Gilbert&lt;/a&gt; was pretty happy to find out about one of our packages:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Me, 2 hours ago: hmm I wonder if there&amp;#39;s an R package to deal with taxonomy stuff&lt;br /&gt;&lt;br /&gt;Me, now: woooww taxize is awesome&lt;a href=&quot;https://t.co/iIbptlC2Jg&quot;&gt;https://t.co/iIbptlC2Jg&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; &lt;a href=&quot;https://t.co/zhoy2UorT2&quot;&gt;pic.twitter.com/zhoy2UorT2&lt;/a&gt;&lt;/p&gt;&amp;mdash; Neil Gilbert (@n_a_gilbert) &lt;a href=&quot;https://twitter.com/n_a_gilbert/status/966129149898313729?ref_src=twsrc%5Etfw&quot;&gt;February 21, 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Our software engineer &lt;a href=&quot;https://ropensci.org/about/#team&quot;&gt;Maëlle Salmon&lt;/a&gt; wrote about on her blog how to use &lt;a href=&quot;https://github.com/ropensci/magick&quot;&gt;magick&lt;/a&gt; to &lt;a href=&quot;http://www.masalmon.eu/2018/02/22/hexcombine/&quot;&gt;combine your hex stickers&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;New &lt;a href=&quot;https://twitter.com/hashtag/rstats?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rstats&lt;/a&gt; post in which I learn how to use &lt;a href=&quot;https://twitter.com/rOpenSci?ref_src=twsrc%5Etfw&quot;&gt;@rOpenSci&lt;/a&gt; &lt;a href=&quot;https://twitter.com/opencpu?ref_src=twsrc%5Etfw&quot;&gt;@opencpu&lt;/a&gt; magick 🎩✨🐇 package to combine HEX STICKERS for my imaginary laptop!&lt;a href=&quot;https://t.co/dGjbbCmBMa&quot;&gt;https://t.co/dGjbbCmBMa&lt;/a&gt; &lt;a href=&quot;https://t.co/f0dqsQYpI4&quot;&gt;pic.twitter.com/f0dqsQYpI4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Maëlle Salmon 🐟 (@ma_salmon) &lt;a href=&quot;https://twitter.com/ma_salmon/status/966799442430054400?ref_src=twsrc%5Etfw&quot;&gt;February 22, 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;In a post from almost exactly one year ago &lt;a href=&quot;https://twitter.com/MGS_tweets&quot;&gt;Manuela Gonzalez&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/LuisDVerde&quot;&gt;Luis Verde&lt;/a&gt; &lt;a href=&quot;https://ramblingsofanecologa.wordpress.com/2017/02/14/who-is-who-matching-taxonomic-names/&quot;&gt;wrote about cleaning taxonomic names&lt;/a&gt; using our package &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/damianozingaro&quot;&gt;Damiano Oldoni&lt;/a&gt; did a &lt;a href=&quot;https://github.com/inbo/lifewatch-meeting-2018/blob/master/package_tutorials/src/tutorial_rgbif_package.ipynb&quot;&gt;tutorial&lt;/a&gt; for a &lt;a href=&quot;http://www.lifewatch.be/&quot;&gt;LifeWatch&lt;/a&gt; meeting on our package &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; (among other things):&lt;/p&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-cards=&quot;hidden&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Yesterday my 1st presentation about &lt;a href=&quot;https://twitter.com/hashtag/rgbif?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#rgbif&lt;/a&gt; as member of the &lt;a href=&quot;https://twitter.com/LifeWatchINBO?ref_src=twsrc%5Etfw&quot;&gt;@LifeWatchINBO&lt;/a&gt; team at &lt;a href=&quot;https://twitter.com/hashtag/VLIZ?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#VLIZ&lt;/a&gt;. Proud of it!Thks &lt;a href=&quot;https://twitter.com/LifeWatchVLIZ?ref_src=twsrc%5Etfw&quot;&gt;@LifeWatchVLIZ&lt;/a&gt; for organization! &lt;a href=&quot;https://t.co/BYCR0rZsYT&quot;&gt;https://t.co/BYCR0rZsYT&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/OpenData?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#OpenData&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/gbif?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#gbif&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/lifewatch?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#lifewatch&lt;/a&gt;&lt;/p&gt;&amp;mdash; Damiano Oldoni (@damianozingaro) &lt;a href=&quot;https://twitter.com/damianozingaro/status/957182868035375104?ref_src=twsrc%5Etfw&quot;&gt;January 27, 2018&lt;/a&gt;&lt;/blockquote&gt;
+
+&lt;!-- &lt;img src=&quot;../assets/img/xxx.png&quot; width=&quot;250&quot;&gt; --&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr style=&quot;display: block; height: 1px; border: 0; border-top: 3px solid #7CCCC8; margin: 1em 0; padding: 0; &quot; /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;keep-up-with-ropensci&quot;&gt;Keep up with rOpenSci&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mailing list: Sign up with an email address to get this newsletter sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Alternatively, you can subscribe to this newsletter via our XML feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt; or our JSON feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.json&quot;&gt;https://ropensci.github.io/biweekly/feed.json&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rOpenSci on Twitter: &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;Krotov, V., &amp;amp; Tennyson, M. (2018). Scraping Financial Data from the Web Using R Language. Journal of Emerging Technologies in Accounting. &lt;a href=&quot;https://doi.org/10.2308/jeta-52063&quot;&gt;https://doi.org/10.2308/jeta-52063&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;Gogleva, A., Drost, H.-G., &amp;amp; Schornack, S. (2018). SecretSanta: flexible pipelines for functional secretome prediction. Bioinformatics. &lt;a href=&quot;https://doi.org/10.1093/bioinformatics/bty088&quot;&gt;https://doi.org/10.1093/bioinformatics/bty088&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:3&quot;&gt;
+      &lt;p&gt;Chen, L., Heikkinen, L., Wang, C., Yang, Y., Knott, K. E., &amp;amp; Wong, G. (2018). miRToolsGallery: a tag-based and rankable microRNA bioinformatics resources database portal. Database, 2018. &lt;a href=&quot;https://doi.org/10.1093/database/bay004&quot;&gt;https://doi.org/10.1093/database/bay004&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Tue, 27 Feb 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/biweekly/update-2018-02-27/</link>
+        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2018-02-27/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Update 2018-02-12</title>
@@ -1707,162 +1938,6 @@ contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;
         <pubDate>Mon, 09 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/biweekly/update-2017-10-09/</link>
         <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-10-09/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Update 2017-09-26</title>
-        <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
-
-&lt;h3 id=&quot;community-calls&quot;&gt;Community Calls&lt;/h3&gt;
-
-&lt;p&gt;Video is now up for our latest community call on rOpenSci Software Review and Onboarding.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/ropensci/commcalls/issues/15&quot;&gt;https://github.com/ropensci/commcalls/issues/15&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;discussion-forum&quot;&gt;Discussion forum&lt;/h2&gt;
-
-&lt;p&gt;Recently, on our discussion forum &lt;a href=&quot;https://discuss.ropensci.org&quot;&gt;https://discuss.ropensci.org&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;[Best Practices] &lt;a href=&quot;https://discuss.ropensci.org/t/a-research-compendium-and-methylation-raw-data/867&quot;&gt;A research compendium and methylation raw data&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Questions] &lt;a href=&quot;https://discuss.ropensci.org/t/how-to-avoid-space-hogging-raster-tempfiles/864&quot;&gt;How to avoid space-hogging raster tempfiles?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Questions] &lt;a href=&quot;https://discuss.ropensci.org/t/resources-for-leaning-c-rcpp/877&quot;&gt;Resources for leaning C++/Rcpp?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Community] &lt;a href=&quot;https://discuss.ropensci.org/t/how-do-you-hire-data-people-in-a-fair-and-unbiased-way/876&quot;&gt;How do you hire data people in a fair and unbiased way?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;[Gists] &lt;a href=&quot;https://discuss.ropensci.org/t/traits-ncbi-byname-to-dnabin-objects/878&quot;&gt;traits::ncbi_byname to DNAbin objects&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;software&quot;&gt;Software&lt;/h2&gt;
-
-&lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;microdemic&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is &lt;a href=&quot;https://cran.rstudio.com/web/packages/jaod&quot;&gt;on CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;microdemic&lt;/code&gt; is an R client for the &lt;a href=&quot;https://academic.microsoft.com/&quot;&gt;Microsoft Academic Knowledge&lt;/a&gt; &lt;a href=&quot;https://azure.microsoft.com/en-us/services/cognitive-services/academic-knowledge/&quot;&gt;API&lt;/a&gt;. Check out the &lt;a href=&quot;https://github.com/ropenscilabs/microdemic#microdemic&quot;&gt;microdemic README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropenscilabs/microdemic&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.5.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;biomartr&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/biomartr&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/biomartr/news.html&quot;&gt;NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/biomartr/vignettes/&quot;&gt;biomartr vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/biomartr&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;traits&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/traits&quot;&gt;CRAN&lt;/a&gt;. This version adds new data sources and makes a suite of functions defunct (that were previsouly marked deprecated) that have moved to the [originr][] package. See the &lt;a href=&quot;https://github.com/ropensci/traits/releases/tag/v0.3.0&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/traits/vignettes/&quot;&gt;traits vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropenscilabs/traits&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.10&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rglobi&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rglobi&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/rglobi/releases/tag/v0.2.10&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rglobi/vignettes/rglobi_vignette.html&quot;&gt;vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rglobi&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.6&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;GSODR&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/GSODR&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/GSODR/releases/tag/1.0.6&quot;&gt;release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/GSODR/vignettes/&quot;&gt;vignettes&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/GSODR&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;xslt&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/xslt&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/xslt/releases/tag/v1.2&quot;&gt;release notes&lt;/a&gt; for details. Check out &lt;a href=&quot;https://ropensci.org/blog/blog/2017/01/10/xslt-release&quot;&gt;Jeroen’s blog post&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/xslt&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.4.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;lawn&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/lawn&quot;&gt;CRAN&lt;/a&gt;. This version has updated versions of most of the JS libraries bundled with the package, and other improvements. See the &lt;a href=&quot;https://github.com/ropensci/lawn/releases/tag/v0.4.0&quot;&gt;release notes&lt;/a&gt; for details. Check out &lt;a href=&quot;https://cran.rstudio.com/web/packages/lawn/vignettes/lawn_vignette.html&quot;&gt;the vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/lawn&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.7&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;lingtypology&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/lingtypology&quot;&gt;CRAN&lt;/a&gt;. See the &lt;a href=&quot;https://github.com/ropensci/lingtypology/releases/tag/v1.0.7&quot;&gt;release notes&lt;/a&gt; for details. Check out &lt;a href=&quot;https://cran.rstudio.com/web/packages/lingtypology/vignettes/lingtypology.html&quot;&gt;the vignette&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/lingtypology&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.8.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;elastic&lt;/code&gt; is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/lawelasticn&quot;&gt;CRAN&lt;/a&gt;. This version brings many changes to scrolling, adds new functions, and fixes some bugs. See the &lt;a href=&quot;https://github.com/ropensci/elastic/releases/tag/v0.8.0&quot;&gt;release notes&lt;/a&gt; for details. Check out &lt;a href=&quot;https://github.com/ropensci/elastic#elastic&quot;&gt;the README&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/elastic&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;software-review&quot;&gt;Software Review&lt;/h2&gt;
-
-&lt;p&gt;We accept community contributed packages via our onboarding system - an open software review system, sorta like scholarly paper review, but way better. We’ll highlight newly onboarded packages here. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
-and the authors of the packages!&lt;/p&gt;
-
-&lt;p&gt;If you want to be a reviewer fill out this short &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;form&lt;/a&gt;, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
-
-&lt;p&gt;The following packages were recently submitted for review:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/bcgov/tidyhydat&quot;&gt;tidyhydat&lt;/a&gt; &amp;gt; Extract and Tidy Canadian Hydrometric Data
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/boshek&quot;&gt;Sam Albers&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/152&quot;&gt;ropensci/onboarding#152&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers: not assigned yet&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/sebastiz/EndoMineR&quot;&gt;EndoMineR&lt;/a&gt; &amp;gt; Functions to mine endoscopic and associated pathology datasets
-    &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/sebastiz&quot;&gt;Sebastian Zeki&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/153&quot;&gt;ropensci/onboarding#153&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Reviewers: not assigned yet&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
-
-&lt;p&gt;We’ve had one blog post on our main blog in the past two weeks:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/blog/blog/2017/09/19/patentsview&quot;&gt;Accessing patent data with the patentsview package&lt;/a&gt; by &lt;a href=&quot;https://github.com/crew102&quot;&gt;Chris Baker&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;use-cases&quot;&gt;Use cases&lt;/h2&gt;
-
-&lt;p&gt;The following four works use/cite rOpenSci or rOpenSci software:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Olson &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.7717/peerj.3729&quot;&gt;Challenging a bioinformatic tool’s ability to detect microbial contaminants using in silico whole genome sequencing data&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Reznik &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1016/j.celrep.2017.08.066&quot;&gt;Genome-scale architecture of small molecule regulatory networks and the fundamental trade-off between regulation and enzymatic activity&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Cardoso &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rgbif&quot;&gt;rgbif&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1073/pnas.1706756114&quot;&gt;Amazon plant diversity revealed by a taxonomically verified species list&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Jayasankar cited &lt;a href=&quot;https://github.com/ropensci/rfisheries&quot;&gt;rfishbase&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/rfisheries&quot;&gt;rfisheries&lt;/a&gt; in his paper &lt;a href=&quot;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&quot;&gt;Computational options for marine fisheries research and management&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you’ve used rOpenSci software in a blog post or a paper, tell us on the &lt;a href=&quot;https://discuss.ropensci.org/t/share-ropensci-package-citations-plz/515/11&quot;&gt;discussion forum&lt;/a&gt; and we’ll share it with our community here.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;in-the-news&quot;&gt;In the news&lt;/h2&gt;
-
-&lt;p&gt;One of our own, &lt;a href=&quot;https://ropensci.org/about/#staff&quot;&gt;Karthik Ram&lt;/a&gt;, was on the Changelog podcast: &lt;a href=&quot;https://changelog.com/podcast/263&quot;&gt;Conversations about sustaining open source&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;hr style=&quot;display: block; height: 1px; border: 0; border-top: 3px solid #7CCCC8; margin: 1em 0; padding: 0; &quot; /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;submit-news-to-ropensci&quot;&gt;Submit news to rOpenSci&lt;/h3&gt;
-
-&lt;p&gt;Reach out to us with your news suggestions by sending us an email &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt; or by
-contacting us on Twitter &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;keep-up-with-ropensci&quot;&gt;Keep up with rOpenSci&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mailing list: Sign up with an email address to get this newsletter sent to your inbox -&amp;gt; &lt;a href=&quot;https://ropensci.org/#subscribe&quot;&gt;ropensci.org/#subscribe&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Alternatively, you can subscribe to this newsletter via our XML feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.xml&quot;&gt;https://ropensci.github.io/biweekly/feed.xml&lt;/a&gt; or our JSON feed at &lt;a href=&quot;https://ropensci.github.io/biweekly/feed.json&quot;&gt;https://ropensci.github.io/biweekly/feed.json&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;rOpenSci on Twitter: &lt;a href=&quot;https://twitter.com/ropensci&quot;&gt;@ropensci&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The rOpenSci blog at &lt;a href=&quot;https://ropensci.org/blog&quot;&gt;ropensci.org/blog&lt;/a&gt; - you can subscribe in any RSS aggregator, or manually via &lt;a href=&quot;https://ropensci.org/feed.xml&quot;&gt;https://ropensci.org/feed.xml&lt;/a&gt;. We also announce new blog posts on our Twitter account.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;Olson, N. D., Zook, J. M., Morrow, J. B., &amp;amp; Lin, N. J. (2017). Challenging a bioinformatic tool’s ability to detect microbial contaminants using in silico whole genome sequencing data. PeerJ, 5, e3729. &lt;a href=&quot;https://doi.org/10.7717/peerj.3729&quot;&gt;https://doi.org/10.7717/peerj.3729&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:2&quot;&gt;
-      &lt;p&gt;Reznik, E., Christodoulou, D., Goldford, J. E., Briars, E., Sauer, U., Segrè, D., &amp;amp; Noor, E. (2017). Genome-Scale Architecture of Small Molecule Regulatory Networks and the Fundamental Trade-Off between Regulation and Enzymatic Activity. Cell Reports, 20(11), 2666–2677. &lt;a href=&quot;https://doi.org/10.1016/j.celrep.2017.08.066&quot;&gt;https://doi.org/10.1016/j.celrep.2017.08.066&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:3&quot;&gt;
-      &lt;p&gt;Cardoso, D., Särkinen, T., Alexander, S., Amorim, A. M., Bittrich, V., Celis, M., … Forzza, R. C. (2017). Amazon plant diversity revealed by a taxonomically verified species list. Proceedings of the National Academy of Sciences, 201706756. &lt;a href=&quot;https://doi.org/10.1073/pnas.1706756114&quot;&gt;https://doi.org/10.1073/pnas.1706756114&lt;/a&gt; &lt;a href=&quot;#fnref:3&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-    &lt;li id=&quot;fn:4&quot;&gt;
-      &lt;p&gt;Jayasankar, J. Computational options for marine fisheries research and management. Advanced Methods for Fish Stock Assessment and Fisheries Management, 136. &lt;a href=&quot;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&quot;&gt;http://eprints.cmfri.org.in/12174/1/13-Computational%20options%20for%20marine%20fisheries%20research.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:4&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Tue, 26 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/biweekly/update-2017-09-26/</link>
-        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2017-09-26/</guid>
         
         
       </item>
