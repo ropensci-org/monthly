@@ -1,8 +1,6 @@
 title: 			 rOpenSci Newsletter
 email: 			 info@ropensci.org
 description: "rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more."
-url: 				 "https://ropensci.github.io"
-baseurl:     "/biweekly"
 permalink:   "/:title/"
 twitter_username: ropensci
 github_username:  ropensci
