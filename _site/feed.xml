@@ -5,22 +5,23 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/biweekly/</link>
     <atom:link href="http://localhost:4000/biweekly/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 09 Apr 2018 17:25:30 -0700</pubDate>
-    <lastBuildDate>Mon, 09 Apr 2018 17:25:30 -0700</lastBuildDate>
+    <pubDate>Tue, 10 Apr 2018 09:11:31 -0700</pubDate>
+    <lastBuildDate>Tue, 10 Apr 2018 09:11:31 -0700</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>rOpenSci News</title>
         <description>&lt;h2 id=&quot;software-&quot;&gt;Software 📦&lt;/h2&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;some package specific highlights in block quotes&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;CRAN: &lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt; 
+GitHub: &lt;img src=&quot;../assets/img/github-alt2.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdflib&quot;&gt;CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; is a high level wrapper around the redland package for common rdf applications.  &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; provides utility functions to complete tasks involved in most landscape analysis. This package recently went through rOpenSci review - &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/169&quot;&gt;here’s the review&lt;/a&gt;. Check out the &lt;a href=&quot;https://ropensci.github.io/rdflib/&quot;&gt;rdflib docs&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rdflib&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdflib&quot;&gt;CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; is a high level wrapper around the redland package for common rdf applications.  &lt;code class=&quot;highlighter-rouge&quot;&gt;rdflib&lt;/code&gt; provides utility functions to complete tasks involved in most landscape analysis. This package recently went through rOpenSci review - &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/169&quot;&gt;here’s the review&lt;/a&gt;. Check out the &lt;a href=&quot;https://ropensci.github.io/rdflib/&quot;&gt;rdflib docs&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/rdflib&quot;&gt;Repository on GitHub&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/rdflib&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/rdflib&quot;&gt;&lt;img src=&quot;../assets/img/github-alt2.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;landscapetools&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.0&lt;/code&gt;) is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/landscapetools&quot;&gt;CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;landscapetools&lt;/code&gt; provides utility functions to complete tasks involved in most landscape analysis. This package recently went through rOpenSci review - &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/188&quot;&gt;here’s the review&lt;/a&gt;. Check out the &lt;a href=&quot;https://ropensci.github.io/landscapetools/&quot;&gt;landscapetools docs&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/landscapetools&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;essurvey&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0.0&lt;/code&gt;) is on &lt;a href=&quot;https://cran.rstudio.com/web/packages/essurvey&quot;&gt;CRAN&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;essurvey&lt;/code&gt; lets you download data from the European Social Survey. &lt;code class=&quot;highlighter-rouge&quot;&gt;essurvey&lt;/code&gt; provides utility functions to complete tasks involved in most landscape analysis. This package recently went through rOpenSci review - &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/201&quot;&gt;here’s the review&lt;/a&gt;. Check out the &lt;a href=&quot;https://ropensci.github.io/essurvey/&quot;&gt;essurvey docs&lt;/a&gt; to get started. &lt;a href=&quot;https://github.com/ropensci/essurvey&quot;&gt;Repository on GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -276,9 +277,9 @@ and the authors of the packages!&lt;/p&gt;
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 09 Apr 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/biweekly/update-2018-04-09/</link>
-        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2018-04-09/</guid>
+        <pubDate>Tue, 10 Apr 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/biweekly/update-2018-04-10/</link>
+        <guid isPermaLink="true">http://localhost:4000/biweekly/update-2018-04-10/</guid>
         
         
       </item>
