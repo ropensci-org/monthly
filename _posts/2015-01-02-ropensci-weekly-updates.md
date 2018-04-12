@@ -8,8 +8,8 @@ We've found it useful to collate all the notable things that happened in the las
 
 We've already done a few:
 
-* 2014-12-15 - [http://ropensci.github.io/biweekly/update-2014-12-15/](http://ropensci.github.io/biweekly/update-2014-12-15/)
-* 2014-12-22 - [http://ropensci.github.io/biweekly/update-2014-12-22/](http://ropensci.github.io/biweekly/update-2014-12-22/)
+* 2014-12-15 - [https://news.ropensci.org/update-2014-12-15/](https://news.ropensci.org/update-2014-12-15/)
+* 2014-12-22 - [https://news.ropensci.org/update-2014-12-22/](https://news.ropensci.org/update-2014-12-22/)
 
 The next one will be this upcoming Monday, 2015-01-05.
 
