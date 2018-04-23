@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Apr 2018 11:22:33 -0700</pubDate>
-    <lastBuildDate>Mon, 23 Apr 2018 11:22:33 -0700</lastBuildDate>
+    <pubDate>Mon, 23 Apr 2018 16:01:47 -0700</pubDate>
+    <lastBuildDate>Mon, 23 Apr 2018 16:01:47 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -41,7 +41,7 @@ GitHub: &lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot
       &lt;p&gt;added &lt;code class=&quot;highlighter-rouge&quot;&gt;month&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;day&lt;/code&gt; params to &lt;code class=&quot;highlighter-rouge&quot;&gt;searchbyterm()&lt;/code&gt; mostly to allow date based searching in &lt;a href=&quot;https://github.com/ropensci/spocc&quot;&gt;spocc&lt;/a&gt;&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;monkeylearn&lt;/code&gt; is on CRAN. See the &lt;a href=&quot;https://github.com/ropensci/monkeylearn/releases/tag/v0.7.0&quot;&gt;monkeylearn release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://ropensci.github.io/monkeylearn/&quot;&gt;monkeylearn docs&lt;/a&gt; to get started.  &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/monkeylearn&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/monkeylearn&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.2.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;monkeylearn&lt;/code&gt; is on CRAN. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/monkeylearn/news.html&quot;&gt;monkeylearn NEWS&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://ropensci.github.io/monkeylearn/&quot;&gt;monkeylearn docs&lt;/a&gt; to get started.  &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/monkeylearn&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/monkeylearn&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;new pkgdown docs website, and new functions &lt;code class=&quot;highlighter-rouge&quot;&gt;monkey_classify()&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;monkey_extract()&lt;/code&gt; 🐵 (also: now w/ &lt;a href=&quot;https://github.com/ropensci/monkeylearn/commit/fd9f6ce8458dde68ab3820a18d1ec7626e9cbbb1#commitcomment-28527636&quot;&gt;cowsay&lt;/a&gt; 🐄)&lt;/p&gt;
     &lt;/blockquote&gt;
