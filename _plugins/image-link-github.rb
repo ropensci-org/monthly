@@ -9,6 +9,7 @@
 # Example use:
 #
 # {{ "rdflib" | image_github }} # <a target="_blank" href="https://github.com/ropensci/rdflib"><img src="../assets/img/github-alt.png" width="25" style="border-radius: 6px 6px 6px 6px"></a>
+# {{ "rbraries" | image_github: "ropenscilabs" }} # <a target="_blank" href="https://github.com/ropenscilabs/rbraries"><img src="../assets/img/github-alt.png" width="25" style="border-radius: 6px 6px 6px 6px"></a>
 
 module Jekyll
   module ImageUrl
