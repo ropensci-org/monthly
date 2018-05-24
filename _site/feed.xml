@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 May 2018 11:52:08 -0700</pubDate>
-    <lastBuildDate>Mon, 21 May 2018 11:52:08 -0700</lastBuildDate>
+    <pubDate>Wed, 23 May 2018 17:07:32 -0700</pubDate>
+    <lastBuildDate>Wed, 23 May 2018 17:07:32 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -19,7 +19,7 @@ GitHub: &lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot
 &lt;h3 id=&quot;new-packages&quot;&gt;New packages&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;vcr&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is on CRAN. &lt;code class=&quot;highlighter-rouge&quot;&gt;vcr&lt;/code&gt; records HTTP calls to disk. Check out the in progress &lt;a href=&quot;https://ropensci.github.io/http-testing-book/&quot;&gt;http testing book&lt;/a&gt; to get started. &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/vcr&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/vcr&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;A new package &lt;code class=&quot;highlighter-rouge&quot;&gt;vcr&lt;/code&gt; (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.1.0&lt;/code&gt;) is on CRAN. &lt;code class=&quot;highlighter-rouge&quot;&gt;vcr&lt;/code&gt; records HTTP calls to disk - main use case is caching HTTP requests in test suites. The logic of matching HTTP requests is done with our &lt;a href=&quot;https://github.com/ropensci/webmockr&quot;&gt;webmockr&lt;/a&gt; package. &lt;a href=&quot;https://github.com/ropensci/vcr&quot;&gt;vcr&lt;/a&gt; is a port from Ruby land where the &lt;a href=&quot;https://github.com/vcr/vcr&quot;&gt;gem of the same name&lt;/a&gt; been battle tested and ported to many other languages. Check out the in progress &lt;a href=&quot;https://ropensci.github.io/http-testing-book/&quot;&gt;http testing book&lt;/a&gt; to get started. &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/vcr&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/vcr&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;releases&quot;&gt;Releases&lt;/h3&gt;
@@ -84,7 +84,7 @@ release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://cran
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;cld2&lt;/code&gt; is on CRAN - R wrapper for Google’s Compact Language Detector 2. Check out the &lt;a href=&quot;https://github.com/ropensci/cld2#cld2&quot;&gt;cld2 README&lt;/a&gt; to get started.  &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/cld2&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/cld2&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;writexl&lt;/code&gt; is on CRAN, xxx. See the &lt;a href=&quot;https://github.com/ropensci/writexl/releases/tag/v1.0&quot;&gt;writexl 
+  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.0&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;writexl&lt;/code&gt; is on CRAN, a portable, light-weight data frame to xlsx exporter. See the &lt;a href=&quot;https://github.com/ropensci/writexl/releases/tag/v1.0&quot;&gt;writexl 
 release notes&lt;/a&gt; for details. Check out the &lt;a href=&quot;https://github.com/ropensci/writexl/tree/v1.0#writexl&quot;&gt;writexl README&lt;/a&gt; to get started.  &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/writexl&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/writexl&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;save R &lt;code class=&quot;highlighter-rouge&quot;&gt;Date&lt;/code&gt; types as proper datetime strings; update vendored libxlswriter&lt;/p&gt;
@@ -141,7 +141,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/social_weather.png&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://guangchuangyu.github.io/&quot;&gt;Guangchuang Yu&lt;/a&gt; wrote about his recently onboarded package &lt;a href=&quot;https://github.com/GuangchuangYu/treeio&quot;&gt;treeio&lt;/a&gt;; see the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/179&quot;&gt;https://github.com/ropensci/onboarding/issues/179&lt;/a&gt;. &lt;a href=&quot;https://ropensci.org/blog/2018/05/17/treeio/&quot;&gt;treeio: Phylogenetic data integration&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://guangchuangyu.github.io/&quot;&gt;Guangchuang Yu&lt;/a&gt; wrote a post called &lt;a href=&quot;https://ropensci.org/blog/2018/05/17/treeio/&quot;&gt;treeio: Phylogenetic data integration&lt;/a&gt; regarding his recently onboarded package &lt;a href=&quot;https://github.com/GuangchuangYu/treeio&quot;&gt;treeio&lt;/a&gt;; check out the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/179&quot;&gt;ropensci/onboarding#179&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/treeio-pkg.png&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
 
@@ -149,7 +149,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;h3 id=&quot;technotes&quot;&gt;technotes&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/evanodell&quot;&gt;Evan Odell&lt;/a&gt; wrote about his recently onobarded package &lt;a href=&quot;https://github.com/ropensci/nomisr&quot;&gt;nomisr&lt;/a&gt;; see the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/190&quot;&gt;https://github.com/ropensci/onboarding/issues/190&lt;/a&gt;. &lt;a href=&quot;https://ropensci.org/technotes/2018/05/08/nomisr/&quot;&gt;Nomisr - Access ‘Nomis’ UK Labour Market Data&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/evanodell&quot;&gt;Evan Odell&lt;/a&gt; wrote a post called &lt;a href=&quot;https://ropensci.org/technotes/2018/05/08/nomisr/&quot;&gt;Nomisr - Access ‘Nomis’ UK Labour Market Data&lt;/a&gt; about his recently onobarded package &lt;a href=&quot;https://github.com/ropensci/nomisr&quot;&gt;nomisr&lt;/a&gt;; check out the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/190&quot;&gt;ropensci/onboarding#190&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/nomisr-pkg.png&quot; width=&quot;200&quot; /&gt;&lt;/p&gt;
 
@@ -157,7 +157,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/icon-pkg.png&quot; width=&quot;100&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/wlandau&quot;&gt;Will Landau&lt;/a&gt; wrote about the package &lt;a href=&quot;https://github.com/ropensci/drake&quot;&gt;drake&lt;/a&gt;; see the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/156&quot;&gt;https://github.com/ropensci/onboarding/issues/156&lt;/a&gt;. &lt;a href=&quot;https://ropensci.org/technotes/2018/05/18/drake-hpc/&quot;&gt;drake’s improved high-performance computing power&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/wlandau&quot;&gt;Will Landau&lt;/a&gt; wrote about the package &lt;a href=&quot;https://github.com/ropensci/drake&quot;&gt;drake&lt;/a&gt; in a post: &lt;a href=&quot;https://ropensci.org/technotes/2018/05/18/drake-hpc/&quot;&gt;drake’s improved high-performance computing power&lt;/a&gt;; see the review at &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/156&quot;&gt;https://github.com/ropensci/onboarding#156&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/drake.png&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
 
