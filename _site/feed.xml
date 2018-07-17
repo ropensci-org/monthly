@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 17 Jul 2018 10:35:48 -0700</pubDate>
-    <lastBuildDate>Tue, 17 Jul 2018 10:35:48 -0700</lastBuildDate>
+    <pubDate>Tue, 17 Jul 2018 11:49:26 -0700</pubDate>
+    <lastBuildDate>Tue, 17 Jul 2018 11:49:26 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -64,11 +64,6 @@ GitHub: &lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v1.2&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;spelling&lt;/code&gt; is on CRAN - tools for spell checking. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/spelling/NEWS&quot;&gt;NEWS&lt;/a&gt; for changes. Check out the &lt;a href=&quot;https://github.com/ropensci/spelling#spelling&quot;&gt;spelling README&lt;/a&gt; to get started. &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/spelling&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/spelling&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
     &lt;blockquote&gt;
       &lt;p&gt;internally normalize all case of lang strings to lower_UPPER e.g en_US&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdefra&lt;/code&gt; is on CRAN - get data from DEFRA’s UK-AIR website &lt;a href=&quot;https://uk-air.defra.gov.uk/&quot;&gt;https://uk-air.defra.gov.uk/&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdefra/news/news.html&quot;&gt;NEWS&lt;/a&gt; for changes. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdefra/vignettes/rdefra_vignette.html&quot;&gt;rdefra vignette&lt;/a&gt; to get started. &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/rdefra&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/rdefra&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;minor changes; changes in pkg for API changes&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;A new version (&lt;code class=&quot;highlighter-rouge&quot;&gt;v0.3.5&lt;/code&gt;) of &lt;code class=&quot;highlighter-rouge&quot;&gt;rdefra&lt;/code&gt; is on CRAN - get data from DEFRA’s UK-AIR website &lt;a href=&quot;https://uk-air.defra.gov.uk/&quot;&gt;https://uk-air.defra.gov.uk/&lt;/a&gt;. See the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdefra/news/news.html&quot;&gt;NEWS&lt;/a&gt; for changes. Check out the &lt;a href=&quot;https://cran.rstudio.com/web/packages/rdefra/vignettes/rdefra_vignette.html&quot;&gt;rdefra vignette&lt;/a&gt; to get started. &lt;a target=&quot;_blank&quot; href=&quot;https://cran.rstudio.com/web/packages/rdefra&quot;&gt;&lt;img src=&quot;../assets/img/octicon-package.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt; &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/ropensci/rdefra&quot;&gt;&lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot; style=&quot;border-radius: 6px 6px 6px 6px&quot; /&gt;&lt;/a&gt;
