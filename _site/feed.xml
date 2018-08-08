@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Aug 2018 15:31:42 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Aug 2018 15:31:42 -0700</lastBuildDate>
+    <pubDate>Wed, 08 Aug 2018 09:34:30 -0700</pubDate>
+    <lastBuildDate>Wed, 08 Aug 2018 09:34:30 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -139,7 +139,7 @@ and the authors of the packages!&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/lbusett/MODIStsp&quot;&gt;MODIStsp&lt;/a&gt; &amp;gt; A Tool for Automating Download and Preprocessing of MODIS Land Products
   Data
     &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/mdsumner&quot;&gt;Michael Sumner&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/lbusett&quot;&gt;Lorenzo Busetto&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/184&quot;&gt;ropensci/onboarding#184&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Reviewers:
         &lt;ul&gt;
@@ -168,7 +168,7 @@ and the authors of the packages!&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/OJWatson/rdhs&quot;&gt;rdhs&lt;/a&gt; &amp;gt; API Client and Dataset Management for the Demographic and Health Survey (DHS) Data
     &lt;ul&gt;
-      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/robitalec&quot;&gt;Alec Robitaille&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Author: &lt;a href=&quot;https://github.com/OJWatson&quot;&gt;OJ Watson&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/238&quot;&gt;ropensci/onboarding#238&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Reviewers: not assigned yet&lt;/li&gt;
     &lt;/ul&gt;
