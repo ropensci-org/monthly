@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 15 Oct 2018 13:54:59 -0700</pubDate>
-    <lastBuildDate>Mon, 15 Oct 2018 13:54:59 -0700</lastBuildDate>
+    <pubDate>Thu, 18 Oct 2018 09:29:29 -0700</pubDate>
+    <lastBuildDate>Thu, 18 Oct 2018 09:29:29 -0700</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
