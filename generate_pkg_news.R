@@ -14,14 +14,15 @@ template_sprintf <- '* A new version (`v%s`) of `%s` is on CRAN - %s. See the [r
 template_release <- 'https://github.com/{owner}/{pkg}/releases/tag/v{ver}'
 news_release <- 'https://github.com/%s/%s/blob/master/NEWS.md'
 
-# dat_new_pkgs <- readr::read_csv("data/newpkgs.csv")
-dat_new_vers <- readr::read_csv("data/newversions.csv")
-# dat_new_pkgs <- rename(dat_new_pkgs, ver = version)
-(dat_new_vers <- rename(dat_new_vers, ver = name))
+dat_new_pkgs <- readr::read_csv("data/newpkgs.csv")
+# dat_new_vers <- readr::read_csv("data/newversions.csv")
+(dat_new_pkgs <- rename(dat_new_pkgs, ver = version))
+# (dat_new_vers <- rename(dat_new_vers, ver = name))
 
 metad <- readr::read_csv("data/pkg_metadata.csv")
 
-tmp <- dat_new_vers %>%
+# tmp <- dat_new_vers %>%
+tmp <- dat_new_pkgs %>%
   left_join(metad) %>% 
   mutate(release_url = as.character(glue(template_release)))
 
@@ -30,9 +31,9 @@ release_urls <- unlist(unname(Map(function(a, b, c) {
 }, tmp$release_url, tmp$owner, tmp$pkg)))
 tmp$release_url <- release_urls
 
-tmp %>% 
-  mutate(description = glue(template)) %>% 
-  .$description
+# tmp %>% 
+#   mutate(description = glue(template)) %>% 
+#   .$description
 # copy from the above
 
 tmp %>% 
