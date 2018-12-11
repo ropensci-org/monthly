@@ -1,0 +1,14 @@
+pkg,pkg_brief_description,docs_name,docs_url,url
+antiword,"Extract text from Microsoft Word documents",README,https://github.com/ropensci/antiword#antiword,
+arkdb,"archive and unarchive databases as flat text files",docs,https://ropensci.github.io/arkdb/,
+auk,"eBird data extraction and processing",docs,http://cornelllabofornithology.github.io/auk/,https://github.com/CornellLabofOrnithology/auk
+available,"check if the title of a package is available",README,https://github.com/ropenscilabs/available#available,
+bikedata,"download and aggregate data from public hire bicycle systems",docs,https://ropensci.github.io/bikedata/,
+binman,"a binary download manager",vignette,https://cran.rstudio.com/web/packages/binman/vignettes/binman-Basics.html,
+bold,"interface to Bold Systems (<http://www.boldsystems.org/>) API",vignette,https://cran.rstudio.com/web/packages/bold/vignettes/bold_vignette.html,
+bomrang,"Australian government Bureau of Meteorology (BOM) data",docs,https://ropensci.github.io/bomrang/,
+charlatan,"a comprehensive approach to making fake data, supporting many languages",vignette,https://cran.rstudio.com/web/packages/charlatan/vignettes/charlatan_vignette.html,
+clifro,"easily download and visualise climate data from CliFlo",vignettes,https://cran.rstudio.com/web/packages/clifro/vignettes/,
+comtradr,"Interface with the United Nations Comtrade API",vignette,https://cran.rstudio.com/web/packages/comtradr/vignettes/comtradr-vignette.html,
+CoordinateCleaner,"automated cleaning of occurrence records from biological collections",docs,https://ropensci.github.io/CoordinateCleaner/,
+cRegulome,"access, manage and visualize regulome (microRNA/transcription factors)-gene correlations in cancer",vignettes,https://cran.r-project.org/web/packages/cRegulome/vignettes/,
