@@ -8,4 +8,4 @@ author: ropensci
 
 markdown: kramdown
 
-exclude: ["posts_heatmap_calendar.md", "ignore", "Makefile", "check_urls.R", "README.md", "generate_pkg_news.R"]
+exclude: ["posts_heatmap_calendar.md", "ignore", "Makefile", "check_urls.R", "README.md", "generate_pkg_news.R", "data"]
