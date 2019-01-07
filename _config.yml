@@ -1,7 +1,7 @@
 title: 			 rOpenSci Newsletter
 email: 			 info@ropensci.org
 description: "rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more."
-permalink:   "/:title/"
+permalink:   "/:slug/"
 twitter_username: ropensci
 github_username:  ropensci
 author: ropensci
