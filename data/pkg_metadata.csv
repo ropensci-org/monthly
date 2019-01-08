@@ -132,3 +132,8 @@ MODIStsp,ropensci,"Automate Download and Preprocessing of MODIS Land Products Da
 rnoaa,ropensci,"NOAA Weather Data from R",vignettes,https://cran.rstudio.com/web/packages/rnoaa/vignettes/,
 graphql,ropensci,"Bindings to libgraphqlparser for R",README,https://github.com/ropensci/graphql/#graphql,
 phylocomr,ropensci,"Interface to Phylocom for analysis of phylogenetic community structure and character evolution",vignette,https://cran.rstudio.com/web/packages/phylocomr/vignettes/phylocomr_vignette.html,
+rdhs,ropensci,"Client for Demographic and Health Survey (DHS) Data",docs,https://ropensci.github.io/rdhs/,
+RSelenium,ropensci,"R client for Selenium Remote WebDriver",docs,http://ropensci.github.io/RSelenium,
+osmplotr,ropensci,"Bespoke Images of OpenStreetMap Data",docs,https://ropensci.github.io/osmplotr/,
+skynet,ropensci,"Bureau of Transport Statistics Data client",vignette,https://cran.rstudio.com/web/packages/skynet/vignettes/skynet.html,
+prism,ropensci,"Data from the Oregon State Prism Climate Project",vignette,http://ropensci.github.io/prism/,
