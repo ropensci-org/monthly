@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Jan 2019 09:12:52 -0800</pubDate>
-    <lastBuildDate>Tue, 08 Jan 2019 09:12:52 -0800</lastBuildDate>
+    <pubDate>Tue, 08 Jan 2019 09:34:14 -0800</pubDate>
+    <lastBuildDate>Tue, 08 Jan 2019 09:34:14 -0800</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
     
       <item>
@@ -300,7 +300,7 @@ and the authors of the packages!&lt;/p&gt;
       &lt;p&gt;Mubeen, S. (2018). Harmonizing major pathway databases to compare and evaluate their consensus. Thesis. &lt;a href=&quot;https://www.researchgate.net/profile/Sarah_Mubeen/publication/329797710_Harmonizing_major_pathway_databases_to_compare_and_evaluate_their_consensus/links/5c1af55792851c22a33821c8/Harmonizing-major-pathway-databases-to-compare-and-evaluate-their-consensus.pdf&quot;&gt;https://www.researchgate.net/profile/Sarah_Mubeen/publication/329797710_Harmonizing_major_pathway_databases_to_compare_and_evaluate_their_consensus/links/5c1af55792851c22a33821c8/Harmonizing-major-pathway-databases-to-compare-and-evaluate-their-consensus.pdf&lt;/a&gt; &lt;a href=&quot;#fnref:17&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:18&quot;&gt;
-      &lt;p&gt;Mioduchowska, M., Czyż, M. J., Gołdyn, B., Kilikowska, A., Namiotko, T., Pinceel, T., … Sell, J. (2018). Detection of bacterial endosymbionts in freshwater crustaceans: the applicability of non-degenerate primers to amplify the bacterial 16S rRNA gene. PeerJ, 6, e6039. &lt;a href=&quot;https://doi.org/10.7717/peerj.603&quot;&gt;https://doi.org/10.7717/peerj.603&lt;/a&gt; &lt;a href=&quot;#fnref:18&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;Mioduchowska, M., Czyż, M. J., Gołdyn, B., Kilikowska, A., Namiotko, T., Pinceel, T., … Sell, J. (2018). Detection of bacterial endosymbionts in freshwater crustaceans: the applicability of non-degenerate primers to amplify the bacterial 16S rRNA gene. PeerJ, 6, e6039. &lt;a href=&quot;https://doi.org/10.7717/peerj.6039&quot;&gt;https://doi.org/10.7717/peerj.6039&lt;/a&gt; &lt;a href=&quot;#fnref:18&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
     &lt;li id=&quot;fn:19&quot;&gt;
       &lt;p&gt;Konkolova, V., &amp;amp; Paralic, J. (2018). Active Learning in Data Science Education. 2018 16th International Conference on Emerging eLearning Technologies and Applications (ICETA). &lt;a href=&quot;https://doi.org/10.1109/iceta.2018.8572219&quot;&gt;https://doi.org/10.1109/iceta.2018.8572219&lt;/a&gt; &lt;a href=&quot;#fnref:19&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
