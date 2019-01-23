@@ -137,3 +137,6 @@ RSelenium,ropensci,"R client for Selenium Remote WebDriver",docs,http://ropensci
 osmplotr,ropensci,"Bespoke Images of OpenStreetMap Data",docs,https://ropensci.github.io/osmplotr/,
 skynet,ropensci,"Bureau of Transport Statistics Data client",vignette,https://cran.rstudio.com/web/packages/skynet/vignettes/skynet.html,
 prism,ropensci,"Data from the Oregon State Prism Climate Project",vignette,http://ropensci.github.io/prism/,
+stats19,ropensci,"Work with Open Road Traffic Casualty Data from Great Britain",docs,https://itsleeds.github.io/stats19/,
+pubchunks,ropensci,"Fetch Sections of XML Scholarly Articles",README,https://github.com/ropensci/pubchunks#pubchunks,
+nasapower,ropensci,"NASA POWER API Client",docs,https://ropensci.github.io/nasapower/,
