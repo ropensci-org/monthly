@@ -7,7 +7,8 @@ last <- function(x) x[length(x)]
 # get most recent news file path
 f <- list.files("_site", full.names = TRUE, pattern = "[0-9]{4}-[0-9]{2}-[0-9]{2}")
 fdates <- stract(f, "[0-9]{4}-[0-9]{2}-[0-9]{2}")
-paths <- file.path(grep("2018-", f, value = TRUE), "index.html")
+year <- format(Sys.Date(), "%Y")
+paths <- file.path(grep(year, f, value = TRUE), "index.html")
 # cat("\nchecking ", path, "\n")
 
 # extract URLs
@@ -21,4 +22,4 @@ extract <- function(x) {
 }
 cites <- lapply(paths, extract)
 total <- sum(unlist(cites))
-cat("\n total citations for 2018: ", total, "\n")
+cat(sprintf("\n total citations for %s: ", year), total, "\n")

@@ -13,6 +13,7 @@ template_sprintf <- '* A new version (`v%s`) of `%s` is on CRAN - %s. See the [r
 > xxx'
 template_release <- 'https://github.com/{owner}/{pkg}/releases/tag/v{ver}'
 news_release <- 'https://github.com/%s/%s/blob/master/NEWS.md'
+news2_release <- 'https://github.com/%s/%s/blob/master/NEWS'
 
 # dat_new_pkgs <- readr::read_csv("data/newpkgs.csv")
 dat_new_vers <- readr::read_csv("data/newversions.csv")
@@ -27,7 +28,10 @@ tmp <- dat_new_vers %>%
   mutate(release_url = as.character(glue(template_release)))
 
 release_urls <- unlist(unname(Map(function(a, b, c) {
-  if (crul::ok(a)) a else sprintf(news_release, b, c)
+  z <- if (crul::ok(a)) a else sprintf(news_release, b, c)
+  z <- if (crul::ok(z)) z else sprintf(news2_release, b, c)
+  if (!crul::ok(z)) stop("no news file found for ", c)
+  return(z)
 }, tmp$release_url, tmp$owner, tmp$pkg)))
 tmp$release_url <- release_urls
 

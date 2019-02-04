@@ -140,3 +140,6 @@ prism,ropensci,"Data from the Oregon State Prism Climate Project",vignette,http:
 stats19,ropensci,"Work with Open Road Traffic Casualty Data from Great Britain",docs,https://itsleeds.github.io/stats19/,
 pubchunks,ropensci,"Fetch Sections of XML Scholarly Articles",README,https://github.com/ropensci/pubchunks#pubchunks,
 nasapower,ropensci,"NASA POWER API Client",docs,https://ropensci.github.io/nasapower/,
+rerddap,ropensci,"General Purpose Client for ERDDAP Servers",vignettes,https://cran.r-project.org/web/packages/rerddap/vignettes/,
+natserv,ropensci,"NatureServe R Interface",vignette,https://cran.r-project.org/web/packages/natserv/vignettes/natserv_vignette.html,
+assertr,ropensci,"Assertive Programming for R Analysis Pipelines",vignette,https://cran.r-project.org/web/packages/assertr/vignettes/assertr.html,
