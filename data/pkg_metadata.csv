@@ -143,3 +143,6 @@ nasapower,ropensci,"NASA POWER API Client",docs,https://ropensci.github.io/nasap
 rerddap,ropensci,"General Purpose Client for ERDDAP Servers",vignettes,https://cran.r-project.org/web/packages/rerddap/vignettes/,
 natserv,ropensci,"NatureServe R Interface",vignette,https://cran.r-project.org/web/packages/natserv/vignettes/natserv_vignette.html,
 assertr,ropensci,"Assertive Programming for R Analysis Pipelines",vignette,https://cran.r-project.org/web/packages/assertr/vignettes/assertr.html,
+rcitoid,ropenscilabs,"Client for Citoid, Wikipedia's citation data",README,https://github.com/ropenscilabs/rcitoid#rcitoid,
+geojsonlint,ropensci,"Tools for Validating GeoJSON",vignette,https://cran.r-project.org/web/packages/geojsonlint/vignettes/geojsonlint_vignette.html,
+
