@@ -30,7 +30,10 @@ tmp <- dat_new_vers %>%
 release_urls <- unlist(unname(Map(function(a, b, c) {
   z <- if (crul::ok(a)) a else sprintf(news_release, b, c)
   z <- if (crul::ok(z)) z else sprintf(news2_release, b, c)
-  if (!crul::ok(z)) stop("no news file found for ", c)
+  if (!crul::ok(z)) {
+    z <- ""
+    warning("no news file found for ", c)
+  }
   return(z)
 }, tmp$release_url, tmp$owner, tmp$pkg)))
 tmp$release_url <- release_urls
