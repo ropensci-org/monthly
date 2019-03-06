@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Mar 2019 11:15:34 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Mar 2019 11:15:34 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Mar 2019 21:41:46 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Mar 2019 21:41:46 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -154,7 +154,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;h3 id=&quot;software-review&quot;&gt;Software Review&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://ropensci.org/authors/layik-hama/&quot;&gt;Layik Hama&lt;/a&gt; and &lt;a href=&quot;https://ropensci.org/authors/robin-lovelace/&quot;&gt;Robin Lovelace&lt;/a&gt; wrote a summary of their recently onboarded package &lt;a href=&quot;https://github.com/ropensci/stats19&quot;&gt;stats19&lt;/a&gt;: &lt;a href=&quot;https://ropensci.org/blog/2019/02/26/stats19/&quot;&gt;stats19: a package for road safety research&lt;/a&gt;. In it, they xxxx.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ropensci.org/authors/layik-hama/&quot;&gt;Layik Hama&lt;/a&gt; and &lt;a href=&quot;https://ropensci.org/authors/robin-lovelace/&quot;&gt;Robin Lovelace&lt;/a&gt; wrote a summary of their recently onboarded package &lt;a href=&quot;https://github.com/ropensci/stats19&quot;&gt;stats19&lt;/a&gt;: &lt;a href=&quot;https://ropensci.org/blog/2019/02/26/stats19/&quot;&gt;stats19: a package for road safety research&lt;/a&gt;. In it, they describe the motivation for the package and go through a detailed run through of using the package.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/stats19-leaflet.png&quot; width=&quot;300&quot; /&gt;&lt;/p&gt;
 
