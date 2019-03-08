@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 05 Mar 2019 21:41:46 -0800</pubDate>
-    <lastBuildDate>Tue, 05 Mar 2019 21:41:46 -0800</lastBuildDate>
+    <pubDate>Fri, 08 Mar 2019 10:28:19 -0800</pubDate>
+    <lastBuildDate>Fri, 08 Mar 2019 10:28:19 -0800</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -228,8 +228,8 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;webchem&lt;/a&gt;: The current maintainer of webchem, &lt;a href=&quot;https://github.com/EDiLD&quot;&gt;Eduard Szöcs&lt;/a&gt;, is looking for a new maintainer. See &lt;a href=&quot;https://github.com/ropensci/webchem/issues/155&quot;&gt;issue #155&lt;/a&gt;. Do ping Eduard in that issue and/or email us at &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:scott@ropensci.org&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rdpla&quot;&gt;rdpla&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:scott@ropensci.org&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:myrmecocystus@gmail.com&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rdpla&quot;&gt;rdpla&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:myrmecocystus@gmail.com&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -482,7 +482,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;webchem&lt;/a&gt;: The current maintainer of webchem, &lt;a href=&quot;https://github.com/EDiLD&quot;&gt;Eduard Szöcs&lt;/a&gt;, is looking for a new maintainer. See &lt;a href=&quot;https://github.com/ropensci/webchem/issues/155&quot;&gt;issue #155&lt;/a&gt;. Do ping Eduard in that issue and/or email us at &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:scott@ropensci.org&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:myrmecocystus@gmail.com&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -749,7 +749,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/webchem&quot;&gt;webchem&lt;/a&gt;: The current maintainer of webchem, &lt;a href=&quot;https://github.com/EDiLD&quot;&gt;Eduard Szöcs&lt;/a&gt;, is looking for a new maintainer. See &lt;a href=&quot;https://github.com/ropensci/webchem/issues/155&quot;&gt;issue #155&lt;/a&gt;. Do ping Eduard in that issue and/or email us at &lt;a href=&quot;mailto:info@ropensci.org&quot;&gt;info@ropensci.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:scott@ropensci.org&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/rsnps&quot;&gt;rsnps&lt;/a&gt;: The current maintainer would like to hand it over to someone with more expertise in the domain. Please get in touch with &lt;a href=&quot;mailto:myrmecocystus@gmail.com&quot;&gt;Scott&lt;/a&gt; if you’re interested.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
