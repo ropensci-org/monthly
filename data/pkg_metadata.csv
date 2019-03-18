@@ -145,10 +145,12 @@ natserv,ropensci,"NatureServe R Interface",vignette,https://cran.r-project.org/w
 assertr,ropensci,"Assertive Programming for R Analysis Pipelines",vignette,https://cran.r-project.org/web/packages/assertr/vignettes/assertr.html,
 rcitoid,ropenscilabs,"Client for Citoid, Wikipedia's citation data",README,https://github.com/ropenscilabs/rcitoid#rcitoid,
 geojsonlint,ropensci,"Tools for Validating GeoJSON",vignette,https://cran.r-project.org/web/packages/geojsonlint/vignettes/geojsonlint_vignette.html,
-qpdf,ropensci,"Split, combine and compress PDF files",README,https://github.com/ropensci/qpdf/#qpdf
+qpdf,ropensci,"Split, combine and compress PDF files",README,https://github.com/ropensci/qpdf/#qpdf,
 handlr,ropensci,"Convert among citation formats",README,https://github.com/ropensci/handlr/#handlr,
 Rpolyhedra,ropensci,"polyhedra database from various sources as R6 objects and visualizing capabilities",vignette,https://cran.rstudio.com/web/packages/Rpolyhedra/vignettes/Rpolyhedra.html,
 beautier,ropensci,"create BEAST2 input files programmatically",vignettes,https://cran.rstudio.com/web/packages/beautier/vignettes/,
 tracerer,ropensci,"parse and analyze BEAST2 input files programmatically",vignettes,https://cran.rstudio.com/web/packages/tracerer/vignettes/,
 paleobioDB,ropensci,"download and process data from the Paleobiology database",README,https://github.com/ropensci/paleobioDB#paleobiodb,
 geonames,ropensci,"interface to the Geonames spatial query web service",tests,https://github.com/ropensci/geonames/blob/master/inst/tests/testing.R,
+emld,ropensci,"ecological metadata as linked data",vignette,https://cran.r-project.org/web/packages/emld/vignettes/tutorial.html,
+tacmagic,ropensci,"positron emission tomography time-activity curve analysis",vignette,https://cran.rstudio.com/web/packages/tacmagic/vignettes/walkthrough.html,
