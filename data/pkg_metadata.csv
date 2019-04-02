@@ -154,5 +154,5 @@ paleobioDB,ropensci,"download and process data from the Paleobiology database",R
 geonames,ropensci,"interface to the Geonames spatial query web service",tests,https://github.com/ropensci/geonames/blob/master/inst/tests/testing.R,
 emld,ropensci,"ecological metadata as linked data",vignette,https://cran.r-project.org/web/packages/emld/vignettes/tutorial.html,
 tacmagic,ropensci,"positron emission tomography time-activity curve analysis",vignette,https://cran.rstudio.com/web/packages/tacmagic/vignettes/walkthrough.html,
-cyphr,ropensci,"high level encryption wrappers",vignettes,https://cran.rstudio.com/web/packages/cyphr/vignettes/,
+cyphr,ropensci,"high level encryption wrappers",docs,https://ropensci.github.io/cyphr/,
 nlrx,ropensci,"setup, run and analyze NetLogo model simulations",vignettes,https://cran.rstudio.com/web/packages/nlrx/vignettes/,
