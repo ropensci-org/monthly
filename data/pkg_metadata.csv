@@ -156,3 +156,4 @@ emld,ropensci,"ecological metadata as linked data",vignette,https://cran.r-proje
 tacmagic,ropensci,"positron emission tomography time-activity curve analysis",vignette,https://cran.rstudio.com/web/packages/tacmagic/vignettes/walkthrough.html,
 cyphr,ropensci,"high level encryption wrappers",docs,https://ropensci.github.io/cyphr/,
 nlrx,ropensci,"setup, run and analyze NetLogo model simulations",vignettes,https://cran.rstudio.com/web/packages/nlrx/vignettes/,
+elastic,ropensci,"general purpose interface to Elasticsearch",docs,https://ropensci.github.io/elastic/,
