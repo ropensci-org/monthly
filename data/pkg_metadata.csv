@@ -163,3 +163,7 @@ DataSpaceR,ropensci,"interface to the CAVD DataSpace",docs,https://ropensci.gith
 opencv,ropensci,"bindings to the OpenCV computer vision library",README,https://github.com/ropensci/opencv#readme,
 nodbi,ropensci,"the NoSQL database connector",README,https://github.com/ropensci/nodbi/#readme,
 qualtRics,ropensci,"download Qualtrics survey data",docs,https://ropensci.github.io/qualtRics/,
+suppdata,ropensci,"downloading supplementary data from published manuscripts",vignette,https://cran.rstudio.com/web/packages/suppdata/vignettes/suppdata-intro.pdf,
+conditionz,ropenscilabs,"control how many times conditions are thrown",README,https://github.com/ropenscilabs/conditionz#readme,
+EML,ropensci,"read and write ecological metadata language files",docs,https://ropensci.github.io/EML/,
+smapr,ropensci,"acquisition and processing of NASA Soil Moisture Active-Passive (SMAP) data",docs,https://ropensci.github.io/smapr/,
