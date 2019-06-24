@@ -15,15 +15,15 @@ template_release <- 'https://github.com/{owner}/{pkg}/releases/tag/v{ver}'
 news_release <- 'https://github.com/%s/%s/blob/master/NEWS.md'
 news2_release <- 'https://github.com/%s/%s/blob/master/NEWS'
 
-# dat_new_pkgs <- readr::read_csv("data/newpkgs.csv")
-dat_new_vers <- readr::read_csv("data/newversions.csv")
-# (dat_new_pkgs <- rename(dat_new_pkgs, ver = version))
-(dat_new_vers <- rename(dat_new_vers, ver = name))
+dat_new_pkgs <- readr::read_csv("data/newpkgs.csv")
+# dat_new_vers <- readr::read_csv("data/newversions.csv")
+(dat_new_pkgs <- rename(dat_new_pkgs, ver = version))
+# (dat_new_vers <- rename(dat_new_vers, ver = name))
 
 metad <- readr::read_csv("data/pkg_metadata.csv")
 
-# tmp <- dat_new_pkgs %>%
-tmp <- dat_new_vers %>%
+tmp <- dat_new_pkgs %>%
+# tmp <- dat_new_vers %>%
   left_join(metad) %>%
   mutate(release_url = as.character(glue(template_release)))
 

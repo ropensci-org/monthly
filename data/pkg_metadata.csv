@@ -179,3 +179,4 @@ MtreeRing,ropensci,"a shiny application for automatic measurements of tree-ring 
 rdataretriever,ropensci,"R interface to the Data Retriever",README,https://github.com/ropensci/rdataretriever#rdataretriever,
 bib2df,ropensci,"parse a BibTeX file to a data frame",vignette,https://cran.r-project.org/web/packages/bib2df/vignettes/bib2df.html,
 rtimicropem,ropensci,"supports the analysis of RTI MicroPEM output files",docs,https://docs.ropensci.org/rtimicropem/,
+git2rdata,ropensci,"store and retrieve data.frames in a Git repository",docs,https://ropensci.github.io/git2rdata/,
