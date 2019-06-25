@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Jun 2019 13:29:13 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Jun 2019 13:29:13 -0700</lastBuildDate>
+    <pubDate>Tue, 25 Jun 2019 16:37:40 -0700</pubDate>
+    <lastBuildDate>Tue, 25 Jun 2019 16:37:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -173,9 +173,15 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;h2 id=&quot;related-news&quot;&gt;Related News&lt;/h2&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://twitter.com/EarthLabCU/status/1142087282356293632&quot;&gt;BoF event at SciPy2019 discussing the brand new @pyOpenSci, an open community to promote python best practices, Thurs 7/11 6-7pm&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/EarthLabCU/status/1142087282356293632&quot;&gt;BoF event at SciPy2019 discussing the brand new @pyOpenSci, an open community to promote python best practices, Thurs 7/11 6-7pm&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;from-the-forum&quot;&gt;From the Forum&lt;/h2&gt;
+
+&lt;p&gt;We have a &lt;a href=&quot;https://discuss.ropensci.org&quot;&gt;discussion forum&lt;/a&gt; (using &lt;a href=&quot;https://www.discourse.org/&quot;&gt;Discourse&lt;/a&gt;) for the rOpenSci community. It’s a really nice way to have conversations on the internet. From time to time we’ll highlight recent discussions of interest.&lt;/p&gt;
+
+&lt;p&gt;Ben Marwick started a discussion thread recently titled &lt;a href=&quot;https://discuss.ropensci.org/t/teaching-with-the-tier-protocol-and-replication-assignments-using-r/1732&quot;&gt;Teaching with the TIER protocol and replication assignments using R&lt;/a&gt;. All are welcome to contribute to the discussion.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
