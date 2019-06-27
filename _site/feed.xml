@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Jun 2019 16:37:40 -0700</pubDate>
-    <lastBuildDate>Tue, 25 Jun 2019 16:37:40 -0700</lastBuildDate>
+    <pubDate>Thu, 27 Jun 2019 12:27:33 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Jun 2019 12:27:33 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -65,7 +65,7 @@ GitHub: &lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot
 
 &lt;h2 id=&quot;software-review-&quot;&gt;Software Review ✔&lt;/h2&gt;
 
-&lt;p&gt;We accept community contributed packages via our onboarding system - an open software review system, sorta like scholarly paper review, but way better. We’ll highlight newly onboarded packages here. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
+&lt;p&gt;We accept community contributed packages via our software review system - an open software review system, sorta like scholarly paper review, but way better. We’ll highlight newly onboarded packages here. A huge thanks to our reviewers, who do a lot of work reviewing (see the &lt;a href=&quot;https://ropensci.org/blog/2016/03/28/software-review&quot;&gt;blog post on our review system&lt;/a&gt;),
 and the authors of the packages!&lt;/p&gt;
 
 &lt;p&gt;If you want to be a reviewer fill out &lt;a href=&quot;https://ropensci.org/onboarding/&quot;&gt;this short form&lt;/a&gt;, and we’ll ping you when there’s a submission that fits in your area of expertise.&lt;/p&gt;
@@ -76,19 +76,19 @@ and the authors of the packages!&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ShixiangWang/UCSCXenaTools&quot;&gt;UCSCXenaTools&lt;/a&gt; &amp;gt; Download and Explore Datasets from UCSC Xena Data Hubs
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/ShixiangWang&quot;&gt;Shixiang Wang&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/315&quot;&gt;ropensci/onboarding#315&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/software-review/issues/315&quot;&gt;ropensci/software-review#315&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Reviewers: not yet assigned&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The following two packages recently went through our onboarding process and have been approved:&lt;/p&gt;
+&lt;p&gt;The following two packages recently went through our software-review process and have been approved:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/PMassicotte/gitignore&quot;&gt;gitignore&lt;/a&gt; &amp;gt; Create useful .gitignore files for your project
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/PMassicotte&quot;&gt;Philippe Massicotte&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/303&quot;&gt;ropensci/onboarding#303&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/software-review/issues/303&quot;&gt;ropensci/software-review#303&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Reviewers:
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;https://github.com/aedobbyn&quot;&gt;Amanda Dobbyn&lt;/a&gt;&lt;/li&gt;
@@ -100,7 +100,7 @@ and the authors of the packages!&lt;/p&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ropensci/tidypmc&quot;&gt;tidypmc&lt;/a&gt; &amp;gt; Parse full text XML documents from PMC
     &lt;ul&gt;
       &lt;li&gt;Author: &lt;a href=&quot;https://github.com/cstubben&quot;&gt;Chris Stubben&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/onboarding/issues/290&quot;&gt;ropensci/onboarding#290&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Issue: &lt;a href=&quot;https://github.com/ropensci/software-review/issues/290&quot;&gt;ropensci/software-review#290&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;Reviewers:
         &lt;ul&gt;
           &lt;li&gt;&lt;a href=&quot;https://github.com/juliasilge&quot;&gt;Julia Silge&lt;/a&gt;&lt;/li&gt;
