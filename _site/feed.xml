@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 19 Aug 2019 15:11:52 -0700</pubDate>
-    <lastBuildDate>Mon, 19 Aug 2019 15:11:52 -0700</lastBuildDate>
+    <pubDate>Tue, 20 Aug 2019 15:40:57 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Aug 2019 15:40:57 -0700</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -130,7 +130,7 @@ and the authors of the packages!&lt;/p&gt;
   &lt;li&gt;The Trafford Data Lab supports government decision-making in Trafford, Greater Manchester, UK. They shared use cases for &lt;a href=&quot;https://discuss.ropensci.org/t/promoting-r-and-ropensci-packages-in-uk-local-government/1776&quot;&gt;ropenaq&lt;/a&gt; to retrieve air quality information from the Manchester Piccadilly monitoring station, &lt;a href=&quot;https://discuss.ropensci.org/t/using-fingertipsr-for-public-health-data-in-uk-local-government/1780&quot;&gt;fingertipsR&lt;/a&gt; to access public health data on the rate of antidepressant prescribing, and &lt;a href=&quot;https://discuss.ropensci.org/t/querying-linked-data-to-improve-public-services/1781&quot;&gt;ghql&lt;/a&gt; to query linked data to map hot and cold spots of worklessness and improve public services.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/fingertips_use_case.png&quot; alt=&quot;fingertips_use_case&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://news.ropensci.org/assets/img/fingertips_use_case.png&quot; alt=&quot;fingertips_use_case&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
