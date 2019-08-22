@@ -5,16 +5,16 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 20 Aug 2019 15:40:57 -0700</pubDate>
-    <lastBuildDate>Tue, 20 Aug 2019 15:40:57 -0700</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <pubDate>Thu, 22 Aug 2019 08:37:43 -0700</pubDate>
+    <lastBuildDate>Thu, 22 Aug 2019 08:37:43 -0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>2019-08-19</title>
         <description>&lt;h2 id=&quot;ropensci-hq&quot;&gt;rOpenSci HQ&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Join us for our next community call on &lt;a href=&quot;https://ropensci.org/blog/2019/08/08/commcall-sep2019/&quot;&gt;Reproducible Research with R&lt;/a&gt; on Sep 24th, 2019. The speaker is &lt;a href=&quot;https://github.com/ropensci/drake&quot;&gt;drake&lt;/a&gt; developer &lt;a href=&quot;https://ropensci.org/authors/will-landau/&quot;&gt;Will Landau&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Join us for our next community call on &lt;a href=&quot;https://ropensci.org/blog/2019/08/08/commcall-sep2019/&quot;&gt;Reproducible Workflows at Scale with drake&lt;/a&gt; on Sep 24th, 2019. The speaker is &lt;a href=&quot;https://github.com/ropensci/drake&quot;&gt;drake&lt;/a&gt; developer &lt;a href=&quot;https://ropensci.org/authors/will-landau/&quot;&gt;Will Landau&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;

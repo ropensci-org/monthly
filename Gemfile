@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 3.8', '>= 3.8.5'
-gem 'redcarpet', '~> 3.4'
+gem 'jekyll', '~> 4.0'
+gem 'redcarpet', '~> 3.5'
 gem 'pygments.rb', '~> 1.2', '>= 1.2.1'
-gem 'kramdown', '~> 1.16', '>= 1.16.2'
+gem 'kramdown', '~> 2.1'
 gem 'rdiscount', '~> 2.2', '>= 2.2.0.1'
