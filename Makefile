@@ -1,8 +1,13 @@
+RSCRIPT = Rscript --no-init-file
+
 check:
-	Rscript -e 'source("check_urls.R")'
+	${RSCRIPT} -e 'source("check_urls.R")'
 
 citations_count:
-	Rscript -e 'source("count_citations.R")'
+	${RSCRIPT} -e 'source("count_citations.R")'
 
 citations_prep:
-	Rscript -e 'source("citations-prep.R")'
+	${RSCRIPT} -e 'source("citations-prep.R")'
+
+pkg_news:
+	${RSCRIPT} -e 'source("generate_pkg_news.R")'
