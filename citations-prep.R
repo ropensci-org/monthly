@@ -1,6 +1,6 @@
-library(dplyr)
-library(glue)
-library(readr)
+suppressPackageStartupMessages(library(dplyr))
+suppressPackageStartupMessages(library(glue))
+suppressPackageStartupMessages(library(readr))
 
 file <- "data/citations-to-use.txt"
 z <- suppressMessages(readr::read_tsv(file, col_names = FALSE))
