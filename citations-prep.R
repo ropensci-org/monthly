@@ -20,14 +20,18 @@ template_fn <- '[^{row}]: {citation}'
 z <- z %>% mutate(fn = glue(template_fn))
 
 # make "Use cases" section bits
-template_usecase <- '* {aut_short} used {pkg_ref} in their paper [{title}]({URL}) [^{row}]'
+template_usecase <- '* {aut_short} used {pkg_ref} in their paper [{title}]({url}) [^{row}]'
 
 # parse citation do author short bit
+# x = z$citation[4]
 parse_citation <- function(x) {
-  cat(x, sep = "\n", file = "stuff.txt")
-  on.exit(unlink("stuff.txt"))
-  json <- system("anystyle --stdout -f csl parse stuff.txt", intern = TRUE)
-  jsonlite::fromJSON(json, flatten = TRUE)
+  # cat(x, sep = "\n", file = "stuff.txt")
+  # on.exit(unlink("stuff.txt"))
+  # json <- system("anystyle --stdout -f csl parse stuff.txt", intern = TRUE)
+  json <- system(sprintf("ruby anystyle.rb '%s'", x), intern = TRUE)
+  res <- jsonlite::fromJSON(json, flatten = TRUE)
+  res$doi <- NULL
+  res
 }
 parsed_citations <- lapply(z$citation, parse_citation)
 pc_df <- bind_rows(parsed_citations)
@@ -55,8 +59,8 @@ z <- cbind(z, pc_df)
 # fill in any missing URL's
 strxt <- function(string, pattern) regmatches(string, gregexpr(pattern, string))
 for (i in seq_len(NROW(z))) {
-  if (is.na(z[i,"URL"])) {
-    z[i,"URL"] <- strxt(z$citation[i], "https?://.+")[[1]]
+  if (is.na(z[i,"url"])) {
+    z[i,"url"] <- strxt(z$citation[i], "https?://.+")[[1]]
   }
 }
 
