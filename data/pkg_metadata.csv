@@ -197,3 +197,5 @@ oai,ropensci,"general purpose OAI-PMH services client",docs,https://docs.ropensc
 jaod,ropensci,"Directory of Open Access Journals client",docs,https://ropensci.github.io/jaod/,
 av,ropensci,"working with audio and video",docs,https://docs.ropensci.org/av/,
 rnassqs,ropensci,"access the NASS Quick Stats API",docs,https://ropensci.github.io/rnassqs/,
+chlorpromazineR,ropensci,"convert antipsychotic doses to chlorpromazine equivalents",docs,https://docs.ropensci.org/chlorpromazineR/,
+rmangal,ropensci,"interface to the Mangal database of ecological networks",docs,https://ropensci.github.io/rmangal/,
