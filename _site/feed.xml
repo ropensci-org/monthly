@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Oct 2019 11:19:06 -0700</pubDate>
-    <lastBuildDate>Mon, 28 Oct 2019 11:19:06 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Oct 2019 11:27:37 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Oct 2019 11:27:37 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -16,6 +16,7 @@
 &lt;ul&gt;
   &lt;li&gt;What would &lt;strong&gt;you&lt;/strong&gt; like to hear about in an rOpenSci Community Call? We are soliciting your “votes” and new ideas for Community Call topics and speakers. Find out how you can influence us by checking out our new &lt;a href=&quot;https://github.com/ropensci-org/community-calls&quot;&gt;Community Calls repository&lt;/a&gt;.&lt;/li&gt;
   &lt;li&gt;Our next Community Call will be about testing. Tell us what you want to know about it or who you’d like to hear from by commenting in our new &lt;a href=&quot;https://github.com/ropensci-org/community-calls/issues/1&quot;&gt;Community Calls repository&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ropensci.org/authors/stefanie-butland/&quot;&gt;Stefanie Butland&lt;/a&gt; put out a call to action for you to share your uses cases, benefiting everyone in the process: &lt;a href=&quot;https://ropensci.org/blog/2019/10/15/use-cases/&quot;&gt;What are Your Use Cases for rOpenSci Tools and Resources?&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -119,10 +120,6 @@ and the authors of the packages!&lt;/p&gt;
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ropensci.org/authors/stefanie-butland/&quot;&gt;Stefanie Butland&lt;/a&gt; put out a call to action for you to share your uses cases, benefiting really everyone in the process: &lt;a href=&quot;https://ropensci.org/blog/2019/10/15/use-cases/&quot;&gt;What are Your Use Cases for rOpenSci Tools and Resources?&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p&gt;It’s time for another installment of … &lt;a href=&quot;https://ropensci.org/blog/2019/10/17/news-oct2019/&quot;&gt;2 Months in 2 Minutes - rOpenSci News, October 2019&lt;/a&gt; - if you want a brief summary of the last 2 months of these newsletters, these blog posts are for you (written by &lt;a href=&quot;https://ropensci.org/authors/stefanie-butland/&quot;&gt;Stefanie Butland&lt;/a&gt;)&lt;/p&gt;
 
