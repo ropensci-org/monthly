@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 28 Oct 2019 11:27:37 -0700</pubDate>
-    <lastBuildDate>Mon, 28 Oct 2019 11:27:37 -0700</lastBuildDate>
+    <pubDate>Mon, 28 Oct 2019 11:36:13 -0700</pubDate>
+    <lastBuildDate>Mon, 28 Oct 2019 11:36:13 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -125,7 +125,7 @@ and the authors of the packages!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://ropensci.org/authors/kevin-cazelles/&quot;&gt;Kevin Cazelles&lt;/a&gt; and &lt;a href=&quot;https://ropensci.org/authors/steve-vissault/&quot;&gt;Steve Vissault&lt;/a&gt; wrote about their recently approved package [rmangal][], an R client for the &lt;a href=&quot;https://mangal.io/&quot;&gt;Mangal ecological interactions database&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/2019/10/21/rmangal/&quot;&gt;rmangal: making ecological networks easily accessible&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://ropensci.org/authors/kevin-cazelles/&quot;&gt;Kevin Cazelles&lt;/a&gt; and &lt;a href=&quot;https://ropensci.org/authors/steve-vissault/&quot;&gt;Steve Vissault&lt;/a&gt; wrote about their recently approved package &lt;a href=&quot;https://github.com/ropensci/rmangal&quot;&gt;rmangal&lt;/a&gt;, an R client for the &lt;a href=&quot;https://mangal.io/&quot;&gt;Mangal ecological interactions database&lt;/a&gt; - &lt;a href=&quot;https://ropensci.org/blog/2019/10/21/rmangal/&quot;&gt;rmangal: making ecological networks easily accessible&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;../assets/img/rmangal.png&quot; width=&quot;400&quot; /&gt;&lt;/p&gt;
 
@@ -138,7 +138,7 @@ and the authors of the packages!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Friedman &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rfishbase&quot;&gt;rfishbase&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1098/rspb.2019.1502&quot;&gt;A phylogenomic framework for pelagiarian fishes (Acanthomorpha: Percomorpha) highlights mosaic radiation in the open ocean&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Sánchez-Tójar &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;rotl&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.32942/osf.io/yhfvk&quot;&gt;Illustrating the importance of meta-analysing variances alongside means in ecology and evolution&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;Soh &lt;em&gt;et al&lt;/em&gt;. used [biomartR][] in their paper &lt;a href=&quot;https://doi.org/10.1007/s11306-019-1586-2&quot;&gt;Genome-wide association studies of 74 plasma metabolites of German shepherd dogs reveal two metabolites associated with genes encoding their enzymes&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Soh &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/biomartR&quot;&gt;biomartR&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1007/s11306-019-1586-2&quot;&gt;Genome-wide association studies of 74 plasma metabolites of German shepherd dogs reveal two metabolites associated with genes encoding their enzymes&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Li &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/rotl&quot;&gt;rotl&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1111/gcb.14821&quot;&gt;Agriculture erases climate constraints on soil nematode communities across large spatial scales&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Hwang &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/pdftools&quot;&gt;pdftools&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1109/mcse.2019.2940221&quot;&gt;Assessing Impact of Outreach through Software Citation for Community Software in Geodynamics&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Dick &amp;amp; He used &lt;a href=&quot;https://github.com/ropensci/rerddap&quot;&gt;rerddap&lt;/a&gt; in their paper &lt;a href=&quot;https://www.pcouncil.org/wp-content/uploads/2019/08/H5_Att9_Cowcod_2019_Full_E-Only_SEPT2019BB.pdf&quot;&gt;Status of Cowcod (Sebastes levis&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
