@@ -32,5 +32,5 @@ alldat %>%
 # get new packages & new versions on CRAN, arranged by date
 alldat %>%
     arrange(desc(date)) %>%
-    filter(date > last_news_date) %>%
+    filter(date >= last_news_date) %>%
     readr::write_csv("data/newversions.csv")
