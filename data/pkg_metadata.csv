@@ -201,3 +201,6 @@ chlorpromazineR,ropensci,"convert antipsychotic doses to chlorpromazine equivale
 rmangal,ropensci,"interface to the Mangal database of ecological networks",docs,https://ropensci.github.io/rmangal/,
 datapack,ropensci,"flexible container to transport and manipulate data",docs,https://docs.ropensci.org/datapack/,
 eechidna,ropenscilabs,"exploring election and census highly informative data nationally for Australia",docs,https://docs.ropensci.org/eechidna/,
+rinat,ropensci,"R client for iNaturalist APIs",docs,https://docs.ropensci.org/rinat/,
+lightr,ropensci,"read spectrometric data and metadata",docs,https://docs.ropensci.org/lightr/,
+mauricer,ropensci,"install BEAST2 packages",docs,https://docs.ropensci.org/mauricer/,
