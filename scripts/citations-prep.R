@@ -28,7 +28,7 @@ parse_citation <- function(x) {
   # cat(x, sep = "\n", file = "stuff.txt")
   # on.exit(unlink("stuff.txt"))
   # json <- system("anystyle --stdout -f csl parse stuff.txt", intern = TRUE)
-  json <- system(sprintf("ruby anystyle.rb '%s'", x), intern = TRUE)
+  json <- system(sprintf("ruby anystyle.rb \"%s\"", x), intern = TRUE)
   res <- jsonlite::fromJSON(json, flatten = TRUE)
   res$doi <- NULL
   res
