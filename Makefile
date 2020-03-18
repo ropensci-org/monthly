@@ -14,3 +14,6 @@ pkg_versions_prep:
 
 pkg_news:
 	${RSCRIPT} -e 'source("scripts/generate_pkg_news.R")'
+
+pkg_narrative:
+	${RSCRIPT} -e 'source("scripts/generate_pkg_narrative.R")'
