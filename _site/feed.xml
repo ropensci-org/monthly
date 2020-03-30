@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 30 Mar 2020 11:53:20 -0700</pubDate>
-    <lastBuildDate>Mon, 30 Mar 2020 11:53:20 -0700</lastBuildDate>
+    <pubDate>Mon, 30 Mar 2020 11:57:01 -0700</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2020 11:57:01 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -50,6 +50,8 @@ GitHub: &lt;img src=&quot;../assets/img/github-alt.png&quot; width=&quot;25&quot
 &lt;p&gt;In the interest of reducing load on reviewers and editors as we manage the COVID-19 crisis, rOpenSci is temporarily pausing new submissions for software peer review. Please check back at our &lt;a href=&quot;https://github.com/ropensci/software-review&quot;&gt;software review repository&lt;/a&gt; after 17 April for updates. In this period new submissions will not be handled, nor new reviewers assigned. Reviews and responses to reviews will be handled on a ‘best effort’ basis, but no follow-up reminders will be sent. Other rOpenSci community activities continue. We express our continued great appreciation for the work of our authors and reviewers.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;on-the-blog&quot;&gt;On the blog&lt;/h2&gt;
 
 &lt;h3 id=&quot;tech-notes&quot;&gt;Tech notes&lt;/h3&gt;
 
