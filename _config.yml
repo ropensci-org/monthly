@@ -8,4 +8,4 @@ author: ropensci
 
 markdown: kramdown
 
-exclude: ["posts_heatmap_calendar.md", "ignore", "Makefile", "scripts/", "README.md", "data", "anystyle.rb"]
+exclude: ["posts_heatmap_calendar.md", "ignore", "Makefile", "scripts/", "README.md", "data", "anystyle.rb", "themes"]
