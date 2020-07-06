@@ -1,0 +1,4 @@
+baseURL: https://news.ropensci.org/
+disablePathToLower: true
+languageCode: en-us
+title: rOpenSci Newsletter
