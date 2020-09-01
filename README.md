@@ -31,4 +31,30 @@ The `makefile` has the following make commands:
 - pkg_versions_prep
 - pkg_news
 - pkg_narrative
+- checklist
+```
+
+make checklist
+
+```
+rOpenSci News Checklist
+❯ rOpenSci HQ
+    Any rOpenSci announcements? Check for issues at https://github.com/ropensci/biweekly/issues
+❯ Packages:
+    new packages: ⓧ
+    new versions: 12
+❯ Software review (new submissions/approved)
+    Check https://github.com/ropensci/software-review/issues manually
+❯ On the blog (new posts): 3
+    post title: 2 Months in 2 Minutes - rOpenSci News, August 2020
+    post title: Developing dittodb
+    post title: Scientific Name Parsing: rgnparser and namext
+❯ Citations (new schol articles)
+    22 citations in the last newsletter; use citations after: Davis, Z. (2020). Leaf the kids outdoors: approaches and enquiries in quantifyin ...
+❯ From the forum (new topics): 1
+    topic: Bar chart portraits
+❯ Call for maintainers
+    Any packages need a new maintainer? If so, add them to the list in this section
+❯ In the news
+    Any must read (non-rOpensci) blog posts we should tell readers about?
 ```
