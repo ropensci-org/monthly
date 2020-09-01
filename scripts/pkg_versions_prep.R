@@ -8,12 +8,11 @@ suppressPackageStartupMessages(library("dplyr"))
 # get list of package names to get stats for
 url <- "https://raw.githubusercontent.com/ropensci/roregistry/gh-pages/registry.json"
 df <- jsonlite::fromJSON(url)
-pkgs <- tbl_df(df$packages) %>%
+pkgs <- tibble::as_tibble(df$packages) %>%
   filter(on_cran | on_bioc) %>%
   .$name
 
 # get first date on CRAN for each pkg
-# FIXME: make this step faster
 res <- gather_crans(pkgs)
 alldat <- dplyr::bind_rows(res)
 

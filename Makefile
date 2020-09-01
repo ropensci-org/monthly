@@ -1,5 +1,8 @@
 RSCRIPT = Rscript --no-init-file
 
+checklist: pkg_versions_prep
+	${RSCRIPT} -e 'source("scripts/check_list.R")'
+
 check:
 	${RSCRIPT} -e 'source("scripts/check_urls.R")'
 
