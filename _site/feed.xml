@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2020 12:09:30 -0700</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2020 12:09:30 -0700</lastBuildDate>
+    <pubDate>Tue, 15 Sep 2020 17:03:04 -0700</pubDate>
+    <lastBuildDate>Tue, 15 Sep 2020 17:03:04 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -65,7 +65,7 @@ and the authors of the packages!&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Li &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/taxize&quot;&gt;taxize&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1098/rspb.2020.0777&quot;&gt;Changes in taxonomic and phylogenetic diversity in the Anthropocene&lt;/a&gt; &lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;James &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/textreuse&quot;&gt;textreuse&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1080/09692290.2020.1779781&quot;&gt;The internationalization of European financial networks: a quantitative text analysis of EU consultation responses&lt;/a&gt; &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
-  &lt;li&gt;NULL used &lt;a href=&quot;https://github.com/ropensci/biomartr&quot;&gt;biomartr&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.21105/joss.02170&quot;&gt;LTRpred: de novo annotation of intact retrotransposons&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+  &lt;li&gt;Drost used &lt;a href=&quot;https://github.com/ropensci/biomartr&quot;&gt;biomartr&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.21105/joss.02170&quot;&gt;LTRpred: de novo annotation of intact retrotransposons&lt;/a&gt; &lt;sup id=&quot;fnref:3&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:3&quot; class=&quot;footnote&quot;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Granados &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/finch&quot;&gt;finch&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.1038/s41597-020-0544-1&quot;&gt;Long-term monitoring of the Iberian ibex population in the Sierra Nevada of the southeast Iberian Peninsula&lt;/a&gt; &lt;sup id=&quot;fnref:4&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:4&quot; class=&quot;footnote&quot;&gt;4&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Brazeau used &lt;a href=&quot;https://github.com/ropensci/rdhs&quot;&gt;rdhs&lt;/a&gt; and &lt;a href=&quot;https://github.com/ropensci/rnaturalearth&quot;&gt;rnaturalearth&lt;/a&gt; in their paper &lt;a href=&quot;https://cdr.lib.unc.edu/downloads/7s75dj87g&quot;&gt;The Molecular, Spatial, and Genetic Epidemiology of Malaria in the Democratic Republic of the Congo&lt;/a&gt; &lt;sup id=&quot;fnref:5&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
   &lt;li&gt;Pacifico &lt;em&gt;et al&lt;/em&gt;. used &lt;a href=&quot;https://github.com/ropensci/CoordinateCleaner&quot;&gt;CoordinateCleaner&lt;/a&gt; in their paper &lt;a href=&quot;https://doi.org/10.11646/phytotaxa.450.2.1&quot;&gt;Areas of endemism on Brazilian mountaintops revealed by taxonomically verified records of Microlicieae (Melastomataceae&lt;/a&gt; &lt;sup id=&quot;fnref:6&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
