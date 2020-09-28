@@ -1,6 +1,6 @@
 pkg,owner,pkg_brief_description,docs_name,docs_url,url
 antiword,ropensci,"Extract text from Microsoft Word documents",README,https://github.com/ropensci/antiword#antiword,
-arkdb,ropensci,"archive and unarchive databases as flat text files",docs,https://ropensci.github.io/arkdb/,
+arkdb,ropensci,"archive and unarchive databases as flat text files",docs,https://docs.ropensci.org/arkdb/,
 auk,CornellLabofOrnithology,"eBird data extraction and processing",docs,http://cornelllabofornithology.github.io/auk/,https://github.com/CornellLabofOrnithology/auk
 available,ropenscilabs,"check if the title of a package is available",README,https://github.com/ropenscilabs/available#available,
 bikedata,ropensci,"download and aggregate data from public hire bicycle systems",docs,https://ropensci.github.io/bikedata/,
@@ -163,7 +163,7 @@ elastic,ropensci,"general purpose interface to Elasticsearch",docs,https://docs.
 tradestatistics,ropensci,"open trade statistics api wrapper and utility program",docs,https://docs.ropensci.org/tradestatistics/,
 virtuoso,ropensci,"interface to Virtuoso using ODBC",docs,https://docs.ropensci.org/virtuoso/,
 DataSpaceR,ropensci,"interface to the CAVD DataSpace",docs,https://docs.ropensci.org/DataSpaceR/,
-opencv,ropensci,"bindings to the OpenCV computer vision library",README,https://github.com/ropensci/opencv#readme,
+opencv,ropensci,"bindings to the OpenCV computer vision library",docs,https://docs.ropensci.org/opencv/,
 nodbi,ropensci,"the NoSQL database connector",README,https://github.com/ropensci/nodbi/#readme,
 qualtRics,ropensci,"download Qualtrics survey data",docs,https://docs.ropensci.org/qualtRics/,
 suppdata,ropensci,"downloading supplementary data from published manuscripts",vignette,https://docs.ropensci.org/suppdata/,
@@ -179,7 +179,7 @@ rromeo,ropensci,"access publisher copyright & self-archiving policies via the SH
 tidync,ropensci,"a tidy approach to NetCDF data exploration and extraction",docs,https://docs.ropensci.org/tidync/,
 traits,ropensci,"species trait data from around the web",docs,https://docs.ropensci.org/traits/,
 MtreeRing,ropensci,"a shiny application for automatic measurements of tree-ring widths on digital images",docs,https://ropensci.github.io/MtreeRing/,
-rdataretriever,ropensci,"R interface to the Data Retriever",README,https://github.com/ropensci/rdataretriever#rdataretriever,
+rdataretriever,ropensci,"R interface to the Data Retriever",docs,https://docs.ropensci.org/rdataretriever/,
 bib2df,ropensci,"parse a BibTeX file to a data frame",vignette,https://cran.r-project.org/web/packages/bib2df/vignettes/bib2df.html,
 rtimicropem,ropensci,"supports the analysis of RTI MicroPEM output files",docs,https://docs.ropensci.org/rtimicropem/,
 git2rdata,ropensci,"store and retrieve data.frames in a Git repository",docs,https://ropensci.github.io/git2rdata/,
@@ -231,3 +231,6 @@ chirps,ropensci,"client for the Climate Hazards Group InfraRed Precipitation wit
 credentials,ropensci,"tools for managing ssh and git credentials",docs,https://docs.ropensci.org/credentials/,
 dittodb,ropensci,"a test environment for database requests",docs,https://docs.ropensci.org/dittodb/,
 ccafs,ropensci,"client for Climate Change, Agriculture, & Food Security (CCAFS) General Circulation Models",docs,https://docs.ropensci.org/ccafs/,
+bibtex,ropensci,"a Bibtex parser",docs,https://docs.ropensci.org/bibtex/,
+rppo,ropensci,"access the Global Plant Phenology Data portal",docs,https://docs.ropensci.org/rppo/,
+medrxivr,ropensci,"access and search MedRxiv and BioRxiv preprint data",docs,https://docs.ropensci.org/medrxivr/,
