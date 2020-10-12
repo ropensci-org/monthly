@@ -22,16 +22,24 @@ cat("found", length(urls), "URLs", "\n")
 
 library(crul, quietly = TRUE, warn.conflicts = FALSE)
 tok <- Sys.getenv("GITHUB_PAT_ROSTATS")
-conn <- crul::Async$new(urls = urls,
-  headers = list(Authorization = paste0("token ", tok)))
-res <- conn$get()
+queries <- lapply(urls, function(w) {
+  if (grepl("https?://github.com/", w)) {
+    HttpRequest$new(url = w,
+      headers = list(Authorization = paste0("token ", tok))
+    )$get()
+  } else {
+    HttpRequest$new(url = w)$get()
+  }
+})
+conn <- AsyncVaried$new(.list = queries)
+conn$request()
+res <- conn$responses()
 stats <- vapply(res, "[[", numeric(1), "status_code")
 df <- data.frame(url = urls, code = stats)
 bad <- df[df$code >= 400 | df$code < 200, ]
 if (NROW(bad) == 0) {
   cat("all good :)", "\n")
 } else {
-  # cat("check the following:\n", paste0(urls[1:2], collapse = "\n "), "\n")
   cat("check the following:", "\n")
   print(bad)
 }
