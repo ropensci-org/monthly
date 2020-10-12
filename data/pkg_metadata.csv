@@ -234,3 +234,6 @@ ccafs,ropensci,"client for Climate Change, Agriculture, & Food Security (CCAFS) 
 bibtex,ropensci,"a Bibtex parser",docs,https://docs.ropensci.org/bibtex/,
 rppo,ropensci,"access the Global Plant Phenology Data portal",docs,https://docs.ropensci.org/rppo/,
 medrxivr,ropensci,"access and search MedRxiv and BioRxiv preprint data",docs,https://docs.ropensci.org/medrxivr/,
+pleiades,ropensci,"interface to the Pleiades archeological database",docs,https://docs.ropensci.org/pleiades/,
+taxlist,ropensci,"handling taxonomic lists",docs,https://docs.ropensci.org/taxlist/,
+treedata.table,ropensci,"manipulation of matched phylogenies and data using data.table",docs,https://docs.ropensci.org/treedata.table/,
