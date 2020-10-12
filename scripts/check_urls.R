@@ -21,7 +21,9 @@ cat("found", length(urls), "URLs", "\n")
 # check URLs
 
 library(crul, quietly = TRUE, warn.conflicts = FALSE)
-conn <- crul::Async$new(urls = urls)
+tok <- Sys.getenv("GITHUB_PAT_ROSTATS")
+conn <- crul::Async$new(urls = urls,
+  headers = list(Authorization = paste0("token ", tok)))
 res <- conn$get()
 stats <- vapply(res, "[[", numeric(1), "status_code")
 df <- data.frame(url = urls, code = stats)
