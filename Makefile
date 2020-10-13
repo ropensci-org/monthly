@@ -20,3 +20,6 @@ pkg_news:
 
 pkg_narrative:
 	${RSCRIPT} -e 'source("scripts/generate_pkg_narrative.R")'
+
+two_months:
+	${RSCRIPT} -e 'source("scripts/two_months_two_minutes.R")'
