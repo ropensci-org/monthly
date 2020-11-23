@@ -5,8 +5,8 @@
     <description>rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2020 13:32:25 -0800</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2020 13:32:25 -0800</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2020 13:46:05 -0800</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2020 13:46:05 -0800</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -19,7 +19,7 @@
 
 &lt;p&gt;&lt;strong&gt;Software Review&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;We’re thrilled to &lt;a href=&quot;https://ropensci.org/blog/2020/10/27/editors2020/&quot;&gt;announce three new rOpenSci Software Peer Review Editors&lt;/a&gt;: Laura DeCicco, Julia Gustavsen, Mauro Lepore&lt;/p&gt;
+&lt;p&gt;We’re thrilled to &lt;a href=&quot;https://ropensci.org/blog/2020/10/27/editors2020/&quot;&gt;announce three new rOpenSci Software Review Editors&lt;/a&gt;: Laura DeCicco, Julia Gustavsen, Mauro Lepore&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
