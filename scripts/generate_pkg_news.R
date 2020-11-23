@@ -13,9 +13,12 @@ add_release_urls <- function(x) {
 }
 check_release_urls <- function(x) {
   release_urls <- unlist(unname(Map(function(a, b, c) {
-    z <- if (crul::ok(a)) a else sprintf(news_release, b, c)
-    z <- if (crul::ok(z)) z else sprintf(news2_release, b, c)
-    if (!crul::ok(z)) {
+    auth <- list(Authorization = paste0("token ", Sys.getenv("GITHUB_PAT")))
+    cona <- crul::HttpClient$new(url=a, headers=auth)
+    z <- if (crul::ok(cona)) a else sprintf(news_release, b, c)
+    conz <- crul::HttpClient$new(url=z, headers=auth)
+    z <- if (crul::ok(conz)) z else sprintf(news2_release, b, c)
+    if (!crul::ok(conz)) {
       z <- ""
       warning("no news file found for ", c)
     }
