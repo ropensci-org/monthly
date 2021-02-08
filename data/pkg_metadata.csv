@@ -247,3 +247,7 @@ rgnparser,ropensci,"parse scientific names using the Go tool gnparser",docs,http
 dataspice,ropenscilabs,"create lightweight Schema.org descriptions of data",docs,https://docs.ropensci.org/dataspice/,
 rnpn,ropensci,"Interface to the National Phenology Network API",docs,https://docs.ropensci.org/rnpn/,
 allcontributors,ropenscilabs,"Acknowledge all Contributors to a Project",docs,https://ropenscilabs.github.io/allcontributors/,
+coder,ropensci,"deterministic categorization of items based on external code data",docs,https://docs.ropensci.org/coder/,
+tarchetypes,ropensci,"archetypes for targets",docs,https://docs.ropensci.org/tarchetypes/,
+targets,ropensci,"dynamic function-oriented make-like declarative workflows",docs,https://docs.ropensci.org/targets/,
+
