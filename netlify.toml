@@ -1,0 +1,9 @@
+[build]
+  publish = "_site"
+  command = "jekyll build"
+
+[[redirects]]
+  from = "/feed.xml"
+  to = "https://ropensci.org/tags/newsletter/index.xml"
+  status = 301
+  force = true
