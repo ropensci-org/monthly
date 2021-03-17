@@ -1,6 +1,6 @@
 title: 			 rOpenSci Newsletter
 email: 			 info@ropensci.org
-description: "rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more."
+description: "rOpenSci Newsletter, including software, software reviews, what's happening in the community, events, and more. Now at <https://ropensci.org/news/> starting March 2021"
 permalink:   "/:slug/"
 twitter_username: ropensci
 github_username:  ropensci
