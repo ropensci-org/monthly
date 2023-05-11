@@ -1,6 +1,16 @@
 rOpenSci Newsletter
 ===================
 
+See now
+- https://ropensci.org/news/ for the newsletter;
+- https://github.com/ropensci/roweb3#newsletter for the instructions;
+- https://ropensci.org/blog/2021/06/24/news-meta/ for some narrative;
+- https://docs.ropensci.org/roblog/reference/create_newsletter_content.html that puts the content for Sendgrid on the clipboard.
+
+------
+
+## Old README
+
 The rOpenSci newsletter is a Jekyll site. Each newsletter entry is in `_posts/`, with name pattern like `2020-04-02-update-2020-04-02.md`. 
 
 Note that we're constantly moving towards more automation; the below process will be updated as changes occur.
